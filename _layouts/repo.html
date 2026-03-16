@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 1rem 1.5rem; line-height: 1.5; }
+    nav { margin-bottom: 1.5rem; }
+    .meta { margin-bottom: 1.5rem; padding: 0.75rem; background: #f5f5f5; border-radius: 6px; font-size: 0.95rem; }
+    .meta span { margin-right: 1rem; }
+    .meta a { color: #0969da; }
+    pre, code { background: #f6f8fa; padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ site.baseurl }}/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>{{ page.title }}</strong>
+    {% if page.github_url %}<span>·</span><a href="{{ page.github_url }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+    {% if page.stars %}<span>⭐ {{ page.stars }}</span>{% endif %}
+    {% if page.language %}<span>{{ page.language }}</span>{% endif %}
+    {% if page.tags and page.tags.size > 0 %}
+      <span>· {{ page.tags | join: ", " }}</span>
+    {% endif %}
+  </div>
+  <main>
+    {{ content }}
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="{{ site.baseurl }}/">← Back to list</a>
+  </nav>
+</body>
+</html>
