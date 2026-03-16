@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Export github_repos.db to repos/*.md, _data/repos.json, and root index.md.
+Export github_repos.db to repos/*.md, _data/repos.json, root index.md, and SUMMARY.md (for GitBook).
 Usage: python3 scripts/export_from_db.py [--db PATH]
 """
 import argparse
@@ -184,6 +184,29 @@ def write_index_md(root: str, rows: list[dict]) -> None:
     print(f"Wrote {path}")
 
 
+def write_summary_md(root: str, rows: list[dict]) -> None:
+    """Write SUMMARY.md for GitBook navigation."""
+    data = [build_data_entry(r) for r in rows]
+    data.sort(key=lambda r: (r.get("stars") or 0), reverse=True)
+
+    lines = [
+        "# Table of contents",
+        "",
+        "* [Introduction](README.md)",
+        "* [All Repositories](index.md)",
+        "## Repositories",
+    ]
+    for r in data:
+        slug = r.get("slug", "")
+        repo_name = r.get("repo_name", "")
+        lines.append(f"  * [{repo_name}](repos/{slug}.md)")
+
+    path = os.path.join(root, "SUMMARY.md")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"Wrote {path}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export repos from github_repos.db")
     parser.add_argument(
@@ -214,6 +237,7 @@ def main() -> None:
     print(f"Loaded {len(rows)} repositories")
     write_repos_and_data(root, rows)
     write_index_md(root, rows)
+    write_summary_md(root, rows)
 
 
 if __name__ == "__main__":
