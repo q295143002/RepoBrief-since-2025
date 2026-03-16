@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HKUDS/CLI-Anything — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>HKUDS/CLI-Anything</strong>
+    <span>·</span><a href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 10191</span>
+    <span>Python</span>
+    <span>· AI Agent, CLI, Agent-Native, Automation</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>CLI-Anything is an automated tool that transforms any software repository into an agent-controllable CLI, enabling AI models to operate professional software natively.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Fixes the 'AI-Software Gap' where agents can reason but can't use professional tools; replaces brittle GUI automation with deterministic</li>
+<li>self-describing</li>
+<li>and structured (JSON) CLI interfaces; automates the expensive process of manual tool integration via a 7-phase generation pipeline.</li>
+</ul>
+<h2>How to get started</h2>
+<p>In Claude Code, add the marketplace <code>HKUDS/CLI-Anything</code> and install <code>/plugin install cli-anything</code>. Then run <code>/cli-anything ./your-repo</code> to generate a full harness. Access the new CLI via <code>cli-anything-{software} --help</code>.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Developed by HKUDS, CLI-Anything targets agent developers and researchers who want to unlock complex software (e.g., Blender, GIMP, LibreOffice) for their autonomous agents. It acts as a bridge between human-centric software and agent-native execution environments.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Agents currently rely on restricted APIs or fragile UI-clicking. CLI-Anything solves this by synthesizing an 'Agent Harness'—a production-grade Python CLI that wraps the software's backend. Advantages include zero-screenshot reliability, structured JSON output for easy agent parsing, and a complete REPL mode for interactive sessions.</p>
+<h3>3. Technical Architecture</h3>
+<p>The system operates as a Claude Code plugin or OpenCode command set. It follows a mandatory 7-phase pipeline: Analyze, Design, Implement, Plan Tests, Write Tests, Document, and Publish. The generated harnesses use Click/Python and call the original software's binary or API (e.g., <code>bpy</code> for Blender) directly.</p>
+<h3>4. Core Implementation</h3>
+<p>The core 'Harness' logic focuses on authentic software integration. It doesn't just mock features; it generates valid project files (SVG, BLEND, ODF) and invokes the software's native renderer or headless engine. It includes a unified 'ReplSkin' for consistent interactive agent experiences across all generated tools.</p>
+<h3>5. Code Organization</h3>
+<p>The repo contains the plugin/command source in <code>cli-anything-plugin/</code> and <code>opencode-commands/</code>, alongside 11 'Demonstration' harnesses in separate folders (GIMP, Blender, etc.), each containing hundreds of passing unit and E2E tests.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Use Claude Code to install the plugin and try building a harness for a simple CLI or small open-source project. Run <code>/cli-anything-list</code> to see the 11 pre-built examples like <code>cli-anything-libreoffice</code> to understand the depth of control provided.</p>
+<h3>7. Summary</h3>
+<p>CLI-Anything is a visionary project that prepares the world's software for an agent-centric future. By automating the creation of high-quality, battle-tested CLI interfaces, it allows AI agents to cross the 'chasm' from simple text generators to functional operators of complex professional software.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

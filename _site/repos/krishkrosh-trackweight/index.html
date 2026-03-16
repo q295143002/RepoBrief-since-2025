@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KrishKrosh/TrackWeight — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>KrishKrosh/TrackWeight</strong>
+    <span>·</span><a href="https://github.com/KrishKrosh/TrackWeight" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 8756</span>
+    <span>Swift</span>
+    <span>· macOS, Swift, Hardware, HID, Utility</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>TrackWeight is an innovative macOS utility that repurposes the Force Touch trackpad's pressure sensors to act as a precision gram scale for small objects.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Provides an 'accidental' weighing scale for MacBook users without extra hardware; demonstrates the hidden potential of low-level HID sensor data; solves the need for quick</li>
+<li>small-item weighing (e.g.</li>
+<li>for hobbies or lab work).</li>
+</ul>
+<h2>How to get started</h2>
+<p>Download the DMG from the Releases page. Open the app, rest your finger on the trackpad to activate the sensor, then place your object while maintaining contact. Note: a conductive path (like your finger) is required for the trackpad to register pressure.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>TrackWeight is a 'Hardware Hack' utility. It positions itself as a clever, 'I-didn't-know-my-Mac-could-do-that' tool, targeting developers and gadget enthusiasts who want to explore the limits of their MacBook hardware.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Standard digital scales are cumbersome to carry. TrackWeight's advantage is 'Ubiquity'—it turns the high-fidelity sensors already present in every modern MacBook trackpad into a useful measurement device. It leverages a custom fork of the Open Multi-Touch Support library to bypass the standard macOS event sandbox.</p>
+<h3>3. Technical Architecture</h3>
+<p>Built with SwiftUI and Combine. It uses a low-level C bridge to the <code>MultitouchSupport.framework</code> (a private Apple framework) to stream raw pressure, density, and capacitance data. It requires the App Sandbox to be disabled for sensor access.</p>
+<h3>4. Core Implementation</h3>
+<p>The core discovery is that the raw data from <code>MultitouchSupport</code> is already calibrated proportionally to grams. The logic handles 'capacitance activation'—since the trackpad only fires pressure events when a conductive object is present, the app instructs users to maintain a light 'reference touch'.</p>
+<h3>5. Code Organization</h3>
+<p>A lightweight Xcode project. The logic is divided into the SwiftUI view for the 'Scale UI' and a Reactive stream handler for the trackpad events. It includes detailed calibration logs and a technical disclaimer about its experimental nature.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Download the app and try weighing a standard US nickel (exactly 5 grams). Follow the instructions: touch first, then add the coin. Observe the real-time pressure readout in the app's clean, minimalist interface—it's a perfect example of creative hardware reuse.</p>
+<h3>7. Summary</h3>
+<p>TrackWeight is a delightful example of software-defined hardware. While it has practical limitations (like the finger contact requirement), it showcases the incredible engineering precision hidden inside everyday consumer electronics.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

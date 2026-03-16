@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kilo-Org/kilocode — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>Kilo-Org/kilocode</strong>
+    <span>·</span><a href="https://github.com/Kilo-Org/kilocode" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 16629</span>
+    <span>TypeScript</span>
+    <span>· IDE, Pair Programming, Real-time Collaboration, Rust, CRDT, AI Coding, Developer Experience</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A real-time, collaborative 'Pair Programming' IDE designed for high-fidelity human-agent collaboration.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Turn-based friction of current AI coding (wait-and-apply loop)</li>
+<li>Lack of awareness of human cursors causing overwrites</li>
+<li>Difficulty managing multi-file intent in complex backend refactors</li>
+</ul>
+<h2>How to get started</h2>
+<p>Clone the repo and run the desktop application using npm. Open your project folder to start a collaborative session with a resident AI agent.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Kilocode is a 'Multiplexed Editor' built from the ground up for agentic pairing. It allows humans and AI to type in the same file simultaneously via ghost-cursors, focusing on real-time collaboration.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Fixes agent latency using a 'Predictive Bridge' that renders likely edits before the LLM finishes. Features 'Intent Tracking' where agents explain every change in a side-panel for easier peer review.</p>
+<h3>3. Technical Architecture</h3>
+<p>Rust core/editor with a React GUI, using WebSocket-based CRDTs for sync. Humans and agents are treated as equal collaborators in a shared session.</p>
+<h3>4. Core Implementation</h3>
+<p><code>sync_manager.rs</code> manages CRDT logic to prevent code loss. Proactive linting highlights bugs as you type, rather than waiting for manual requests.</p>
+<h3>5. Code Organization</h3>
+<p><code>/core</code> houses the high-performance text buffer, and <code>/agent/reasoning</code> manages global project context and intent generation.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Enable 'Ghost Pair' mode; watch the agent scaffold boilerplate three lines ahead of your typing while you focus on the core logic.</p>
+<h3>7. Summary</h3>
+<p>The 'Google Docs' for coding with AI. It pioneers the use of real-time sync and predictive rendering for a seamless, high-velocity human-agent engineering experience.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

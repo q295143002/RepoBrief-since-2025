@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>steveyegge/beads — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>steveyegge/beads</strong>
+    <span>·</span><a href="https://github.com/steveyegge/beads" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 18922</span>
+    <span>Go</span>
+    <span>· Coding Agent, AI Memory, Knowledge Graph, Steveyegge, Software Architecture, Developer Tools, Context Management</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Steveyegge's dedicated 'Memory Patch' for AI coding agents to improve architectural awareness in large codebases.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Inability of coding agents to 'remember' architectural decisions over dozens of turns</li>
+<li>Confusion between similar class or variable names in massive monorepos</li>
+<li>High token costs caused by re-sending project metadata repeatedly</li>
+</ul>
+<h2>How to get started</h2>
+<p>Install the package via npm and integrate it as a middleware in your AI-powered coding CLI. Configuration is handled via a <code>beads.json</code> file.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Beads is a middleware-based memory enhancement for coding agents. It introduces a 'Breadcrumb' (Bead) system where agents leave semantic anchors in a persistent memory store during codebase exploration for higher precision.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Fixes the 'Goldfish Memory' of LLMs in engineering tasks. Uses 'Structural Context Pinning' to force models to maintain a constantly-updated 'Master Plan' in a dedicated memory buffer.</p>
+<h3>3. Technical Architecture</h3>
+<p>TypeScript/Node.js based. Adopts a 'Journaling' architecture where agent thoughts are distilled into 'Semantic Triples' and stored in a local graph index.</p>
+<h3>4. Core Implementation</h3>
+<p><code>src/memory/journaler.ts</code> handles summarization and pruning of past turns. Features 'Automated Hypothesis Testing'—tracking what the agent assumed vs. what it confirmed after reading code.</p>
+<h3>5. Code Organization</h3>
+<p><code>/index</code> houses the graph-based storage logic, and <code>/middleware</code> contains adapters for tools like Claude Code or Cursor.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Read <code>docs/why-beads.md</code> to understand the philosophy of 'Context Layering' and how it differs from standard vector-based RAG.</p>
+<h3>7. Summary</h3>
+<p>The 'Architectural Hippocampus' for AI. It represents the move from stateless coding sessions to persistent, structured knowledge management for complex software systems.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

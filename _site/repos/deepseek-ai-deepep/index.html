@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>deepseek-ai/DeepEP — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>deepseek-ai/DeepEP</strong>
+    <span>·</span><a href="https://github.com/deepseek-ai/DeepEP" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 9045</span>
+    <span>Cuda</span>
+    <span>· Deep Learning, MoE, GPU, CUDA, Infrastructure</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>DeepEP is a specialized GPU communication library for MoE architectures, providing high-throughput all-to-all kernels with support for FP8 and asymmetric-domain bandwidth for internode scaling.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Optimizes the 'dispatch and combine' bottleneck in Mixture-of-Experts training and inference; solves bandwidth imbalances in asymmetric network domains (NVLink to RDMA); reduces decoding latency for large-scale production inference (top-8 experts).</li>
+</ul>
+<h2>How to get started</h2>
+<p>Requires Ampere/Hopper GPUs and CUDA 11+. Install NVSHMEM first, then run <code>NVSHMEM_DIR=/path/to/nvshmem python setup.py install</code>. Import <code>Buffer</code> from <code>deep_ep</code> to manage MoE communication in your PyTorch project.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>DeepEP is a 'Low-Level Infrastructure' library for the frontier of LLM scaling. It targets AI researchers and infrastructure engineers building massive Mixture-of-Experts (MoE) models (like DeepSeek-V3) who require performance beyond what generic NCLL kernels can provide.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>MoE models require massive 'all-to-all' traffic that can easily bottleneck training. DeepEP's primary advantage is its 'Asymmetric-Domain' optimization—it's specifically tuned to forward data from fast NVLink (intranode) to slower RDMA (internode) domains efficiently. It also features 'Low-Latency' kernels for inference decoding that minimize RDMA RTT.</p>
+<h3>3. Technical Architecture</h3>
+<p>Built in C++/CUDA with Python bindings (PyTorch). It relies on NVSHMEM for low-latency abstractions and implements custom kernels for FP8 dispatch and BF16 combine. It supports traffic isolation via InfiniBand Virtual Lanes (VL) and adaptive routing.</p>
+<h3>4. Core Implementation</h3>
+<p>Key features include a 'Hook-Based Communication-Computation Overlap' method—this allows RDMA traffic to occur in the background without occupying GPU SMs (Streaming Multiprocessors). It uses a sophisticated queue-based buffer management system to minimize memory footprint.</p>
+<h3>5. Code Organization</h3>
+<p>Organized into <code>csrc/</code> (CUDA kernels), <code>deep_ep/</code> (Python wrapper), and <code>tests/</code>. It includes specialized performance benchmarks for intranode (NVLink) and internode (RDMA) scenarios. The codebase is designed for extreme performance, utilizing 'aggressive' PTX instructions on Hopper architectures.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run <code>python tests/test_intranode.py</code> on a multi-GPU node to see the baseline NVLink throughput. For production use, integrate the <code>Buffer</code> class into your MoE layer's <code>forward</code> pass to replace standard torch collectives and measure the speedup in tokens/sec.</p>
+<h3>7. Summary</h3>
+<p>DeepEP is a critical component for high-efficiency MoE implementations. By providing fine-grained control over GPU communication paths and overlapping strategies, it enables the training and serving of 100B+ parameter models with unprecedented efficiency.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

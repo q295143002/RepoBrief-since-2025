@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DayuanJiang/next-ai-draw-io — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>DayuanJiang/next-ai-draw-io</strong>
+    <span>·</span><a href="https://github.com/DayuanJiang/next-ai-draw-io" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 22811</span>
+    <span>TypeScript</span>
+    <span>· Draw.io, Diagramming, Visual AI, Next.js, OpenAI, Technical Documentation, Architecture Design</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>An AI-powered diagramming assistant that generates and edits Draw.io layouts via natural language.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Time-consuming manual alignment and connection of nodes in complex architecture diagrams.</li>
+<li>High barrier of entry for non-designers to create professional-looking flowcharts.</li>
+<li>Difficulty in updating existing large diagrams with new logical components using traditional UI tools.</li>
+</ul>
+<h2>How to get started</h2>
+<p>git clone https://github.com/DayuanJiang/next-ai-draw-io
+npm install
+npm run dev</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Next-AI-Draw-io is a fusion of the popular Draw.io diagramming tool and modern LLM capabilities. It allows users to create, modify, and refine architectural diagrams, flowcharts, and mind maps using simple conversational commands (e.g., &quot;Add an auth layer between the API and the DB&quot;).</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: Bridges the gap between 'Textual Reasoning' and 'Visual Representation,' eliminating the 'drag-and-drop' fatigue in technical documentation.</li>
+<li><strong>Differentiation</strong>: Supports 'Contextual Editing'—it understands the existing XML structure of a <code>.drawio</code> file and can inject new nodes into the correct logical paths without breaking the layout.</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: Next.js, OpenAI API, and custom XML parsers for the Draw.io format.</li>
+<li><strong>Design Strategy</strong>: Adopts an 'XML-to-Natural-Language-to-XML' transformation loop, using the LLM to reason about spatial relationships.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: <code>src/lib/diagram-engine.ts</code> implements a specialized prompt that forces the AI to output valid Draw.io XML tags with correct geometry settings.</li>
+<li><strong>Innovation</strong>: Real-time 'Graph Visualization'—as you speak your logic, the diagram updates live on the Canvas via WebSockets.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>/components/Canvas</code>: The interactive Draw.io iframe integration.</li>
+<li><code>/lib/ai</code>: High-level prompt engineering for spatial logic and node placement.</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Open the app and try the command: &quot;Draw a high-level overview of a microservices architecture with a shared Redis cache.&quot;</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: The 'DALL-E' for structured diagrams. Key takeaway is the mapping of semantic logic to strictly-formatted visual XML.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

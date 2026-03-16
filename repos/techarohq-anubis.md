@@ -29,3 +29,26 @@ A multi-agent security suite for automated discovery and threat modeling in clou
 ## How to get started
 
 Clone the repo and start via docker-compose. Run `./anubis scan` specifying your cloud namespace to begin the autonomous audit.
+
+## Detailed report
+
+### 1. Positioning
+Anubis is an AI SecOps platform using specialized agents (Scanner, Exploiter, Reporter) to audit cloud environments. It builds 'Reasoning Chains' to explain potential attack paths like an autonomous red team.
+
+### 2. Pain Points & Advantages
+Reduces alert fatigue by using agents to filter for only 'Exploitable' vulnerabilities. Specifically understands K8s RBAC and cloud IAM roles that traditional scanners miss.
+
+### 3. Technical Architecture
+Golang scanner with a Python reasoning agent and React dashboard. Adopts a 'Swarm Attack' model where agents specialize in different vectors (DNS, API, DB).
+
+### 4. Core Implementation
+`threat_modeler.go` uses LLMs to hypothesize attack paths based on scan findings. Features real-time 'Graph Visualization' of vulnerable network nodes for instant human understanding.
+
+### 5. Code Organization
+`/scanner` houses low-level containers/network discovery logic, and `/intel` contains the reasoning engine for scoring and planning.
+
+### 6. Quick Start Suggestion
+Run a baseline scan on a staging environment and observe the Threat Modeler agent explain the top 3 leak risks in under 2 minutes.
+
+### 7. Summary
+The 'AI Security Analyst' for the cloud. It leverages multi-agent coordination to automate the high-skill task of technical threat correlation and exploit planning.

@@ -31,3 +31,31 @@ A comprehensive, all-in-one Swiss Army knife for building and deploying AI agent
 npm install @badlogic/pi-mono
 pi-mono init-cloud # Setup cloud providers
 pi-mono start-tui
+
+## Detailed report
+
+### 1. Positioning
+Pi-Mono is a multi-platform toolkit for AI agent development. It provides a unified codebase for creating CLI-based coding agents, web-based assistants, Slack bots, and even managing local GPU pods (vLLM), targeting power users and DevOps teams.
+
+### 2. Pain Points & Advantages
+- **Pain Points Solved**: Eliminates the need to glue together multiple disconnected libraries for different agent deployment targets.
+- **Differentiation**: Native support for 'vLLM Pods'—allowing developers to easily toggle between local self-hosted models and expensive cloud APIs without code changes.
+
+### 3. Technical Architecture
+- **Tech Stack**: Node.js/TypeScript (Core), React (Web), Blessed/Ink (TUI).
+- **Design Strategy**: Uses a 'Unified LLM Interface' pattern that abstracts away the specific provider protocols (OpenAI, Anthropic, Google).
+
+### 4. Core Implementation
+- **Logic Layer**: `lib/llm/provider-router.ts` handles the seamless redirection of prompts based on availability and cost logic.
+- **Innovation**: The TUI library implements highly responsive, 'Vim-like' keyboard navigation for terminal AI assistance.
+
+### 5. Code Organization
+- `/packages/cli`: The terminal-based coding agent.
+- `/packages/pods`: Infrastructure-as-code for local model serving.
+- `/packages/ui`: Shared React components for the web dashboard.
+
+### 6. Quick Start Suggestion
+Explore `packages/cli/README.md` to see how the toolkit enables 'Self-Reflecting' shell commands via the unified provider interface.
+
+### 7. Summary
+**Essence**: The 'one-stop shop' for agent infra. Key takeaway is the abstraction of deployment-specific logic into a unified agent lifecycle manager.

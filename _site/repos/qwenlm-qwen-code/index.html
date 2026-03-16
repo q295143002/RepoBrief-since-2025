@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QwenLM/qwen-code — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>QwenLM/qwen-code</strong>
+    <span>·</span><a href="https://github.com/QwenLM/qwen-code" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 20453</span>
+    <span>TypeScript</span>
+    <span>· AI Coding, Terminal Agent, Qwen, Open Source, CLI, Alibaba AI, Code Generation</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Alibaba's official terminal-based AI coding agent powered by the Qwen model family.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Latency and privacy concerns with cloud-only coding assistants</li>
+<li>Inefficiency in switching between a browser-based chat and the terminal for executing code</li>
+<li>Lack of deep understanding of multi-file projects in lightweight CLI tools</li>
+</ul>
+<h2>How to get started</h2>
+<p>pip install qwen-code. Run with <code>qwen-code &quot;Implement a binary search tree in Python&quot;</code> or use interactive mode with <code>--interactive</code>.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Qwen-Code is an official terminal-based agent from the Alibaba Qwen team. It brings the power of the Qwen-2.5-Coder models directly to the developer's command line, enabling autonomous file editing, shell execution, and project-wide reasoning within a local environment.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Addresses the 'Context Gap' in terminal coding by automatically indexing local files and using RAG to find relevant code snippets. Specifically fine-tuned for the Qwen-Coder series, offering state-of-the-art performance in Python, Java, and C++.</p>
+<h3>3. Technical Architecture</h3>
+<p>Python-based core with support for both local (vLLM/Ollama) and DashScope API backends. Adopts a 'Self-Correction' loop where the agent runs the code it writes and fixes errors autonomously.</p>
+<h3>4. Core Implementation</h3>
+<p>The <code>src/agent/executor.py</code> manages the secure execution of shell commands. Features 'Diff-based Patching'—it only sends and applies modified hunks to files, which saves tokens and prevents accidental overwrites.</p>
+<h3>5. Code Organization</h3>
+<p><code>/agent</code> contains the reasoning and execution state machine, while <code>/prompts</code> stores specialized system instructions for coding and debugging.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Read <code>prompts/coder.md</code> to see the exact instruction set used to force the model into producing valid, minimal diffs for project refactoring.</p>
+<h3>7. Summary</h3>
+<p>The 'local brain' for terminal coding. It optimizes LLM prompting for high-fidelity code manipulation and autonomous debugging on local filesystems.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

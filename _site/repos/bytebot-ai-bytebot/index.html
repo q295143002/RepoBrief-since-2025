@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bytebot-ai/bytebot — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>bytebot-ai/bytebot</strong>
+    <span>·</span><a href="https://github.com/bytebot-ai/bytebot" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 10545</span>
+    <span>TypeScript</span>
+    <span>· AI Agent, Desktop Automation, Self-Hosted, Docker</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Bytebot is an open-source AI desktop agent that operates within a full virtual Ubuntu environment to perform complex cross-application tasks autonomously.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Resolves the limitations of browser-only agents by providing a complete desktop environment; handles 2FA and complex authentications via password managers; automates native desktop application workflows (like VS Code or Office) that are typically inaccessible to standard AI web agents.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Standard deployment via Docker Compose: <code>git clone https://github.com/bytebot-ai/bytebot.git</code>, add your <code>ANTHROPIC_API_KEY</code> (or OpenAI/Gemini) to <code>docker/.env</code>, and run <code>docker-compose -f docker/docker-compose.yml up -d</code>. Access the UI at <code>http://localhost:9992</code>.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Bytebot is an advanced autonomous agent platform that grants LLMs a literal 'seat at the computer'. It targets power users and developers who need an AI assistant capable of interacting with the full suite of OS applications rather than just web-based DOM elements.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Traditional RPA tools are rigid and browser agents are siloed. Bytebot breaks these barriers by utilizing a full Ubuntu instance with pre-installed browsers, IDEs, and office tools. Its primary advantages include complete data privacy through self-hosting, persistent environments, and a 'Takeover Mode' allowing humans to intervene in real-time desktop sessions.</p>
+<h3>3. Technical Architecture</h3>
+<p>The platform is built using a NestJS-based agent service that coordinates between AI models and the desktop. The frontend is a Next.js application, while the core execution environment is a Dockerized Ubuntu 22.04 LTS instance with XFCE as the desktop environment.</p>
+<h3>4. Core Implementation</h3>
+<p>Bytebot implements a sophisticated coordination layer that translates high-level natural language tasks into precise keyboard/mouse events and shell commands. It leverages LiteLLM for multi-provider support (OpenAI, Anthropic, Gemini, Ollama) and exposes REST APIs for programmatic control and multi-file processing.</p>
+<h3>5. Code Organization</h3>
+<p>The repository is divided into the <code>desktop</code> (Ubuntu/XFCE environment), <code>agent</code> (NestJS coordination logic), and <code>ui</code> (Next.js management dashboard) sections, alongside a robust <code>helm</code> chart for Kubernetes deployments.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Deploy Bytebot via Railway for a 2-minute setup, then try a multi-app task such as: 'Research the top 3 AI papers from Arxiv, download them as PDFs, and summarize their key findings into a new text file on the desktop'.</p>
+<h3>7. Summary</h3>
+<p>Bytebot is a standout project in the 'Computer Use' agent category. By providing a containerized, persistent, and fully-featured desktop environment, it transforms AI from a simple chatbot into a functional, virtual employee capable of managing complex local and web-based workflows with significant autonomy.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

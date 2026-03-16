@@ -25,3 +25,26 @@ An open event-based protocol establishing exactly how AI agents connect reliably
 ## How to get started
 
 Scaffold an application using `npx create-ag-ui-app my-agent-app` ensuring your backend framework aligns correctly with AG-UI standard event bindings natively.
+
+## Detailed report
+
+### 1. Positioning
+AG-UI defines itself fundamentally as the third pillar within the agent protocol stack, sitting parallelly alongside Model Context Protocol (MCP tools) and A2A conventions, specifically focused around standardizing "Agent to Human" interface generation.
+
+### 2. Pain Points & Advantages
+Most conversational agents rely natively on crude HTTP streaming outputting simple Markdown. AG-UI resolves this fundamentally by mapping ~16 explicit JSON event definitions ensuring agents continuously stream robust, multi-state dynamic UI rendering intents perfectly interpreting real-time user context changes.
+
+### 3. Technical Architecture
+A highly decoupled schema leveraging standard TypeScript typings establishing unified parameters parsing inputs mapping to backend Node environments and client SPA frameworks agnostic of underlying LLMs entirely.
+
+### 4. Core Implementation
+The protocol defines explicit server-side emission objects (e.g., initiating tools, streaming partial state arrays, managing human-in-the-loop overrides) mapping against client-side parsers tracking state synchronizations deterministically utilizing flexible HTTP/SSE pipelines natively.
+
+### 5. Code Organization
+Functioning primarily as a Monorepo explicitly containing core standard SDK mappings (`/packages`), supported framework middleware integrations (`/sdks/`), alongside highly specific component reference implementations explicitly (`/apps/dojo`).
+
+### 6. Quick Start Suggestion
+Experiment natively using the AG-UI Dojo instances pointing expressly towards standard Pydantic or LangGraph backend wrappers checking exactly how real-time generative layouts correspond across WebSockets deterministically.
+
+### 7. Summary
+A crucial missing piece resolving front-end agent bottlenecks flawlessly ensuring standard LLM intent maps deterministically unto responsive user domains globally advancing the interactive capacity of software agents.

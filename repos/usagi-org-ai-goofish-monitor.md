@@ -25,3 +25,26 @@ Goofish Monitor is an AI-powered real-time tracking tool for the Xianyu (Goofish
 ## How to get started
 
 Deploy via Docker: `docker compose up -d`. Access the UI at `http://localhost:8000`, import your Xianyu login cookie via the specialized Chrome extension, and create a task by describing your desired product in natural language.
+
+## Detailed report
+
+### 1. Positioning
+Goofish Monitor is a high-utility 'Sniping' tool for second-hand market enthusiasts. It targets professional resellers and hobbyists who need early access to undervalued items on China's largest second-hand platform, Xianyu.
+
+### 2. Pain Points & Advantages
+Manual marketplace monitoring is time-consuming and prone to missing deals. Goofish Monitor's advantage is its 'AI Evaluator'—it doesn't just match keywords; it uses multi-modal LLMs to 'look' at product photos and descriptions to judge if an item is a genuine bargain or a scam. Its 'Multi-account rotation' feature helps bypass platform anti-bot measures.
+
+### 3. Technical Architecture
+Built on a Python (FastAPI) backend leveraging Playwright for browser automation. It uses a React-based frontend for management and SQLite for persistent storage of tasks and 'scraped' item history. It supports containerized deployment with a built-in Chromium instance.
+
+### 4. Core Implementation
+Features a 'Natural Language Task' system: users describe what they want (e.g., 'A white iPhone 15 Pro with no scratches under 3000 RMB'), and the system generates the complex logic and prompts required to monitor and filter those specific items. It supports deep notification hooks for Telegram, WeChat, and Discord.
+
+### 5. Code Organization
+The project is divided into `src/` (backend logic), `web-ui/` (frontend), and specialized 'spider' scripts. It includes a mermaid diagram in the README detailing the autonomous loop: Search -> Fetch -> Download Images -> AI Analyze -> Notify.
+
+### 6. Quick Start Suggestion
+Install the 'Xianyu Login State Extractor' extension to quickly fetch your login cookies. Once in the dashboard, try creating an 'AI-Judged' task for a high-value item and watch the real-time logs as the agent starts its first sweep.
+
+### 7. Summary
+Goofish Monitor is a perfect example of AI-augmented web automation. By combining professional-grade scraping (Playwright) with modern LLM reasoning, it provides a significant edge in the competitive second-hand marketplace.

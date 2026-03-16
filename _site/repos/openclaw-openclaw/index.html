@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>openclaw/openclaw — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>openclaw/openclaw</strong>
+    <span>·</span><a href="https://github.com/openclaw/openclaw" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 309403</span>
+    <span>TypeScript</span>
+    <span>· AI Agent, Open Source, Cross-Platform, Multi-Modal, Automation, TypeScript, Developer Tools</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A comprehensive open-source AI agent ecosystem for cross-platform autonomous task execution.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Fragmentation of AI tools across different platforms.</li>
+<li>High barrier to entry for users to create and deploy personal AI agents.</li>
+<li>Lack of a standardized, open-source framework for multi-modal AI interactions.</li>
+</ul>
+<h2>How to get started</h2>
+<p>git clone https://github.com/openclaw/openclaw
+cd openclaw
+npm install
+cp .env.example .env # Add your API keys
+npm run dev</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>OpenClaw is the world's first open-source AI agent ecosystem designed for mainstream users. Far beyond a simple chatbot, it is a cross-platform, multi-modal personal assistant that seamlessly integrates into the user's life via terminal, desktop, and mobile devices, providing comprehensive automation capabilities.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: It addresses the fragmentation of AI applications across devices, the high complexity of personal agent development, and the absence of a unified framework for multi-modal interactions.</li>
+<li><strong>Differentiation</strong>: Native support for full-platform deployment combined with a highly active community 'Skills' ecosystem allows users to extend AI capabilities as easily as installing apps.</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: Uses TypeScript as the core language, React for cross-platform UI, and integrates a multi-model router in the backend.</li>
+<li><strong>Design Strategy</strong>: Adopts a 'Plugin-first' architecture, decoupling logic chains from the execution layer to ensure high scalability.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: <code>src/core/agent/runtime.ts</code> implements the core ReAct decision loop.</li>
+<li><strong>Algorithm</strong>: Utilizes multi-step Chain-of-Thought (CoT) combined with dynamic permission management to ensure safety during sensitive operations like file modifications.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>src/core</code>: Houses the agent's core logic.</li>
+<li><code>src/skills</code>: Standardized directory for skill extensions.</li>
+<li><code>src/ui</code>: Component-based cross-platform presentation layer.</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Start with <code>src/main.ts</code> to understand the initialization flow, then move to <code>docs/developing-skills.md</code> to learn how to contribute new features.</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: An open-source agent foundation aiming to be the 'OS for the AI era.' The most notable technical takeaway is its highly decoupled plugin-based architecture.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

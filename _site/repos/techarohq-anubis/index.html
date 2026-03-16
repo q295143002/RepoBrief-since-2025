@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TecharoHQ/anubis — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>TecharoHQ/anubis</strong>
+    <span>·</span><a href="https://github.com/TecharoHQ/anubis" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 17689</span>
+    <span>Go</span>
+    <span>· Cybersecurity, Cloud Native, Kubernetes, SecOps, Autonomous Agents, Red Teaming, Vulnerability Scanning</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A multi-agent security suite for automated discovery and threat modeling in cloud-native infrastructures.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Complexity of auditing K8s clusters and multi-cloud environments manually</li>
+<li>Lack of 'Correlation' in security alerts across different services</li>
+<li>Manual overhead in preparing 'Attack Path' visualizations</li>
+</ul>
+<h2>How to get started</h2>
+<p>Clone the repo and start via docker-compose. Run <code>./anubis scan</code> specifying your cloud namespace to begin the autonomous audit.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Anubis is an AI SecOps platform using specialized agents (Scanner, Exploiter, Reporter) to audit cloud environments. It builds 'Reasoning Chains' to explain potential attack paths like an autonomous red team.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Reduces alert fatigue by using agents to filter for only 'Exploitable' vulnerabilities. Specifically understands K8s RBAC and cloud IAM roles that traditional scanners miss.</p>
+<h3>3. Technical Architecture</h3>
+<p>Golang scanner with a Python reasoning agent and React dashboard. Adopts a 'Swarm Attack' model where agents specialize in different vectors (DNS, API, DB).</p>
+<h3>4. Core Implementation</h3>
+<p><code>threat_modeler.go</code> uses LLMs to hypothesize attack paths based on scan findings. Features real-time 'Graph Visualization' of vulnerable network nodes for instant human understanding.</p>
+<h3>5. Code Organization</h3>
+<p><code>/scanner</code> houses low-level containers/network discovery logic, and <code>/intel</code> contains the reasoning engine for scoring and planning.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run a baseline scan on a staging environment and observe the Threat Modeler agent explain the top 3 leak risks in under 2 minutes.</p>
+<h3>7. Summary</h3>
+<p>The 'AI Security Analyst' for the cloud. It leverages multi-agent coordination to automate the high-skill task of technical threat correlation and exploit planning.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

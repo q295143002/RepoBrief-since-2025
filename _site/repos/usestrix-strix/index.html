@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>usestrix/strix — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>usestrix/strix</strong>
+    <span>·</span><a href="https://github.com/usestrix/strix" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 20937</span>
+    <span>Python</span>
+    <span>· Security, Strix, Penetration Testing, Autonomous Agents, Exploit Generation, Vulnerability Scanning, Cybersecurity</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Autonomous AI penetration testing agents that find and fix security vulnerabilities in your codebase.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>High cost and slow turnaround of manual security audits by human researchers.</li>
+<li>Inability of 'Static Security Scanners' to find complex, logic-based vulnerabilities.</li>
+<li>Security debt accumulating in fast-moving startups that lack dedicated security teams.</li>
+</ul>
+<h2>How to get started</h2>
+<p>git clone https://github.com/usestrix/strix
+npm install
+./strix scan --target ./my-app</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Strix is an 'AI Security Researcher' platform. It deploys autonomous agents trained in offensive security techniques to find and exploit vulnerabilities in your application. Unlike a static scanner, Strix 'chains' vulnerabilities to show true business risk and then proposes verified code fixes. Target: CISO and Lead Engineers.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: Fixes the 'False Positive' problem of traditional scanners. If Strix flags a bug, it provides a working exploit script to prove it's real.</li>
+<li><strong>Differentiation</strong>: Features 'Closed-loop Remediation'—once a bug is found, the agent automatically opens a PR with the fixed code and a test case showing the patch works.</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: Python, Node.js, and integration with standard security tools (Burp, OWASP ZAP).</li>
+<li><strong>Design Strategy</strong>: Adopts an 'Adversarial Agent' model—one agent tries to break the app, while another 'Architect' agent tries to fix it.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: Implements a 'Reasoning-based Exploit Generator' that uses the LLM to write custom payloads based on the unique logic of your app.</li>
+<li><strong>Innovation</strong>: 'Continuous Pen-testing'—Strix can be set to run on every PR, ensuring no new security regressions enter production.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>/agents/hacker</code>: The offensive logic and payload generation modules.</li>
+<li><code>/agents/architect</code>: The defensive logic and patch generation modules.</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run a scan on an intentionally vulnerable app (like OWASP Juice Shop) to see Strix autonomously discover a multi-step SQL injection and patch it.</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: The 'White-Hat Hacker' in your CI/CD. Key takeaway is the use of autonomous agents for high-stakes offensive security research.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

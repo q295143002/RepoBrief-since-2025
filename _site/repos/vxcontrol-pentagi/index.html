@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>vxcontrol/pentagi — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>vxcontrol/pentagi</strong>
+    <span>·</span><a href="https://github.com/vxcontrol/pentagi" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 9454</span>
+    <span>Go</span>
+    <span>· Cybersecurity, Penetration Testing, AI Agent, Knowledge Graph, Docker</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>PentAGI is a state-of-the-art, autonomous AI system for penetration testing, combining 20+ professional security tools with long-term memory and knowledge graph reasoning.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Automates the high-skill domain of security testing; solves the isolation issue by running all attacks in sandboxed Docker containers; overcomes LLM context limits via an intelligent memory system and Neo4j-based knowledge graphs.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Requires Docker and 4GB+ RAM. Use the interactive <code>./installer</code> to configure LLM providers (OpenAI, Anthropic, or local Ollama). Access the web UI at <code>localhost:8443</code> and define a 'Flow' to start an autonomous security audit.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>PentAGI positions itself as a 'Virtual Security Engineer'. It targets CISOs, developers, and researchers who need frequent, deep security audits but don't have the budget or time for manual human penetration testing teams.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Security scanning is often noisy and lacks 'reasoning'. PentAGI's advantage is its 'Autonomous Loop'—it doesn't just find vulnerabilities; it reasons about how to exploit them, chains attacks together, and learns from successful attempts using its 'Smart Memory System'.</p>
+<h3>3. Technical Architecture</h3>
+<p>A sophisticated microservices architecture. It uses a Go-based API, a React frontend, and a PostgreSQL/pgvector database for memory. Most notably, it incorporates 'Graphiti' (a Neo4j-powered knowledge graph) to track complex semantic relationships between various attack vectors.</p>
+<h3>4. Core Implementation</h3>
+<p>Integrates 20+ professional tools (Nmap, Metasploit, Sqlmap). It features 'Chain Summarization' to manage long conversation histories and supports a 'Team of Specialists' where specialized agents are delegated for research, development, and infrastructure tasks.</p>
+<h3>5. Code Organization</h3>
+<p>The project is divided into core services, a dedicated monitoring stack (Grafana/Prometheus), and an analytics platform (Langfuse). It uses Docker Compose for coordinated deployment of its multi-node architecture.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Use the interactive installer to set up an Ollama-backed local environment. Start a 'Reconnaissance' flow against a test target to see how the agent intelligently selects tools and builds a knowledge graph of the target's attack surface.</p>
+<h3>7. Summary</h3>
+<p>PentAGI is at the absolute forefront of 'AI for Security'. By combining professional toolsets with advanced AI reasoning and graph-based memory, it provides a glimpse into a future where security testing is continuous, autonomous, and incredibly deep.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

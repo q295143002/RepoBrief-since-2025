@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BloopAI/vibe-kanban — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>BloopAI/vibe-kanban</strong>
+    <span>·</span><a href="https://github.com/BloopAI/vibe-kanban" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 23092</span>
+    <span>Rust</span>
+    <span>· Kanban, Agent Orchestration, Claude Code, Workflow Visualization, TypeScript, Coding Tools</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A specialized Kanban board interface for orchestrating and visualizing coding agent workflows.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Difficulty in tracking high-level intent across long-running AI coding sessions.</li>
+<li>Lack of structural overview for complex refactoring tasks assigned to agents.</li>
+<li>Inefficiency in managing the 'Agent-Human' feedback loop for iterative development.</li>
+</ul>
+<h2>How to get started</h2>
+<p>npm install -g @bloop-ai/vibe-kanban
+vibe init
+vibe start</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Vibe Kanban is a workflow orchestration layer designed specifically for AI coding agents (like Claude Code or Codex). It introduces a Kanban-based visual board to manage architectural intent and task states, helping developers maintain control over autonomous code generation.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: Prevents 'context decay' in long coding sessions where the agent loses track of the original architectural goal.</li>
+<li><strong>Differentiation</strong>: Focuses on 'Intent Management' rather than just code completion, providing a visual bridge between high-level project goals and low-level agent actions.</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: TypeScript, Node.js, and a React-based TUI/Frontend.</li>
+<li><strong>Design Strategy</strong>: Adopts a 'Task-State' synchronization model where agentic outputs are automatically mapped to kanban cards representing features or bugs.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: <code>src/engine/sync.ts</code> manages the bi-directional state sync between the local file system (agent output) and the visual board.</li>
+<li><strong>Innovation</strong>: Implements a 'Cognitive Roadmap'—a visual graph that shows the dependency between different agent-driven refactoring steps.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>/core</code>: The headless kanban logic and state machine.</li>
+<li><code>/adapters</code>: Connectors for different coding agents (Claude, GPT, etc.).</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run <code>vibe start</code> in your project root to see your current Git history and file changes automatically parsed into a 'To-Do' board for your coding agent.</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: The 'Mission Control' for AI coding. Key learning is the visualization of non-deterministic agent progress into structured project management states.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

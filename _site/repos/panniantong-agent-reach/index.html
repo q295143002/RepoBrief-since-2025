@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panniantong/Agent-Reach — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>Panniantong/Agent-Reach</strong>
+    <span>·</span><a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 8851</span>
+    <span>Python</span>
+    <span>· AI Agent, Scraping, Social Media, Productivity, Python</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Agent Reach is a 'scaffolding' tool that equips AI coding agents with powerful internet search and scraping capabilities for platforms like YouTube, Twitter, Reddit, and LinkedIn without API fees.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Eliminates 'Internet blindness' for agents like Claude Code or Cursor; solves the high cost of social media APIs via cookie-based access; automates the installation and configuration of diverse scraping tools into a single workflow.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Tell your agent to install it: <code>pip install agent-reach</code> and then follow the guide at <code>agent-reach.me/install</code>. Use <code>agent-reach configure</code> to add your social media cookies (via Cookie-Editor), and run <code>agent-reach doctor</code> to verify channel availability.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Agent Reach positions itself as the 'Internet Gateway' for the new generation of autonomous agents. It targets power users who want their AI assistants to perform real-world research, tracking, and content synthesis across the 'locked-down' social web.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Platforms like Twitter and Reddit have high API barriers or data center blocks. Agent Reach's advantage is its 'Free-Tier' philosophy—it leverages battle-tested open-source tools (yt-dlp, xreach, Jina Reader) and residential proxy support to provide data access that would otherwise cost thousands of dollars per month in API credits.</p>
+<h3>3. Technical Architecture</h3>
+<p>A Python-based CLI 'Scaffolding' tool. It does not wrap the logic; instead, it manages the configuration and 'Skill' discovery for underlying tools. It is designed to be 'plug-and-play' for any agent capable of executing terminal commands, using a modular 'Channel' system.</p>
+<h3>4. Core Implementation</h3>
+<p>Features 'Progressive Disclosure' skills for agents: it installs specific <code>SKILL.md</code> files that teach the agent how to call <code>xreach</code> for Twitter, <code>gh</code> for GitHub, or <code>yt-dlp</code> for YouTube transcriptions. It includes a built-in 'Doctor' command for environment health checks.</p>
+<h3>5. Code Organization</h3>
+<p>Structured around the <code>channels/</code> directory, where each platform (web, twitter, youtube, etc.) has a dedicated handler for status checks. The repository also includes comprehensive installation guides optimized for LLM reading (one-sentence installation).</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run <code>agent-reach install</code> in your agent's terminal. Then, ask your agent: 'What are people on Reddit currently saying about the latest [Model Name] update? Use Agent Reach.' Observe how the agent autonomously selects the right tool and handles the search query.</p>
+<h3>7. Summary</h3>
+<p>Agent Reach is a vital missing piece in the 'Vibe Coding' era. By standardizing web access for agents, it turns them from 'code-only' assistants into comprehensive 'knowledge-work' partners that can truly understand the current state of the internet.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

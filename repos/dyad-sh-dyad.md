@@ -29,3 +29,26 @@ A high-performance local AI app builder that converts prompts into full-stack we
 ## How to get started
 
 Install globally via npm: `npm install -g @dyad-sh/dyad`. Use `dyad create my-app` to start a new project guided by AI.
+
+## Detailed report
+
+### 1. Positioning
+Dyad is a 'Local-Host' alternative to popular AI app builders. It allows power users to generate, edit, and deploy full-stack Next.js applications using natural language, all while running locally on their own machines.
+
+### 2. Pain Points & Advantages
+Eliminates vendor lock-in, giving developers full ownership of source code and deployment. Features 'Two-Way Sync'—edit code in VS Code or the Dyad UI, and both stay synchronized in real-time.
+
+### 3. Technical Architecture
+Next.js, Tailwind CSS, and a specialized 'Shadow-DOM' for live previewing. Adopts a 'Component-First' generation approach for higher reliability during incremental builds.
+
+### 4. Core Implementation
+`lib/generator/nextjs.ts` converts high-level descriptions into modular React components. Features 'Live Error-Correction'—automatically detecting build errors and prompting self-fixes.
+
+### 5. Code Organization
+`/src/ui` houses the visual editor and preview engine, while `/src/agents` contains prompting and code-execution logic for different stacks.
+
+### 6. Quick Start Suggestion
+Run `dyad create` and ask for a 'Real-time kanban board' to see the speed and quality of the local generation engine.
+
+### 7. Summary
+The 'Open-Source v0'. It masterfully handles real-time code-to-preview synchronization, making rapid AI prototyping accessible on local hardware.

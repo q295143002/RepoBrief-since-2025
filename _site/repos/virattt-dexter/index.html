@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>virattt/dexter — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>virattt/dexter</strong>
+    <span>·</span><a href="https://github.com/virattt/dexter" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 17813</span>
+    <span>TypeScript</span>
+    <span>· Parallel Processing, Task Queue, Agent Cluster, Performance, Asyncio, LiteLLM, Batch Processing</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A lightweight, high-performance 'Worker Pool' framework for delegating massive tasks across agent clusters.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Concurrency bottlenecks when agents perform sequential tasks on large datasets</li>
+<li>High memory overhead of spawning multiple heavy framework instances</li>
+<li>Lack of simple 'Job Queue' metaphors for agentic workloads</li>
+</ul>
+<h2>How to get started</h2>
+<p>Install via pip: <code>pip install dexter-ai</code>. Create a <code>Cluster</code> and <code>Worker</code> objects, then use <code>cluster.dispatch</code> to parallelize your AI tasks.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Dexter is a 'Performance-First' framework shifting focus from complex reasoning to efficient execution. It treats agents as workers in a cluster, parallelizing LLM tasks with minimal overhead.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Introduces native 'Task Batching' and 'Parallel Execution' without Redis/RabbitMQ complexity. Zero-dependency core makes it faster and more memory-efficient than AutoGen or CrewAI.</p>
+<h3>3. Technical Architecture</h3>
+<p>Python-based using <code>asyncio</code> for high concurrency. Adopts a 'Master-Worker' pattern where a central Dispatcher manages stateless agent pools.</p>
+<h3>4. Core Implementation</h3>
+<p><code>dispatcher.py</code> implements load-balancing based on model rate-limits. Features 'Progressive Summarization' where an aggregator agent builds reports while workers are still active.</p>
+<h3>5. Code Organization</h3>
+<p><code>/src/dexter/pool</code> manages lifecycle of parallel processes, and <code>/src/dexter/adapters</code> provides lightweight wrappers for major LLM providers.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run <code>benchmarks/batch_processing.py</code> to see Dexter process 100 documents up to 10x faster than traditional sequential scripts.</p>
+<h3>7. Summary</h3>
+<p>The 'Parallel Engine' for AI workers. It highlights the importance of concurrency management and lightweight orchestration in large-scale agentic deployments.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

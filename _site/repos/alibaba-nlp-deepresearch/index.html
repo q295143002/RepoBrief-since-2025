@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alibaba-NLP/DeepResearch — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>Alibaba-NLP/DeepResearch</strong>
+    <span>·</span><a href="https://github.com/Alibaba-NLP/DeepResearch" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 18422</span>
+    <span>Python</span>
+    <span>· NLP, Alibaba AI, Qwen, Document Understanding, Knowledge Graph, RAG, Big Data</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Alibaba's official framework for large-scale document comprehension and autonomous research reasoning.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Context ceiling when processing thousands of documents for a single goal</li>
+<li>Difficulty maintaining logical consistency synthesising contradictory sources</li>
+<li>Inefficiency in flat RAG for connecting dots across different files</li>
+</ul>
+<h2>How to get started</h2>
+<p>Clone the repo and install via pip. Run using <code>python run_research.py</code> specifying the document dataset and your research query.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Alibaba-NLP's DeepResearch is a research framework for 'Global Document Understanding.' It focuses on analyzing millions of private docs (papers, corporate reports) and performing long-range reasoning for strategic synthesis.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Uses hierarchical summarization instead of simple vector chunks to solve fragmented context. Optimized for Qwen-2.5 models for superior reasoning and long-context performance.</p>
+<h3>3. Technical Architecture</h3>
+<p>Python/PyTorch based, using DashScope APIs. Adopts a 'Multi-Scale Knowledge Graph' approach to map the entire corpus before the agent begins its task.</p>
+<h3>4. Core Implementation</h3>
+<p><code>hierarchical_indexer.py</code> implements recursive distillation turns from raw text into concept summaries. Explicitly flags contradictions between documents, crucial for high-accuracy research.</p>
+<h3>5. Code Organization</h3>
+<p><code>/models</code> contains specialized prompts/loading logic, and <code>/evaluation</code> provides benchmarks for 'Reasoning over Long Documents' (RLD).</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Read <code>Methodology.md</code> to understand 'Iterative Question Decomposition' where a goal is broken into hundreds of atomic retrieval tasks.</p>
+<h3>7. Summary</h3>
+<p>The 'Strategic Analyst' for big data. It establishes hierarchical indexing as a robust alternative to basic RAG for complex, large-scale enterprise knowledge work.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

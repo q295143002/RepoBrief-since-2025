@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mail-0/Zero — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>Mail-0/Zero</strong>
+    <span>·</span><a href="https://github.com/Mail-0/Zero" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 10479</span>
+    <span>TypeScript</span>
+    <span>· AI Email, Self-Hosted, Privacy, Next.js</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Zero is a privacy-first, open-source AI email client and server that offers a unified, self-hosted inbox with deep LLM agent integrations.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Combines the privacy of self-hosting with the convenience of unified Gmail/Outlook access; uses AI agents to automate email categorization, summarization, and responses; replaces complex, data-hungry, and closed-source email solutions with a modern, developer-friendly stack.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Requires Node.js v18+, pnpm, and Docker. Clone the repo, run <code>pnpm install</code>, start the DB with <code>pnpm docker:db:up</code>, configure <code>.env</code> via <code>pnpm nizzy env</code>, and launch the app with <code>pnpm dev</code>. Access at <code>http://localhost:3000</code>.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Zero is designed for privacy-advocates, developers, and enterprises looking for a modern email experience without the surveillance of traditional providers. It positions itself as an 'Agent-Native' email client where LLMs are central to the workflow.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Modern email services lack transparency and robust AI automation. Zero solves this by being fully open-source and letting users run their own instances. Key advantages include a unified inbox (N-providers), full data ownership, and a highly responsive Next.js frontend capable of handling massive message volumes via Durable Objects and R2 storage.</p>
+<h3>3. Technical Architecture</h3>
+<p>Built on a modern TypeScript stack: Next.js/React/Tailwind for the frontend, Drizzle ORM with PostgreSQL for data persistence, and Better Auth for security. It utilizes Cloudflare's Durable Objects for high-speed email syncing and storage.</p>
+<h3>4. Core Implementation</h3>
+<p>The core 'Sync' engine is designed to be exceptionally fast, storing emails in R2 buckets and Durable Objects for rapid retrieval. The agentic layer integrates directly with the message pipeline, allowing for real-time processing and automated task generation from incoming emails.</p>
+<h3>5. Code Organization</h3>
+<p>The project is organized as a monorepo, with the main application in <code>apps/mail</code>. It includes a custom CLI <code>nizzy</code> for environment and type synchronization, and well-structured database schemas defining the RAG and Agent table structures.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Follow the Docker-native setup to get a local instance running, then connect your Gmail account through the provided Google OAuth setup guide. Use the 'Sync' feature to index your last 500 emails and try an AI-powered summary query to see the platform's speed.</p>
+<h3>7. Summary</h3>
+<p>Zero is a ambitious and well-executed attempt to modernize the oldest protocol on the web. By combining a premium, modern tech stack with a deep focus on privacy and AI-native features, it provides a compelling alternative for anyone tired of traditional, opaque email platforms.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

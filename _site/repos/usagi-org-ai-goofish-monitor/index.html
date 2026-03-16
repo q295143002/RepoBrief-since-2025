@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Usagi-org/ai-goofish-monitor — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>Usagi-org/ai-goofish-monitor</strong>
+    <span>·</span><a href="https://github.com/Usagi-org/ai-goofish-monitor" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 9399</span>
+    <span>Python</span>
+    <span>· Web Scraping, AI Agent, Playwright, Xianyu, Python</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Goofish Monitor is an AI-powered real-time tracking tool for the Xianyu (Goofish) marketplace, featuring multi-tasking, visual management, and automated item value analysis via LLMs.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Eliminates the need for manual refreshing to find bargain items; solves the 'low-quality' notification issue by using AI to filter out junk/scam results; provides a centralized dashboard for managing multiple monitoring tasks with different criteria.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Deploy via Docker: <code>docker compose up -d</code>. Access the UI at <code>http://localhost:8000</code>, import your Xianyu login cookie via the specialized Chrome extension, and create a task by describing your desired product in natural language.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Goofish Monitor is a high-utility 'Sniping' tool for second-hand market enthusiasts. It targets professional resellers and hobbyists who need early access to undervalued items on China's largest second-hand platform, Xianyu.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Manual marketplace monitoring is time-consuming and prone to missing deals. Goofish Monitor's advantage is its 'AI Evaluator'—it doesn't just match keywords; it uses multi-modal LLMs to 'look' at product photos and descriptions to judge if an item is a genuine bargain or a scam. Its 'Multi-account rotation' feature helps bypass platform anti-bot measures.</p>
+<h3>3. Technical Architecture</h3>
+<p>Built on a Python (FastAPI) backend leveraging Playwright for browser automation. It uses a React-based frontend for management and SQLite for persistent storage of tasks and 'scraped' item history. It supports containerized deployment with a built-in Chromium instance.</p>
+<h3>4. Core Implementation</h3>
+<p>Features a 'Natural Language Task' system: users describe what they want (e.g., 'A white iPhone 15 Pro with no scratches under 3000 RMB'), and the system generates the complex logic and prompts required to monitor and filter those specific items. It supports deep notification hooks for Telegram, WeChat, and Discord.</p>
+<h3>5. Code Organization</h3>
+<p>The project is divided into <code>src/</code> (backend logic), <code>web-ui/</code> (frontend), and specialized 'spider' scripts. It includes a mermaid diagram in the README detailing the autonomous loop: Search -&gt; Fetch -&gt; Download Images -&gt; AI Analyze -&gt; Notify.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Install the 'Xianyu Login State Extractor' extension to quickly fetch your login cookies. Once in the dashboard, try creating an 'AI-Judged' task for a high-value item and watch the real-time logs as the agent starts its first sweep.</p>
+<h3>7. Summary</h3>
+<p>Goofish Monitor is a perfect example of AI-augmented web automation. By combining professional-grade scraping (Playwright) with modern LLM reasoning, it provides a significant edge in the competitive second-hand marketplace.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

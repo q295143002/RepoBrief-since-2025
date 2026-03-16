@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EveryInc/compound-engineering-plugin — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>EveryInc/compound-engineering-plugin</strong>
+    <span>·</span><a href="https://github.com/EveryInc/compound-engineering-plugin" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 10331</span>
+    <span>TypeScript</span>
+    <span>· Claude Code, AI Engineering, Workflow, Productivity</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>EveryInc's plugin marketplace offers a suite of 'Compound Engineering' tools for Claude Code and other AI coding assistants, emphasizing thorough planning and codified learnings.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Combats technical debt and complexity creep by enforcing a 'Compound Engineering' philosophy; bridges the gap between different AI coding tools (Cursor</li>
+<li>Gemini CLI</li>
+<li>Windsurf) via a unified plugin conversion CLI; automates the cycle of brainstorming</li>
+<li>planning</li>
+<li>and documenting learnings.</li>
+</ul>
+<h2>How to get started</h2>
+<p>In Claude Code, add the marketplace with <code>/plugin marketplace add EveryInc/compound-engineering-plugin</code>, then install via <code>/plugin install compound-engineering</code>. For other tools, use the provided conversion CLI: <code>bunx @every-env/compound-plugin install compound-engineering --to opencode</code>.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>This marketplace serves professional software engineers who use agentic coding tools and want to adopt a high-quality development lifecycle. It targets the 'Every' engineering philosophy: 80% planning/review and 20% execution.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Most AI coding interactions are ad-hoc and lead to messy codebases. This plugin provides a structured workflow (/ce:brainstorm, /ce:plan, /ce:work, /ce:review, /ce:compound) that ensures each task makes subsequent ones easier. Its biggest advantage is its 'Sync' capability, allowing personal skills and MCP servers to be mirrored across 10+ different AI IDEs automatically.</p>
+<h3>3. Technical Architecture</h3>
+<p>Built using Bun and TypeScript, it features a sophisticated conversion engine that maps Claude Code plugin definitions (JSON/Markdown) into provider-specific formats for tools like Cursor, Windsurf, and OpenCode. It uses symlinking for personal config syncing to ensure real-time updates across platforms.</p>
+<h3>4. Core Implementation</h3>
+<p>The primary 'Compound' plugin provides five cross-linked commands. The <code>/ce:compound</code> command is the key, automating the documentation of architectural patterns and learnings after a task is completed, which then feeds back into the <code>/ce:plan</code> phase of the next task.</p>
+<h3>5. Code Organization</h3>
+<p>The repository includes the marketplace index, the <code>compound-engineering</code> plugin source (agents, commands, skills), and a <code>src/</code> directory for the Bun-based CLI tool responsible for cross-tool installation and configuration syncing.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Install the plugin in Claude Code and run <code>/ce:brainstorm</code> for your next feature. Watch how it pushes you to clarify requirements and then try <code>/ce:compound</code> after finishing to see it automatically build your project's 'memory'.</p>
+<h3>7. Summary</h3>
+<p>EveryInc has created more than just a plugin; they've productized a philosophy. The Compound Engineering Plugin is a powerful tool for any team looking to use AI agents effectively without compromising codebase quality, further aided by their impressive cross-IDE compatibility layer.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

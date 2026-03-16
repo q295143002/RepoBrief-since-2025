@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>karpathy/llm-council — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>karpathy/llm-council</strong>
+    <span>·</span><a href="https://github.com/karpathy/llm-council" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 15592</span>
+    <span>Python</span>
+    <span>· Karpathy, AI Debate, Consensus, Multi-Agent, Reasoning, Hallucination Reduction, Python</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Karpathy's project for high-precision decision-making through multi-agent debate and consensus.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Individual LLM hallucinations in high-stakes tasks</li>
+<li>Bias in model outputs favoring specific styles or viewpoints</li>
+<li>Lack of structured voting protocols for reaching final agent answers</li>
+</ul>
+<h2>How to get started</h2>
+<p>Clone the repo and run <code>council.py</code>. Provide your question and number of agents to start a multi-round debate session.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>llm-council is Karpathy's explore of the 'Wisdom of the Crowd' for AI. It creates a 'Council' of agents from different providers that debate a question before a Judge agent synthesizes the view. Gold standard for high-confidence reasoning.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Reduces reasoning errors by forcing models to defend logic against peers. Codebase is extremely readable and minimal, true to Karpathy's style, avoiding enterprise framework bloat.</p>
+<h3>3. Technical Architecture</h3>
+<p>Python-based, using standard libraries and model APIs. Adopts a 3-round debate model: Initial answers -&gt; Critics -&gt; Final Synthesis.</p>
+<h3>4. Core Implementation</h3>
+<p>'Synthesis Prompt' teaches the Judge how to spot group-think and weigh arguments. Features 'Cross-Provider Calibration'—showing how OpenAI vs Google vs Meta models disagree on logic.</p>
+<h3>5. Code Organization</h3>
+<p>Single-file <code>council.py</code> containing the protocol, prompts, and networking logic.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run with a difficult math problem; watch the terminal logs to see critics pick apart primary logic until the correct answer emerges.</p>
+<h3>7. Summary</h3>
+<p>The 'Courtroom' for AI reasoning. It demonstrates that model diversity and structured debate are the most powerful tools for eliminating hallucinations in agentic software.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

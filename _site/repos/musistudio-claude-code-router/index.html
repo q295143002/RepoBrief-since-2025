@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>musistudio/claude-code-router — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>musistudio/claude-code-router</strong>
+    <span>·</span><a href="https://github.com/musistudio/claude-code-router" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 29575</span>
+    <span>TypeScript</span>
+    <span>· Claude Code</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A smart middleware for routing AI tasks to the most cost-effective Claude models based on complexity.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Wasting expensive Claude 3.5 Sonnet/Opus tokens on trivial tasks (like fixing typos).</li>
+<li>Latency issues when using large models for simple, fast-response features.</li>
+<li>Complexity in managing model-specific prompts across a large application.</li>
+</ul>
+<h2>How to get started</h2>
+<p>npm install @musistudio/claude-code-router
+const router = new Router();
+router.complete(&quot;Simple greeting&quot;, { context: 'low-complexity' })</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Claude Code Router is a developer-facing middleware designed for 'Model Tiering'. It automatically analyzes incoming AI requests and routes them to the cheapest/fastest Claude model capable of handling the task (e.g., routing a docstring generation to Haiku and a complex refactor to Sonnet).</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: Reduces AI API costs by up to 60% without sacrificing the quality of complex responses.</li>
+<li><strong>Differentiation</strong>: Unlike simple routers, it uses a 'Complexity Estimator' (based on input token count and keyword analysis) to make routing decisions in &lt;10ms.</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: Node.js, supporting both server-side and client-side usage.</li>
+<li><strong>Design Strategy</strong>: Implements a 'Proxy Pattern'—it acts as a drop-in replacement for the Anthropic SDK client.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: <code>src/router/complexity_analyzer.ts</code> uses a lightweight heuristic and a vector-based classifier to predict task difficulty.</li>
+<li><strong>Engineering Practice</strong>: Supports 'Fallthrough'—if a smaller model fails a validation check, the task is automatically re-routed to a larger model.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>/models</code>: Rule sets for Haiku, Sonnet, and Opus capabilities.</li>
+<li><code>/proxy</code>: The SDK interception logic.</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Read <code>docs/custom-rules.md</code> to see how you can define your own routing triggers based on your specific application domain.</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: The 'Traffic Controller' for AI costs. Key learning is the automated matching of task complexity to model capability.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

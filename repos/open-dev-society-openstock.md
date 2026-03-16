@@ -25,3 +25,26 @@ OpenStock is an open-source financial dashboard built with Next.js and MongoDB, 
 ## How to get started
 
 Clone the repo, install dependencies with `pnpm install`, and configure your `.env` with a MongoDB URI and Finnhub API key. Run `pnpm dev` for the frontend and `npx inngest-cli@latest dev` for background AI tasks.
+
+## Detailed report
+
+### 1. Positioning
+OpenStock positions itself as the 'Community-Built Terminal'. It targets retail investors and students who want professional-grade data visualization and personalized AI insights without the high subscription costs of platforms like Bloomberg or Morningstar.
+
+### 2. Pain Points & Advantages
+Financial data is often fragmented or behind paywalls. OpenStock's advantage is its 'Open Integration'—it bundles Finnhub data, TradingView charts, and Google Gemini AI into one cohesive, free-to-use experience. It emphasizes 'Transparency' through its AGPL-3.0 license and community-driven development path.
+
+### 3. Technical Architecture
+Modern full-stack architecture using Next.js 15 (App Router), TypeScript, and Tailwind CSS v4. It uses MongoDB for user data/watchlists and Inngest for event-driven workflows (like cron-based news summaries and AI processing). Better Auth handles secure user identification.
+
+### 4. Core Implementation
+Key features include a Command+K global search palette, interactive candlestick charts, and specialized Inngest functions that use the Gemini API to generate personalized daily financial summaries based on a user's specific watchlist and risk profile.
+
+### 5. Code Organization
+A clean Next.js structure: `/app` for routes, `/components` for the atomic UI library (shadcn/ui), and `/lib` for server actions (Finnhub/Inngest). It includes a dedicated `test-db.mjs` script to ensure environment health before deployment.
+
+### 6. Quick Start Suggestion
+Run the Docker Compose setup to get a local MongoDB instance in seconds. Sign up and add 'AAPL' to your watchlist—then check the Inngest dev server to see the AI agent preparing your first personalized market brief.
+
+### 7. Summary
+OpenStock is a powerful showcase of modern web technologies aimed at democratization. By combining high-fidelity UI with robust background orchestration, it provides a blueprint for building accessible, intelligence-driven financial applications.

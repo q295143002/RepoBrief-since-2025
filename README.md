@@ -50,7 +50,7 @@ python3 scripts/export_from_db.py --db /path/to/github_repos.db
 
 - **博客（GitHub Pages）**  
   在仓库 **Settings → Pages** 中启用 Pages（Source: 默认分支根目录）。发布后访问：  
-  `https://<你的用户名>.github.io/<本仓库名>/`
+  `https://q295143002.github.io/RepoBrief-since-2025/`
 
 - **仓库内预览**  
   在 GitHub 上打开根目录的 **`index.md`** 或任意 **`repos/xxx.md`**，即可使用 GitHub 自带的 Markdown 预览。

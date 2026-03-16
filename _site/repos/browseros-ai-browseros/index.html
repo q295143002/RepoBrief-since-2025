@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>browseros-ai/BrowserOS — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>browseros-ai/BrowserOS</strong>
+    <span>·</span><a href="https://github.com/browseros-ai/BrowserOS" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 9707</span>
+    <span>C++</span>
+    <span>· Browser, AI Agent, MCP, Chromium, Privacy</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>BrowserOS is a specialized, open-source Chromium fork designed to run AI agents locally and securely, featuring native MCP support and visual workflow automation.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Eliminates privacy concerns of cloud-based browsing agents by executing tasks locally; provides a standardized bridge between AI agents and the browser via 31+ MCP tools; solves the 'static' nature of modern browsing through autopilot scheduled tasks and data scraping workflows.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Download the DMG (Mac), EXE (Windows), or AppImage (Linux) from the website. Connect your AI provider (OpenAI, Anthropic, Gemini, or local Ollama). Install as an MCP server for tools like Claude Code to control your browser via JSON-RPC.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>BrowserOS positions itself as the 'Agent-Native Browser'. It targets power users and developers who find modern search engines and standard browsers inadequate for the era of AI. It is built to be the primary interface where humans and agents collaborate on the live web.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Most AI browsing solutions (like Perplexity) are proprietary and ingest your data. BrowserOS is 100% open-source (AGPLv3) and prioritizes local data residency. Its primary advantage is its 'MCP-First' design—it natively exposes 31 browser control tools for any AI coding assistant or agent, making it the most 'controllable' browser on the market.</p>
+<h3>3. Technical Architecture</h3>
+<p>A highly customized fork of the Chromium project, specifically incorporating privacy patches from ungoogled-chromium. It features a built-in Node.js runtime to handle the Model Context Protocol (MCP) server and a visual graph-based engine for building automation workflows.</p>
+<h3>4. Core Implementation</h3>
+<p>The system includes a visual 'Workflow Builder' for repetitive tasks, an 'LLM Hub' for side-by-side model comparison, and a 'Cowork' feature that bridges browser actions with local filesystem operations (e.g., scrape a site and save to a local folder automatically).</p>
+<h3>5. Code Organization</h3>
+<p>The repository contains the Chromium modification logic, the MCP server implementation scripts, and the Electron/React-based UI for managing agent prompts, schedules, and security settings.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Enable the 'MCP Server' mode in settings and connect it to your local Claude Code instance. Try asking: 'Research the latest AI news in BrowserOS and create a summarized markdown file in my current folder'—watch the agent navigate and write simultaneously.</p>
+<h3>7. Summary</h3>
+<p>BrowserOS is the most ambitious attempt to rebuild the browser around the agentic paradigm. By combining the familiarity of Chrome with the power of open-source AI standards, it provides a secure and powerful playground for the next generation of web automation.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

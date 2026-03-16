@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tongyi-MAI/Z-Image — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>Tongyi-MAI/Z-Image</strong>
+    <span>·</span><a href="https://github.com/Tongyi-MAI/Z-Image" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 10480</span>
+    <span>Python</span>
+    <span>· AI Image Generation, Diffusion, DiT, Open Source</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Z-Image is a high-efficiency 6B image generation model from Alibaba's Tongyi-MAI, featuring a single-stream DiT architecture that enables sub-second inference.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Reduces high inference latency in diffusion models through 'Decoupled-DMD' and 'DMDR' distillation; enables high-quality photorealistic and bilingual (CN/EN) text generation on consumer-grade hardware; solves parameter inefficiency of dual-stream DiT architectures.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Install via <code>pip install git+https://github.com/huggingface/diffusers</code>. Use <code>ZImagePipeline.from_pretrained(&quot;Tongyi-MAI/Z-Image-Turbo&quot;)</code> with <code>num_inference_steps=9</code> and <code>guidance_scale=0.0</code> for rapid 8-step generation.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Z-Image targets professional designers and AI researchers looking for top-tier open-source image generation. It is specifically optimized for high-speed, high-quality production environments where sub-second latency is critical.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Standard diffusion models (like Flux or SD3) often require significant time and VRAM for high-res generation. Z-Image-Turbo achieves state-of-the-art results in only 8 steps, fitting into 16GB VRAM devices while outperforming other open-source models in photorealism and precise bilingual text rendering.</p>
+<h3>3. Technical Architecture</h3>
+<p>Uses a Scalable Single-Stream Diffusion Transformer (S3-DiT) with 6B parameters. It concatenates text, visual semantic tokens, and image VAE tokens into a unified input stream. The acceleration is powered by 'Decoupled-DMD', which treats CFG augmentation and distribution matching as separate mechanisms.</p>
+<h3>4. Core Implementation</h3>
+<p>The training pipeline consists of pre-training, SFT for aesthetic alignment, and a unique 'DMDR' phase that fuses DMD with Reinforcement Learning. It supports a wide range of aspect ratios and resolutions (512 to 2048px) and includes specialized versions for image editing (Z-Image-Edit).</p>
+<h3>5. Code Organization</h3>
+<p>The repository provides native PyTorch inference scripts, diffusers integration code, and detailed technical reports. It also links to extensive community integrations like ComfyUI, stable-diffusion.cpp, and vLLM.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Use the <code>diffusers</code> script provided in the README to generate a high-detail portrait of a 'Young Chinese woman in red Hanfu' at 1024x1024. In just 8 steps, you'll see the model's impressive aesthetic quality and text-rendering accuracy.</p>
+<h3>7. Summary</h3>
+<p>Z-Image is a breakthrough for efficient open-source generative AI. By perfecting the single-stream DiT architecture and pioneering new distillation and RL techniques, Alibaba has delivered a model that is arguably the most practical and high-performance image foundation model currently available for local enthusiasts and enterprises alike.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

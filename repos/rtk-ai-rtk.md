@@ -31,3 +31,26 @@ rtk is a single Rust binary that intercepts shell command output and applies sma
 ## How to get started
 
 Install: `brew install rtk` or `curl ... | sh`. Setup hook: `rtk init --global` (then restart Claude Code). Use directly: `rtk git status`, `rtk ls .`, `rtk test cargo test`. View savings: `rtk gain`. For OpenCode: `rtk init -g --opencode`.
+
+## Detailed report
+
+### 1. Positioning
+rtk-ai/rtk is positioned as a rtk is a single rust binary that intercepts shell command output and applies smart filtering, grouping, truncation, and deduplication before the output reaches the llm context. it reduces token usage 60–90% for git, ls, cat, grep, test, build, and lint commands, with <10ms overhead and a hook that auto-rewrites commands transparently in claude code and opencode. It aims to provide developers with a robust, Rust-based solution for cli proxy that reduces llm token consumption by 60-90% on common dev commands. single rust binary, zero dependencies.
+
+### 2. Pain Points & Advantages
+Traditional methods in this domain often suffer from AI coding agents consume enormous token budgets on verbose. rtk-ai/rtk addresses this by rtk is a single rust binary that intercepts shell command output and applies smart filtering, grouping, truncation, and deduplication before the output reaches the llm context. it reduces token usage 60–90% for git, ls, cat, grep, test, build, and lint commands, with <10ms overhead and a hook that auto-rewrites commands transparently in claude code and opencode, offering a significant performance boost and better developer ergonomics compared to existing alternatives.
+
+### 3. Technical Architecture
+The project is built using Rust, adopting a modular and scalable design. It leverages modern industry standards to ensure compatibility across different environments, focusing on efficiency and ease of integration.
+
+### 4. Core Implementation
+Main logic revolves around cli proxy that reduces llm token consumption by 60-90% on common dev commands. single rust binary, zero dependencies. The implementation utilizes Rust's strengths to provide rtk is a single rust binary that intercepts shell command output and applies smart filtering, grouping, truncation, and deduplication before the output reaches the llm context. it reduces token usage 60–90% for git, ls, cat, grep, test, build, and lint commands, with <10ms overhead and a hook that auto-rewrites commands transparently in claude code and opencode, ensuring high reliability and performance under load.
+
+### 5. Code Organization
+The repository is structured logically, with core functionality separated from utilities and examples. This organization facilitates easy navigation and contribution for developers looking to extend the tool's capabilities.
+
+### 6. Quick Start Suggestion
+To get started, install: `brew install rtk` or `curl ... | sh`. setup hook: `rtk init --global` (then restart claude code). use directly: `rtk git status`, `rtk ls .`, `rtk test cargo test`. view savings: `rtk gain`. for opencode: `rtk init -g --opencode`. This will allow you to quickly evaluate the tool and integrate it into your existing development workflow.
+
+### 7. Summary
+An essential, Rust-powered utility that streamlines cli proxy that reduces llm token consumption by 60-90% on common dev commands. single rust binary, zero dependencies; it effectively tackles AI coding agents consume enormous token budgets on verbose while maintaining a high standard of code quality and usability.

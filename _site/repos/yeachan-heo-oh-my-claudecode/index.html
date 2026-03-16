@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yeachan-Heo/oh-my-claudecode — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>Yeachan-Heo/oh-my-claudecode</strong>
+    <span>·</span><a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 9570</span>
+    <span>TypeScript</span>
+    <span>· Claude Code, CLI, AI Agent, Orchestration, Tmux</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Oh-My-ClaudeCode (OMC) is a powerful, tmux-powered orchestration layer for Claude Code that enables multi-agent teams, tri-model advising (Claude/Gemini/Codex), and persistent execution loops.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Overcomes the single-agent limitations of standard Claude Code; solves high-latency tasks by spawning parallel tmux worker panes; provides a 'Deep Interview' mode to clarify vague technical requirements before coding begins.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Install via Claude Code: <code>/plugin install oh-my-claudecode</code>. Run <code>/omc-setup</code> to configure providers. Use keywords like <code>autopilot: {task}</code> for high-agency work or <code>/team 3:executor</code> for multi-agent parallel implementation.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>OMC is the 'Zsh-style powerup' for the Claude Code CLI. It targets power users who want to transform the single-threaded Claude experience into a multi-agent 'Software Engineering Studio'.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Claude Code can be slow for large tasks. OMC's 'Ultrawork' and 'Team' modes solve this by parallelizing work across multiple processes. Its 'Tri-Model' capability (via <code>/ccg</code>) is a unique advantage, allowing users to cross-reference Claude's logic with Gemini's massive 1M context and Codex's architecture reviews.</p>
+<h3>3. Technical Architecture</h3>
+<p>Built as a sophisticated bridge between the Claude Code plugin system and the local OS. It heavily utilizes <code>tmux</code> for process management and session persistence. It includes a custom HUD (Head-Up Display) for real-time monitoring of orchestration metrics.</p>
+<h3>4. Core Implementation</h3>
+<p>Features a 32-agent specialist library (Architect, Researcher, etc.), a 'Socratic' interview engine to minimize hallucination through clarification, and a 'Rate Limit Daemon' that auto-resumes sessions when quotas reset.</p>
+<h3>5. Code Organization</h3>
+<p>The repository contains the plugin bridging logic, a suite of bash/node scripts for tmux automation, and a comprehensive configuration system for external providers (Gemini/OpenAI).</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run <code>/deep-interview &quot;I want to build a SaaS dashboard&quot;</code>. Use the resulting structured plan as the input for <code>autopilot</code>, and watch how the agent executes the clarified vision with much higher precision.</p>
+<h3>7. Summary</h3>
+<p>OMC is an essential utility for anyone serious about 'Vibe Coding' at scale. By bringing professional-grade orchestration and multi-model consensus to the terminal, it pushes the boundaries of what a single developer can achieve with AI.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

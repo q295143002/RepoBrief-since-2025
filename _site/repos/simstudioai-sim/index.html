@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>simstudioai/sim — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>simstudioai/sim</strong>
+    <span>·</span><a href="https://github.com/simstudioai/sim" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 26988</span>
+    <span>TypeScript</span>
+    <span>· Workflow</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A sophisticated multi-modal AI studio for building, orchestrating, and simulating complex agent workflows.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Lack of high-quality UI for visualizing and debugging complex multi-agent flows.</li>
+<li>Difficulty in achieving 'real-time' feedback in multi-modal (voice/visual) agents.</li>
+<li>High barrier of entry to create production-ready collaborative AI environments.</li>
+</ul>
+<h2>How to get started</h2>
+<p>npx simstudio</p>
+<h1>Or use the Docker setup for full production reliability.</h1>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Sim (SimStudio) is a high-end AI development platform. It provides a visual 'studio' environment where developers can design, test, and deploy multi-modal agents. It focuses on the intersection of real-time interaction (WebSockets) and complex orchestration (Flow-based programming).</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: Solves the 'black hole' of agent debugging by providing a real-time flow editor (ReactFlow) that shows exactly which node is executing.</li>
+<li><strong>Differentiation</strong>: Offers a stunning, 'premium' user interface with built-in support for low-latency voice and browser-based tool execution (via E2B).</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: Next.js, Bun, PostgreSQL (pgvector), Socket.io, ReactFlow.</li>
+<li><strong>Design Strategy</strong>: Adopts a 'Realtime-First' methodology where every agent action is synchronized across a distributed frontend via WebSockets.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: <code>apps/sim/lib/core</code> handles the session persistence and tool-call routing across complex DAGs.</li>
+<li><strong>Engineering Practice</strong>: Heavy use of Docker profiles to isolate local (Ollama) vs cloud (VLLM) execution environments.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>/apps/sim</code>: The main Next.js web application and dashboard.</li>
+<li><code>/packages/db</code>: Standardized Drizzle schemas for agent memory and history.</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run <code>npx simstudio</code> and import the 'Default Research Flow' to see how multiple AI agents coordinate via the visual editor.</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: The 'Figma' for AI Agent workflows. Key learning is the seamless integration of visual flow editors with real-time state management.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

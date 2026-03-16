@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>xinnan-tech/xiaozhi-esp32-server — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>xinnan-tech/xiaozhi-esp32-server</strong>
+    <span>·</span><a href="https://github.com/xinnan-tech/xiaozhi-esp32-server" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 8864</span>
+    <span>JavaScript</span>
+    <span>· IoT, ESP32, AI Assistant, ASR, TTS, Python</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Xiaozhi-esp32-server is a comprehensive backend for open-source AI hardware, supporting diverse communication protocols and integrating LLM, TTS, ASR, and RAG capabilities.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Provides a ready-to-use backend for custom AI assistant hardware; solves the complexity of bridging low-power ESP32 chips with high-level AI APIs; manages multi-user voice registration and real-time interaction latency.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Deploy via Docker for the simplest setup: <code>docker compose up -d</code>. Configure your LLM and ASR/TTS keys in the provided config files. Access the web dashboard at <code>http://localhost:3000</code> to manage your devices and users.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Xiaozhi-esp32-server is the 'Intelligence Hub' for the Xiaozhi AI hardware ecosystem. It targets makers and hardware enthusiasts (especially those from South China University of Technology) who are building custom, voice-controlled physical AI agents.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Building a low-latency voice assistant from scratch is difficult due to ASR/TTS/LLM orchestration. The advantage of this server is its 'Multi-Protocol Flexibility'—it supports MQTT+UDP for efficient hardware control and WebSocket for real-time audio streams. It offers both 'Entry-Level Free' and 'Demonstration-Grade Streaming' configurations.</p>
+<h3>3. Technical Architecture</h3>
+<p>A full-stack application with a Python backend and Vue3 frontend. It uses a modular architecture where ASR, LLM, TTS, VAD, and Memory are pluggable components. It integrates specialized tools like FunASR for local speech recognition and RAGFlow for knowledge base support.</p>
+<h3>4. Core Implementation</h3>
+<p>Features a 'Voiceprint Recognition' system for multi-speaker identification and a 'Proactive Interaction' mechanism using MCP (Model Context Protocol). It supports 'Stateful Memory' (local or mem0) to ensure the AI hardware has long-term context during conversations.</p>
+<h3>5. Code Organization</h3>
+<p>The repository is structured with <code>xiaozhi-server/</code> (Python logic), <code>docs/</code> (comprehensive guides), and a web dashboard for administrative tasks. It provides distinct Docker configurations for 'Simplest' vs 'Full-Module' installations to suit different hardware constraints.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Use the Docker version for quick testing. Once running, go to the 'Test Page' (<code>test_page.html</code>) in your browser to verify audio interaction before burning the firmware to your ESP32 device. Check the performance reports to compare different ASR/TTS provider speeds.</p>
+<h3>7. Summary</h3>
+<p>Xiaozhi-esp32-server is a mature and robust solution for anyone building DIY AI hardware. By open-sourcing the entire backend pipeline, it empowers creators to build private, customized, and responsive physical AI assistants.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

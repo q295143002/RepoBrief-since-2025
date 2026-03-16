@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>wshobson/agents — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>wshobson/agents</strong>
+    <span>·</span><a href="https://github.com/wshobson/agents" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 31135</span>
+    <span>Python</span>
+    <span>· Voice AI, Real-time, Low Latency, STT, TTS, WebSockets, Conversation Server</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>High-performance AI conversation server supporting real-time text and voice interaction.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Frustrating latency in AI voice conversations due to separate STT/LLM/TTS roundtrips.</li>
+<li>Inconsistency in voice output emotion and pacing.</li>
+<li>Complexity in managing multi-modal session state for real-time applications.</li>
+</ul>
+<h2>How to get started</h2>
+<p>git clone https://github.com/wshobson/agents
+npm install
+npm run dev:voice</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Agents is a real-time conversation orchestration server. It integrates STT (Speech-to-Text), LLM reasoning, and TTS (Text-to-Speech) into a single, low-latency pipeline, allowing for human-like voice interactions without the typical 'wait-response' delay.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: Solves the 'latency gap' in AI assistants, making them viable for real-time customer support and interactive gaming.</li>
+<li><strong>Differentiation</strong>: Native support for 'Streaming VAD' (Voice Activity Detection), allowing the agent to listen and interrupt exactly like a human would.</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: Node.js / WebSockets, integrated with deepgram/elevenlabs.</li>
+<li><strong>Design Strategy</strong>: Uses a 'Duplex Pipeline' where STT and TTS buffers overlap with LLM generation to eliminate serial delay.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: <code>src/server/vibe_engine.ts</code> synchronizes the audio-to-text-to-audio flow.</li>
+<li><strong>Innovation</strong>: Implements 'Pre-emptive Generation'—it starts generating TTS audio based on the most likely first words of the LLM response before the full sentence is done.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>/stt</code>: Real-time audio stream handlers.</li>
+<li><code>/tts</code>: Audio synthesis and playback synchronization.</li>
+<li><code>/vibe</code>: Emotional tone and inflection logic.</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Examine <code>src/examples/voice-assistant.ts</code> to understand how the websocket stream manages full-duplex audio.</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: A 'real-time brain' for voice AI. Key learning is the overlap of I/O operations to achieve sub-500ms voice latency.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

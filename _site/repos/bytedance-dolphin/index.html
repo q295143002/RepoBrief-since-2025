@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bytedance/Dolphin — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>bytedance/Dolphin</strong>
+    <span>·</span><a href="https://github.com/bytedance/Dolphin" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 8859</span>
+    <span>Python</span>
+    <span>· OCR, Document Parsing, VLM, AI, ByteDance</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Dolphin is an advanced Document Image Parsing model that handles digital and photographed documents using a two-stage approach with heterogeneous anchor prompting for high accuracy.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Solves the 'messy document' problem where text</li>
+<li>formulas</li>
+<li>and tables are intertwined; overcomes the difficulty of parsing photographed documents with warped or low-quality layouts; improves reading order prediction for complex multi-column pages.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Clone the repo and install dependencies: <code>pip install -r requirements.txt</code>. Download pre-trained models from Hugging Face (<code>ByteDance/Dolphin-v2</code>). Run <code>python demo_page.py --model_path ./hf_model --input_path [image_path]</code> to parse a document into structured JSON/Markdown.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Dolphin positions itself as the 'Next-Gen OCR' for professional document workflows. It targets industries with high-volume document digitization needs (Legal, Finance, Research) and AI researchers looking for efficient multi-modal parsing solutions.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Generic OCR often fails on complex elements like math formulas or multi-level tables. Dolphin's advantage is its 'Document-Type-Aware' architecture—it treats digital PDFs and photographed documents differently to optimize for speed vs. robustness. It achieves state-of-the-art results on benchmarks like OmniDocBench while maintaining a lightweight (0.3B to 3B) footprint.</p>
+<h3>3. Technical Architecture</h3>
+<p>A two-stage vision-language model (VLM) framework. Stage 1 performs layout analysis and reading order prediction. Stage 2 executes 'Heterogeneous Anchor Prompting'—using different prompting strategies for different elements (text, figure, formula, table) to ensure precise structural extraction.</p>
+<h3>4. Core Implementation</h3>
+<p>Implemented using PyTorch and Hugging Face Transformers. It includes specialized inference optimization for TensorRT-LLM and vLLM. The model supports both 'Page-level' (holistic) and 'Element-level' (granular) parsing modes, allowing for flexible integration into various pipelines.</p>
+<h3>5. Code Organization</h3>
+<p>Organized into core model logic, inference demos (<code>demo_page.py</code>, <code>demo_element.py</code>), and deployment scripts. It features a clear benchmark section and comprehensive citation records. The code is designed to be easily extendable for custom document types.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Run <code>demo_page.py</code> on a complex research paper containing tables and equations. Compare the structured Markdown output with the original image to see how effectively it reconstructs the reading order and separates code blocks from body text.</p>
+<h3>7. Summary</h3>
+<p>Dolphin represents a significant step forward in making document AI more robust and accessible. By combining ByteDance's model expertise with a parallel parsing mechanism, it provides an industrial-strength solution for structural information extraction.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

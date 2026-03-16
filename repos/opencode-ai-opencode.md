@@ -25,3 +25,11 @@ A sophisticated CLI-based AI coding companion resolving perfectly terminal integ
 ## How to get started
 
 Download accurately specific native binaries running `opencode` utilizing immediately interactive Bubble-Tea interfaces configuring implicitly local `~/.opencode.json` routing completely custom user prompts securely.
+
+## Detailed report
+
+### 1. Positioning
+OpenCode establishes itself explicitly operating fundamentally replacing completely native Claude-Code CLI tools mapping specifically sophisticated multiple model concurrency tracking specifically advanced context-aware programmatic manipulations smoothly.
+
+### 2. Pain Points & Advantages
+Standard AI tools heavily limit users tracking explicitly single proprietary providers restricting deeply external API integrations. OpenCode bypasses entirely this limitation building flawlessly completely modular providers coordinating inherently advanced MCP protocol parameters maintaining deeply complete terminal immersion preserving completely workflow velocity dynamically.

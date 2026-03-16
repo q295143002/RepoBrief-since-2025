@@ -29,3 +29,26 @@ A minimalist and universal swarm intelligence engine designed for predictive ana
 ## How to get started
 
 Clone the repo and run: `python mirowish.py --task 'Predict the next move in this stock trend'`. Configure your LLM API keys in the `.env` file.
+
+## Detailed report
+
+### 1. Positioning
+MiroFish is a 'Minimalist Swarm' engine focusing on 'Universal Prediction'. It uses a collective of agents to analyze data from different angles and converge on a single, highly-accurate prediction, valuing simplicity over complex architecture.
+
+### 2. Pain Points & Advantages
+Eliminates the 'Echo Chamber' effect of single-LLM hallucinations by using a 'Swarm of Critics' for cross-verification. Follows a 'Zero-Config' philosophy, allowing 5-agent swarms to start with a single natural language goal.
+
+### 3. Technical Architecture
+Python-based, compatible with any OpenAI-style API. Adopts a 'Gossip Protocol' where agents share intermediate 'insights' asynchronously to refine the group answer.
+
+### 4. Core Implementation
+`mirofish/consensus.py` implements a weighted voting mechanism based on agent 'Confidence Scores'. Features 'Negative Feedback' loops where specific agents play 'Devil's Advocate' to expose weaknesses.
+
+### 5. Code Organization
+`/mirofish` houses the core coordination engine, while `/examples` provides templates for financial prediction and document synthesis.
+
+### 6. Quick Start Suggestion
+Read `mirofish/mirowish.py` to understand how the 'Swarm Loop' is implemented in under 200 lines of clean Python code.
+
+### 7. Summary
+The 'Hive Mind' for predictive tasks. It demonstrates that simple consensus algorithms can significantly improve LLM reasoning accuracy in non-deterministic environments.

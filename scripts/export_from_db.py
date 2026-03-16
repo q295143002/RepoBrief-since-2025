@@ -73,6 +73,7 @@ def build_repo_md(r: dict) -> str:
     summary = _summary(r)
     problems = (r.get("problems_solved") or "").strip() or "—"
     how_to = (r.get("how_to_use") or "").strip() or "—"
+    detailed_report = (r.get("detailed_report") or "").strip()
 
     lines = [
         "---",
@@ -103,7 +104,12 @@ def build_repo_md(r: dict) -> str:
     lines.append("## How to get started")
     lines.append("")
     lines.append(how_to)
-    lines.append("")
+    if detailed_report:
+        lines.append("")
+        lines.append("## Detailed report")
+        lines.append("")
+        lines.append(detailed_report)
+        lines.append("")
     return "\n".join(lines)
 
 

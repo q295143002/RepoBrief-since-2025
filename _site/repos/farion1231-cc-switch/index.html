@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>farion1231/cc-switch — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>farion1231/cc-switch</strong>
+    <span>·</span><a href="https://github.com/farion1231/cc-switch" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 27614</span>
+    <span>Rust</span>
+    <span>· Claude Code, Profile Manager, CLI Tool, Developer Productivity, Node.js, Automation, Config Switcher</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A fast configuration switcher for Claude Code to manage multiple accounts and model tiers.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Tedious manual editing of config files when switching between personal and work Claude accounts.</li>
+<li>Inefficiency in toggling between different model tiers (Haiku vs Sonnet) for different tasks.</li>
+<li>Risk of accidentally using the wrong API key/org in a production codebase.</li>
+</ul>
+<h2>How to get started</h2>
+<p>npm install -g cc-switch
+cc-switch use work-profile
+cc-switch use personal-profile</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>CC-Switch is a developer productivity tool specifically for the Claude Code CLI. It acts as a profile manager, allowing users to define multiple 'profiles' (combinations of keys, regions, and model preferences) and swap between them with a single command.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<ul>
+<li><strong>Pain Points Solved</strong>: Solves the UI friction of modern AI CLI tools that lack multi-account support natively.</li>
+<li><strong>Differentiation</strong>: Lightweight and fast—it essentially automates the symlinking of <code>.claudecode.json</code> files, ensuring no disruption to the coding workflow.</li>
+</ul>
+<h3>3. Technical Architecture</h3>
+<ul>
+<li><strong>Tech Stack</strong>: Node.js CLI.</li>
+<li><strong>Design Strategy</strong>: Non-destructive file management—it keeps a hidden directory of profiles and swaps the active one into the user's home directory.</li>
+</ul>
+<h3>4. Core Implementation</h3>
+<ul>
+<li><strong>Logic Layer</strong>: Implements a simple atomic file swap to ensure the CLI never encounters a corrupted or half-written config file.</li>
+<li><strong>Engineering Practice</strong>: Uses safe environment variable injection to override keys on the fly.</li>
+</ul>
+<h3>5. Code Organization</h3>
+<ul>
+<li><code>src/cli.ts</code>: Argument parsing and command dispatch.</li>
+<li><code>src/profiles.ts</code>: Profile storage and file system logic.</li>
+</ul>
+<h3>6. Quick Start Suggestion</h3>
+<p>Define two profiles: one with <code>haiku</code> for cheap unit tests and one with <code>sonnet</code> for major refactors.</p>
+<h3>7. Summary</h3>
+<p><strong>Essence</strong>: The 'Profile Manager' for your AI coding identity. Key learning is the automation of configuration states for high-frequency CLI users.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

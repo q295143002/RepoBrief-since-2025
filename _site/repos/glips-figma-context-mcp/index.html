@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GLips/Figma-Context-MCP — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>GLips/Figma-Context-MCP</strong>
+    <span>·</span><a href="https://github.com/GLips/Figma-Context-MCP" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 13652</span>
+    <span>TypeScript</span>
+    <span>· Figma, MCP, AI Coding, UI Generation</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>An MCP server that provides AI coding assistants like Cursor direct access to Figma design metadata to generate accurate UI code.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Eliminates the inaccuracy of pasting design screenshots into AI chats by directly feeding structured layout and style data from Figma APIs via MCP.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Configure your IDE's MCP settings to run <code>npx -y figma-developer-mcp --figma-api-key=YOUR-KEY --stdio</code>. Paste a Figma URL in your IDE's agent chat and ask it to implement the design.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Figma-Context-MCP (Framelink MCP) is a Model Context Protocol server aiming to bridge the gap between design and AI code generation by extracting high-fidelity metadata from Figma.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Vision models interpreting screenshots produce hallucinated paddings, colors, and layouts. The MCP server fetches exact JSON styling and layout trees from Figma, translating it into a token-efficient summary, resulting in highly accurate &quot;one-shot&quot; code generation.</p>
+<h3>3. Technical Architecture</h3>
+<p>A Node.js-based MCP implementation utilizing the <code>@modelcontextprotocol/sdk</code>. It implements <code>resources</code> or <code>tools</code> handlers that authenticate and interface with Figma's REST APIs.</p>
+<h3>4. Core Implementation</h3>
+<p>Intercepts Figma URLs passed in chat. Queries Figma for node data. The crucial part of the implementation is parsing the voluminous, deeply-nested Figma JSON and distilling it into lean, CSS-interpretable descriptors (colors, flexbox layouts) optimized for LLM context windows.</p>
+<h3>5. Code Organization</h3>
+<p>Distributed as an NPM package, housing the MCP server schema handler, Figma API validation interfaces, and the data-simplification transformation logic.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Generate a Figma Personal Access Token, append the server execution command into your IDE's MCP config, and prompt your AI with a Figma frame URL for instant UI scaffolding.</p>
+<h3>7. Summary</h3>
+<p>A targeted integration utility radically improving front-end code generation by equipping AI agents with precise, programmatic design data via the Model Context Protocol.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

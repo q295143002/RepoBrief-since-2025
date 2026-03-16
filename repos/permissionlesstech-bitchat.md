@@ -30,3 +30,30 @@ A zero-knowledge, P2P AI chat platform focusing on extreme privacy and local dat
 
 npm install -g @permissionlesstech/bitchat
 bitchat init --local-only
+
+## Detailed report
+
+### 1. Positioning
+BitChat is a privacy-first AI communication layer. It uses peer-to-peer networking (LibP2P) and end-to-end encryption to facilitate conversations between users and AI models, ensuring that data is either local-only or cryptographically shielded from intermediaries.
+
+### 2. Pain Points & Advantages
+- **Pain Points Solved**: Solves the 'trust bottleneck'—you don't have to trust the AI provider not to leak your data because they never receive it in the clear (leveraging local inference or TEE-based cloud).
+- **Differentiation**: Features 'Ephemeral Sessions' where everything is purged from memory once the process terminates, leaving zero digital footprint.
+
+### 3. Technical Architecture
+- **Tech Stack**: Next.js (Desktop), LibP2P (Networking), WebLLM (Browser-based local AI).
+- **Design Strategy**: Decentralized Identity (DID) based—users own their identities and the storage locations of their chat history (e.g., local IPFS node).
+
+### 4. Core Implementation
+- **Logic Layer**: `src/crypto/handshake.ts` implements a multi-sig protocol for starting encrypted sessions with remote 'AI providers'.
+- **Innovation**: Supports 'Anonymous API Proxies' where payment is made via lightning network to preserve privacy even from the LLM provider.
+
+### 5. Code Organization
+- `/crypto`: Encryption and identity management.
+- `/network`: P2P discovery and relay logic.
+
+### 6. Quick Start Suggestion
+Enable 'Local Model Mode' to run Llama-3 completely inside your browser with zero network traffic.
+
+### 7. Summary
+**Essence**: The 'Tor' for AI chat. Key learning is the integration of decentralized networking with client-side AI inference.

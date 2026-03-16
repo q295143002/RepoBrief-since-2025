@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MoonshotAI/Kimi-K2 — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>MoonshotAI/Kimi-K2</strong>
+    <span>·</span><a href="https://github.com/MoonshotAI/Kimi-K2" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 10498</span>
+    
+    <span>· LLM, MoE, MoE Model, Agentic Intelligence, Open Source</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>Kimi K2 is a massive 1-trillion parameter MoE model from Moonshot AI, specifically optimized for high-performance agentic workflows, coding, and complex reasoning.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Addresses the need for efficient yet powerful models for agentic tasks that require high instruction following and tool usage; optimizes training stability at the 1T parameter scale using the Muon optimizer; provides open-source weights for a state-of-the-art MoE architecture.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Deploy using engines like vLLM, SGLang, or KTransformers. Use the OpenAI-compatible API: replace your base URL with <code>https://platform.moonshot.ai/v1</code> and use model <code>Kimi-K2-Instruct</code>. Recommended temperature for agentic tasks is 0.6.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Kimi K2 is Moonshot AI's flagship open-weights model, targeting researchers and developers who require top-tier reasoning and coding capabilities. It stands as a direct competitor to high-end proprietary models like GPT-4 and Claude 3.5 Sonnet in the arena of agentic execution.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>Many open-source models struggle with multi-step reasoning and precise tool-calling required for autonomous agents. Kimi K2 excels here, achieving open-source SOTA on coding benchmarks (SWE-bench) and general reasoning tasks. Its MoE architecture allows it to have the knowledge of a 1T model with the inference speed of a 32B model.</p>
+<h3>3. Technical Architecture</h3>
+<p>A Mixture-of-Experts (MoE) model featuring 1 trillion total parameters with 32 billion activated per token. It uses 61 layers, 384 experts (8 selected per token), MLA attention, and a 160K vocabulary size, trained on 15.5T tokens using the Muon optimizer.</p>
+<h3>4. Core Implementation</h3>
+<p>The model is meticulous in its 'Agentic Intelligence' optimization. It supports native tool-calling with a dedicated parsing logic and handles long contexts (up to 128K) with high stability. Moonshot provides both a 'Base' model for fine-tuning and an 'Instruct' model for direct chat/agent usage.</p>
+<h3>5. Code Organization</h3>
+<p>The repository includes the full technical rapport, evaluation suite against leading models, deployment guides for various backends (vLLM, SGLang), and Python examples for chat and tool-calling implementation.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Access the model via Moonshot AI's platform for a quick test. Use the provided Python script to execute a tool-calling task like weather retrieval to witness its high-accuracy function parameter generation.</p>
+<h3>7. Summary</h3>
+<p>Kimi K2 is a monumental contribution to the open AI community. By providing a 1T parameter model with a focus on agentic benchmarks, Moonshot AI has significantly narrowed the gap between open and closed models for autonomous software agent development.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>

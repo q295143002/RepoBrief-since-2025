@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>snarktank/ralph — 2025 GitHub Trends</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --link: #58a6ff;
+      --link-hover: #79b8ff;
+      --accent: #f78166;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { color: var(--link-hover); text-decoration: underline; }
+    .meta {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.15rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .meta strong { display: inline-block; margin-right: 0.5rem; }
+    .meta span { margin-right: 0.75rem; color: var(--text-muted); }
+    .meta a { color: var(--link); }
+    .meta .stars { color: var(--accent); }
+    main { margin-bottom: 2rem; }
+    main h2 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    pre, code { background: var(--card-bg); padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    pre { padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">← Back to list</a>
+  </nav>
+  <div class="meta">
+    <strong>snarktank/ralph</strong>
+    <span>·</span><a href="https://github.com/snarktank/ralph" target="_blank" rel="noopener">GitHub</a>
+    <span class="stars">⭐ 12792</span>
+    <span>TypeScript</span>
+    <span>· Autonomous-Agent, Coding-Tools, Automation, PRD-Management, Bash-Loop</span>
+  </div>
+  <main>
+    <h2>What it is</h2>
+<p>A sophisticated CLI bash loop pattern that continuously spawns fresh instances of AI coding tools to execute isolated tasks until a Product Requirements Document (PRD) is completed.</p>
+<h2>Problems solved</h2>
+<ul>
+<li>Eliminates the detrimental logic degradation and &quot;context exhaustion&quot; synonymous with executing massive tasks continuously within one LLM session by forcing deterministic execution across isolated subtasks.</li>
+</ul>
+<h2>How to get started</h2>
+<p>Write a PRD using the included <code>/prd</code> skill. Convert it into a <code>/ralph</code> formatted JSON context map. Execute <code>./scripts/ralph/ralph.sh</code> letting it autonomously conquer the individual stories sequentially.</p>
+<h2>Detailed report</h2>
+<h3>1. Positioning</h3>
+<p>Ralph utilizes a brute-force approach executing Claude Code or Amp CLI tools. It is heavily biased towards preventing localized context overloads explicitly aiming at massive feature generation automation through iterative reinforcement logic.</p>
+<h3>2. Pain Points &amp; Advantages</h3>
+<p>An LLM generating an entire dashboard immediately hallucinates. Ralph breaks tasks down via <code>.json</code> tracking markers. Crucially, it wipes context absolutely clean before initiating the next task iteration, carrying forward structural &quot;learnings&quot; distinctly via Git diffs and physical text logs effectively terminating hallucination drift.</p>
+<h3>3. Technical Architecture</h3>
+<p>Extraordinarily lightweight relying structurally on Unix shell environments interacting directly via REST API endpoints wrapping proprietary NPM packages like Claude Code alongside <code>jq</code> parsing logic processing the JSON structural map.</p>
+<h3>4. Core Implementation</h3>
+<p>The shell pipeline evaluates <code>prd.json</code>, pulls the primary active task identifier, delegates specific constraints into <code>CLAUDE.md</code>, tests compilation upon return natively, marks boolean variables on success, and forcibly appends metadata notes documenting failure paths towards memory states prior to repeating the iteration natively.</p>
+<h3>5. Code Organization</h3>
+<p>Functionally sparse. Contains primarily explicit <code>CLAUDE.md</code> / <code>prompt.md</code> system injection texts alongside isolated integration directories formatting PRD conversions natively wrapped in Bash logic loops.</p>
+<h3>6. Quick Start Suggestion</h3>
+<p>Integrate simply using <code>@anthropic-ai/claude-code</code> by entering <code>/plugin marketplace add snarktank/ralph</code> loading the skills into Claude to instantly gain autonomous PRD tracking mechanisms across any Node environment.</p>
+<h3>7. Summary</h3>
+<p>A profoundly effective strategy encapsulating sophisticated distributed task management directly into an automated bash iteration matrix, perfectly tailoring the operational envelope surrounding LLMs to maximize output efficiency securely.</p>
+
+  </main>
+  <nav style="margin-top: 2rem;">
+    <a href="/">← Back to list</a>
+  </nav>
+</body>
+</html>
