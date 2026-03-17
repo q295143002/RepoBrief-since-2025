@@ -1,5 +1,0 @@
-title: "2025 GitHub Trends"
-description: "AI-powered core summaries of top GitHub projects. What it is, why it matters, how to start."
-baseurl: ""  # Use "" for user site; use "/REPO_NAME" for project site (e.g. /two)
-markdown: kramdown
-# Do not exclude repos/ — Jekyll will render repos/*.md as pages

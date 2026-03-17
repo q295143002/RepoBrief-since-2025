@@ -1,0 +1,997 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "tkH6i",
+      "x": 0,
+      "y": 0,
+      "name": "Detail Drawer - Dark",
+      "theme": {
+        "mode": "dark"
+      },
+      "width": 1440,
+      "height": 900,
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "8xi9E",
+          "x": 0,
+          "y": 0,
+          "name": "Backdrop",
+          "fill": "#000000B3",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "type": "frame",
+          "id": "3e0jr",
+          "x": 960,
+          "y": 0,
+          "name": "Drawer",
+          "clip": true,
+          "width": 480,
+          "height": 900,
+          "fill": "$bg-secondary",
+          "stroke": {
+            "thickness": {
+              "left": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pVwAl",
+              "name": "Drawer Header",
+              "width": "fill_container",
+              "height": 64,
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Fj9j2",
+                  "name": "headerTitle",
+                  "fill": "$text-primary",
+                  "content": "Repository Details",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "beI6J",
+                  "name": "Close Button",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$bg-tertiary",
+                  "cornerRadius": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "cOWF3",
+                      "name": "closeIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "x",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ul2yC",
+              "name": "Drawer Body",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OgGDk",
+                  "name": "English Summary",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m7gFs",
+                      "name": "s1Label",
+                      "fill": "$text-muted",
+                      "content": "ENGLISH SUMMARY",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "YfHpL",
+                      "name": "s1Content",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "LangChain is a framework designed to simplify the creation of applications using large language models (LLMs). It provides a standard interface for chains, lots of integrations with other tools, and end-to-end chains for common applications.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8q8tL",
+                  "name": "Problems Solved",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YNMDj",
+                      "name": "s2Label",
+                      "fill": "$text-muted",
+                      "content": "PROBLEMS SOLVED",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8VJz8",
+                      "name": "s2List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "1BavH",
+                          "name": "item1",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "gJ7Ei",
+                              "name": "i1Icon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check-circle-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "9zkFJ",
+                              "name": "i1Text",
+                              "fill": "$text-secondary",
+                              "content": "Complexity of LLM integration",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JsZJN",
+                          "name": "item2",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "GcT1r",
+                              "name": "i2Icon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check-circle-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ACScy",
+                              "name": "i2Text",
+                              "fill": "$text-secondary",
+                              "content": "Lack of standard interfaces for chains",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bOYYn",
+                          "name": "item3",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "9lapa",
+                              "name": "i3Icon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check-circle-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "2fgL0",
+                              "name": "i3Text",
+                              "fill": "$text-secondary",
+                              "content": "Difficulties in prompt management",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NbThR",
+                  "name": "How to Use",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n9THa",
+                      "name": "s3Label",
+                      "fill": "$text-muted",
+                      "content": "HOW TO USE",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oDWnA",
+                      "name": "Code Box",
+                      "width": "fill_container",
+                      "fill": "$bg-tertiary",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h6LYk",
+                          "name": "codeText",
+                          "fill": "$accent",
+                          "content": "pip install langchain\nimport { OpenAI } from 'langchain/llms/openai';\n\nconst model = new OpenAI({ ... });",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZwCW0",
+                  "name": "Detailed Report",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d9w8X",
+                      "name": "s4Label",
+                      "fill": "$text-muted",
+                      "content": "DETAILED REPORT",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "4NRX1",
+                      "name": "s4Content",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The detailed report provides an in-depth analysis of the repository's architecture, security posture, and performance characteristics. Recent updates have significantly improved memory management and reduced latency in complex chains. The community support remains strong with frequent contributions and high engagement.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "65TSz",
+      "x": 1540,
+      "y": 0,
+      "name": "Detail Drawer - Light",
+      "theme": {
+        "mode": "light"
+      },
+      "width": 1440,
+      "height": 900,
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "MrPFo",
+          "x": 0,
+          "y": 0,
+          "name": "Backdrop",
+          "fill": "#00000066",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "type": "frame",
+          "id": "RD81I",
+          "x": 960,
+          "y": 0,
+          "name": "Drawer",
+          "clip": true,
+          "width": 480,
+          "height": 900,
+          "fill": "$bg-secondary",
+          "stroke": {
+            "thickness": {
+              "left": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "acBO9",
+              "name": "Drawer Header",
+              "width": "fill_container",
+              "height": 64,
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "$border"
+              },
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DOHXQ",
+                  "name": "headerTitle",
+                  "fill": "$text-primary",
+                  "content": "Repository Details",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "BmKio",
+                  "name": "Close Button",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$bg-tertiary",
+                  "cornerRadius": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "DnPvP",
+                      "name": "closeIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "x",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Kn4qG",
+              "name": "Drawer Body",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "td4rR",
+                  "name": "English Summary",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wlMTj",
+                      "name": "s1Label",
+                      "fill": "$text-muted",
+                      "content": "ENGLISH SUMMARY",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "6P8XK",
+                      "name": "s1Content",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "LangChain is a framework designed to simplify the creation of applications using large language models (LLMs). It provides a standard interface for chains, lots of integrations with other tools, and end-to-end chains for common applications.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aOnq6",
+                  "name": "Problems Solved",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sA8ce",
+                      "name": "s2Label",
+                      "fill": "$text-muted",
+                      "content": "PROBLEMS SOLVED",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z7Msb",
+                      "name": "s2List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MKqx1",
+                          "name": "item1",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "LgC7k",
+                              "name": "i1Icon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check-circle-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "M65Zk",
+                              "name": "i1Text",
+                              "fill": "$text-secondary",
+                              "content": "Complexity of LLM integration",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "REw8U",
+                          "name": "item2",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "gkMhn",
+                              "name": "i2Icon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check-circle-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "0qtme",
+                              "name": "i2Text",
+                              "fill": "$text-secondary",
+                              "content": "Lack of standard interfaces for chains",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t5nPB",
+                          "name": "item3",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "uGzwd",
+                              "name": "i3Icon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check-circle-2",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "f8Vrz",
+                              "name": "i3Text",
+                              "fill": "$text-secondary",
+                              "content": "Difficulties in prompt management",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6PrQs",
+                  "name": "How to Use",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ySdZu",
+                      "name": "s3Label",
+                      "fill": "$text-muted",
+                      "content": "HOW TO USE",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "s2p2U",
+                      "name": "Code Box",
+                      "width": "fill_container",
+                      "fill": "$bg-tertiary",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KGNgY",
+                          "name": "codeText",
+                          "fill": "$accent",
+                          "content": "pip install langchain\nimport { OpenAI } from 'langchain/llms/openai';\n\nconst model = new OpenAI({ ... });",
+                          "lineHeight": 1.5,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1LBib",
+                  "name": "Detailed Report",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UwgqD",
+                      "name": "s4Label",
+                      "fill": "$text-muted",
+                      "content": "DETAILED REPORT",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "EPChj",
+                      "name": "s4Content",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The detailed report provides an in-depth analysis of the repository's architecture, security posture, and performance characteristics. Recent updates have significantly improved memory management and reduced latency in complex chains. The community support remains strong with frequent contributions and high engagement.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "mode": [
+      "dark",
+      "light"
+    ]
+  },
+  "variables": {
+    "accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#22D3EE",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#0891B2",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "accent-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#164E63",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#ECFEFF",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "bg-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0F172A",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#F8FAFC",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "bg-secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1E293B",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "bg-tertiary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#334155",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#F1F5F9",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#334155",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#E2E8F0",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "card-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1E293B",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "card-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#334155",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#E2E8F0",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "chip-selected-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#22D3EE",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#0891B2",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "chip-selected-text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0F172A",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "chip-unselected-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#334155",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#F1F5F9",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "chip-unselected-text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#94A3B8",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#475569",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "star-color": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FBBF24",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#F59E0B",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "tag-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1E293B",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#F1F5F9",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "tag-text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#22D3EE",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#0891B2",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "text-muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#64748B",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#94A3B8",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "text-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F8FAFC",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#0F172A",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#94A3B8",
+          "theme": {
+            "mode": "dark"
+          }
+        },
+        {
+          "value": "#475569",
+          "theme": {
+            "mode": "light"
+          }
+        }
+      ]
+    }
+  }
+}
