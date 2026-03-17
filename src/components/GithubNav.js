@@ -17,7 +17,7 @@ export default function GithubNav() {
       <div className={styles.divider} />
       <div className={styles.starGroup}>
         <Star size={16} fill="var(--warning)" color="var(--warning)" />
-        <span className={styles.starCount}>43.5k</span>
+        <span className={styles.starCount}>1</span>
       </div>
     </a>
   );

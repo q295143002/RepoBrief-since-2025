@@ -54,6 +54,10 @@ export default function Showcase({ initialRepos, tagStats, tagGroups }) {
   };
 
   const handleExport = () => {
+    if (filteredRepos.length === 0) {
+      alert('No repositories found to export.');
+      return;
+    }
     const data = filteredRepos.map(repo => ({
       'Repo Name': repo.repo_name,
       'Stars': repo.stars,
