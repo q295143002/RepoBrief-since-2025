@@ -1,36 +1,19 @@
 ---
-title: "ghuntley/how-to-build-a-coding-agent"
+id: 1025300166
 repo_name: "ghuntley/how-to-build-a-coding-agent"
 url: "https://github.com/ghuntley/how-to-build-a-coding-agent"
-github_url: "https://github.com/ghuntley/how-to-build-a-coding-agent"
 stars: 5264
 language: "Go"
-layout: repo
-tags:
-  - "Tutorial"
-  - "AI Agent"
-  - "Claude API"
-  - "Go"
-  - "Education"
-  - "Coding Assistant"
-  - "Open Source"
+tags: ["Tutorial","AI Agent","Claude API","Go","Education","Coding Assistant","Open Source"]
+original_description: "A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode."
+english_summary: "This project is a high-quality educational repository that guides developers through the process of building their own AI coding agent from scratch using Go and the Anthropic Claude API. It breaks down the architecture of 'agentic loops' into six progressive versions, from a basic chatbot to a tool-using agent with code search and file editing."
+chinese_summary: null
+problems_solved: "- The 'black box' mystery of how modern coding agents (like Cursor/Claude Code) work\n- Steep learning curve for implementing reliable tool-use loops in Go\n- Lack of clear examples for local codebase indexing and search for AI agents"
+how_to_use: "Follow the workshop steps by running the `.go` files in sequence (chat.go -> read.go -> ... -> code_search_tool.go). Each file adds a new capability, and the README explains the underlying logic and architecture changes at each stage."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This project is a high-quality educational repository that guides developers through the process of building their own AI coding agent from scratch using Go and the Anthropic Claude API. It breaks down the architecture of 'agentic loops' into six progressive versions, from a basic chatbot to a tool-using agent with code search and file editing.
-
-## Problems solved
-
-- The 'black box' mystery of how modern coding agents (like Cursor/Claude Code) work
-- Steep learning curve for implementing reliable tool-use loops in Go
-- Lack of clear examples for local codebase indexing and search for AI agents
-
-## How to get started
-
-Follow the workshop steps by running the `.go` files in sequence (chat.go -> read.go -> ... -> code_search_tool.go). Each file adds a new capability, and the README explains the underlying logic and architecture changes at each stage.
-
-## Detailed report
+# ghuntley/how-to-build-a-coding-agent
 
 ### 1. Positioning
 ghuntley/how-to-build-a-coding-agent is positioned as a this project is a high-quality educational repository that guides developers through the process of building their own ai coding agent from scratch using go and the anthropic claude api. it breaks down the architecture of 'agentic loops' into six progressive versions, from a basic chatbot to a tool-using agent with code search and file editing. It aims to provide developers with a robust, Go-based solution for a workshop that teaches you how to build your own coding agent. similar to roo code, cline, amp, cursor, windsurf or opencode.

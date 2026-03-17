@@ -1,32 +1,19 @@
 ---
-title: "travisvn/awesome-claude-skills"
+id: 1077850011
 repo_name: "travisvn/awesome-claude-skills"
 url: "https://github.com/travisvn/awesome-claude-skills"
-github_url: "https://github.com/travisvn/awesome-claude-skills"
 stars: 8756
-language: ""
-layout: repo
-tags:
-  - "Claude"
-  - "AI Agent"
-  - "Curated List"
-  - "Tutorials"
-  - "DX"
+language: null
+tags: ["Claude","AI Agent","Curated List","Tutorials","DX"]
+original_description: "Awesome Claude Skills: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows."
+english_summary: "Awesome Claude Skills is a comprehensive repository of resources, tutorials, and community-made skills for expanding the capabilities of the Claude AI ecosystem."
+chinese_summary: null
+problems_solved: "- Solves the 'fragmented capability' problem where users don't know which skills exist; provides a 'Security First' guide for installing AI-executable code; acts as a learning hub for developers building their first custom skills."
+how_to_use: "Browse the Categorized sections (Development, Design, etc.). For Claude Code users, use the marketplace commands: `/plugin marketplace add <marketplace-id>`. Check the 'Security' section before installing third-party skills."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Awesome Claude Skills is a comprehensive repository of resources, tutorials, and community-made skills for expanding the capabilities of the Claude AI ecosystem.
-
-## Problems solved
-
-- Solves the 'fragmented capability' problem where users don't know which skills exist; provides a 'Security First' guide for installing AI-executable code; acts as a learning hub for developers building their first custom skills.
-
-## How to get started
-
-Browse the Categorized sections (Development, Design, etc.). For Claude Code users, use the marketplace commands: `/plugin marketplace add <marketplace-id>`. Check the 'Security' section before installing third-party skills.
-
-## Detailed report
+# travisvn/awesome-claude-skills
 
 ### 1. Positioning
 Awesome Claude Skills is the 'Official-Adjacent' index for the Claude ecosystem. It targets the growing community of Claude users, developers, and enterprises looking to standardize their agentic workflows on the 'Skills' paradigm.

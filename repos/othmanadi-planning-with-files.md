@@ -1,36 +1,19 @@
 ---
-title: "OthmanAdi/planning-with-files"
+id: 1127110039
 repo_name: "OthmanAdi/planning-with-files"
 url: "https://github.com/OthmanAdi/planning-with-files"
-github_url: "https://github.com/OthmanAdi/planning-with-files"
 stars: 15953
 language: "Python"
-layout: repo
-tags:
-  - "Code Refactoring"
-  - "Software Engineering"
-  - "DAG"
-  - "Static Analysis"
-  - "AI Coder"
-  - "Project Planning"
-  - "Dependency Management"
+tags: ["Code Refactoring","Software Engineering","DAG","Static Analysis","AI Coder","Project Planning","Dependency Management"]
+original_description: "planning-with-files: An AI agent that treats your entire file system as a logical DAG for complex project planning and refactoring."
+english_summary: "An AI agent that constructs and manages a 'File-DAG' to execute cross-project planning and refactors."
+chinese_summary: null
+problems_solved: "- Agent confusion regarding circular dependencies in large codebases\n- Inability to plan changes spanning many disconnected files simultaneously\n- Risk of partial refactors breaking builds due to missing files in a plan"
+how_to_use: "Clone the repo and run `planner.py`. Point it to your project root and define your refactoring goal in natural language."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An AI agent that constructs and manages a 'File-DAG' to execute cross-project planning and refactors.
-
-## Problems solved
-
-- Agent confusion regarding circular dependencies in large codebases
-- Inability to plan changes spanning many disconnected files simultaneously
-- Risk of partial refactors breaking builds due to missing files in a plan
-
-## How to get started
-
-Clone the repo and run `planner.py`. Point it to your project root and define your refactoring goal in natural language.
-
-## Detailed report
+# OthmanAdi/planning-with-files
 
 ### 1. Positioning
 Planning-with-files is a structural reasoning agent. It parses entire project structures into a DAG of dependencies to execute refactors in logically correct orders (e.g. DB before API).

@@ -1,36 +1,19 @@
 ---
-title: "microsoft/mcp-for-beginners"
+id: 960665821
 repo_name: "microsoft/mcp-for-beginners"
 url: "https://github.com/microsoft/mcp-for-beginners"
-github_url: "https://github.com/microsoft/mcp-for-beginners"
 stars: 15362
 language: "Jupyter Notebook"
-layout: repo
-tags:
-  - "MCP"
-  - "Microsoft"
-  - "Education"
-  - "AI Protocol"
-  - "Tutorials"
-  - "Cross-Platform"
-  - "Learning Resource"
+tags: ["MCP","Microsoft","Education","AI Protocol","Tutorials","Cross-Platform","Learning Resource"]
+original_description: "A beginner-friendly curriculum for the Model Context Protocol (MCP)."
+english_summary: "A comprehensive, beginner-friendly Microsoft curriculum to learn and build Model Context Protocol (MCP) applications."
+chinese_summary: null
+problems_solved: "- Steep learning curve for new AI communication protocols\n- Fragmentation in documentation for building MCP servers and clients\n- Lack of cross-language implementation examples for protocol standardisation"
+how_to_use: "Follow the structured lessons in the repo. Each folder contains self-contained tutorials for languages like Python, Node.js, and C#."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive, beginner-friendly Microsoft curriculum to learn and build Model Context Protocol (MCP) applications.
-
-## Problems solved
-
-- Steep learning curve for new AI communication protocols
-- Fragmentation in documentation for building MCP servers and clients
-- Lack of cross-language implementation examples for protocol standardisation
-
-## How to get started
-
-Follow the structured lessons in the repo. Each folder contains self-contained tutorials for languages like Python, Node.js, and C#.
-
-## Detailed report
+# microsoft/mcp-for-beginners
 
 ### 1. Positioning
 MCP-for-Beginners is an official Microsoft educational resource for mastering the Model Context Protocol, aimed at cross-platform AI developers.

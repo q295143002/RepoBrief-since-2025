@@ -1,38 +1,19 @@
 ---
-title: "ruvnet/ruflo"
+id: 995029641
 repo_name: "ruvnet/ruflo"
 url: "https://github.com/ruvnet/ruflo"
-github_url: "https://github.com/ruvnet/ruflo"
 stars: 20801
 language: "TypeScript"
-layout: repo
-tags:
-  - "Agent Orchestration"
-  - "Ruflo"
-  - "Claude-Flow"
-  - "Multi-Agent Swarms"
-  - "HNSW"
-  - "Vector Search"
-  - "Enterprise AI"
+tags: ["Agent Orchestration","Ruflo","Claude-Flow","Multi-Agent Swarms","HNSW","Vector Search","Enterprise AI"]
+original_description: "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms and coordinate autonomous workflows."
+english_summary: "A high-performance orchestration platform for building and deploying complex multi-agent swarms with Claude."
+chinese_summary: null
+problems_solved: "- Fragmentation and instability in community 'Multi-Agent' scripts.\n- Lack of a 'Universal Data Bus' for agents to exchange complex objects (not just text).\n- Complexity in deploying agent swarms that follow 'Enterprise-Grade' security and reliability patterns."
+how_to_use: "npm install -g @claude-flow/cli\nruflo init\nruflo agent spawn -t researcher"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-performance orchestration platform for building and deploying complex multi-agent swarms with Claude.
-
-## Problems solved
-
-- Fragmentation and instability in community 'Multi-Agent' scripts.
-- Lack of a 'Universal Data Bus' for agents to exchange complex objects (not just text).
-- Complexity in deploying agent swarms that follow 'Enterprise-Grade' security and reliability patterns.
-
-## How to get started
-
-npm install -g @claude-flow/cli
-ruflo init
-ruflo agent spawn -t researcher
-
-## Detailed report
+# ruvnet/ruflo
 
 ### 1. Positioning
 Ruflo (now evolving into Claude-Flow) is a leading orchestration platform for the Anthropic ecosystem. It provides the 'Infrastructure layer' for building multi-agent swarms, managing everything from Agent-DB persistence to 'Threat Detection' and 'HNSW' based memory search. Target: Professional Agent Engineers.

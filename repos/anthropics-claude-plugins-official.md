@@ -1,33 +1,19 @@
 ---
-title: "anthropics/claude-plugins-official"
+id: 1100776768
 repo_name: "anthropics/claude-plugins-official"
 url: "https://github.com/anthropics/claude-plugins-official"
-github_url: "https://github.com/anthropics/claude-plugins-official"
 stars: 10509
 language: "Python"
-layout: repo
-tags:
-  - "Claude Code"
-  - "AI Plugins"
-  - "Marketplace"
-  - "MCP"
+tags: ["Claude Code","AI Plugins","Marketplace","MCP"]
+original_description: "A curated directory of high-quality plugins for Claude Code. Includes internal plugins by Anthropic and third-party plugins from the community."
+english_summary: "This repository serves as the official marketplace for Claude Code plugins, indexing both internal Anthropic tools and community-developed extensions."
+chinese_summary: null
+problems_solved: "- Centralizes discovery and installation of extensions for the Claude Code CLI; provides a standardized structure for plugins including agents\n- skills\n- and MCP servers; simplifies the contribution process for developers through a unified submission framework."
+how_to_use: "Install plugins directly via the Claude Code CLI using `/plugin install {plugin-name}@claude-plugin-directory` or browse via `/plugin > Discover` within your terminal session."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This repository serves as the official marketplace for Claude Code plugins, indexing both internal Anthropic tools and community-developed extensions.
-
-## Problems solved
-
-- Centralizes discovery and installation of extensions for the Claude Code CLI; provides a standardized structure for plugins including agents
-- skills
-- and MCP servers; simplifies the contribution process for developers through a unified submission framework.
-
-## How to get started
-
-Install plugins directly via the Claude Code CLI using `/plugin install {plugin-name}@claude-plugin-directory` or browse via `/plugin > Discover` within your terminal session.
-
-## Detailed report
+# anthropics/claude-plugins-official
 
 ### 1. Positioning
 This repository functions as the central ecosystem hub for Claude Code, Anthropic's agentic coding assistant. It target developers looking to extend Claude's utility with specialized domain knowledge or tool integrations.

@@ -1,33 +1,19 @@
 ---
-title: "caelestia-dots/shell"
+id: 915128177
 repo_name: "caelestia-dots/shell"
 url: "https://github.com/caelestia-dots/shell"
-github_url: "https://github.com/caelestia-dots/shell"
 stars: 8064
 language: "QML"
-layout: repo
-tags:
-  - "Linux-Customization"
-  - "Hyprland"
-  - "Quickshell"
-  - "QML"
-  - "Desktop-Environment"
-  - "NixOS"
+tags: ["Linux-Customization","Hyprland","Quickshell","QML","Desktop-Environment","NixOS"]
+original_description: "‼️ No waybar here ‼️"
+english_summary: "A modern, widget-based desktop shell for Linux built with Quickshell and optimized for the Hyprland window manager."
+chinese_summary: null
+problems_solved: "- Lack of cohesive UI for tiling window managers; difficulty in configuring interactive desktop widgets; inconsistent styling across various Linux desktop components."
+how_to_use: "Install via AUR (caelestia-shell) or Nix (nix run); start via 'caelestia shell -d'; configure in ~/.config/caelestia/shell.json."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A modern, widget-based desktop shell for Linux built with Quickshell and optimized for the Hyprland window manager.
-
-## Problems solved
-
-- Lack of cohesive UI for tiling window managers; difficulty in configuring interactive desktop widgets; inconsistent styling across various Linux desktop components.
-
-## How to get started
-
-Install via AUR (caelestia-shell) or Nix (nix run); start via 'caelestia shell -d'; configure in ~/.config/caelestia/shell.json.
-
-## Detailed report
+# caelestia-dots/shell
 
 ### 1. Positioning
 caelestia-dots/shell is positioned as a a modern, widget-based desktop shell for linux built with quickshell and optimized for the hyprland window manager. It aims to provide developers with a robust, QML-based solution for ‼️ no waybar here ‼️.

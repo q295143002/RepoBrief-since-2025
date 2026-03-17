@@ -1,31 +1,19 @@
 ---
-title: "ConardLi/easy-dataset"
+id: 942756187
 repo_name: "ConardLi/easy-dataset"
 url: "https://github.com/ConardLi/easy-dataset"
-github_url: "https://github.com/ConardLi/easy-dataset"
 stars: 13617
 language: "JavaScript"
-layout: repo
-tags:
-  - "Dataset"
-  - "Fine-tuning"
-  - "LLM"
-  - "Data Prep"
+tags: ["Dataset","Fine-tuning","LLM","Data Prep"]
+original_description: "A powerful tool for creating fine-tuning datasets for Large Language Models"
+english_summary: "An application enabling users to intelligently parse unstructured documents to generate, clean, and format high-quality fine-tuning datasets for LLMs."
+chinese_summary: null
+problems_solved: "- Automates the labor-intensive process of creating high-quality, structurized datasets (QA formats, dialogs) derived from raw textual or visual documents necessary for LLM fine-tuning."
+how_to_use: "Install via Docker Compose or download the desktop client (Windows/macOS/Linux). Upload documents, select generation strategies, and export structured QA files."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An application enabling users to intelligently parse unstructured documents to generate, clean, and format high-quality fine-tuning datasets for LLMs.
-
-## Problems solved
-
-- Automates the labor-intensive process of creating high-quality, structurized datasets (QA formats, dialogs) derived from raw textual or visual documents necessary for LLM fine-tuning.
-
-## How to get started
-
-Install via Docker Compose or download the desktop client (Windows/macOS/Linux). Upload documents, select generation strategies, and export structured QA files.
-
-## Detailed report
+# ConardLi/easy-dataset
 
 ### 1. Positioning
 Easy Dataset provides a unified, user-friendly framework (GUI-driven) to synthesize Large Language Model fine-tuning data from raw domain-specific documents.

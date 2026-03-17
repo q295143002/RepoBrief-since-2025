@@ -1,32 +1,19 @@
 ---
-title: "Usagi-org/ai-goofish-monitor"
+id: 1020672081
 repo_name: "Usagi-org/ai-goofish-monitor"
 url: "https://github.com/Usagi-org/ai-goofish-monitor"
-github_url: "https://github.com/Usagi-org/ai-goofish-monitor"
 stars: 9399
 language: "Python"
-layout: repo
-tags:
-  - "Web Scraping"
-  - "AI Agent"
-  - "Playwright"
-  - "Xianyu"
-  - "Python"
+tags: ["Web Scraping","AI Agent","Playwright","Xianyu","Python"]
+original_description: "Goofish Monitor: 基于 Playwright 和 AI 的闲鱼多任务实时监控工具，提供完整的 Web 管理界面。"
+english_summary: "Goofish Monitor is an AI-powered real-time tracking tool for the Xianyu (Goofish) marketplace, featuring multi-tasking, visual management, and automated item value analysis via LLMs."
+chinese_summary: null
+problems_solved: "- Eliminates the need for manual refreshing to find bargain items; solves the 'low-quality' notification issue by using AI to filter out junk/scam results; provides a centralized dashboard for managing multiple monitoring tasks with different criteria."
+how_to_use: "Deploy via Docker: `docker compose up -d`. Access the UI at `http://localhost:8000`, import your Xianyu login cookie via the specialized Chrome extension, and create a task by describing your desired product in natural language."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Goofish Monitor is an AI-powered real-time tracking tool for the Xianyu (Goofish) marketplace, featuring multi-tasking, visual management, and automated item value analysis via LLMs.
-
-## Problems solved
-
-- Eliminates the need for manual refreshing to find bargain items; solves the 'low-quality' notification issue by using AI to filter out junk/scam results; provides a centralized dashboard for managing multiple monitoring tasks with different criteria.
-
-## How to get started
-
-Deploy via Docker: `docker compose up -d`. Access the UI at `http://localhost:8000`, import your Xianyu login cookie via the specialized Chrome extension, and create a task by describing your desired product in natural language.
-
-## Detailed report
+# Usagi-org/ai-goofish-monitor
 
 ### 1. Positioning
 Goofish Monitor is a high-utility 'Sniping' tool for second-hand market enthusiasts. It targets professional resellers and hobbyists who need early access to undervalued items on China's largest second-hand platform, Xianyu.

@@ -1,36 +1,19 @@
 ---
-title: "vercel-labs/agent-browser"
+id: 1132001614
 repo_name: "vercel-labs/agent-browser"
 url: "https://github.com/vercel-labs/agent-browser"
-github_url: "https://github.com/vercel-labs/agent-browser"
 stars: 21519
 language: "Rust"
-layout: repo
-tags:
-  - "Browser Automation"
-  - "Vercel"
-  - "Playwright"
-  - "AI Vision"
-  - "DOM Parsing"
-  - "Web Scraping"
-  - "Agent Tooling"
+tags: ["Browser Automation","Vercel","Playwright","AI Vision","DOM Parsing","Web Scraping","Agent Tooling"]
+original_description: "Browser automation CLI for AI agents specifically optimized for visual and DOM-based reasoning."
+english_summary: "Vercel's high-performance CLI tool for giving AI agents 'Hands and Eyes' in any web browser."
+chinese_summary: null
+problems_solved: "- AI agents failing on dynamic SPAs that scrapers miss\n- Complexity in 'Screenshot-to-Action' vision loops\n- Heaviness of full Puppeteer/Playwright setups for simple tasks"
+how_to_use: "Run via npx: `npx @vercel/agent-browser --task \"find stars\"`. Uses vision and DOM snapshots per turn."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Vercel's high-performance CLI tool for giving AI agents 'Hands and Eyes' in any web browser.
-
-## Problems solved
-
-- AI agents failing on dynamic SPAs that scrapers miss
-- Complexity in 'Screenshot-to-Action' vision loops
-- Heaviness of full Puppeteer/Playwright setups for simple tasks
-
-## How to get started
-
-Run via npx: `npx @vercel/agent-browser --task "find stars"`. Uses vision and DOM snapshots per turn.
-
-## Detailed report
+# vercel-labs/agent-browser
 
 ### 1. Positioning
 Agent-Browser is Vercel's specialized browser automation utility for LLMs, exposing human-like commands via CLI.

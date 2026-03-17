@@ -1,38 +1,19 @@
 ---
-title: "zumerlab/snapdom"
+id: 973606777
 repo_name: "zumerlab/snapdom"
 url: "https://github.com/zumerlab/snapdom"
-github_url: "https://github.com/zumerlab/snapdom"
 stars: 7603
 language: "JavaScript"
-layout: repo
-tags:
-  - "DOM-Capture"
-  - "Screenshot"
-  - "JavaScript"
-  - "Canvas"
-  - "SVG"
-  - "Frontend"
-  - "Browser"
+tags: ["DOM-Capture","Screenshot","JavaScript","Canvas","SVG","Frontend","Browser"]
+original_description: "SnapDOM: DOM Capture Engine – Fast and Accurate HTML Conversion"
+english_summary: "SnapDOM is a zero-dependency JavaScript library for capturing DOM elements as high-fidelity images (SVG, PNG, JPG, WebP) with embedded fonts, pseudo-elements, and backgrounds, significantly faster than html2canvas and html-to-image."
+chinese_summary: null
+problems_solved: "- Replaces slow (67ms+) tools like html2canvas with a sub-millisecond DOM capture solution that correctly handles CSS pseudo-elements\n- icon fonts\n- cross-origin images (via proxy)\n- iframe content\n- and CSS counter() functions."
+how_to_use: "Install via `npm i @zumer/snapdom`. Import `snapdom`, then call `snapdom.toPng(element)` for a one-step capture, or use the full API `const result = await snapdom(el)` for reusable captures to multiple formats (PNG, JPG, WebP, SVG, Blob, download)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-SnapDOM is a zero-dependency JavaScript library for capturing DOM elements as high-fidelity images (SVG, PNG, JPG, WebP) with embedded fonts, pseudo-elements, and backgrounds, significantly faster than html2canvas and html-to-image.
-
-## Problems solved
-
-- Replaces slow (67ms+) tools like html2canvas with a sub-millisecond DOM capture solution that correctly handles CSS pseudo-elements
-- icon fonts
-- cross-origin images (via proxy)
-- iframe content
-- and CSS counter() functions.
-
-## How to get started
-
-Install via `npm i @zumer/snapdom`. Import `snapdom`, then call `snapdom.toPng(element)` for a one-step capture, or use the full API `const result = await snapdom(el)` for reusable captures to multiple formats (PNG, JPG, WebP, SVG, Blob, download).
-
-## Detailed report
+# zumerlab/snapdom
 
 ### 1. Positioning
 zumerlab/snapdom is positioned as a snapdom is a zero-dependency javascript library for capturing dom elements as high-fidelity images (svg, png, jpg, webp) with embedded fonts, pseudo-elements, and backgrounds, significantly faster than html2canvas and html-to-image. It aims to provide developers with a robust, JavaScript-based solution for snapdom: dom capture engine – fast and accurate html conversion.

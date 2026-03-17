@@ -1,39 +1,19 @@
 ---
-title: "anomalyco/opencode"
+id: 975734319
 repo_name: "anomalyco/opencode"
 url: "https://github.com/anomalyco/opencode"
-github_url: "https://github.com/anomalyco/opencode"
 stars: 121307
 language: "TypeScript"
-layout: repo
-tags:
-  - "Coding Agent"
-  - "Local AI"
-  - "Privacy-First"
-  - "Refactoring"
-  - "Code Analysis"
-  - "LSP"
-  - "TypeScript"
+tags: ["Coding Agent","Local AI","Privacy-First","Refactoring","Code Analysis","LSP","TypeScript"]
+original_description: "OpenCode is a universal AI coding agent designed to work locally and securely on any codebase. It automates repetitive coding tasks, refactors code, and helps you understand complex systems."
+english_summary: "A secure, local-first AI coding assistant for automated refactoring and codebase analysis."
+chinese_summary: "OpenCode 是一款完全开源的 AI 编程助手，支持多种模型提供商（Claude, OpenAI 等），提供终端 TUI 和桌面客户端。"
+problems_solved: "- Privacy concerns with cloud-based AI coding tools.\n- Inefficiency in manual repetitive refactoring tasks.\n- Difficulty in navigating and understanding massive, unfamiliar codebases."
+how_to_use: "git clone https://github.com/anomalyco/opencode\ncd opencode\n./install.sh\nopencode --path ./your-project"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A secure, local-first AI coding assistant for automated refactoring and codebase analysis.
-
-## Problems solved
-
-- Privacy concerns with cloud-based AI coding tools.
-- Inefficiency in manual repetitive refactoring tasks.
-- Difficulty in navigating and understanding massive, unfamiliar codebases.
-
-## How to get started
-
-git clone https://github.com/anomalyco/opencode
-cd opencode
-./install.sh
-opencode --path ./your-project
-
-## Detailed report
+# anomalyco/opencode
 
 ### 1. Positioning
 OpenCode is a universal open-source AI coding agent that prioritizes local execution and security. It automates repetitive coding tasks, performs large-scale refactoring, and assists developers in quickly understanding complex system architectures.

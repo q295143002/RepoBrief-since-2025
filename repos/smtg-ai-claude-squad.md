@@ -1,33 +1,19 @@
 ---
-title: "smtg-ai/claude-squad"
+id: 945605057
 repo_name: "smtg-ai/claude-squad"
 url: "https://github.com/smtg-ai/claude-squad"
-github_url: "https://github.com/smtg-ai/claude-squad"
 stars: 6324
 language: "Go"
-layout: repo
-tags:
-  - "Multi-Agent"
-  - "Claude"
-  - "Collaboration"
-  - "Software Engineering"
+tags: ["Multi-Agent","Claude","Collaboration","Software Engineering"]
+original_description: "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp."
+english_summary: "A multi-agent framework that instantiates expert teams to solve complex tasks with peer-review loops."
+chinese_summary: null
+problems_solved: "- Single-agent hallucinations in complex technical tasks\n- Lack of structured collaboration patterns for coding agents\n- Inefficiency in manual auditing of AI-generated code"
+how_to_use: "Define your squad roles in the config and launch the collaboration loop."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A multi-agent framework that instantiates expert teams to solve complex tasks with peer-review loops.
-
-## Problems solved
-
-- Single-agent hallucinations in complex technical tasks
-- Lack of structured collaboration patterns for coding agents
-- Inefficiency in manual auditing of AI-generated code
-
-## How to get started
-
-Define your squad roles in the config and launch the collaboration loop.
-
-## Detailed report
+# smtg-ai/claude-squad
 
 ### 1. Positioning
 smtg-ai/claude-squad is positioned as a a multi-agent framework that instantiates expert teams to solve complex tasks with peer-review loops. It aims to provide developers with a robust, Go-based solution for manage multiple ai terminal agents like claude code, codex, opencode, and amp.

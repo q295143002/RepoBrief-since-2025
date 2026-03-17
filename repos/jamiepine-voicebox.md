@@ -1,30 +1,19 @@
 ---
-title: "jamiepine/voicebox"
+id: 1141782198
 repo_name: "jamiepine/voicebox"
 url: "https://github.com/jamiepine/voicebox"
-github_url: "https://github.com/jamiepine/voicebox"
 stars: 13116
 language: "TypeScript"
-layout: repo
-tags:
-  - "Voice"
-  - "Voicebox"
-  - "Audio AI"
+tags: ["Voice","Voicebox","Audio AI"]
+original_description: "The open-source voice synthesis studio. Clone voices. Generate speech. Build voice-powered apps."
+english_summary: "An open-source, local-first voice synthesis and cloning application functioning as a privacy-respecting alternative to cloud audio API tools like ElevenLabs."
+chinese_summary: null
+problems_solved: "- Circumvents high-subscription fees, paywalled quotas, and privacy/ethical data harvesting associated with commercial voice synthesis by operating models exclusively locally via user hardware."
+how_to_use: "Download the precompiled binaries (Mac/Windows), interface with the integrated GUI to generate voice timelines, or query your localized instance utilizing the `/generate` endpoint via the REST API."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source, local-first voice synthesis and cloning application functioning as a privacy-respecting alternative to cloud audio API tools like ElevenLabs.
-
-## Problems solved
-
-- Circumvents high-subscription fees, paywalled quotas, and privacy/ethical data harvesting associated with commercial voice synthesis by operating models exclusively locally via user hardware.
-
-## How to get started
-
-Download the precompiled binaries (Mac/Windows), interface with the integrated GUI to generate voice timelines, or query your localized instance utilizing the `/generate` endpoint via the REST API.
-
-## Detailed report
+# jamiepine/voicebox
 
 ### 1. Positioning
 Voicebox introduces a "DAW-like" (Digital Audio Workstation) studio explicitly designed around LLM text-to-speech technologies. It merges native desktop operations with rapid inference capabilities.

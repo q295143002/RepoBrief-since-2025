@@ -1,33 +1,19 @@
 ---
-title: "t3dotgg/stripe-recommendations"
+id: 915174137
 repo_name: "t3dotgg/stripe-recommendations"
 url: "https://github.com/t3dotgg/stripe-recommendations"
-github_url: "https://github.com/t3dotgg/stripe-recommendations"
 stars: 6255
-language: ""
-layout: repo
-tags:
-  - "Stripe"
-  - "SaaS"
-  - "Payment-Gateway"
-  - "Full-Stack"
-  - "TypeScript"
-  - "Best-Practices"
+language: null
+tags: ["Stripe","SaaS","Payment-Gateway","Full-Stack","TypeScript","Best-Practices"]
+original_description: "How to implement Stripe without going mad"
+english_summary: "A best-practices guide and reference implementation for 'split-brain' Stripe integrations, focusing on KV-based synchronization and reliability."
+chinese_summary: null
+problems_solved: "- Race conditions in Stripe webhooks; difficulty maintaining consistent subscription state; 'split-brain' logic between Stripe and local DB."
+how_to_use: "Read the recommendations in the README; copy the 'syncStripeDataToKV' pattern into your backend; use the provided list of essential events to track."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A best-practices guide and reference implementation for 'split-brain' Stripe integrations, focusing on KV-based synchronization and reliability.
-
-## Problems solved
-
-- Race conditions in Stripe webhooks; difficulty maintaining consistent subscription state; 'split-brain' logic between Stripe and local DB.
-
-## How to get started
-
-Read the recommendations in the README; copy the 'syncStripeDataToKV' pattern into your backend; use the provided list of essential events to track.
-
-## Detailed report
+# t3dotgg/stripe-recommendations
 
 ### 1. Positioning
 t3dotgg/stripe-recommendations is positioned as a a best-practices guide and reference implementation for 'split-brain' stripe integrations, focusing on kv-based synchronization and reliability. It aims to provide developers with a robust, Various-based solution for how to implement stripe without going mad.

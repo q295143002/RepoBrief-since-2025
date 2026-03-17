@@ -1,38 +1,19 @@
 ---
-title: "DayuanJiang/next-ai-draw-io"
+id: 953521037
 repo_name: "DayuanJiang/next-ai-draw-io"
 url: "https://github.com/DayuanJiang/next-ai-draw-io"
-github_url: "https://github.com/DayuanJiang/next-ai-draw-io"
 stars: 22811
 language: "TypeScript"
-layout: repo
-tags:
-  - "Draw.io"
-  - "Diagramming"
-  - "Visual AI"
-  - "Next.js"
-  - "OpenAI"
-  - "Technical Documentation"
-  - "Architecture Design"
+tags: ["Draw.io","Diagramming","Visual AI","Next.js","OpenAI","Technical Documentation","Architecture Design"]
+original_description: "A next.js web application that integrates AI capabilities with draw.io diagrams for natural language diagramming."
+english_summary: "An AI-powered diagramming assistant that generates and edits Draw.io layouts via natural language."
+chinese_summary: null
+problems_solved: "- Time-consuming manual alignment and connection of nodes in complex architecture diagrams.\n- High barrier of entry for non-designers to create professional-looking flowcharts.\n- Difficulty in updating existing large diagrams with new logical components using traditional UI tools."
+how_to_use: "git clone https://github.com/DayuanJiang/next-ai-draw-io\nnpm install\nnpm run dev"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An AI-powered diagramming assistant that generates and edits Draw.io layouts via natural language.
-
-## Problems solved
-
-- Time-consuming manual alignment and connection of nodes in complex architecture diagrams.
-- High barrier of entry for non-designers to create professional-looking flowcharts.
-- Difficulty in updating existing large diagrams with new logical components using traditional UI tools.
-
-## How to get started
-
-git clone https://github.com/DayuanJiang/next-ai-draw-io
-npm install
-npm run dev
-
-## Detailed report
+# DayuanJiang/next-ai-draw-io
 
 ### 1. Positioning
 Next-AI-Draw-io is a fusion of the popular Draw.io diagramming tool and modern LLM capabilities. It allows users to create, modify, and refine architectural diagrams, flowcharts, and mind maps using simple conversational commands (e.g., "Add an auth layer between the API and the DB").

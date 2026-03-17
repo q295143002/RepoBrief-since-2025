@@ -1,33 +1,19 @@
 ---
-title: "henrythe9th/AI-Crash-Course"
+id: 913661429
 repo_name: "henrythe9th/AI-Crash-Course"
 url: "https://github.com/henrythe9th/AI-Crash-Course"
-github_url: "https://github.com/henrythe9th/AI-Crash-Course"
 stars: 5824
-language: ""
-layout: repo
-tags:
-  - "AI Education"
-  - "Engineering"
-  - "Full Stack"
-  - "Learning Path"
+language: null
+tags: ["AI Education","Engineering","Full Stack","Learning Path"]
+original_description: "AI Crash Course to help busy builders catch up to the public frontier of AI research in 2 weeks"
+english_summary: "A comprehensive fast-track course for mastering full-stack AI application development."
+chinese_summary: null
+problems_solved: "- Steep learning curve for AI engineering\n- Fragmented documentation for building agentic apps\n- High barrier to entry for full-stack AI development"
+how_to_use: "Follow the curriculum in the README starting from Module 0."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive fast-track course for mastering full-stack AI application development.
-
-## Problems solved
-
-- Steep learning curve for AI engineering
-- Fragmented documentation for building agentic apps
-- High barrier to entry for full-stack AI development
-
-## How to get started
-
-Follow the curriculum in the README starting from Module 0.
-
-## Detailed report
+# henrythe9th/AI-Crash-Course
 
 ### 1. Positioning
 henrythe9th/AI-Crash-Course is positioned as a a comprehensive fast-track course for mastering full-stack ai application development. It aims to provide developers with a robust, Various-based solution for ai crash course to help busy builders catch up to the public frontier of ai research in 2 weeks.

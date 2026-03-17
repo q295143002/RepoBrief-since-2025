@@ -1,36 +1,19 @@
 ---
-title: "dyad-sh/dyad"
+id: 964395174
 repo_name: "dyad-sh/dyad"
 url: "https://github.com/dyad-sh/dyad"
-github_url: "https://github.com/dyad-sh/dyad"
 stars: 19873
 language: "TypeScript"
-layout: repo
-tags:
-  - "App Builder"
-  - "Local AI"
-  - "Next.js"
-  - "React"
-  - "AI Coding"
-  - "Low-Code"
-  - "Developer Tools"
+tags: ["App Builder","Local AI","Next.js","React","AI Coding","Low-Code","Developer Tools"]
+original_description: "Dyad: Local, open-source AI app builder for power users. A v0 / Lovable / Replit alternative."
+english_summary: "A high-performance local AI app builder that converts prompts into full-stack web applications."
+chinese_summary: null
+problems_solved: "- High monthly costs and privacy concerns with cloud-based AI app builders\n- Difficulty in maintaining complex React/Next.js codebases created by AI without a visual IDE\n- Lack of 'Local-First' developer tools that integrate with existing Git workflows"
+how_to_use: "Install globally via npm: `npm install -g @dyad-sh/dyad`. Use `dyad create my-app` to start a new project guided by AI."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-performance local AI app builder that converts prompts into full-stack web applications.
-
-## Problems solved
-
-- High monthly costs and privacy concerns with cloud-based AI app builders
-- Difficulty in maintaining complex React/Next.js codebases created by AI without a visual IDE
-- Lack of 'Local-First' developer tools that integrate with existing Git workflows
-
-## How to get started
-
-Install globally via npm: `npm install -g @dyad-sh/dyad`. Use `dyad create my-app` to start a new project guided by AI.
-
-## Detailed report
+# dyad-sh/dyad
 
 ### 1. Positioning
 Dyad is a 'Local-Host' alternative to popular AI app builders. It allows power users to generate, edit, and deploy full-stack Next.js applications using natural language, all while running locally on their own machines.

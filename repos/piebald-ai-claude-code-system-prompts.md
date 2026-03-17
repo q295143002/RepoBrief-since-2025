@@ -1,35 +1,19 @@
 ---
-title: "Piebald-AI/claude-code-system-prompts"
+id: 1099328966
 repo_name: "Piebald-AI/claude-code-system-prompts"
 url: "https://github.com/Piebald-AI/claude-code-system-prompts"
-github_url: "https://github.com/Piebald-AI/claude-code-system-prompts"
 stars: 5794
 language: "JavaScript"
-layout: repo
-tags:
-  - "Prompt Engineering"
-  - "Claude Code"
-  - "AI Assistant"
-  - "LLM"
-  - "Documentation"
-  - "Open Source"
+tags: ["Prompt Engineering","Claude Code","AI Assistant","LLM","Documentation","Open Source"]
+original_description: "All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version."
+english_summary: "This repository tracks and analyzes the system prompts used by Anthropic's Claude Code assistant. It provides a detailed breakdown of prompt categories, token counts, and instructions for customizing prompt behavior."
+chinese_summary: null
+problems_solved: "- Lack of visibility into Claude Code's internal logic\n- Difficulty in customizing AI assistant behavior\n- Tracking updates to system prompts"
+how_to_use: "Explore the categorized prompts (Agent, System, Data) to understand the assistant's instructions. Use provided tools like `tweakcc` to modify prompts for personalized workflows."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This repository tracks and analyzes the system prompts used by Anthropic's Claude Code assistant. It provides a detailed breakdown of prompt categories, token counts, and instructions for customizing prompt behavior.
-
-## Problems solved
-
-- Lack of visibility into Claude Code's internal logic
-- Difficulty in customizing AI assistant behavior
-- Tracking updates to system prompts
-
-## How to get started
-
-Explore the categorized prompts (Agent, System, Data) to understand the assistant's instructions. Use provided tools like `tweakcc` to modify prompts for personalized workflows.
-
-## Detailed report
+# Piebald-AI/claude-code-system-prompts
 
 ### 1. Positioning
 Piebald-AI/claude-code-system-prompts is positioned as a this repository tracks and analyzes the system prompts used by anthropic's claude code assistant. it provides a detailed breakdown of prompt categories, token counts, and instructions for customizing prompt behavior. It aims to provide developers with a robust, JavaScript-based solution for all parts of claude code's system prompt, 18 builtin tool descriptions, sub agent prompts (plan/explore/task), utility prompts (claude.md, compact,  statusline, magic docs, webfetch, bash cmd, security review, agent creation).  updated for each claude code version.

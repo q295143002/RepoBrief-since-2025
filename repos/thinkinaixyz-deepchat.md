@@ -1,33 +1,19 @@
 ---
-title: "ThinkInAIXYZ/deepchat"
+id: 932490533
 repo_name: "ThinkInAIXYZ/deepchat"
 url: "https://github.com/ThinkInAIXYZ/deepchat"
-github_url: "https://github.com/ThinkInAIXYZ/deepchat"
 stars: 5576
 language: "TypeScript"
-layout: repo
-tags:
-  - "Reasoning"
-  - "Visualization"
-  - "Chat UI"
-  - "Explainable AI"
+tags: ["Reasoning","Visualization","Chat UI","Explainable AI"]
+original_description: "🐬DeepChat - A smart assistant that connects powerful AI to your personal world"
+english_summary: "A visualization-first chat platform designed to expose and interact with LLM reasoning chains."
+chinese_summary: null
+problems_solved: "- Opaque nature of AI 'black-box' reasoning\n- Difficulty in auditing long, complex AI decision chains\n- Boring and uninformative standard chat UIs"
+how_to_use: "Deploy the web platform and connect your LLM provider to start visualizing reasoning steps."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A visualization-first chat platform designed to expose and interact with LLM reasoning chains.
-
-## Problems solved
-
-- Opaque nature of AI 'black-box' reasoning
-- Difficulty in auditing long, complex AI decision chains
-- Boring and uninformative standard chat UIs
-
-## How to get started
-
-Deploy the web platform and connect your LLM provider to start visualizing reasoning steps.
-
-## Detailed report
+# ThinkInAIXYZ/deepchat
 
 ### 1. Positioning
 ThinkInAIXYZ/deepchat is positioned as a a visualization-first chat platform designed to expose and interact with llm reasoning chains. It aims to provide developers with a robust, TypeScript-based solution for 🐬deepchat - a smart assistant that connects powerful ai to your personal world.

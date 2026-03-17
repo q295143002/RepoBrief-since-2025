@@ -1,36 +1,19 @@
 ---
-title: "justlovemaki/AIClient-2-API"
+id: 1022937426
 repo_name: "justlovemaki/AIClient-2-API"
 url: "https://github.com/justlovemaki/AIClient-2-API"
-github_url: "https://github.com/justlovemaki/AIClient-2-API"
 stars: 5337
 language: "JavaScript"
-layout: repo
-tags:
-  - "API Proxy"
-  - "OpenAI Compatible"
-  - "LLM Gateway"
-  - "Bypass"
-  - "Multi-Account"
-  - "Developer Tools"
-  - "Open Source"
+tags: ["API Proxy","OpenAI Compatible","LLM Gateway","Bypass","Multi-Account","Developer Tools","Open Source"]
+original_description: "Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!"
+english_summary: "AIClient-2-API is a sophisticated proxy server that bypasses 'client-only' restrictions of various AI services (like Gemini CLI, Antigravity, Qwen Code, and Kiro). it encapsulates these requests into a standard, local OpenAI-compatible API, allowing free use of advanced models (Claude 3.5/4.5, Gemini 1.5/3.0) in tools like Cherry-Studio, NextChat, or Cline."
+chinese_summary: null
+problems_solved: "- Accessing advanced 'client-restricted' models from standard API tools\n- Managing multiple accounts and rate limits (built-in account pooling and failover)\n- Bypassing Cloudflare/TLS fingerprinting blocks for specific AI providers"
+how_to_use: "Run via Docker or Node.js. Access the Web UI at `http://localhost:3000` to configure API keys or OAuth credentials. Point your AI client to your local server address to begin making calls using the unified interface."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-AIClient-2-API is a sophisticated proxy server that bypasses 'client-only' restrictions of various AI services (like Gemini CLI, Antigravity, Qwen Code, and Kiro). it encapsulates these requests into a standard, local OpenAI-compatible API, allowing free use of advanced models (Claude 3.5/4.5, Gemini 1.5/3.0) in tools like Cherry-Studio, NextChat, or Cline.
-
-## Problems solved
-
-- Accessing advanced 'client-restricted' models from standard API tools
-- Managing multiple accounts and rate limits (built-in account pooling and failover)
-- Bypassing Cloudflare/TLS fingerprinting blocks for specific AI providers
-
-## How to get started
-
-Run via Docker or Node.js. Access the Web UI at `http://localhost:3000` to configure API keys or OAuth credentials. Point your AI client to your local server address to begin making calls using the unified interface.
-
-## Detailed report
+# justlovemaki/AIClient-2-API
 
 ### 1. Positioning
 justlovemaki/AIClient-2-API is positioned as a aiclient-2-api is a sophisticated proxy server that bypasses 'client-only' restrictions of various ai services (like gemini cli, antigravity, qwen code, and kiro). it encapsulates these requests into a standard, local openai-compatible api, allowing free use of advanced models (claude 3.5/4.5, gemini 1.5/3.0) in tools like cherry-studio, nextchat, or cline. It aims to provide developers with a robust, JavaScript-based solution for simulates gemini cli, antigravity, qwen code, and kiro client requests, compatible with the openai api. it supports thousands of gemini model requests per day and offers free use of the built-in claude model in kiro. easily connect to any client via the api, making ai development more efficient!.

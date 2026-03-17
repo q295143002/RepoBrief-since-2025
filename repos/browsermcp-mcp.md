@@ -1,36 +1,19 @@
 ---
-title: "BrowserMCP/mcp"
+id: 956283541
 repo_name: "BrowserMCP/mcp"
 url: "https://github.com/BrowserMCP/mcp"
-github_url: "https://github.com/BrowserMCP/mcp"
 stars: 6039
 language: "TypeScript"
-layout: repo
-tags:
-  - "MCP"
-  - "Browser Automation"
-  - "Privacy"
-  - "Chrome Extension"
-  - "AI Developer Tools"
-  - "Playwright"
+tags: ["MCP","Browser Automation","Privacy","Chrome Extension","AI Developer Tools","Playwright"]
+original_description: "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser"
+english_summary: "Browser MCP is a specialized Model Context Protocol (MCP) server that connects AI assistants to the user's actual Chrome browser. Unlike traditional headless automation (like standard Playwright), Browser MCP uses a Chrome extension to act within the user's real browser profile. This allows the AI to perform tasks on sites where the user is already logged in and avoids typical bot detection mechanisms."
+chinese_summary: null
+problems_solved: "- Bot detection barriers: Bypasses CAPTCHAs and 'automated browser' blocks by using the user's real browser fingerprint.\n- Authentication hurdles: No need to pass cookies or session tokens to the AI; it works inside existing logged-in sessions (Gmail, GitHub, etc.).\n- High latency: Automation happens locally on the user's machine, eliminating network round-trips to remote browser clouds.\n- Privacy concerns: Browser activity stays local and is not sent to third-party automation services."
+how_to_use: "Install the Browser MCP desktop application and the companion Chrome extension. Add the server to your MCP client (like Claude Desktop or Cursor). The assistant will then see tools for navigation, clicking, typing, and reading content within your active browser tabs."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Browser MCP is a specialized Model Context Protocol (MCP) server that connects AI assistants to the user's actual Chrome browser. Unlike traditional headless automation (like standard Playwright), Browser MCP uses a Chrome extension to act within the user's real browser profile. This allows the AI to perform tasks on sites where the user is already logged in and avoids typical bot detection mechanisms.
-
-## Problems solved
-
-- Bot detection barriers: Bypasses CAPTCHAs and 'automated browser' blocks by using the user's real browser fingerprint.
-- Authentication hurdles: No need to pass cookies or session tokens to the AI; it works inside existing logged-in sessions (Gmail, GitHub, etc.).
-- High latency: Automation happens locally on the user's machine, eliminating network round-trips to remote browser clouds.
-- Privacy concerns: Browser activity stays local and is not sent to third-party automation services.
-
-## How to get started
-
-Install the Browser MCP desktop application and the companion Chrome extension. Add the server to your MCP client (like Claude Desktop or Cursor). The assistant will then see tools for navigation, clicking, typing, and reading content within your active browser tabs.
-
-## Detailed report
+# BrowserMCP/mcp
 
 ### 1. Positioning
 BrowserMCP/mcp is positioned as a browser mcp is a specialized model context protocol (mcp) server that connects ai assistants to the user's actual chrome browser. unlike traditional headless automation (like standard playwright), browser mcp uses a chrome extension to act within the user's real browser profile. this allows the ai to perform tasks on sites where the user is already logged in and avoids typical bot detection mechanisms. It aims to provide developers with a robust, TypeScript-based solution for browser mcp is a model context provider (mcp) server that allows ai applications to control your browser.

@@ -1,38 +1,19 @@
 ---
-title: "farion1231/cc-switch"
+id: 1031912724
 repo_name: "farion1231/cc-switch"
 url: "https://github.com/farion1231/cc-switch"
-github_url: "https://github.com/farion1231/cc-switch"
 stars: 27614
 language: "Rust"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Profile Manager"
-  - "CLI Tool"
-  - "Developer Productivity"
-  - "Node.js"
-  - "Automation"
-  - "Config Switcher"
+tags: ["Claude Code","Profile Manager","CLI Tool","Developer Productivity","Node.js","Automation","Config Switcher"]
+original_description: "CC-Switch is a utility for quickly switching between different model configurations and API keys in Claude Code projects."
+english_summary: "A fast configuration switcher for Claude Code to manage multiple accounts and model tiers."
+chinese_summary: null
+problems_solved: "- Tedious manual editing of config files when switching between personal and work Claude accounts.\n- Inefficiency in toggling between different model tiers (Haiku vs Sonnet) for different tasks.\n- Risk of accidentally using the wrong API key/org in a production codebase."
+how_to_use: "npm install -g cc-switch\ncc-switch use work-profile\ncc-switch use personal-profile"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A fast configuration switcher for Claude Code to manage multiple accounts and model tiers.
-
-## Problems solved
-
-- Tedious manual editing of config files when switching between personal and work Claude accounts.
-- Inefficiency in toggling between different model tiers (Haiku vs Sonnet) for different tasks.
-- Risk of accidentally using the wrong API key/org in a production codebase.
-
-## How to get started
-
-npm install -g cc-switch
-cc-switch use work-profile
-cc-switch use personal-profile
-
-## Detailed report
+# farion1231/cc-switch
 
 ### 1. Positioning
 CC-Switch is a developer productivity tool specifically for the Claude Code CLI. It acts as a profile manager, allowing users to define multiple 'profiles' (combinations of keys, regions, and model preferences) and swap between them with a single command.

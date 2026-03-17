@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+
+:root {
+  /* Light Mode Variables (Default as per root but we will use a class to toggle) */
+  --bg-primary: #F8FAFC;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #F1F5F9;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --border: #E2E8F0;
+  --accent: #0891B2;
+  --accent-bg: #ECFEFF;
+  --card-bg: #FFFFFF;
+  --card-border: #E2E8F0;
+  --chip-selected-bg: #0891B2;
+  --chip-selected-text: #FFFFFF;
+  --chip-unselected-bg: #F1F5F9;
+  --chip-unselected-text: #475569;
+  --tag-bg: #F1F5F9;
+  --tag-text: #0891B2;
+  --star-color: #F59E0B;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme='dark'] {
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --bg-tertiary: #334155;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --border: #334155;
+  --accent: #22D3EE;
+  --accent-bg: #164E63;
+  --card-bg: #1E293B;
+  --card-border: #334155;
+  --chip-selected-bg: #22D3EE;
+  --chip-selected-text: #0F172A;
+  --chip-unselected-bg: #334155;
+  --chip-unselected-text: #94A3B8;
+  --tag-bg: #1E293B;
+  --tag-text: #22D3EE;
+  --star-color: #FBBF24;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,36 +1,19 @@
 ---
-title: "ashishps1/learn-ai-engineering"
+id: 964477695
 repo_name: "ashishps1/learn-ai-engineering"
 url: "https://github.com/ashishps1/learn-ai-engineering"
-github_url: "https://github.com/ashishps1/learn-ai-engineering"
 stars: 5097
-language: ""
-layout: repo
-tags:
-  - "AI Roadmap"
-  - "Machine Learning"
-  - "LLM"
-  - "AI Agents"
-  - "Education"
-  - "Resource List"
-  - "Open Source"
+language: null
+tags: ["AI Roadmap","Machine Learning","LLM","AI Agents","Education","Resource List","Open Source"]
+original_description: "Learn AI and LLMs from scratch using free resources"
+english_summary: "Learn AI Engineering is a massive, curated roadmap and resource collection for aspiring AI engineers. It covers everything from mathematical foundations and Python basics to advanced topics like RAG, AI Agents, and the Model Context Protocol (MCP), linking to the best free courses, papers, and tools available."
+chinese_summary: null
+problems_solved: "- Overwhelming amount of fragmented AI learning material on the internet\n- Lack of a structured path from basic math to deployment-ready AI engineering\n- Difficulty in identifying 'must-read' papers and 'industry-standard' tools in the rapidly evolving AI space"
+how_to_use: "Browse the README to follow the learning path. Sections are organized logically (e.g., Deep Learning -> Generative AI -> LLM Frameworks). It includes links to Coursera specializations, YouTube channels (like Andrej Karpathy), and essential Github repos for practical building."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Learn AI Engineering is a massive, curated roadmap and resource collection for aspiring AI engineers. It covers everything from mathematical foundations and Python basics to advanced topics like RAG, AI Agents, and the Model Context Protocol (MCP), linking to the best free courses, papers, and tools available.
-
-## Problems solved
-
-- Overwhelming amount of fragmented AI learning material on the internet
-- Lack of a structured path from basic math to deployment-ready AI engineering
-- Difficulty in identifying 'must-read' papers and 'industry-standard' tools in the rapidly evolving AI space
-
-## How to get started
-
-Browse the README to follow the learning path. Sections are organized logically (e.g., Deep Learning -> Generative AI -> LLM Frameworks). It includes links to Coursera specializations, YouTube channels (like Andrej Karpathy), and essential Github repos for practical building.
-
-## Detailed report
+# ashishps1/learn-ai-engineering
 
 ### 1. Positioning
 ashishps1/learn-ai-engineering is positioned as a learn ai engineering is a massive, curated roadmap and resource collection for aspiring ai engineers. it covers everything from mathematical foundations and python basics to advanced topics like rag, ai agents, and the model context protocol (mcp), linking to the best free courses, papers, and tools available. It aims to provide developers with a robust, Various-based solution for learn ai and llms from scratch using free resources.

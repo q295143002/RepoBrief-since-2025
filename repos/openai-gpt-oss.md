@@ -1,36 +1,19 @@
 ---
-title: "openai/gpt-oss"
+id: 1007222028
 repo_name: "openai/gpt-oss"
 url: "https://github.com/openai/gpt-oss"
-github_url: "https://github.com/openai/gpt-oss"
 stars: 19908
 language: "Python"
-layout: repo
-tags:
-  - "Open Source AI"
-  - "OpenAI"
-  - "Research Models"
-  - "MoE"
-  - "Transformer"
-  - "Weight Transparency"
-  - "Deep Learning"
+tags: ["Open Source AI","OpenAI","Research Models","MoE","Transformer","Weight Transparency","Deep Learning"]
+original_description: "gpt-oss: open-weight language models by OpenAI focusing on transparency and research community empowerment."
+english_summary: "OpenAI's official release of open-weight reasoning and instruction-tuned models for research."
+chinese_summary: null
+problems_solved: "- Lack of high-quality open-source benchmarks for reasoning-heavy tasks\n- Inability for researchers to inspect internal weight distributions of top-tier models\n- Need for a 'Baseline' open model for the community to fine-tune on specialized datasets"
+how_to_use: "Install via pip: `pip install openai-gpt-oss`. Load the model using: `from gpt_oss import load_model; model = load_model('gpt-oss-120b')`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-OpenAI's official release of open-weight reasoning and instruction-tuned models for research.
-
-## Problems solved
-
-- Lack of high-quality open-source benchmarks for reasoning-heavy tasks
-- Inability for researchers to inspect internal weight distributions of top-tier models
-- Need for a 'Baseline' open model for the community to fine-tune on specialized datasets
-
-## How to get started
-
-Install via pip: `pip install openai-gpt-oss`. Load the model using: `from gpt_oss import load_model; model = load_model('gpt-oss-120b')`.
-
-## Detailed report
+# openai/gpt-oss
 
 ### 1. Positioning
 GPT-OSS is OpenAI's initiative to provide high-performance, open-weight models (120B and 20B variants) to the global research community. Designed to be competitive with proprietary models in reasoning and coding while allowing local deployment.

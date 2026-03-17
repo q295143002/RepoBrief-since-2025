@@ -1,36 +1,19 @@
 ---
-title: "anthropics/claude-agent-sdk-python"
+id: 1000486904
 repo_name: "anthropics/claude-agent-sdk-python"
 url: "https://github.com/anthropics/claude-agent-sdk-python"
-github_url: "https://github.com/anthropics/claude-agent-sdk-python"
 stars: 5394
 language: "Python"
-layout: repo
-tags:
-  - "Claude"
-  - "SDK"
-  - "AI Agents"
-  - "MCP"
-  - "Python"
-  - "Anthropic"
-  - "Open Source"
+tags: ["Claude","SDK","AI Agents","MCP","Python","Anthropic","Open Source"]
+original_description: null
+english_summary: "This SDK provides a streamlined interface for developers to build interactive, tool-using AI agents powered by Claude. It supports bidirectional communication, custom in-process MCP servers, and granular permission hooks to control agent behavior."
+chinese_summary: null
+problems_solved: "- Complexity of implementing reliable agentic loops from scratch\n- Overhead of managing multi-process MCP servers for local tools\n- Need for fine-grained control over AI tool usage and file edits"
+how_to_use: "Install via `pip install claude-agent-sdk`. Use the `query()` function for simple tasks or the `ClaudeSDKClient` for interactive sessions that require custom tools (MCP) and deterministic hooks."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This SDK provides a streamlined interface for developers to build interactive, tool-using AI agents powered by Claude. It supports bidirectional communication, custom in-process MCP servers, and granular permission hooks to control agent behavior.
-
-## Problems solved
-
-- Complexity of implementing reliable agentic loops from scratch
-- Overhead of managing multi-process MCP servers for local tools
-- Need for fine-grained control over AI tool usage and file edits
-
-## How to get started
-
-Install via `pip install claude-agent-sdk`. Use the `query()` function for simple tasks or the `ClaudeSDKClient` for interactive sessions that require custom tools (MCP) and deterministic hooks.
-
-## Detailed report
+# anthropics/claude-agent-sdk-python
 
 ### 1. Positioning
 anthropics/claude-agent-sdk-python is positioned as a this sdk provides a streamlined interface for developers to build interactive, tool-using ai agents powered by claude. it supports bidirectional communication, custom in-process mcp servers, and granular permission hooks to control agent behavior. It aims to provide developers with a robust, Python-based solution for no description provided.

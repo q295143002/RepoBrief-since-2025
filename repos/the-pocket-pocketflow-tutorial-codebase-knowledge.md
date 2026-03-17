@@ -1,30 +1,19 @@
 ---
-title: "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge"
+id: 959473422
 repo_name: "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge"
 url: "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge"
-github_url: "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge"
 stars: 12135
 language: "Python"
-layout: repo
-tags:
-  - "NLP"
-  - "GitHub"
-  - "RAG"
+tags: ["NLP","GitHub","RAG"]
+original_description: "Turns Codebase into Easy Tutorial with AI"
+english_summary: "An intelligent codebase analysis tool leveraging the PocketFlow LLM framework mapping entire GitHub repositories explicitly generating comprehensive beginner-friendly programmatic tutorials automatically."
+chinese_summary: null
+problems_solved: "Eliminates the overwhelming complexity developers face parsing unfamiliar undocumented codebases orchestrating LLMs to systematically extract core abstractions synthesizing exactly visual logic relationships natively."
+how_to_use: "Allocate `GEMINI_API_KEY`, clone the repository, and execute `python main.py --repo https://github.com/username/repo --include \"*.py\"` fetching structural tutorials dynamically."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An intelligent codebase analysis tool leveraging the PocketFlow LLM framework mapping entire GitHub repositories explicitly generating comprehensive beginner-friendly programmatic tutorials automatically.
-
-## Problems solved
-
-Eliminates the overwhelming complexity developers face parsing unfamiliar undocumented codebases orchestrating LLMs to systematically extract core abstractions synthesizing exactly visual logic relationships natively.
-
-## How to get started
-
-Allocate `GEMINI_API_KEY`, clone the repository, and execute `python main.py --repo https://github.com/username/repo --include "*.py"` fetching structural tutorials dynamically.
-
-## Detailed report
+# The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge
 
 ### 1. Positioning
 PocketFlow-Tutorial operates explicitly as an automated technical documentation orchestrator prioritizing profoundly absolute code comprehension seamlessly bridging the knowledge gap between complex engineering matrices and beginner-accessible logic structures.

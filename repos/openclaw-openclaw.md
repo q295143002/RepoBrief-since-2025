@@ -1,40 +1,19 @@
 ---
-title: "openclaw/openclaw"
+id: 1103012935
 repo_name: "openclaw/openclaw"
 url: "https://github.com/openclaw/openclaw"
-github_url: "https://github.com/openclaw/openclaw"
 stars: 309403
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Open Source"
-  - "Cross-Platform"
-  - "Multi-Modal"
-  - "Automation"
-  - "TypeScript"
-  - "Developer Tools"
+tags: ["AI Agent","Open Source","Cross-Platform","Multi-Modal","Automation","TypeScript","Developer Tools"]
+original_description: "OpenClaw is the first open-source AI agent ecosystem built for the next billion users. It's a cross-platform, multi-modal assistant that lives on your terminal, desktop, and mobile devices."
+english_summary: "A comprehensive open-source AI agent ecosystem for cross-platform autonomous task execution."
+chinese_summary: "OpenClaw 是一款个人 AI 助手，旨在运行在用户自己的设备上。它通过多种常见的通信渠道（如 WhatsApp、Telegram 等）提供交互，支持语音交流和实时 Canvas 渲染。"
+problems_solved: "- Fragmentation of AI tools across different platforms.\n- High barrier to entry for users to create and deploy personal AI agents.\n- Lack of a standardized, open-source framework for multi-modal AI interactions."
+how_to_use: "git clone https://github.com/openclaw/openclaw\ncd openclaw\nnpm install\ncp .env.example .env # Add your API keys\nnpm run dev"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive open-source AI agent ecosystem for cross-platform autonomous task execution.
-
-## Problems solved
-
-- Fragmentation of AI tools across different platforms.
-- High barrier to entry for users to create and deploy personal AI agents.
-- Lack of a standardized, open-source framework for multi-modal AI interactions.
-
-## How to get started
-
-git clone https://github.com/openclaw/openclaw
-cd openclaw
-npm install
-cp .env.example .env # Add your API keys
-npm run dev
-
-## Detailed report
+# openclaw/openclaw
 
 ### 1. Positioning
 OpenClaw is the world's first open-source AI agent ecosystem designed for mainstream users. Far beyond a simple chatbot, it is a cross-platform, multi-modal personal assistant that seamlessly integrates into the user's life via terminal, desktop, and mobile devices, providing comprehensive automation capabilities.

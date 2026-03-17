@@ -1,30 +1,19 @@
 ---
-title: "elder-plinius/CL4R1T4S"
+id: 942867788
 repo_name: "elder-plinius/CL4R1T4S"
 url: "https://github.com/elder-plinius/CL4R1T4S"
-github_url: "https://github.com/elder-plinius/CL4R1T4S"
 stars: 13741
-language: ""
-layout: repo
-tags:
-  - "AI Transparency"
-  - "System Prompts"
-  - "Observability"
+language: null
+tags: ["AI Transparency","System Prompts","Observability"]
+original_description: "AI SYSTEMS TRANSPARENCY AND OBSERVABILITY FOR ALL! Full extracted system prompts, guidelines, and tools from major AI models."
+english_summary: "An archive of leaked or reverse-engineered system prompts from large AI systems, aiming to promote AI transparency and observability."
+chinese_summary: null
+problems_solved: "- Reveals the hidden instructions and behavioral guardrails dictating interactions with mainstream AI models, shedding light on AI censorship, personas, and default biases."
+how_to_use: "Clone or browse the repository's markdown files to study the system prompts of models like Claude, ChatGPT, Grok, etc."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An archive of leaked or reverse-engineered system prompts from large AI systems, aiming to promote AI transparency and observability.
-
-## Problems solved
-
-- Reveals the hidden instructions and behavioral guardrails dictating interactions with mainstream AI models, shedding light on AI censorship, personas, and default biases.
-
-## How to get started
-
-Clone or browse the repository's markdown files to study the system prompts of models like Claude, ChatGPT, Grok, etc.
-
-## Detailed report
+# elder-plinius/CL4R1T4S
 
 ### 1. Positioning
 CL4R1T4S is an adversarial transparency project providing a repository of reverse-engineered system prompts and operational parameters utilized by large AI service providers.

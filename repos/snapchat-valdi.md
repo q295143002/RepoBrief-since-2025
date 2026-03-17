@@ -1,36 +1,19 @@
 ---
-title: "Snapchat/Valdi"
+id: 1091200903
 repo_name: "Snapchat/Valdi"
 url: "https://github.com/Snapchat/Valdi"
-github_url: "https://github.com/Snapchat/Valdi"
 stars: 16282
 language: "C++"
-layout: repo
-tags:
-  - "AI Safety"
-  - "Data Validation"
-  - "Mobile Development"
-  - "Snapchat"
-  - "JSON Repair"
-  - "Performance"
-  - "Edge Computing"
+tags: ["AI Safety","Data Validation","Mobile Development","Snapchat","JSON Repair","Performance","Edge Computing"]
+original_description: "Valdi: Snapchat's high-performance library for validating and sanitizing AI-generated structured data for mobile applications."
+english_summary: "Snapchat's lightweight, high-performance library for validating and sanitizing AI-generated data at the edge."
+chinese_summary: null
+problems_solved: "- Security risks of injecting un-sanitized AI content into high-traffic apps\n- Performance overhead of running heavy validation on mobile NPUs\n- Fragmentation between model-side prompts and app-side requirements"
+how_to_use: "Install via npm: `npm install @snapchat/valdi`. Define your schema and use `valdi.sanitize` to filter and repair AI outputs before rendering."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Snapchat's lightweight, high-performance library for validating and sanitizing AI-generated data at the edge.
-
-## Problems solved
-
-- Security risks of injecting un-sanitized AI content into high-traffic apps
-- Performance overhead of running heavy validation on mobile NPUs
-- Fragmentation between model-side prompts and app-side requirements
-
-## How to get started
-
-Install via npm: `npm install @snapchat/valdi`. Define your schema and use `valdi.sanitize` to filter and repair AI outputs before rendering.
-
-## Detailed report
+# Snapchat/Valdi
 
 ### 1. Positioning
 Valdi is a safety/performance library by Snapchat acting as a firewall between LLM outputs and production apps. It focuses on 'Extreme Sanitization' for stickers, captions, and recommendations.

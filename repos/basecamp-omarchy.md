@@ -1,36 +1,19 @@
 ---
-title: "basecamp/omarchy"
+id: 994093166
 repo_name: "basecamp/omarchy"
 url: "https://github.com/basecamp/omarchy"
-github_url: "https://github.com/basecamp/omarchy"
 stars: 21141
 language: "Shell"
-layout: repo
-tags:
-  - "Linux Distro"
-  - "Omarchy"
-  - "Basecamp"
-  - "Developer Environment"
-  - "Opinionated Software"
-  - "Workstation"
-  - "Ubuntu Based"
+tags: ["Linux Distro","Omarchy","Basecamp","Developer Environment","Opinionated Software","Workstation","Ubuntu Based"]
+original_description: "Beautiful, Modern & Opinionated Linux distribution optimized for developers and built by Basecamp."
+english_summary: "Basecamp's optimized, developer-centric Linux distribution for high-performance workstation productivity."
+chinese_summary: null
+problems_solved: "- Hours lost in 'Ricing' (manually configuring) Linux desktops for a professional developer workflow.\n- Fragmentation and instability of standard Linux distros when used as primary development machines.\n- Lack of a unified, high-quality 'Out-of-the-Box' experience for Ruby/Web developers on Linux."
+how_to_use: "Download the ISO from the Omarchy website and install it on your workstation."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Basecamp's optimized, developer-centric Linux distribution for high-performance workstation productivity.
-
-## Problems solved
-
-- Hours lost in 'Ricing' (manually configuring) Linux desktops for a professional developer workflow.
-- Fragmentation and instability of standard Linux distros when used as primary development machines.
-- Lack of a unified, high-quality 'Out-of-the-Box' experience for Ruby/Web developers on Linux.
-
-## How to get started
-
-Download the ISO from the Omarchy website and install it on your workstation.
-
-## Detailed report
+# basecamp/omarchy
 
 ### 1. Positioning
 Omarchy is an 'Opinionated Linux' distribution by Basecamp (creators of Ruby on Rails). It is a carefully curated version of Linux that ships with 'Professional Defaults' for developers, focusing on aesthetic beauty, extreme stability, and pre-configured tools for modern web development. It is the 'Mac-like' experience for the open-source world.

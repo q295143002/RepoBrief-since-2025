@@ -1,33 +1,19 @@
 ---
-title: "google/A2UI"
+id: 1063641074
 repo_name: "google/A2UI"
 url: "https://github.com/google/A2UI"
-github_url: "https://github.com/google/A2UI"
 stars: 12847
 language: "TypeScript"
-layout: repo
-tags:
-  - "UI-Standard"
-  - "Agentic-UI"
-  - "Google-Cloud"
-  - "Declarative-UI"
-  - "Protocol"
+tags: ["UI-Standard","Agentic-UI","Google-Cloud","Declarative-UI","Protocol"]
+original_description: "A2UI: Agent-to-User Interface"
+english_summary: "An open-source standard and toolkit by Google enabling AI agents to dynamically transmit secure, declarative JSON structures dictating rich interactive UI renderings on clients."
+chinese_summary: null
+problems_solved: "- Prevents the immense security risks and structural vulnerabilities tied closely to remote agents executing arbitrary JS/HTML UI elements by mandating a restricted\n- abstract data rendering protocol instead."
+how_to_use: "For backend inference: Configure agents to generate A2UI JSON dicts. On the frontend: Import the `web_core` A2UI specific libraries and register custom components representing the declarative abstract elements locally."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source standard and toolkit by Google enabling AI agents to dynamically transmit secure, declarative JSON structures dictating rich interactive UI renderings on clients.
-
-## Problems solved
-
-- Prevents the immense security risks and structural vulnerabilities tied closely to remote agents executing arbitrary JS/HTML UI elements by mandating a restricted
-- abstract data rendering protocol instead.
-
-## How to get started
-
-For backend inference: Configure agents to generate A2UI JSON dicts. On the frontend: Import the `web_core` A2UI specific libraries and register custom components representing the declarative abstract elements locally.
-
-## Detailed report
+# google/A2UI
 
 ### 1. Positioning
 A2UI (Agent-to-User Interface) bridges an essential deficiency existing between large language models and native frontends (React/Flutter/Lit) by developing a scalable, framework-agnostic presentation protocol for agentic ecosystems.

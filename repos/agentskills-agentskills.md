@@ -1,32 +1,19 @@
 ---
-title: "agentskills/agentskills"
+id: 1117639997
 repo_name: "agentskills/agentskills"
 url: "https://github.com/agentskills/agentskills"
-github_url: "https://github.com/agentskills/agentskills"
 stars: 12947
 language: "Python"
-layout: repo
-tags:
-  - "AI-Agent"
-  - "Specification"
-  - "Standard"
-  - "Developer-Tools"
-  - "Interoperability"
+tags: ["AI-Agent","Specification","Standard","Developer-Tools","Interoperability"]
+original_description: "Agent Skills are a simple, open format for giving agents new capabilities and expertise."
+english_summary: "An open, standardized specification detailing how to package instructions and scripts to grant AI agents universal capabilities."
+chinese_summary: null
+problems_solved: "- Creates a unified format specification ensuring that AI skills/plugins developed for one framework can be easily ported and understood natively across diverse AI agents."
+how_to_use: "Consult the `agentskills.io` documentation to understand the schema, then package your own instructions and resources inside a designated folder utilizing standard YAML/Markdown structures."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open, standardized specification detailing how to package instructions and scripts to grant AI agents universal capabilities.
-
-## Problems solved
-
-- Creates a unified format specification ensuring that AI skills/plugins developed for one framework can be easily ported and understood natively across diverse AI agents.
-
-## How to get started
-
-Consult the `agentskills.io` documentation to understand the schema, then package your own instructions and resources inside a designated folder utilizing standard YAML/Markdown structures.
-
-## Detailed report
+# agentskills/agentskills
 
 ### 1. Positioning
 Agent Skills serves as the central documentation and specification repository for a standardized protocol initiated by Anthropic, aimed at unifying how AI skills are packaged and consumed.

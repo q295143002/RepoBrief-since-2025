@@ -1,36 +1,19 @@
 ---
-title: "ngxson/smolvlm-realtime-webcam"
+id: 982307588
 repo_name: "ngxson/smolvlm-realtime-webcam"
 url: "https://github.com/ngxson/smolvlm-realtime-webcam"
-github_url: "https://github.com/ngxson/smolvlm-realtime-webcam"
 stars: 5531
 language: "HTML"
-layout: repo
-tags:
-  - "SmolVLM"
-  - "Computer Vision"
-  - "llama.cpp"
-  - "Object Detection"
-  - "Real-time AI"
-  - "Edge Computing"
-  - "Open Source"
+tags: ["SmolVLM","Computer Vision","llama.cpp","Object Detection","Real-time AI","Edge Computing","Open Source"]
+original_description: "Real-time webcam demo with SmolVLM and llama.cpp server"
+english_summary: "This is a minimalist demo showing how to achieve real-time object detection in a browser using a 500M parameter vision-language model (SmolVLM). It utilizes the llama.cpp server as the backend and a simple HTML/JS frontend."
+chinese_summary: null
+problems_solved: "- High computational requirements for real-time vision tasks\n- Complexity of integrating VLM models into web environments\n- Latency issues in cloud-based object detection"
+how_to_use: "Install llama.cpp and run the server with the SmolVLM GGUF model. Open the provided `index.html` file in your browser, click 'Start', and the AI will analyze your webcam stream to detect objects based on your instructions."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This is a minimalist demo showing how to achieve real-time object detection in a browser using a 500M parameter vision-language model (SmolVLM). It utilizes the llama.cpp server as the backend and a simple HTML/JS frontend.
-
-## Problems solved
-
-- High computational requirements for real-time vision tasks
-- Complexity of integrating VLM models into web environments
-- Latency issues in cloud-based object detection
-
-## How to get started
-
-Install llama.cpp and run the server with the SmolVLM GGUF model. Open the provided `index.html` file in your browser, click 'Start', and the AI will analyze your webcam stream to detect objects based on your instructions.
-
-## Detailed report
+# ngxson/smolvlm-realtime-webcam
 
 ### 1. Positioning
 ngxson/smolvlm-realtime-webcam is positioned as a this is a minimalist demo showing how to achieve real-time object detection in a browser using a 500m parameter vision-language model (smolvlm). it utilizes the llama.cpp server as the backend and a simple html/js frontend. It aims to provide developers with a robust, HTML-based solution for real-time webcam demo with smolvlm and llama.cpp server.

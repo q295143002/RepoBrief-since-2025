@@ -1,36 +1,19 @@
 ---
-title: "Sjj1024/PakePlus-Android"
+id: 956610184
 repo_name: "Sjj1024/PakePlus-Android"
 url: "https://github.com/Sjj1024/PakePlus-Android"
-github_url: "https://github.com/Sjj1024/PakePlus-Android"
 stars: 6390
 language: "Lua"
-layout: repo
-tags:
-  - "Desktop App Development"
-  - "Mobile App Development"
-  - "Rust"
-  - "Tauri"
-  - "Web to App"
-  - "DevOps"
+tags: ["Desktop App Development","Mobile App Development","Rust","Tauri","Web to App","DevOps"]
+original_description: "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app"
+english_summary: "PakePlus is a cross-platform packaging tool that converts websites into lightweight native applications. Built on Rust and Tauri v2, it produces binaries as small as 5MB (compared to ~100MB for Electron) and supports macOS, Windows, Linux, Android, and iOS. It simplifies the build process using GitHub Actions, requiring only a GitHub Token from the user."
+chinese_summary: null
+problems_solved: "- Bloated desktop apps: Replaces Electron with the much smaller Rust-based Tauri framework.\n- Complex mobile development: Provides a simple way to package web apps for Android/iOS using native templates.\n- Environment setup hurdles: Uses GitHub Actions to build apps in the cloud, removing the need for local Rust/Node installation.\n- Website access barriers: Allows users to hide URLs or inject custom JS to bypass ads or automate tasks."
+how_to_use: "Provide a GitHub Token to the PakePlus client. The tool will fork a template repository to your account. Input a website URL, customize icons and names, and trigger the build process. You can then download the resulting installation packages (DMG, EXE, APK, IPA) from the release page of your forked repo."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PakePlus is a cross-platform packaging tool that converts websites into lightweight native applications. Built on Rust and Tauri v2, it produces binaries as small as 5MB (compared to ~100MB for Electron) and supports macOS, Windows, Linux, Android, and iOS. It simplifies the build process using GitHub Actions, requiring only a GitHub Token from the user.
-
-## Problems solved
-
-- Bloated desktop apps: Replaces Electron with the much smaller Rust-based Tauri framework.
-- Complex mobile development: Provides a simple way to package web apps for Android/iOS using native templates.
-- Environment setup hurdles: Uses GitHub Actions to build apps in the cloud, removing the need for local Rust/Node installation.
-- Website access barriers: Allows users to hide URLs or inject custom JS to bypass ads or automate tasks.
-
-## How to get started
-
-Provide a GitHub Token to the PakePlus client. The tool will fork a template repository to your account. Input a website URL, customize icons and names, and trigger the build process. You can then download the resulting installation packages (DMG, EXE, APK, IPA) from the release page of your forked repo.
-
-## Detailed report
+# Sjj1024/PakePlus-Android
 
 ### 1. Positioning
 Sjj1024/PakePlus-Android is positioned as a pakeplus is a cross-platform packaging tool that converts websites into lightweight native applications. built on rust and tauri v2, it produces binaries as small as 5mb (compared to ~100mb for electron) and supports macos, windows, linux, android, and ios. it simplifies the build process using github actions, requiring only a github token from the user. It aims to provide developers with a robust, Lua-based solution for turn any webpage/html/vue/react and so on into desktop and mobile app under 5m with easy in few minutes. 轻松将任意网站/html/vue/react等项目构建为轻量级(小于5m)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app.

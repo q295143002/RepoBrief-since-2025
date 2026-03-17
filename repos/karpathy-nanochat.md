@@ -1,36 +1,19 @@
 ---
-title: "karpathy/nanochat"
+id: 1075431749
 repo_name: "karpathy/nanochat"
 url: "https://github.com/karpathy/nanochat"
-github_url: "https://github.com/karpathy/nanochat"
 stars: 47610
 language: "Python"
-layout: repo
-tags:
-  - "Karpathy"
-  - "LLM Reference"
-  - "FastAPI"
-  - "Claude API"
-  - "Tool Calling"
-  - "Educational"
-  - "Minimalism"
+tags: ["Karpathy","LLM Reference","FastAPI","Claude API","Tool Calling","Educational","Minimalism"]
+original_description: "Nanochat by Karpathy: A minimal, single-file AI chat implementation demonstrating Claude API capabilities. Focuses on speed and readability for educational purposes."
+english_summary: "Andrej Karpathy's minimal, single-file reference for modern AI chat and tool-calling implementation."
+chinese_summary: null
+problems_solved: "- Overwhelming boilerplate and complexity in modern AI web frameworks\n- Opaque architectures in industrial AI applications that are hard for beginners to learn from\n- Requirement for a clean, zero-dependency baseline for researching tool-calling behavior"
+how_to_use: "Clone the repo and install the minimal stack: `pip install fastapi uvicorn anthropic`. Run with `uvicorn app:app` and access the local web interface."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Andrej Karpathy's minimal, single-file reference for modern AI chat and tool-calling implementation.
-
-## Problems solved
-
-- Overwhelming boilerplate and complexity in modern AI web frameworks
-- Opaque architectures in industrial AI applications that are hard for beginners to learn from
-- Requirement for a clean, zero-dependency baseline for researching tool-calling behavior
-
-## How to get started
-
-Clone the repo and install the minimal stack: `pip install fastapi uvicorn anthropic`. Run with `uvicorn app:app` and access the local web interface.
-
-## Detailed report
+# karpathy/nanochat
 
 ### 1. Positioning
 Nanochat is an 'Atomic Reference' for AI developers. Created by Andrej Karpathy (ex-Tesla AI), it provides the minimum viable code required to build a modern, high-performance AI chat interface with streaming and tool calling.

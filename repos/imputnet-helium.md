@@ -1,32 +1,19 @@
 ---
-title: "imputnet/helium"
+id: 933197458
 repo_name: "imputnet/helium"
 url: "https://github.com/imputnet/helium"
-github_url: "https://github.com/imputnet/helium"
 stars: 12319
 language: "C++"
-layout: repo
-tags:
-  - "Privacy-Browser"
-  - "Chromium-Fork"
-  - "Open-Source"
-  - "Ad-Blocking"
-  - "No-Telemetry"
+tags: ["Privacy-Browser","Chromium-Fork","Open-Source","Ad-Blocking","No-Telemetry"]
+original_description: "The Chromium-based web browser made for people, with love."
+english_summary: "A highly transparent, user-focused Chromium fork maximizing privacy algorithms integrating robust ad-blocking protocols explicitly stripping generalized telemetry structures natively."
+chinese_summary: null
+problems_solved: "- Bypasses the pervasive data extraction and corporate bloat systematically afflicting modern Chromium browsers implementing fundamentally untainted browsing metrics completely eliminating forced Google integrations natively."
+how_to_use: "Download precisely compiled distributions validating OS bindings extracting specifically executed AppImages manually navigating interfaces validating strictly implemented settings natively."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A highly transparent, user-focused Chromium fork maximizing privacy algorithms integrating robust ad-blocking protocols explicitly stripping generalized telemetry structures natively.
-
-## Problems solved
-
-- Bypasses the pervasive data extraction and corporate bloat systematically afflicting modern Chromium browsers implementing fundamentally untainted browsing metrics completely eliminating forced Google integrations natively.
-
-## How to get started
-
-Download precisely compiled distributions validating OS bindings extracting specifically executed AppImages manually navigating interfaces validating strictly implemented settings natively.
-
-## Detailed report
+# imputnet/helium
 
 ### 1. Positioning
 Helium positions itself effectively catering to privacy hardliners explicitly building a functional transparent browser engine relying strongly heavily upon UnGoogled-Chromium mechanics extending custom UX adjustments significantly.

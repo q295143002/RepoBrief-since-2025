@@ -1,38 +1,19 @@
 ---
-title: "microsoft/agent-framework"
+id: 974445592
 repo_name: "microsoft/agent-framework"
 url: "https://github.com/microsoft/agent-framework"
-github_url: "https://github.com/microsoft/agent-framework"
 stars: 7885
 language: "Python"
-layout: repo
-tags:
-  - "Microsoft"
-  - "Agent-Framework"
-  - "Multi-Agent"
-  - "Python"
-  - ".NET"
-  - "Workflows"
-  - "Debugging"
+tags: ["Microsoft","Agent-Framework","Multi-Agent","Python",".NET","Workflows","Debugging"]
+original_description: "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+english_summary: "Microsoft Agent Framework provides a unified approach to building and deploying AI agents in Python and .NET. It supports simple chat agents through to complex graph-based multi-agent workflows."
+chinese_summary: null
+problems_solved: "- Simplifies AI agent development by providing consistent APIs across multiple languages (.NET\n- Python)\n- including built-in observability\n- flexible middleware\n- and graph-based orchestration with features like human-in-the-loop interventions."
+how_to_use: "Install via pip (`pip install agent-framework --pre`) or dotnet (`dotnet add package Microsoft.Agents.AI`). Create an agent instantiating an OpenAI or Azure provider client and orchestrate it with text inputs or complex graphical workflows."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Microsoft Agent Framework provides a unified approach to building and deploying AI agents in Python and .NET. It supports simple chat agents through to complex graph-based multi-agent workflows.
-
-## Problems solved
-
-- Simplifies AI agent development by providing consistent APIs across multiple languages (.NET
-- Python)
-- including built-in observability
-- flexible middleware
-- and graph-based orchestration with features like human-in-the-loop interventions.
-
-## How to get started
-
-Install via pip (`pip install agent-framework --pre`) or dotnet (`dotnet add package Microsoft.Agents.AI`). Create an agent instantiating an OpenAI or Azure provider client and orchestrate it with text inputs or complex graphical workflows.
-
-## Detailed report
+# microsoft/agent-framework
 
 ### 1. Positioning
 microsoft/agent-framework is positioned as a microsoft agent framework provides a unified approach to building and deploying ai agents in python and .net. it supports simple chat agents through to complex graph-based multi-agent workflows. It aims to provide developers with a robust, Python-based solution for a framework for building, orchestrating and deploying ai agents and multi-agent workflows with support for python and .net.

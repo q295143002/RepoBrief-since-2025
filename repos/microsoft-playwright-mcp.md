@@ -1,36 +1,19 @@
 ---
-title: "microsoft/playwright-mcp"
+id: 952688112
 repo_name: "microsoft/playwright-mcp"
 url: "https://github.com/microsoft/playwright-mcp"
-github_url: "https://github.com/microsoft/playwright-mcp"
 stars: 28803
 language: "TypeScript"
-layout: repo
-tags:
-  - "Microsoft"
-  - "Playwright"
-  - "MCP"
-  - "Browser Automation"
-  - "Web Testing"
-  - "TypeScript"
-  - "Agentic AI"
+tags: ["Microsoft","Playwright","MCP","Browser Automation","Web Testing","TypeScript","Agentic AI"]
+original_description: "Playwright-MCP: Microsoft's official implementation for using Playwright browser automation via the Model Context Protocol."
+english_summary: "Microsoft's official MCP server for controlled browser automation via Playwright."
+chinese_summary: null
+problems_solved: "- AI agents lacking the ability to perform complex browser-based tasks (filling forms, clicking dynamic elements).\n- Security risks of giving AI raw browser control without a standardized, auditable protocol.\n- Need for high-fidelity screenshots and DOM snapshots for AI web reasoning."
+how_to_use: "npx @microsoft/playwright-mcp"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Microsoft's official MCP server for controlled browser automation via Playwright.
-
-## Problems solved
-
-- AI agents lacking the ability to perform complex browser-based tasks (filling forms, clicking dynamic elements).
-- Security risks of giving AI raw browser control without a standardized, auditable protocol.
-- Need for high-fidelity screenshots and DOM snapshots for AI web reasoning.
-
-## How to get started
-
-npx @microsoft/playwright-mcp
-
-## Detailed report
+# microsoft/playwright-mcp
 
 ### 1. Positioning
 Playwright-MCP is an official tool from Microsoft that bridges the Playwright automation library with the Model Context Protocol. It allows any MCP-compatible AI (like Cursor or Claude Desktop) to interact with a browser, perform web testing, or extract data using a secure, standardized set of tools.

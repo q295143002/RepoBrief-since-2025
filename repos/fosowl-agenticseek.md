@@ -1,38 +1,19 @@
 ---
-title: "Fosowl/agenticSeek"
+id: 935604638
 repo_name: "Fosowl/agenticSeek"
 url: "https://github.com/Fosowl/agenticSeek"
-github_url: "https://github.com/Fosowl/agenticSeek"
 stars: 25493
 language: "Python"
-layout: repo
-tags:
-  - "AI Search"
-  - "Autonomous Agent"
-  - "Information Synthesis"
-  - "Research Tool"
-  - "Python"
-  - "Web Scraping"
-  - "Fact Checking"
+tags: ["AI Search","Autonomous Agent","Information Synthesis","Research Tool","Python","Web Scraping","Fact Checking"]
+original_description: "AgenticSeek: An autonomous AI search engine that doesn't just return links, but reasons across disparate sources to find pinpoint answers and generate reports."
+english_summary: "A deep-reasoning autonomous AI search engine for information synthesis and reporting."
+chinese_summary: null
+problems_solved: "- Fatigue in clicking through dozens of search results manually to find the intersection of facts.\n- SEO-bloat in modern search engines leading to low-signal commercial results.\n- Need for a search tool that can 'verify' its own claims by cross-referencing multiple sources."
+how_to_use: "git clone https://github.com/Fosowl/agenticSeek\npip install -r requirements.txt\npython app.py --query 'Competitive analysis of modern agent frameworks'"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A deep-reasoning autonomous AI search engine for information synthesis and reporting.
-
-## Problems solved
-
-- Fatigue in clicking through dozens of search results manually to find the intersection of facts.
-- SEO-bloat in modern search engines leading to low-signal commercial results.
-- Need for a search tool that can 'verify' its own claims by cross-referencing multiple sources.
-
-## How to get started
-
-git clone https://github.com/Fosowl/agenticSeek
-pip install -r requirements.txt
-python app.py --query 'Competitive analysis of modern agent frameworks'
-
-## Detailed report
+# Fosowl/agenticSeek
 
 ### 1. Positioning
 AgenticSeek is an autonomous search and synthesis agent. Unlike a traditional search engine, it uses a multi-step 'Research Loop' to identify promising sources, read them in detail, and synthesize a final report that answers complex, multi-layered queries.

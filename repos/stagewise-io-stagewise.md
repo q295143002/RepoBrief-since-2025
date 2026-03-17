@@ -1,35 +1,19 @@
 ---
-title: "stagewise-io/stagewise"
+id: 973180254
 repo_name: "stagewise-io/stagewise"
 url: "https://github.com/stagewise-io/stagewise"
-github_url: "https://github.com/stagewise-io/stagewise"
 stars: 6505
 language: "TypeScript"
-layout: repo
-tags:
-  - "Developer-Browser"
-  - "AI-Coding-Agent"
-  - "Web"
-  - "IDE-Integration"
-  - "Desktop-App"
-  - "Open-Source"
+tags: ["Developer-Browser","AI-Coding-Agent","Web","IDE-Integration","Desktop-App","Open-Source"]
+original_description: "The coding agent built for the web. stagewise is a purpose-built browser for developers with a coding agent built right in."
+english_summary: "stagewise is a desktop browser for developers that ships with a built-in AI coding agent. The agent can access the browser tab's console and debugger directly, make temporary UI test changes, connect to a codebase for permanent edits, reverse-engineer any website's components and color systems, and integrate with IDEs. Supports BYOK for all AI providers."
+chinese_summary: null
+problems_solved: "- Developers constantly context-switch between browser and IDE when building/debugging web UIs. stagewise eliminates this by embedding a coding agent directly in the browser with full debugger access — enabling inspect\n- edit\n- and apply workflows without leaving the browser."
+how_to_use: "Download from stagewise.io, follow onboarding to set up account. Optional: bring your own API keys for unlimited access. Use the Browse-and-Build mode to open any site, point the agent at elements, and request code changes. Connect a codebase in settings for permanent edits with IDE integration."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-stagewise is a desktop browser for developers that ships with a built-in AI coding agent. The agent can access the browser tab's console and debugger directly, make temporary UI test changes, connect to a codebase for permanent edits, reverse-engineer any website's components and color systems, and integrate with IDEs. Supports BYOK for all AI providers.
-
-## Problems solved
-
-- Developers constantly context-switch between browser and IDE when building/debugging web UIs. stagewise eliminates this by embedding a coding agent directly in the browser with full debugger access — enabling inspect
-- edit
-- and apply workflows without leaving the browser.
-
-## How to get started
-
-Download from stagewise.io, follow onboarding to set up account. Optional: bring your own API keys for unlimited access. Use the Browse-and-Build mode to open any site, point the agent at elements, and request code changes. Connect a codebase in settings for permanent edits with IDE integration.
-
-## Detailed report
+# stagewise-io/stagewise
 
 ### 1. Positioning
 stagewise-io/stagewise is positioned as a stagewise is a desktop browser for developers that ships with a built-in ai coding agent. the agent can access the browser tab's console and debugger directly, make temporary ui test changes, connect to a codebase for permanent edits, reverse-engineer any website's components and color systems, and integrate with ides. supports byok for all ai providers. It aims to provide developers with a robust, TypeScript-based solution for the coding agent built for the web. stagewise is a purpose-built browser for developers with a coding agent built right in.

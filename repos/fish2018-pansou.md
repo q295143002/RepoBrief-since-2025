@@ -1,32 +1,19 @@
 ---
-title: "fish2018/pansou"
+id: 1017201879
 repo_name: "fish2018/pansou"
 url: "https://github.com/fish2018/pansou"
-github_url: "https://github.com/fish2018/pansou"
 stars: 12171
 language: "Go"
-layout: repo
-tags:
-  - "Cloud-Search"
-  - "API"
-  - "Media-Indexing"
-  - "Resource-Aggregator"
-  - "Go"
+tags: ["Cloud-Search","API","Media-Indexing","Resource-Aggregator","Go"]
+original_description: "PanSou 网盘搜索API"
+english_summary: "A high-performance API aggregating comprehensive search capabilities spanning dozens of explicit cloud-drive ecosystems and Telegram networks retrieving media content reliably."
+chinese_summary: null
+problems_solved: "- Eliminates entirely manual tracking evaluating endless fragmented cloud archives standardizing identically multiple isolated search providers generating highly normalized resource outputs effortlessly solving fragmented link availability explicitly."
+how_to_use: "Deploy natively utilizing explicit Docker compositions tracking `ghcr.io/fish2018/pansou` formatting explicit `.yml` parameters directing explicit environmental channels verifying specifically Telegram indices parsing links seamlessly."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-performance API aggregating comprehensive search capabilities spanning dozens of explicit cloud-drive ecosystems and Telegram networks retrieving media content reliably.
-
-## Problems solved
-
-- Eliminates entirely manual tracking evaluating endless fragmented cloud archives standardizing identically multiple isolated search providers generating highly normalized resource outputs effortlessly solving fragmented link availability explicitly.
-
-## How to get started
-
-Deploy natively utilizing explicit Docker compositions tracking `ghcr.io/fish2018/pansou` formatting explicit `.yml` parameters directing explicit environmental channels verifying specifically Telegram indices parsing links seamlessly.
-
-## Detailed report
+# fish2018/pansou
 
 ### 1. Positioning
 PanSou defines itself tracking primarily aggregated cloud media indexing specifically serving explicitly robust RESTful endpoints tracking comprehensively Asian-market drive networks integrating deeply native conversational channel matrices securely.

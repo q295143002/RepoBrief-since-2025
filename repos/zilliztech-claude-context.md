@@ -1,36 +1,19 @@
 ---
-title: "zilliztech/claude-context"
+id: 997125912
 repo_name: "zilliztech/claude-context"
 url: "https://github.com/zilliztech/claude-context"
-github_url: "https://github.com/zilliztech/claude-context"
 stars: 5625
 language: "TypeScript"
-layout: repo
-tags:
-  - "Semantic Search"
-  - "Code Search"
-  - "MCP"
-  - "Claude Code"
-  - "Milvus"
-  - "Developer Tools"
-  - "Open Source"
+tags: ["Semantic Search","Code Search","MCP","Claude Code","Milvus","Developer Tools","Open Source"]
+original_description: "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."
+english_summary: "Claude Context is an MCP (Model Context Protocol) plugin that enables semantic search across massive codebases for AI agents. It allows Claude Code and other assistants to find relevant code snippets from millions of lines without exceeding context limits or incurring high costs."
+chinese_summary: null
+problems_solved: "- Context limit constraints when working on large projects\n- Inaccurate results from simple keyword searches in code\n- High token costs associated with loading entire directories into LLM prompts"
+how_to_use: "Install the MCP server using `claude mcp add`. Configure it with a Zilliz Cloud (Milvus) token and an OpenAI API key for embeddings. Once active, agents can use the `index_codebase` and `search_code` tools to intelligently retrieve code context."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Claude Context is an MCP (Model Context Protocol) plugin that enables semantic search across massive codebases for AI agents. It allows Claude Code and other assistants to find relevant code snippets from millions of lines without exceeding context limits or incurring high costs.
-
-## Problems solved
-
-- Context limit constraints when working on large projects
-- Inaccurate results from simple keyword searches in code
-- High token costs associated with loading entire directories into LLM prompts
-
-## How to get started
-
-Install the MCP server using `claude mcp add`. Configure it with a Zilliz Cloud (Milvus) token and an OpenAI API key for embeddings. Once active, agents can use the `index_codebase` and `search_code` tools to intelligently retrieve code context.
-
-## Detailed report
+# zilliztech/claude-context
 
 ### 1. Positioning
 zilliztech/claude-context is positioned as a claude context is an mcp (model context protocol) plugin that enables semantic search across massive codebases for ai agents. it allows claude code and other assistants to find relevant code snippets from millions of lines without exceeding context limits or incurring high costs. It aims to provide developers with a robust, TypeScript-based solution for code search mcp for claude code. make entire codebase the context for any coding agent.

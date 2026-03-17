@@ -1,32 +1,19 @@
 ---
-title: "Panniantong/Agent-Reach"
+id: 1165277268
 repo_name: "Panniantong/Agent-Reach"
 url: "https://github.com/Panniantong/Agent-Reach"
-github_url: "https://github.com/Panniantong/Agent-Reach"
 stars: 8851
 language: "Python"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Scraping"
-  - "Social Media"
-  - "Productivity"
-  - "Python"
+tags: ["AI Agent","Scraping","Social Media","Productivity","Python"]
+original_description: "Agent Reach: Give your AI Agent internet capabilities with one click. Supports YouTube, Twitter, Reddit, and more."
+english_summary: "Agent Reach is a 'scaffolding' tool that equips AI coding agents with powerful internet search and scraping capabilities for platforms like YouTube, Twitter, Reddit, and LinkedIn without API fees."
+chinese_summary: null
+problems_solved: "- Eliminates 'Internet blindness' for agents like Claude Code or Cursor; solves the high cost of social media APIs via cookie-based access; automates the installation and configuration of diverse scraping tools into a single workflow."
+how_to_use: "Tell your agent to install it: `pip install agent-reach` and then follow the guide at `agent-reach.me/install`. Use `agent-reach configure` to add your social media cookies (via Cookie-Editor), and run `agent-reach doctor` to verify channel availability."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Agent Reach is a 'scaffolding' tool that equips AI coding agents with powerful internet search and scraping capabilities for platforms like YouTube, Twitter, Reddit, and LinkedIn without API fees.
-
-## Problems solved
-
-- Eliminates 'Internet blindness' for agents like Claude Code or Cursor; solves the high cost of social media APIs via cookie-based access; automates the installation and configuration of diverse scraping tools into a single workflow.
-
-## How to get started
-
-Tell your agent to install it: `pip install agent-reach` and then follow the guide at `agent-reach.me/install`. Use `agent-reach configure` to add your social media cookies (via Cookie-Editor), and run `agent-reach doctor` to verify channel availability.
-
-## Detailed report
+# Panniantong/Agent-Reach
 
 ### 1. Positioning
 Agent Reach positions itself as the 'Internet Gateway' for the new generation of autonomous agents. It targets power users who want their AI assistants to perform real-world research, tracking, and content synthesis across the 'locked-down' social web.

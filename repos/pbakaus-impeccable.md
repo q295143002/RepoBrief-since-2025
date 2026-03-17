@@ -1,36 +1,19 @@
 ---
-title: "pbakaus/impeccable"
+id: 1097346685
 repo_name: "pbakaus/impeccable"
 url: "https://github.com/pbakaus/impeccable"
-github_url: "https://github.com/pbakaus/impeccable"
 stars: 6383
 language: "JavaScript"
-layout: repo
-tags:
-  - "Frontend Development"
-  - "UX/UI Design"
-  - "AI Agent Tools"
-  - "Web Design"
-  - "Design Systems"
-  - "Productivity"
+tags: ["Frontend Development","UX/UI Design","AI Agent Tools","Web Design","Design Systems","Productivity"]
+original_description: "The design language that makes your AI harness better at design."
+english_summary: "Impeccable is a specialized extension for AI coding agents (like Cursor and Claude Code) that provides deep expertise in frontend design. It includes 7 domain-specific reference files covering typography, color, motion, and UX writing, along with 17 steering commands (e.g., /audit, /polish, /delight) to guide the AI toward high-quality, professional UI results while explicitly avoiding common LLM design tropes."
+chinese_summary: null
+problems_solved: "- Generic AI designs: Fights the 'Inter font and purple gradient' bias of base models.\n- Poor accessibility: Includes steering for OKLCH color spaces and a11y audits.\n- UI anti-patterns: Explicitly instructs AI what NOT to do (e.g., no gray text on colored backgrounds, no nested cards).\n- Lack of design nuance: Provides modules for purposeful motion, staggered animations, and professional typography pairings."
+how_to_use: "Download the configuration files for your specific tool (Cursor, Claude Code, Gemini CLI, etc.). Place them in the appropriate configuration directory (e.g., `.cursor/` or `.claude/`). Once installed, use slash commands like `/audit` to check site quality or `/polish` for a final design pass."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Impeccable is a specialized extension for AI coding agents (like Cursor and Claude Code) that provides deep expertise in frontend design. It includes 7 domain-specific reference files covering typography, color, motion, and UX writing, along with 17 steering commands (e.g., /audit, /polish, /delight) to guide the AI toward high-quality, professional UI results while explicitly avoiding common LLM design tropes.
-
-## Problems solved
-
-- Generic AI designs: Fights the 'Inter font and purple gradient' bias of base models.
-- Poor accessibility: Includes steering for OKLCH color spaces and a11y audits.
-- UI anti-patterns: Explicitly instructs AI what NOT to do (e.g., no gray text on colored backgrounds, no nested cards).
-- Lack of design nuance: Provides modules for purposeful motion, staggered animations, and professional typography pairings.
-
-## How to get started
-
-Download the configuration files for your specific tool (Cursor, Claude Code, Gemini CLI, etc.). Place them in the appropriate configuration directory (e.g., `.cursor/` or `.claude/`). Once installed, use slash commands like `/audit` to check site quality or `/polish` for a final design pass.
-
-## Detailed report
+# pbakaus/impeccable
 
 ### 1. Positioning
 pbakaus/impeccable is positioned as a impeccable is a specialized extension for ai coding agents (like cursor and claude code) that provides deep expertise in frontend design. it includes 7 domain-specific reference files covering typography, color, motion, and ux writing, along with 17 steering commands (e.g., /audit, /polish, /delight) to guide the ai toward high-quality, professional ui results while explicitly avoiding common llm design tropes. It aims to provide developers with a robust, JavaScript-based solution for the design language that makes your ai harness better at design.

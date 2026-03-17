@@ -1,36 +1,19 @@
 ---
-title: "anthropics/claude-code-action"
+id: 986421638
 repo_name: "anthropics/claude-code-action"
 url: "https://github.com/anthropics/claude-code-action"
-github_url: "https://github.com/anthropics/claude-code-action"
 stars: 6235
 language: "TypeScript"
-layout: repo
-tags:
-  - "GitHub Actions"
-  - "Claude Code"
-  - "CI/CD Automation"
-  - "AI Coding Assistant"
-  - "Code Review"
-  - "DevOps"
+tags: ["GitHub Actions","Claude Code","CI/CD Automation","AI Coding Assistant","Code Review","DevOps"]
+original_description: null
+english_summary: "Claude Code Action integrates the capabilities of Claude Code directly into GitHub workflows. It intelligently detects context—such as @mentions in comments or issue assignments—to perform code reviews, answer architectural questions, and implement code changes. It supports multiple cloud providers (Anthropic, Bedrock, Vertex AI) and runs on your own GitHub runners for maximum security."
+chinese_summary: null
+problems_solved: "- Manual code review bottleneck: Automates PR reviews based on custom team checklists and security standards.\n- Slow issue triage: Automatically categorizes and labels issues based on content.\n- Out-of-sync documentation: Keeps docs updated automatically as code changes are merged.\n- Friction in PR contributions: Allows Claude to implement requested changes directly within a PR conversation."
+how_to_use: "The easiest setup is running `/install-github-app` inside the `claude` CLI. Alternatively, add the action to your `.github/workflows` YAML. Configure either `ANTHROPIC_API_KEY` or the appropriate AWS/Google/Microsoft credentials. It can be triggered by comments, labels, or schedules as defined in your workflow file."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Claude Code Action integrates the capabilities of Claude Code directly into GitHub workflows. It intelligently detects context—such as @mentions in comments or issue assignments—to perform code reviews, answer architectural questions, and implement code changes. It supports multiple cloud providers (Anthropic, Bedrock, Vertex AI) and runs on your own GitHub runners for maximum security.
-
-## Problems solved
-
-- Manual code review bottleneck: Automates PR reviews based on custom team checklists and security standards.
-- Slow issue triage: Automatically categorizes and labels issues based on content.
-- Out-of-sync documentation: Keeps docs updated automatically as code changes are merged.
-- Friction in PR contributions: Allows Claude to implement requested changes directly within a PR conversation.
-
-## How to get started
-
-The easiest setup is running `/install-github-app` inside the `claude` CLI. Alternatively, add the action to your `.github/workflows` YAML. Configure either `ANTHROPIC_API_KEY` or the appropriate AWS/Google/Microsoft credentials. It can be triggered by comments, labels, or schedules as defined in your workflow file.
-
-## Detailed report
+# anthropics/claude-code-action
 
 ### 1. Positioning
 anthropics/claude-code-action is positioned as a claude code action integrates the capabilities of claude code directly into github workflows. it intelligently detects context—such as @mentions in comments or issue assignments—to perform code reviews, answer architectural questions, and implement code changes. it supports multiple cloud providers (anthropic, bedrock, vertex ai) and runs on your own github runners for maximum security. It aims to provide developers with a robust, TypeScript-based solution for no description provided.

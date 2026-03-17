@@ -1,33 +1,19 @@
 ---
-title: "kijai/ComfyUI-WanVideoWrapper"
+id: 938926134
 repo_name: "kijai/ComfyUI-WanVideoWrapper"
 url: "https://github.com/kijai/ComfyUI-WanVideoWrapper"
-github_url: "https://github.com/kijai/ComfyUI-WanVideoWrapper"
 stars: 6162
 language: "Python"
-layout: repo
-tags:
-  - "ComfyUI"
-  - "WanVideo"
-  - "Video AI"
-  - "Generative Art"
+tags: ["ComfyUI","WanVideo","Video AI","Generative Art"]
+original_description: null
+english_summary: "A ComfyUI wrapper for the Wan video generation family, enabling seamless high-res video workflows."
+chinese_summary: null
+problems_solved: "- Steep learning curve for running raw video models\n- Lack of integration between Wan models and the ComfyUI ecosystem\n- High GPU requirements for unoptimized video generation"
+how_to_use: "Install via ComfyUI-Manager and download the Wan model weights to start generating video."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A ComfyUI wrapper for the Wan video generation family, enabling seamless high-res video workflows.
-
-## Problems solved
-
-- Steep learning curve for running raw video models
-- Lack of integration between Wan models and the ComfyUI ecosystem
-- High GPU requirements for unoptimized video generation
-
-## How to get started
-
-Install via ComfyUI-Manager and download the Wan model weights to start generating video.
-
-## Detailed report
+# kijai/ComfyUI-WanVideoWrapper
 
 ### 1. Positioning
 kijai/ComfyUI-WanVideoWrapper is positioned as a a comfyui wrapper for the wan video generation family, enabling seamless high-res video workflows. It aims to provide developers with a robust, Python-based solution for no description provided.

@@ -1,32 +1,19 @@
 ---
-title: "coleam00/context-engineering-intro"
+id: 1012480482
 repo_name: "coleam00/context-engineering-intro"
 url: "https://github.com/coleam00/context-engineering-intro"
-github_url: "https://github.com/coleam00/context-engineering-intro"
 stars: 12726
 language: "Python"
-layout: repo
-tags:
-  - "Context-Engineering"
-  - "AI-Coding"
-  - "Best-Practices"
-  - "Prompt-Engineering"
-  - "Software-Engineering"
+tags: ["Context-Engineering","AI-Coding","Best-Practices","Prompt-Engineering","Software-Engineering"]
+original_description: "A comprehensive template for getting started with Context Engineering."
+english_summary: "A philosophical guide highlighting best practices for structuring documentation and metadata contexts tailored exclusively for maximizing outputs from LLM coding assistants."
+chinese_summary: null
+problems_solved: "- Precisely how to transition away from unstructured prompting (Vibe coding) towards meticulously formatted context injections fundamentally reducing AI hallucinations and logic drift."
+how_to_use: "Clone the repository to utilize its foundational `.md` templates (e.g., `CLAUDE.md`, `INITIAL.md`). Describe a feature explicitly inside `INITIAL.md` and execute `/generate-prp` inside Claude to establish algorithmic blueprints."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A philosophical guide highlighting best practices for structuring documentation and metadata contexts tailored exclusively for maximizing outputs from LLM coding assistants.
-
-## Problems solved
-
-- Precisely how to transition away from unstructured prompting (Vibe coding) towards meticulously formatted context injections fundamentally reducing AI hallucinations and logic drift.
-
-## How to get started
-
-Clone the repository to utilize its foundational `.md` templates (e.g., `CLAUDE.md`, `INITIAL.md`). Describe a feature explicitly inside `INITIAL.md` and execute `/generate-prp` inside Claude to establish algorithmic blueprints.
-
-## Detailed report
+# coleam00/context-engineering-intro
 
 ### 1. Positioning
 This repository is a pedagogical template explicitly intended to enforce rigorous Software Engineering disciplines natively applied to interacting with sophisticated CLI AI agents (like Claude Code and Cursor).

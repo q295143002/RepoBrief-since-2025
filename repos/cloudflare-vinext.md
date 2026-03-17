@@ -1,40 +1,19 @@
 ---
-title: "cloudflare/vinext"
+id: 1165371200
 repo_name: "cloudflare/vinext"
 url: "https://github.com/cloudflare/vinext"
-github_url: "https://github.com/cloudflare/vinext"
 stars: 6638
 language: "TypeScript"
-layout: repo
-tags:
-  - "Cloudflare"
-  - "Next.js"
-  - "Vite"
-  - "TypeScript"
-  - "AI-Generated-Code"
-  - "Open-Source"
-  - "Web-Framework"
+tags: ["Cloudflare","Next.js","Vite","TypeScript","AI-Generated-Code","Open-Source","Web-Framework"]
+original_description: "Vite plugin that reimplements the Next.js API surface — deploy anywhere"
+english_summary: "vinext is an open-source Vite plugin by Cloudflare that reimplements the Next.js public API (routing, SSR, RSC, server actions, middleware, caching) on Vite rather than the Next.js compiler. It achieves ~94% API coverage, natively deploys to Cloudflare Workers, and supports other platforms via Nitro. The entire codebase was mostly written by Claude Code as an AI-driven development experiment."
+chinese_summary: null
+problems_solved: "- Next.js apps are locked to the Vercel toolchain. vinext lets existing Next.js projects run on Vite (faster HMR\n- smaller bundles\n- clean plugin API) and deploy natively to Cloudflare Workers — enabling D1\n- KV\n- R2\n- AI bindings — while preserving the familiar Next.js API. The incremental migration (`vinext init`\n- `vinext check`) is non-destructive."
+how_to_use: "Migrate: `npx vinext init` in your Next.js project root. Or manual: `npm install vinext`, replace `next` scripts with `vinext`. Fix issues: `vinext check`. Deploy to Cloudflare: `wrangler login`, then `vinext deploy`. Use Agent Skill: `npx skills add cloudflare/vinext` + tell AI to 'migrate this project to vinext'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-vinext is an open-source Vite plugin by Cloudflare that reimplements the Next.js public API (routing, SSR, RSC, server actions, middleware, caching) on Vite rather than the Next.js compiler. It achieves ~94% API coverage, natively deploys to Cloudflare Workers, and supports other platforms via Nitro. The entire codebase was mostly written by Claude Code as an AI-driven development experiment.
-
-## Problems solved
-
-- Next.js apps are locked to the Vercel toolchain. vinext lets existing Next.js projects run on Vite (faster HMR
-- smaller bundles
-- clean plugin API) and deploy natively to Cloudflare Workers — enabling D1
-- KV
-- R2
-- AI bindings — while preserving the familiar Next.js API. The incremental migration (`vinext init`
-- `vinext check`) is non-destructive.
-
-## How to get started
-
-Migrate: `npx vinext init` in your Next.js project root. Or manual: `npm install vinext`, replace `next` scripts with `vinext`. Fix issues: `vinext check`. Deploy to Cloudflare: `wrangler login`, then `vinext deploy`. Use Agent Skill: `npx skills add cloudflare/vinext` + tell AI to 'migrate this project to vinext'.
-
-## Detailed report
+# cloudflare/vinext
 
 ### 1. Positioning
 cloudflare/vinext is positioned as a vinext is an open-source vite plugin by cloudflare that reimplements the next.js public api (routing, ssr, rsc, server actions, middleware, caching) on vite rather than the next.js compiler. it achieves ~94% api coverage, natively deploys to cloudflare workers, and supports other platforms via nitro. the entire codebase was mostly written by claude code as an ai-driven development experiment. It aims to provide developers with a robust, TypeScript-based solution for vite plugin that reimplements the next.js api surface — deploy anywhere.

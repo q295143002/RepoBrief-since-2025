@@ -1,33 +1,19 @@
 ---
-title: "cocoindex-io/cocoindex"
+id: 942312530
 repo_name: "cocoindex-io/cocoindex"
 url: "https://github.com/cocoindex-io/cocoindex"
-github_url: "https://github.com/cocoindex-io/cocoindex"
 stars: 6438
 language: "Rust"
-layout: repo
-tags:
-  - "Real-time"
-  - "Indexing"
-  - "RAG"
-  - "Data Engineering"
+tags: ["Real-time","Indexing","RAG","Data Engineering"]
+original_description: "Data transformation framework for AI. Ultra performant, with incremental processing.  🌟 Star if you like it!"
+english_summary: "A real-time, high-throughput indexing system for AI applications requiring up-to-the-second data availability."
+chinese_summary: null
+problems_solved: "- High latency in standard RAG indexing pipelines\n- Old data being retrieved in fast-moving news or financial contexts\n- Complexity in maintaining streaming vector embeddings"
+how_to_use: "Connect your data stream to CocoIndex and use the real-time query interface for instant retrieval."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A real-time, high-throughput indexing system for AI applications requiring up-to-the-second data availability.
-
-## Problems solved
-
-- High latency in standard RAG indexing pipelines
-- Old data being retrieved in fast-moving news or financial contexts
-- Complexity in maintaining streaming vector embeddings
-
-## How to get started
-
-Connect your data stream to CocoIndex and use the real-time query interface for instant retrieval.
-
-## Detailed report
+# cocoindex-io/cocoindex
 
 ### 1. Positioning
 cocoindex-io/cocoindex is positioned as a a real-time, high-throughput indexing system for ai applications requiring up-to-the-second data availability. It aims to provide developers with a robust, Rust-based solution for data transformation framework for ai. ultra performant, with incremental processing.  🌟 star if you like it!.

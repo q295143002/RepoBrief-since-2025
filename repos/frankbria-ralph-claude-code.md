@@ -1,34 +1,19 @@
 ---
-title: "frankbria/ralph-claude-code"
+id: 1045721921
 repo_name: "frankbria/ralph-claude-code"
 url: "https://github.com/frankbria/ralph-claude-code"
-github_url: "https://github.com/frankbria/ralph-claude-code"
 stars: 7781
 language: "Shell"
-layout: repo
-tags:
-  - "Claude-Code"
-  - "Agentic-Workflow"
-  - "Autonomous-Coding"
-  - "CLI"
-  - "Shell-Scripting"
-  - "Productivity"
+tags: ["Claude-Code","Agentic-Workflow","Autonomous-Coding","CLI","Shell-Scripting","Productivity"]
+original_description: "Autonomous AI development loop for Claude Code with intelligent exit detection"
+english_summary: "Ralph is a wrapper for Claude Code that enables safe, continuous, and autonomous development loops, providing safeguards like circuit breakers and session management."
+chinese_summary: null
+problems_solved: "- Prevents runaway infinite loops and excessive API usage (rate limits/5-hour lockouts) while maintaining session continuity during long\n- autonomous coding tasks handled by Claude Code."
+how_to_use: "Install globally using the provided script. Run `ralph-enable` in your project to set up the config (.ralphrc). Define tasks in `PROMPT.md` and run `ralph --monitor` to start an autonomous loop with a live tmux dashboard."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Ralph is a wrapper for Claude Code that enables safe, continuous, and autonomous development loops, providing safeguards like circuit breakers and session management.
-
-## Problems solved
-
-- Prevents runaway infinite loops and excessive API usage (rate limits/5-hour lockouts) while maintaining session continuity during long
-- autonomous coding tasks handled by Claude Code.
-
-## How to get started
-
-Install globally using the provided script. Run `ralph-enable` in your project to set up the config (.ralphrc). Define tasks in `PROMPT.md` and run `ralph --monitor` to start an autonomous loop with a live tmux dashboard.
-
-## Detailed report
+# frankbria/ralph-claude-code
 
 ### 1. Positioning
 frankbria/ralph-claude-code is positioned as a ralph is a wrapper for claude code that enables safe, continuous, and autonomous development loops, providing safeguards like circuit breakers and session management. It aims to provide developers with a robust, Shell-based solution for autonomous ai development loop for claude code with intelligent exit detection.

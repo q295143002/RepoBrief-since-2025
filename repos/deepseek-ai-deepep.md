@@ -1,32 +1,19 @@
 ---
-title: "deepseek-ai/DeepEP"
+id: 933928679
 repo_name: "deepseek-ai/DeepEP"
 url: "https://github.com/deepseek-ai/DeepEP"
-github_url: "https://github.com/deepseek-ai/DeepEP"
 stars: 9045
 language: "Cuda"
-layout: repo
-tags:
-  - "Deep Learning"
-  - "MoE"
-  - "GPU"
-  - "CUDA"
-  - "Infrastructure"
+tags: ["Deep Learning","MoE","GPU","CUDA","Infrastructure"]
+original_description: "DeepEP: A communication library tailored for Mixture-of-Experts (MoE) and expert parallelism (EP). Native all-to-all GPU kernels."
+english_summary: "DeepEP is a specialized GPU communication library for MoE architectures, providing high-throughput all-to-all kernels with support for FP8 and asymmetric-domain bandwidth for internode scaling."
+chinese_summary: null
+problems_solved: "- Optimizes the 'dispatch and combine' bottleneck in Mixture-of-Experts training and inference; solves bandwidth imbalances in asymmetric network domains (NVLink to RDMA); reduces decoding latency for large-scale production inference (top-8 experts)."
+how_to_use: "Requires Ampere/Hopper GPUs and CUDA 11+. Install NVSHMEM first, then run `NVSHMEM_DIR=/path/to/nvshmem python setup.py install`. Import `Buffer` from `deep_ep` to manage MoE communication in your PyTorch project."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-DeepEP is a specialized GPU communication library for MoE architectures, providing high-throughput all-to-all kernels with support for FP8 and asymmetric-domain bandwidth for internode scaling.
-
-## Problems solved
-
-- Optimizes the 'dispatch and combine' bottleneck in Mixture-of-Experts training and inference; solves bandwidth imbalances in asymmetric network domains (NVLink to RDMA); reduces decoding latency for large-scale production inference (top-8 experts).
-
-## How to get started
-
-Requires Ampere/Hopper GPUs and CUDA 11+. Install NVSHMEM first, then run `NVSHMEM_DIR=/path/to/nvshmem python setup.py install`. Import `Buffer` from `deep_ep` to manage MoE communication in your PyTorch project.
-
-## Detailed report
+# deepseek-ai/DeepEP
 
 ### 1. Positioning
 DeepEP is a 'Low-Level Infrastructure' library for the frontier of LLM scaling. It targets AI researchers and infrastructure engineers building massive Mixture-of-Experts (MoE) models (like DeepSeek-V3) who require performance beyond what generic NCLL kernels can provide.

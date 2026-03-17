@@ -1,0 +1,52 @@
+.githubNav {
+  display: flex;
+  align-items: center;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: 6px 12px;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: var(--font-geist-sans);
+}
+
+.githubNav:hover {
+  background: var(--bg-secondary);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.iconGroup {
+  display: flex;
+  align-items: center;
+  color: var(--text-primary);
+}
+
+.divider {
+  width: 1px;
+  height: 16px;
+  background: var(--border);
+}
+
+.starGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.starCount {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+[data-theme="light"] .githubNav {
+  background: #ffffff;
+}
+
+[data-theme="light"] .githubNav:hover {
+  background: #f8fafc;
+}

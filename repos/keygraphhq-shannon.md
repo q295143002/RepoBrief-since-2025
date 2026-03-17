@@ -1,37 +1,19 @@
 ---
-title: "KeygraphHQ/shannon"
+id: 1065059442
 repo_name: "KeygraphHQ/shannon"
 url: "https://github.com/KeygraphHQ/shannon"
-github_url: "https://github.com/KeygraphHQ/shannon"
 stars: 33384
 language: "TypeScript"
-layout: repo
-tags:
-  - "Semantic Compression"
-  - "Network Protocol"
-  - "LLM"
-  - "Cost Optimization"
-  - "Tokenization"
-  - "Python"
-  - "Information Theory"
+tags: ["Semantic Compression","Network Protocol","LLM","Cost Optimization","Tokenization","Python","Information Theory"]
+original_description: "Shannon: An AI network protocol focused on semantic compression to reduce token usage and costs for processing long documents."
+english_summary: "A semantic network protocol designed to compress LLM inputs and reduce API costs."
+chinese_summary: null
+problems_solved: "- Prohibitive costs of processing massive documents (100k+ tokens) repeatedly.\n- Redundancy in natural language data sent over the wire to LLM APIs.\n- Latency caused by sending large batches of unstructured text."
+how_to_use: "pip install shannon-protocol\nshannon compress my_file.txt --target 0.1"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A semantic network protocol designed to compress LLM inputs and reduce API costs.
-
-## Problems solved
-
-- Prohibitive costs of processing massive documents (100k+ tokens) repeatedly.
-- Redundancy in natural language data sent over the wire to LLM APIs.
-- Latency caused by sending large batches of unstructured text.
-
-## How to get started
-
-pip install shannon-protocol
-shannon compress my_file.txt --target 0.1
-
-## Detailed report
+# KeygraphHQ/shannon
 
 ### 1. Positioning
 Shannon is a specialized network protocol that applies Shannon-entropy principles to LLM context. It 'compresses' text semantically before it is sent to an API, preserving the core meaning while drastically reducing the token count and associated costs.

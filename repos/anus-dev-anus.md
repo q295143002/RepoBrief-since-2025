@@ -1,33 +1,19 @@
 ---
-title: "anus-dev/ANUS"
+id: 945579718
 repo_name: "anus-dev/ANUS"
 url: "https://github.com/anus-dev/ANUS"
-github_url: "https://github.com/anus-dev/ANUS"
 stars: 6278
 language: "TypeScript"
-layout: repo
-tags:
-  - "Cybersecurity"
-  - "Neural Authentication"
-  - "Identity"
-  - "Protocol"
+tags: ["Cybersecurity","Neural Authentication","Identity","Protocol"]
+original_description: null
+english_summary: "An experimental security protocol that uses neural weight matrices as unique, unforgeable authentication signatures."
+chinese_summary: null
+problems_solved: "- Vulnerability of traditional password/token systems to phishing\n- Difficulty in creating truly 'biological' digital identities\n- Lack of secure authentication for autonomous agent-to-agent transactions"
+how_to_use: "Install the ANUS client and generate your first neural identity signature."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An experimental security protocol that uses neural weight matrices as unique, unforgeable authentication signatures.
-
-## Problems solved
-
-- Vulnerability of traditional password/token systems to phishing
-- Difficulty in creating truly 'biological' digital identities
-- Lack of secure authentication for autonomous agent-to-agent transactions
-
-## How to get started
-
-Install the ANUS client and generate your first neural identity signature.
-
-## Detailed report
+# anus-dev/ANUS
 
 ### 1. Positioning
 anus-dev/ANUS is positioned as a an experimental security protocol that uses neural weight matrices as unique, unforgeable authentication signatures. It aims to provide developers with a robust, TypeScript-based solution for no description provided.

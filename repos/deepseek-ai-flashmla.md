@@ -1,32 +1,19 @@
 ---
-title: "deepseek-ai/FlashMLA"
+id: 936473202
 repo_name: "deepseek-ai/FlashMLA"
 url: "https://github.com/deepseek-ai/FlashMLA"
-github_url: "https://github.com/deepseek-ai/FlashMLA"
 stars: 12514
 language: "C++"
-layout: repo
-tags:
-  - "CUDA-Kernel"
-  - "Inference-Optimization"
-  - "DeepSeek-V3"
-  - "Attention-Mechanism"
-  - "GPU-Programming"
+tags: ["CUDA-Kernel","Inference-Optimization","DeepSeek-V3","Attention-Mechanism","GPU-Programming"]
+original_description: "FlashMLA is DeepSeek's library of optimized attention kernels."
+english_summary: "A highly specialized repository containing optimized GPU attention kernels enabling unprecedented compute throughput for DeepSeek's V3 architecture series natively."
+chinese_summary: null
+problems_solved: "- Shatters memory and compute bottlenecks intrinsic to processing monstrous Latent Attention computations, unlocking tera-flop efficiency necessary explicitly for handling sophisticated multi-trillion parameter model inferencing processes accurately."
+how_to_use: "Clone the repository and deploy using `pip install -v .`. Initialize metadata bindings explicitly calling `get_mla_metadata()` prior to embedding `flash_mla_with_kvcache` strictly into the PyTorch inference loops."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A highly specialized repository containing optimized GPU attention kernels enabling unprecedented compute throughput for DeepSeek's V3 architecture series natively.
-
-## Problems solved
-
-- Shatters memory and compute bottlenecks intrinsic to processing monstrous Latent Attention computations, unlocking tera-flop efficiency necessary explicitly for handling sophisticated multi-trillion parameter model inferencing processes accurately.
-
-## How to get started
-
-Clone the repository and deploy using `pip install -v .`. Initialize metadata bindings explicitly calling `get_mla_metadata()` prior to embedding `flash_mla_with_kvcache` strictly into the PyTorch inference loops.
-
-## Detailed report
+# deepseek-ai/FlashMLA
 
 ### 1. Positioning
 FlashMLA establishes natively crucial foundational logic optimizing massive distributed inference structures exclusively defining parameters optimizing DeepSeek V3 methodologies supporting next-generation Sparse and Dense LLM token acceleration properties flawlessly.

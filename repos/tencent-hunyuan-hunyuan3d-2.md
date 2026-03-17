@@ -1,31 +1,19 @@
 ---
-title: "Tencent-Hunyuan/Hunyuan3D-2"
+id: 919835586
 repo_name: "Tencent-Hunyuan/Hunyuan3D-2"
 url: "https://github.com/Tencent-Hunyuan/Hunyuan3D-2"
-github_url: "https://github.com/Tencent-Hunyuan/Hunyuan3D-2"
 stars: 13285
 language: "Python"
-layout: repo
-tags:
-  - "Hunyuan"
-  - "3D Generation"
-  - "Tencent"
-  - "AI"
+tags: ["Hunyuan","3D Generation","Tencent","AI"]
+original_description: "Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation"
+english_summary: "An open-source, large-scale 3D synthesis ecosystem comprised of advanced diffusion transformers for generating highly detailed textured 3D meshes from images."
+chinese_summary: null
+problems_solved: "- Eliminates the complexity and technical hurdles of 3D modeling by automatically synthesizing high-quality, PBR-ready (Physically Based Rendering) meshes and textures directly from 2D images or text."
+how_to_use: "Install PyTorch and dependencies (`pip install -e .`), then instantiate the pipeline via Python: `Hunyuan3DDiTFlowMatchingPipeline.from_pretrained('tencent/Hunyuan3D-2')`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source, large-scale 3D synthesis ecosystem comprised of advanced diffusion transformers for generating highly detailed textured 3D meshes from images.
-
-## Problems solved
-
-- Eliminates the complexity and technical hurdles of 3D modeling by automatically synthesizing high-quality, PBR-ready (Physically Based Rendering) meshes and textures directly from 2D images or text.
-
-## How to get started
-
-Install PyTorch and dependencies (`pip install -e .`), then instantiate the pipeline via Python: `Hunyuan3DDiTFlowMatchingPipeline.from_pretrained('tencent/Hunyuan3D-2')`.
-
-## Detailed report
+# Tencent-Hunyuan/Hunyuan3D-2
 
 ### 1. Positioning
 Hunyuan3D 2.0 is a state-of-the-art foundation suite dedicated to large-scale generative 3D creation, drastically simplifying workflow integrations for game development, AR/VR, and film production.

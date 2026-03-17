@@ -1,36 +1,19 @@
 ---
-title: "router-for-me/CLIProxyAPI"
+id: 1012087571
 repo_name: "router-for-me/CLIProxyAPI"
 url: "https://github.com/router-for-me/CLIProxyAPI"
-github_url: "https://github.com/router-for-me/CLIProxyAPI"
 stars: 16044
 language: "Go"
-layout: repo
-tags:
-  - "CLI Adapter"
-  - "REST API"
-  - "Agent Tooling"
-  - "FastAPI"
-  - "Automation"
-  - "System Integration"
-  - "OpenAPI"
+tags: ["CLI Adapter","REST API","Agent Tooling","FastAPI","Automation","System Integration","OpenAPI"]
+original_description: "CLIProxyAPI: A lightweight proxy server that turns any command-line tool into a structured API for AI agents to consume."
+english_summary: "A universal proxy server that exposes command-line utilities as structured, agent-ready APIs."
+chinese_summary: null
+problems_solved: "- Inability of agents to interact with legacy CLI tools lacking REST APIs\n- Complexity in parsing messy stdout into agent-friendly JSON\n- Lack of rate-limiting and permission scoping for agent shell commands"
+how_to_use: "Install via pip: `pip install cliproxyapi`. Serve tools like git or ffmpeg via `cliproxy serve` to expose them as local REST endpoints."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A universal proxy server that exposes command-line utilities as structured, agent-ready APIs.
-
-## Problems solved
-
-- Inability of agents to interact with legacy CLI tools lacking REST APIs
-- Complexity in parsing messy stdout into agent-friendly JSON
-- Lack of rate-limiting and permission scoping for agent shell commands
-
-## How to get started
-
-Install via pip: `pip install cliproxyapi`. Serve tools like git or ffmpeg via `cliproxy serve` to expose them as local REST endpoints.
-
-## Detailed report
+# router-for-me/CLIProxyAPI
 
 ### 1. Positioning
 CLIProxyAPI is an adapter for local binaries. It wraps tools like `git` or `ffmpeg` in a REST/JSON interface, allowing agents to call them via HTTP without managing shell escapes or subprocesses.

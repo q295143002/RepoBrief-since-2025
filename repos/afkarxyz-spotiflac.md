@@ -1,33 +1,19 @@
 ---
-title: "afkarxyz/SpotiFLAC"
+id: 914139037
 repo_name: "afkarxyz/SpotiFLAC"
 url: "https://github.com/afkarxyz/SpotiFLAC"
-github_url: "https://github.com/afkarxyz/SpotiFLAC"
 stars: 5740
 language: "TypeScript"
-layout: repo
-tags:
-  - "Audio-Tools"
-  - "Lossless-Audio"
-  - "Spotify"
-  - "Tidal"
-  - "Audiophile-Utility"
-  - "Reverse-Engineering"
+tags: ["Audio-Tools","Lossless-Audio","Spotify","Tidal","Audiophile-Utility","Reverse-Engineering"]
+original_description: "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required."
+english_summary: "A utility that fetches high-fidelity (FLAC) audio versions of Spotify tracks by cross-referencing metadata with lossless streaming platforms."
+chinese_summary: null
+problems_solved: "- Spotify's lack of lossless audio quality; manual effort needed to find FLAC versions of saved playlists; high cost of multiple streaming subscriptions for audiophiles."
+how_to_use: "Download the binary for Windows/macOS/Linux; input your Spotify track/playlist URL; the tool automatically finds and downloads the lossless FLAC version from Tidal/Qobuz."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A utility that fetches high-fidelity (FLAC) audio versions of Spotify tracks by cross-referencing metadata with lossless streaming platforms.
-
-## Problems solved
-
-- Spotify's lack of lossless audio quality; manual effort needed to find FLAC versions of saved playlists; high cost of multiple streaming subscriptions for audiophiles.
-
-## How to get started
-
-Download the binary for Windows/macOS/Linux; input your Spotify track/playlist URL; the tool automatically finds and downloads the lossless FLAC version from Tidal/Qobuz.
-
-## Detailed report
+# afkarxyz/SpotiFLAC
 
 ### 1. Positioning
 afkarxyz/SpotiFLAC is positioned as a a utility that fetches high-fidelity (flac) audio versions of spotify tracks by cross-referencing metadata with lossless streaming platforms. It aims to provide developers with a robust, TypeScript-based solution for get spotify tracks in true flac from tidal, qobuz & amazon music — no account required.

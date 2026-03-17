@@ -1,37 +1,19 @@
 ---
-title: "shareAI-lab/learn-claude-code"
+id: 1010681419
 repo_name: "shareAI-lab/learn-claude-code"
 url: "https://github.com/shareAI-lab/learn-claude-code"
-github_url: "https://github.com/shareAI-lab/learn-claude-code"
 stars: 25791
 language: "TypeScript"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Education"
-  - "Reverse Engineering"
-  - "CLI Internals"
-  - "AI Engineering"
-  - "Tutorials"
-  - "Deep Dive"
+tags: ["Claude Code","Education","Reverse Engineering","CLI Internals","AI Engineering","Tutorials","Deep Dive"]
+original_description: "Learn Claude Code: A documentation and tutorial project focused on deep-diving into the internals of the Claude Code agentic CLI."
+english_summary: "In-depth technical tutorials and reverse-engineering notes for mastering Claude Code."
+chinese_summary: null
+problems_solved: "- Confusion regarding how Claude Code manages local file permissions and shell safety.\n- Lack of clarity on the 'Token Usage Cost' vs 'Task Accuracy' curve for different CLI modes.\n- Difficulty for developers to implement 'Claude-like' autonomy in their own custom agents."
+how_to_use: "git clone https://github.com/shareAI-lab/learn-claude-code\n# Browse the doc/ tutorial series in Markdown."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-In-depth technical tutorials and reverse-engineering notes for mastering Claude Code.
-
-## Problems solved
-
-- Confusion regarding how Claude Code manages local file permissions and shell safety.
-- Lack of clarity on the 'Token Usage Cost' vs 'Task Accuracy' curve for different CLI modes.
-- Difficulty for developers to implement 'Claude-like' autonomy in their own custom agents.
-
-## How to get started
-
-git clone https://github.com/shareAI-lab/learn-claude-code
-# Browse the doc/ tutorial series in Markdown.
-
-## Detailed report
+# shareAI-lab/learn-claude-code
 
 ### 1. Positioning
 Learn Claude Code is an educational repository dedicated to 'Mastering the machine.' It deconstructs the Claude Code CLI's behavior, exploring how it handles multi-file editing, tool-selection strategies, and project-wide 'Context Aggregation'. Target: Advanced AI engineers.

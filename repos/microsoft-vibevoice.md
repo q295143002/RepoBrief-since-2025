@@ -1,38 +1,19 @@
 ---
-title: "microsoft/VibeVoice"
+id: 1044296738
 repo_name: "microsoft/VibeVoice"
 url: "https://github.com/microsoft/VibeVoice"
-github_url: "https://github.com/microsoft/VibeVoice"
 stars: 23725
 language: "Python"
-layout: repo
-tags:
-  - "VibeVoice"
-  - "Speech Synthesis"
-  - "Microsoft Research"
-  - "Emotion AI"
-  - "Voice Cloning"
-  - "PyTorch"
-  - "Audio AI"
+tags: ["VibeVoice","Speech Synthesis","Microsoft Research","Emotion AI","Voice Cloning","PyTorch","Audio AI"]
+original_description: "VibeVoice: Microsoft's research into emotional and inflection-driven AI speech synthesis for More human-like agents."
+english_summary: "Microsoft's research project for high-fidelity, emotion-aware AI voice synthesis for agents."
+chinese_summary: null
+problems_solved: "- The 'Uncanny Valley' effect in AI assistants caused by robotic or monotone voice delivery.\n- Lack of 'Emotional Context' in AI responses (e.g., soundly happy when giving good news).\n- Difficulty in achieving zero-shot 'Voice Cloning' that preserves subtle human inflections."
+how_to_use: "git clone https://github.com/microsoft/VibeVoice\npip install -e .\npython synth.py --text 'Hello, I am your research assistant' --emotion 'excited'"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Microsoft's research project for high-fidelity, emotion-aware AI voice synthesis for agents.
-
-## Problems solved
-
-- The 'Uncanny Valley' effect in AI assistants caused by robotic or monotone voice delivery.
-- Lack of 'Emotional Context' in AI responses (e.g., soundly happy when giving good news).
-- Difficulty in achieving zero-shot 'Voice Cloning' that preserves subtle human inflections.
-
-## How to get started
-
-git clone https://github.com/microsoft/VibeVoice
-pip install -e .
-python synth.py --text 'Hello, I am your research assistant' --emotion 'excited'
-
-## Detailed report
+# microsoft/VibeVoice
 
 ### 1. Positioning
 VibeVoice is a Microsoft research project focusing on the 'Prosody' and 'Emotion' of AI speech. It is designed to be the 'Voice' of the next generation of empathetic agents, enabling them to sound genuinely human by understanding the emotional weight of their own text outputs.

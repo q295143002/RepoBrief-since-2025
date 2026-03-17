@@ -1,36 +1,19 @@
 ---
-title: "googleworkspace/cli"
+id: 1171026502
 repo_name: "googleworkspace/cli"
 url: "https://github.com/googleworkspace/cli"
-github_url: "https://github.com/googleworkspace/cli"
 stars: 19740
 language: "Rust"
-layout: repo
-tags:
-  - "Google Workspace"
-  - "CLI"
-  - "Productivity"
-  - "Automation"
-  - "Google API"
-  - "AI Skills"
-  - "Developer Tools"
+tags: ["Google Workspace","CLI","Productivity","Automation","Google API","AI Skills","Developer Tools"]
+original_description: "Google Workspace CLI: One command-line tool for Drive, Gmail, Calendar, and more. Includes AI agent skills."
+english_summary: "Google's official CLI for managing Workspace services with integrated AI research and reporting skills."
+chinese_summary: null
+problems_solved: "- Friction in managing Workspace data across multiple browser tabs\n- Lack of a 'Bulk Management' interface for Workspace admins and power users\n- Difficulty for external AI agents to access Workspace context securely"
+how_to_use: "Install via npm: `npm install -g @google/workspace-cli`. Authenticate with `gworkspace auth login` and use commands like `gworkspace drive search`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Google's official CLI for managing Workspace services with integrated AI research and reporting skills.
-
-## Problems solved
-
-- Friction in managing Workspace data across multiple browser tabs
-- Lack of a 'Bulk Management' interface for Workspace admins and power users
-- Difficulty for external AI agents to access Workspace context securely
-
-## How to get started
-
-Install via npm: `npm install -g @google/workspace-cli`. Authenticate with `gworkspace auth login` and use commands like `gworkspace drive search`.
-
-## Detailed report
+# googleworkspace/cli
 
 ### 1. Positioning
 The Google Workspace CLI is the official 'Swiss Army Knife' for the Google ecosystem. It provides a unified terminal interface for Gmail, Drive, Docs, etc., including 'Agent Skills' for cross-service AI tasks.

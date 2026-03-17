@@ -1,36 +1,19 @@
 ---
-title: "youhunwl/TVAPP"
+id: 946345763
 repo_name: "youhunwl/TVAPP"
 url: "https://github.com/youhunwl/TVAPP"
-github_url: "https://github.com/youhunwl/TVAPP"
 stars: 14277
 language: "JavaScript"
-layout: repo
-tags:
-  - "IPTV"
-  - "TVBox"
-  - "Smart TV"
-  - "Android TV"
-  - "Streaming Sources"
-  - "Live TV"
-  - "Curated Links"
+tags: ["IPTV","TVBox","Smart TV","Android TV","Streaming Sources","Live TV","Curated Links"]
+original_description: "TVAPP 优质应用 TVBox点播直播源收集"
+english_summary: "A curated collection of Chinese Smart TV applications, TVBox sources, and live broadcasting links."
+chinese_summary: null
+problems_solved: "- Fragmentation and ads in traditional Smart TV application stores\n- Difficulty in finding high-quality live TV streaming sources and JSON interfaces\n- Scattered resources for clean, ad-free Android TV APKs"
+how_to_use: "Download APKs from the repo links and sideload to your TV. Configure your TVBox app using the provided multi-warehouse JSON links."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A curated collection of Chinese Smart TV applications, TVBox sources, and live broadcasting links.
-
-## Problems solved
-
-- Fragmentation and ads in traditional Smart TV application stores
-- Difficulty in finding high-quality live TV streaming sources and JSON interfaces
-- Scattered resources for clean, ad-free Android TV APKs
-
-## How to get started
-
-Download APKs from the repo links and sideload to your TV. Configure your TVBox app using the provided multi-warehouse JSON links.
-
-## Detailed report
+# youhunwl/TVAPP
 
 ### 1. Positioning
 TVAPP is a community hub aggregating high-quality, often ad-free Smart TV apps and streaming sources for Chinese users.

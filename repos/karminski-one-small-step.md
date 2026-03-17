@@ -1,33 +1,19 @@
 ---
-title: "karminski/one-small-step"
+id: 917437753
 repo_name: "karminski/one-small-step"
 url: "https://github.com/karminski/one-small-step"
-github_url: "https://github.com/karminski/one-small-step"
 stars: 6807
 language: "Python"
-layout: repo
-tags:
-  - "AI-Education"
-  - "Machine-Learning"
-  - "Roadmap"
-  - "LLM"
-  - "Research"
-  - "Software-Engineering"
+tags: ["AI-Education","Machine-Learning","Roadmap","LLM","Research","Software-Engineering"]
+original_description: "这是一个简单的技术科普教程项目，主要聚焦于解释一些有趣的，前沿的技术概念和原理。每篇文章都力求在 5 分钟内阅读完成。"
+english_summary: "A structured educational roadmap for transitioning from software development to AI engineering, covering foundations, research papers, and practical projects."
+chinese_summary: null
+problems_solved: "- Information overload for new AI engineers; lack of clear progression from basic coding to model fine-tuning; difficulty identifying 'high-signal' research papers."
+how_to_use: "Navigate through the folders starting from 01_foundations; read the curated summaries and follow the linked external resources; complete the 'Small Steps' projects to build a portfolio."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A structured educational roadmap for transitioning from software development to AI engineering, covering foundations, research papers, and practical projects.
-
-## Problems solved
-
-- Information overload for new AI engineers; lack of clear progression from basic coding to model fine-tuning; difficulty identifying 'high-signal' research papers.
-
-## How to get started
-
-Navigate through the folders starting from 01_foundations; read the curated summaries and follow the linked external resources; complete the 'Small Steps' projects to build a portfolio.
-
-## Detailed report
+# karminski/one-small-step
 
 ### 1. Positioning
 karminski/one-small-step is positioned as a a structured educational roadmap for transitioning from software development to ai engineering, covering foundations, research papers, and practical projects. It aims to provide developers with a robust, Python-based solution for 这是一个简单的技术科普教程项目，主要聚焦于解释一些有趣的，前沿的技术概念和原理。每篇文章都力求在 5 分钟内阅读完成。.

@@ -1,37 +1,19 @@
 ---
-title: "hesreallyhim/awesome-claude-code"
+id: 969302809
 repo_name: "hesreallyhim/awesome-claude-code"
 url: "https://github.com/hesreallyhim/awesome-claude-code"
-github_url: "https://github.com/hesreallyhim/awesome-claude-code"
 stars: 27796
 language: "Python"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Anthropic"
-  - "Agentic CLI"
-  - "Community Resources"
-  - "Plugins"
-  - "Best Practices"
-  - "Developer Experience"
+tags: ["Claude Code","Anthropic","Agentic CLI","Community Resources","Plugins","Best Practices","Developer Experience"]
+original_description: "Awesome Claude Code: A curated list of resources, plugins, and advanced usage guides for the Anthropic Claude Code CLI."
+english_summary: "The ultimate community-curated directory of Claude Code plugins, setups, and best practices."
+chinese_summary: null
+problems_solved: "- Discovery challenge for verified community-built plugins for Claude Code.\n- Lack of centralized examples for advanced multi-repo or containerized setups.\n- Fragmentation of user-shared scripts for automating Claude Code workflows."
+how_to_use: "git clone https://github.com/hesreallyhim/awesome-claude-code\n# Browse categorized lists in README.md."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The ultimate community-curated directory of Claude Code plugins, setups, and best practices.
-
-## Problems solved
-
-- Discovery challenge for verified community-built plugins for Claude Code.
-- Lack of centralized examples for advanced multi-repo or containerized setups.
-- Fragmentation of user-shared scripts for automating Claude Code workflows.
-
-## How to get started
-
-git clone https://github.com/hesreallyhim/awesome-claude-code
-# Browse categorized lists in README.md.
-
-## Detailed report
+# hesreallyhim/awesome-claude-code
 
 ### 1. Positioning
 Awesome Claude Code is the primary community hub for developers using Anthropic's new agentic CLI. It aggregates everything from custom `.claudecode.json` configurations to MCP servers specifically tested for compatibility with the Claude Code ecosystem.

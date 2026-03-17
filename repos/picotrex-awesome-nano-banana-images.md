@@ -1,36 +1,19 @@
 ---
-title: "PicoTrex/Awesome-Nano-Banana-images"
+id: 1046423290
 repo_name: "PicoTrex/Awesome-Nano-Banana-images"
 url: "https://github.com/PicoTrex/Awesome-Nano-Banana-images"
-github_url: "https://github.com/PicoTrex/Awesome-Nano-Banana-images"
 stars: 21303
-language: ""
-layout: repo
-tags:
-  - "Dataset"
-  - "Vision AI"
-  - "Character Consistency"
-  - "Stable Diffusion"
-  - "Open Source"
-  - "Image Generation"
-  - "AI Benchmarking"
+language: null
+tags: ["Dataset","Vision AI","Character Consistency","Stable Diffusion","Open Source","Image Generation","AI Benchmarking"]
+original_description: "A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro. releases Nano-consistent-150K openly."
+english_summary: "An open dataset and showcase for high-consistency, AI-generated character and style imagery."
+chinese_summary: null
+problems_solved: "- Character morphing and inconsistency in AI image generation\n- Lack of large open datasets for fine-tuning unified vision models\n- Difficulty in benchmarking style adherence across scenes"
+how_to_use: "Access the `Nano-consistent-150K` dataset in the `data/` folder for training or benchmarking your models."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open dataset and showcase for high-consistency, AI-generated character and style imagery.
-
-## Problems solved
-
-- Character morphing and inconsistency in AI image generation
-- Lack of large open datasets for fine-tuning unified vision models
-- Difficulty in benchmarking style adherence across scenes
-
-## How to get started
-
-Access the `Nano-consistent-150K` dataset in the `data/` folder for training or benchmarking your models.
-
-## Detailed report
+# PicoTrex/Awesome-Nano-Banana-images
 
 ### 1. Positioning
 Awesome-Nano-Banana is a community dataset hub featuring the 150K image 'Nano-consistent' collection for character stability research.

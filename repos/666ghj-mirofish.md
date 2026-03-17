@@ -1,36 +1,19 @@
 ---
-title: "666ghj/MiroFish"
+id: 1104332987
 repo_name: "666ghj/MiroFish"
 url: "https://github.com/666ghj/MiroFish"
-github_url: "https://github.com/666ghj/MiroFish"
 stars: 20288
 language: "Python"
-layout: repo
-tags:
-  - "Swarm Intelligence"
-  - "Multi-Agent"
-  - "Prediction Engine"
-  - "AI Consensus"
-  - "Python"
-  - "Minimalist"
-  - "Decision Making"
+tags: ["Swarm Intelligence","Multi-Agent","Prediction Engine","AI Consensus","Python","Minimalist","Decision Making"]
+original_description: "MiroFish: A Simple and Universal Swarm Intelligence Engine, Predicting Anything."
+english_summary: "A minimalist and universal swarm intelligence engine designed for predictive analysis and collaborative agent reasoning."
+chinese_summary: null
+problems_solved: "- Over-complexity in existing multi-agent frameworks like AutoGen or CrewAI\n- Difficulty in achieving emergent 'Swarm Intelligence' (consensus) among disparate LLM agents\n- Rigidness in task delegation across different AI models"
+how_to_use: "Clone the repo and run: `python mirowish.py --task 'Predict the next move in this stock trend'`. Configure your LLM API keys in the `.env` file."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A minimalist and universal swarm intelligence engine designed for predictive analysis and collaborative agent reasoning.
-
-## Problems solved
-
-- Over-complexity in existing multi-agent frameworks like AutoGen or CrewAI
-- Difficulty in achieving emergent 'Swarm Intelligence' (consensus) among disparate LLM agents
-- Rigidness in task delegation across different AI models
-
-## How to get started
-
-Clone the repo and run: `python mirowish.py --task 'Predict the next move in this stock trend'`. Configure your LLM API keys in the `.env` file.
-
-## Detailed report
+# 666ghj/MiroFish
 
 ### 1. Positioning
 MiroFish is a 'Minimalist Swarm' engine focusing on 'Universal Prediction'. It uses a collective of agents to analyze data from different angles and converge on a single, highly-accurate prediction, valuing simplicity over complex architecture.

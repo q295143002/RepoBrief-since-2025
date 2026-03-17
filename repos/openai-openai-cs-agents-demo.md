@@ -1,37 +1,19 @@
 ---
-title: "openai/openai-cs-agents-demo"
+id: 1001787804
 repo_name: "openai/openai-cs-agents-demo"
 url: "https://github.com/openai/openai-cs-agents-demo"
-github_url: "https://github.com/openai/openai-cs-agents-demo"
 stars: 5928
 language: "Python"
-layout: repo
-tags:
-  - "OpenAI"
-  - "AI Agents"
-  - "Customer Service"
-  - "Next.js"
-  - "Python"
-  - "Demo"
-  - "Agentic Workflow"
+tags: ["OpenAI","AI Agents","Customer Service","Next.js","Python","Demo","Agentic Workflow"]
+original_description: "Demo of a customer service use case implemented with the OpenAI Agents SDK"
+english_summary: "This repository is an official demo from OpenAI showcasing multi-agent orchestration for customer service. It simulates an airline support system with specialized agents (Triage, Flight Info, Booking, FAQ, etc.) that can communicate and 'hand off' tasks to each other. It includes a Next.js frontend to visualize the agent's thought process and routing logic in real-time."
+chinese_summary: null
+problems_solved: "- Task complexity in chatbots: Demonstrates how to break down a large domain (airline support) into specialized, manageable agents.\n- Bot 'jailbreaking': Implements dedicated guardrails for relevance and system instruction protection.\n- Lack of visual debugging: Provides a UI that shows which agent is currently active and why a handoff occurred.\n- Static responses: Shows how tools can be used to fetch live flight data and perform real booking operations."
+how_to_use: "Set your `OPENAI_API_KEY`, install Python dependencies in the `python-backend` folder, and Node.js dependencies in the `ui` folder. Run `npm run dev` in the UI folder to launch both the frontend and the uvicorn backend. You can then interact with the system via a chat interface and watch the 'agent graph' update."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This repository is an official demo from OpenAI showcasing multi-agent orchestration for customer service. It simulates an airline support system with specialized agents (Triage, Flight Info, Booking, FAQ, etc.) that can communicate and 'hand off' tasks to each other. It includes a Next.js frontend to visualize the agent's thought process and routing logic in real-time.
-
-## Problems solved
-
-- Task complexity in chatbots: Demonstrates how to break down a large domain (airline support) into specialized, manageable agents.
-- Bot 'jailbreaking': Implements dedicated guardrails for relevance and system instruction protection.
-- Lack of visual debugging: Provides a UI that shows which agent is currently active and why a handoff occurred.
-- Static responses: Shows how tools can be used to fetch live flight data and perform real booking operations.
-
-## How to get started
-
-Set your `OPENAI_API_KEY`, install Python dependencies in the `python-backend` folder, and Node.js dependencies in the `ui` folder. Run `npm run dev` in the UI folder to launch both the frontend and the uvicorn backend. You can then interact with the system via a chat interface and watch the 'agent graph' update.
-
-## Detailed report
+# openai/openai-cs-agents-demo
 
 ### 1. Positioning
 openai/openai-cs-agents-demo is positioned as a this repository is an official demo from openai showcasing multi-agent orchestration for customer service. it simulates an airline support system with specialized agents (triage, flight info, booking, faq, etc.) that can communicate and 'hand off' tasks to each other. it includes a next.js frontend to visualize the agent's thought process and routing logic in real-time. It aims to provide developers with a robust, Python-based solution for demo of a customer service use case implemented with the openai agents sdk.

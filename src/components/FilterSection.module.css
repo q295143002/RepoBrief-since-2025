@@ -1,0 +1,74 @@
+.filterSection {
+  padding: 32px 40px;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.chip {
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: var(--chip-unselected-bg);
+  color: var(--chip-unselected-text);
+  border: 1px solid var(--border);
+  user-select: none;
+}
+
+.chip:hover {
+  background: var(--bg-tertiary);
+  border-color: var(--text-muted);
+}
+
+.chipSelected {
+  background: var(--chip-selected-bg);
+  color: var(--chip-selected-text);
+  border-color: var(--chip-selected-bg);
+}
+
+.chipSelected:hover {
+  filter: brightness(1.1);
+  background: var(--chip-selected-bg);
+  border-color: var(--chip-selected-bg);
+}
+
+.count {
+  opacity: 0.6;
+  font-size: 0.9em;
+  margin-left: 4px;
+}
+
+.moreButton {
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  color: var(--accent);
+  border: 1px dashed var(--accent);
+  transition: all 0.2s;
+}
+
+.moreButton:hover {
+  background: var(--accent-faded);
+  border-style: solid;
+}

@@ -1,37 +1,19 @@
 ---
-title: "google/adk-go"
+id: 978236277
 repo_name: "google/adk-go"
 url: "https://github.com/google/adk-go"
-github_url: "https://github.com/google/adk-go"
 stars: 7150
 language: "Go"
-layout: repo
-tags:
-  - "Google"
-  - "AI-Agent"
-  - "Go"
-  - "ADK"
-  - "Gemini"
-  - "Multi-Agent"
-  - "Cloud-Native"
+tags: ["Google","AI-Agent","Go","ADK","Gemini","Multi-Agent","Cloud-Native"]
+original_description: "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+english_summary: "Google's official Go implementation of the Agent Development Kit (ADK), providing an idiomatic Go framework for building multi-agent AI systems with Gemini (and other models), rich tool ecosystems, and cloud-native deployment support."
+chinese_summary: null
+problems_solved: "- Enables Go developers to build production-ready AI agents and multi-agent orchestration workflows natively in Go without switching to Python\n- leveraging Go's strengths in concurrency\n- performance\n- and cloud-native deployments."
+how_to_use: "Add to Go project: `go get google.golang.org/adk`. Define agent logic, tools, and orchestration in Go code. Deploy to Google Cloud Run or any container environment. Companion to the Python and Java ADK versions."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Google's official Go implementation of the Agent Development Kit (ADK), providing an idiomatic Go framework for building multi-agent AI systems with Gemini (and other models), rich tool ecosystems, and cloud-native deployment support.
-
-## Problems solved
-
-- Enables Go developers to build production-ready AI agents and multi-agent orchestration workflows natively in Go without switching to Python
-- leveraging Go's strengths in concurrency
-- performance
-- and cloud-native deployments.
-
-## How to get started
-
-Add to Go project: `go get google.golang.org/adk`. Define agent logic, tools, and orchestration in Go code. Deploy to Google Cloud Run or any container environment. Companion to the Python and Java ADK versions.
-
-## Detailed report
+# google/adk-go
 
 ### 1. Positioning
 google/adk-go is positioned as a google's official go implementation of the agent development kit (adk), providing an idiomatic go framework for building multi-agent ai systems with gemini (and other models), rich tool ecosystems, and cloud-native deployment support. It aims to provide developers with a robust, Go-based solution for an open-source, code-first go toolkit for building, evaluating, and deploying sophisticated ai agents with flexibility and control.

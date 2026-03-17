@@ -1,35 +1,19 @@
 ---
-title: "dataease/SQLBot"
+id: 969892666
 repo_name: "dataease/SQLBot"
 url: "https://github.com/dataease/SQLBot"
-github_url: "https://github.com/dataease/SQLBot"
 stars: 5674
 language: "JavaScript"
-layout: repo
-tags:
-  - "ChatBI"
-  - "RAG"
-  - "Text-to-SQL"
-  - "Data Analysis"
-  - "Business Intelligence"
-  - "Open Source"
+tags: ["ChatBI","RAG","Text-to-SQL","Data Analysis","Business Intelligence","Open Source"]
+original_description: "🔥 基于大模型和 RAG 的智能问数系统，对话式数据分析神器。Text-to-SQL Generation via LLMs using RAG."
+english_summary: "SQLBot is an intelligent question-answering system based on LLMs and RAG, specifically designed for conversational data analysis (ChatBI). It allows users to query databases using natural language and receive both data summaries and visual charts."
+chinese_summary: null
+problems_solved: "- Complexity of traditional BI tools for non-technical users\n- Manual SQL writing for repeated data requests\n- Lack of direct integration between AI agents and organizational data sources"
+how_to_use: "Deploy via Docker or 1Panel. Configure your LLM provider and data source in the web UI. Users can then ask questions in natural language to generate SQL, retrieve data, and create visualizations. It also supports integration into tools like n8n and Dify via MCP."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-SQLBot is an intelligent question-answering system based on LLMs and RAG, specifically designed for conversational data analysis (ChatBI). It allows users to query databases using natural language and receive both data summaries and visual charts.
-
-## Problems solved
-
-- Complexity of traditional BI tools for non-technical users
-- Manual SQL writing for repeated data requests
-- Lack of direct integration between AI agents and organizational data sources
-
-## How to get started
-
-Deploy via Docker or 1Panel. Configure your LLM provider and data source in the web UI. Users can then ask questions in natural language to generate SQL, retrieve data, and create visualizations. It also supports integration into tools like n8n and Dify via MCP.
-
-## Detailed report
+# dataease/SQLBot
 
 ### 1. Positioning
 dataease/SQLBot is positioned as a sqlbot is an intelligent question-answering system based on llms and rag, specifically designed for conversational data analysis (chatbi). it allows users to query databases using natural language and receive both data summaries and visual charts. It aims to provide developers with a robust, JavaScript-based solution for 🔥 基于大模型和 rag 的智能问数系统，对话式数据分析神器。text-to-sql generation via llms using rag.

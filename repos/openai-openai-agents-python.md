@@ -1,36 +1,19 @@
 ---
-title: "openai/openai-agents-python"
+id: 946380199
 repo_name: "openai/openai-agents-python"
 url: "https://github.com/openai/openai-agents-python"
-github_url: "https://github.com/openai/openai-agents-python"
 stars: 19953
 language: "Python"
-layout: repo
-tags:
-  - "OpenAI"
-  - "Agent SDK"
-  - "Multi-Agent"
-  - "Python"
-  - "Orchestration"
-  - "LiteLLM"
-  - "AI Safety"
+tags: ["OpenAI","Agent SDK","Multi-Agent","Python","Orchestration","LiteLLM","AI Safety"]
+original_description: "OpenAI Agents Python SDK: A lightweight, powerful framework for building multi-agent workflows across 100+ LLMs."
+english_summary: "OpenAI's official Python SDK for building modular, provider-agnostic multi-agent systems."
+chinese_summary: null
+problems_solved: "- Over-complexity and 'Heavy' abstractions in early agent frameworks like LangChain\n- Lock-in to specific model providers—needing a tool that works with OpenAI, Claude, and local models\n- Complexity in managing 'Handoffs' between specialized agents"
+how_to_use: "Install via pip: `pip install openai-agents`. Use the `Agent` and `Runner` classes to define instructions, tools, and cross-agent handoff logic."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-OpenAI's official Python SDK for building modular, provider-agnostic multi-agent systems.
-
-## Problems solved
-
-- Over-complexity and 'Heavy' abstractions in early agent frameworks like LangChain
-- Lock-in to specific model providers—needing a tool that works with OpenAI, Claude, and local models
-- Complexity in managing 'Handoffs' between specialized agents
-
-## How to get started
-
-Install via pip: `pip install openai-agents`. Use the `Agent` and `Runner` classes to define instructions, tools, and cross-agent handoff logic.
-
-## Detailed report
+# openai/openai-agents-python
 
 ### 1. Positioning
 The OpenAI Agents SDK is a 'Modern minimalist' framework. It prioritizes 'Provider Agnosticism' (via LiteLLM) and 'Functional Simplicity,' focusing on Instructions, Tools, Guardrails, and Handoffs.

@@ -1,36 +1,19 @@
 ---
-title: "RightNow-AI/openfang"
+id: 1166139870
 repo_name: "RightNow-AI/openfang"
 url: "https://github.com/RightNow-AI/openfang"
-github_url: "https://github.com/RightNow-AI/openfang"
 stars: 14098
 language: "Rust"
-layout: repo
-tags:
-  - "Agent OS"
-  - "Rust"
-  - "Autonomous Agents"
-  - "High Performance"
-  - "Security"
-  - "WASM"
-  - "System Software"
+tags: ["Agent OS","Rust","Autonomous Agents","High Performance","Security","WASM","System Software"]
+original_description: "OpenFang: The Agent Operating System built in Rust. One binary. Battle-tested."
+english_summary: "A robust, high-performance open-source Agent Operating System built entirely in Rust packed into a single binary."
+chinese_summary: null
+problems_solved: "- Latency and bloat in traditional Python-based agent frameworks\n- Security vulnerabilities in running autonomous agents without sandboxing\n- Complexity in scaling agent orchestration across enterprise environments"
+how_to_use: "Install the binary, run `openfang init`, and start the daemon. Use the local dashboard to activate and monitor autonomous agent 'Hands'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A robust, high-performance open-source Agent Operating System built entirely in Rust packed into a single binary.
-
-## Problems solved
-
-- Latency and bloat in traditional Python-based agent frameworks
-- Security vulnerabilities in running autonomous agents without sandboxing
-- Complexity in scaling agent orchestration across enterprise environments
-
-## How to get started
-
-Install the binary, run `openfang init`, and start the daemon. Use the local dashboard to activate and monitor autonomous agent 'Hands'.
-
-## Detailed report
+# RightNow-AI/openfang
 
 ### 1. Positioning
 OpenFang is an infrastructure layer for AI: a standalone, Rust-built Agent Operating System for secure execution and scaling of autonomous agents.

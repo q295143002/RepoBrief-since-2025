@@ -1,33 +1,19 @@
 ---
-title: "HKUDS/AutoAgent"
+id: 928318862
 repo_name: "HKUDS/AutoAgent"
 url: "https://github.com/HKUDS/AutoAgent"
-github_url: "https://github.com/HKUDS/AutoAgent"
 stars: 8654
 language: "Python"
-layout: repo
-tags:
-  - "Multi-Agent-Framework"
-  - "Autonomous-Agents"
-  - "Zero-Code"
-  - "AI-Development"
-  - "Deep-Research"
-  - "LLM-Orchestration"
+tags: ["Multi-Agent-Framework","Autonomous-Agents","Zero-Code","AI-Development","Deep-Research","LLM-Orchestration"]
+original_description: "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\""
+english_summary: "A zero-code framework for building and orchestrating autonomous LLM agents and multi-agent workflows using natural language alone."
+chinese_summary: null
+problems_solved: "- Coding requirement for custom AI agents; high manual effort in designing collaborative workflows; rigid agent capabilities."
+how_to_use: "Clone repo; pip install -e .; setup Docker for sandboxing; configure .env with API keys; run 'auto main' for CLI mode."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A zero-code framework for building and orchestrating autonomous LLM agents and multi-agent workflows using natural language alone.
-
-## Problems solved
-
-- Coding requirement for custom AI agents; high manual effort in designing collaborative workflows; rigid agent capabilities.
-
-## How to get started
-
-Clone repo; pip install -e .; setup Docker for sandboxing; configure .env with API keys; run 'auto main' for CLI mode.
-
-## Detailed report
+# HKUDS/AutoAgent
 
 ### 1. Positioning
 HKUDS/AutoAgent is positioned as a a zero-code framework for building and orchestrating autonomous llm agents and multi-agent workflows using natural language alone. It aims to provide developers with a robust, Python-based solution for "autoagent: fully-automated and zero-code llm agent framework".

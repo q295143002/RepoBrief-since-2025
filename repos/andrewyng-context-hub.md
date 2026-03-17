@@ -1,35 +1,19 @@
 ---
-title: "andrewyng/context-hub"
+id: 1086436947
 repo_name: "andrewyng/context-hub"
 url: "https://github.com/andrewyng/context-hub"
-github_url: "https://github.com/andrewyng/context-hub"
 stars: 5598
 language: "JavaScript"
-layout: repo
-tags:
-  - "Documentation"
-  - "AI Coding"
-  - "Registry"
-  - "Knowledge Management"
-  - "CLI"
-  - "Open Source"
+tags: ["Documentation","AI Coding","Registry","Knowledge Management","CLI","Open Source"]
+original_description: null
+english_summary: "Context Hub (Chub) is a specialized registry designed for AI coding agents to find and learn from high-quality documentation. It reduces agent hallucinations by providing curated, versioned Markdown docs and allows agents to 'get smarter' through local annotations and feedback loops."
+chinese_summary: null
+problems_solved: "- AI hallucinations caused by outdated or missing API documentation\n- Loss of knowledge between agent sessions\n- Lack of a standardized feedback loop between AI agents and documentation maintainers"
+how_to_use: "Initialize Chub in your agent's environment. Prompt the agent to use `chub search` and `chub get` to fetch official docs. Agents can also use `chub annotate` to save local notes that will automatically appear in future sessions."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Context Hub (Chub) is a specialized registry designed for AI coding agents to find and learn from high-quality documentation. It reduces agent hallucinations by providing curated, versioned Markdown docs and allows agents to 'get smarter' through local annotations and feedback loops.
-
-## Problems solved
-
-- AI hallucinations caused by outdated or missing API documentation
-- Loss of knowledge between agent sessions
-- Lack of a standardized feedback loop between AI agents and documentation maintainers
-
-## How to get started
-
-Initialize Chub in your agent's environment. Prompt the agent to use `chub search` and `chub get` to fetch official docs. Agents can also use `chub annotate` to save local notes that will automatically appear in future sessions.
-
-## Detailed report
+# andrewyng/context-hub
 
 ### 1. Positioning
 andrewyng/context-hub is positioned as a context hub (chub) is a specialized registry designed for ai coding agents to find and learn from high-quality documentation. it reduces agent hallucinations by providing curated, versioned markdown docs and allows agents to 'get smarter' through local annotations and feedback loops. It aims to provide developers with a robust, JavaScript-based solution for no description provided.

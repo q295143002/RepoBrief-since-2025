@@ -1,36 +1,19 @@
 ---
-title: "msitarzewski/agency-agents"
+id: 1075372545
 repo_name: "msitarzewski/agency-agents"
 url: "https://github.com/msitarzewski/agency-agents"
-github_url: "https://github.com/msitarzewski/agency-agents"
 stars: 37142
 language: "Shell"
-layout: repo
-tags:
-  - "Multi-Agent"
-  - "Agent Orchestration"
-  - "Creative Agency"
-  - "Task Delegation"
-  - "Python"
-  - "AI Workflow"
-  - "Quality Control"
+tags: ["Multi-Agent","Agent Orchestration","Creative Agency","Task Delegation","Python","AI Workflow","Quality Control"]
+original_description: "Agency-Agents is a framework for multi-agent orchestration simulating an advertising agency. It excels at task decomposition, delegation, and auditing across different LLM personas."
+english_summary: "A specialized multi-agent framework patterned after high-efficiency team structures like creative agencies."
+chinese_summary: null
+problems_solved: "- Inefficiency when a single agent tries to handle mixed creative and technical tasks simultaneously\n- Lack of a clear 'account management' or 'quality control' layer in autonomous agent swarms\n- Difficulty in coordinating work between models of varying costs and capabilities effectively"
+how_to_use: "Clone the repo and install Python dependencies. Run your first campaign: `python main.py --campaign 'Launch a new AI tool'`. Define your team in the `agency.json` configuration."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A specialized multi-agent framework patterned after high-efficiency team structures like creative agencies.
-
-## Problems solved
-
-- Inefficiency when a single agent tries to handle mixed creative and technical tasks simultaneously
-- Lack of a clear 'account management' or 'quality control' layer in autonomous agent swarms
-- Difficulty in coordinating work between models of varying costs and capabilities effectively
-
-## How to get started
-
-Clone the repo and install Python dependencies. Run your first campaign: `python main.py --campaign 'Launch a new AI tool'`. Define your team in the `agency.json` configuration.
-
-## Detailed report
+# msitarzewski/agency-agents
 
 ### 1. Positioning
 Agency-Agents is a multi-agent orchestration framework that mimics a professional agency structure. It divides tasks between specific roles (e.g., Creative Director, Copywriter, Strategist) to achieve professional-grade outputs through collaborative iteration.

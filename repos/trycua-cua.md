@@ -1,29 +1,19 @@
 ---
-title: "trycua/cua"
+id: 925270205
 repo_name: "trycua/cua"
 url: "https://github.com/trycua/cua"
-github_url: "https://github.com/trycua/cua"
 stars: 13044
 language: "Python"
-layout: repo
-tags:
-  - "AI Agent"
-  - "UI Automation"
+tags: ["AI Agent","UI Automation"]
+original_description: "Build, benchmark, and deploy agents that use computers"
+english_summary: "A framework encompassing an SDK and virtual sandbox environments allowing developers to construct AI agents capable of autonomous UI automation and computer usage."
+chinese_summary: null
+problems_solved: "- Abstracts the brutal complexity of OS interfacing, GUI parsing, and virtualization logic necessary to safely enable AI models to interface with actual operating systems."
+how_to_use: "Use Python to import `from computer import Computer`. Initialize a Computer class targeting an OS/virtual provider, passing it into an AI Agent definition to execute OS commands."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A framework encompassing an SDK and virtual sandbox environments allowing developers to construct AI agents capable of autonomous UI automation and computer usage.
-
-## Problems solved
-
-- Abstracts the brutal complexity of OS interfacing, GUI parsing, and virtualization logic necessary to safely enable AI models to interface with actual operating systems.
-
-## How to get started
-
-Use Python to import `from computer import Computer`. Initialize a Computer class targeting an OS/virtual provider, passing it into an AI Agent definition to execute OS commands.
-
-## Detailed report
+# trycua/cua
 
 ### 1. Positioning
 Cua supplies a comprehensive infrastructure layer defining how Agentic AIs interface visually and functionally with operating system GUI surfaces, spanning virtualization to benchmark diagnostics.

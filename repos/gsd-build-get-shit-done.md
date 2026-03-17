@@ -1,37 +1,19 @@
 ---
-title: "gsd-build/get-shit-done"
+id: 1116260703
 repo_name: "gsd-build/get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"
-github_url: "https://github.com/gsd-build/get-shit-done"
 stars: 29106
 language: "JavaScript"
-layout: repo
-tags:
-  - "AI Task Runner"
-  - "Velocity"
-  - "CLI"
-  - "Automation"
-  - "Bash"
-  - "TypeScript"
-  - "Greedy Execution"
+tags: ["AI Task Runner","Velocity","CLI","Automation","Bash","TypeScript","Greedy Execution"]
+original_description: "Get-Shit-Done (GSD): A radical AI task runner that focuses on immediate execution and 'getting things done' without over-planning."
+english_summary: "A high-velocity AI task runner focused on rapid execution and minimal administrative overhead."
+chinese_summary: null
+problems_solved: "- 'Analysis Paralysis' in complex agent frameworks where agents spend more time planning than coding.\n- Overheating/Token waste caused by excessive self-reflection loops in simple tasks.\n- Friction in integrating AI assistants into fast-paced bash-focused workflows."
+how_to_use: "npm install -g @gsd-build/gsd\ngsd \"Deploy this site to Vercel and tell the team on Slack\""
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-velocity AI task runner focused on rapid execution and minimal administrative overhead.
-
-## Problems solved
-
-- 'Analysis Paralysis' in complex agent frameworks where agents spend more time planning than coding.
-- Overheating/Token waste caused by excessive self-reflection loops in simple tasks.
-- Friction in integrating AI assistants into fast-paced bash-focused workflows.
-
-## How to get started
-
-npm install -g @gsd-build/gsd
-gsd "Deploy this site to Vercel and tell the team on Slack"
-
-## Detailed report
+# gsd-build/get-shit-done
 
 ### 1. Positioning
 GSD is a pragmatist's AI agent. Built for engineers who prioritize 'execution speed' above all else, it bypasses traditional deep-planning cycles for simple tasks, focusing on 'First-Pass Execution' and fixing errors on the fly. It is the 'Anti-Agile' of AI agents.

@@ -1,33 +1,19 @@
 ---
-title: "multimodal-art-projection/YuE"
+id: 920995232
 repo_name: "multimodal-art-projection/YuE"
 url: "https://github.com/multimodal-art-projection/YuE"
-github_url: "https://github.com/multimodal-art-projection/YuE"
 stars: 6083
 language: "Python"
-layout: repo
-tags:
-  - "AI-Music"
-  - "Generative-AI"
-  - "Music-Production"
-  - "Foundation-Model"
-  - "Python"
-  - "Deep-Learning"
+tags: ["AI-Music","Generative-AI","Music-Production","Foundation-Model","Python","Deep-Learning"]
+original_description: "YuE: Open Full-song Music Generation Foundation Model, something similar to Suno.ai but open"
+english_summary: "A state-of-the-art music foundation model capable of generating full, high-fidelity songs with vocals and instrumentation from text prompts."
+chinese_summary: null
+problems_solved: "- Lack of high-quality, open-weights music models; difficulty generating long-form coherent musical structures; limited availability of vocal-inclusive AI music generation."
+how_to_use: "Requires GPU with 24GB+ VRAM; follow installation steps in 'setup.md'; use 'python generate.py --prompt \"Happy rock song with female vocals\"'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A state-of-the-art music foundation model capable of generating full, high-fidelity songs with vocals and instrumentation from text prompts.
-
-## Problems solved
-
-- Lack of high-quality, open-weights music models; difficulty generating long-form coherent musical structures; limited availability of vocal-inclusive AI music generation.
-
-## How to get started
-
-Requires GPU with 24GB+ VRAM; follow installation steps in 'setup.md'; use 'python generate.py --prompt "Happy rock song with female vocals"'.
-
-## Detailed report
+# multimodal-art-projection/YuE
 
 ### 1. Positioning
 multimodal-art-projection/YuE is positioned as a a state-of-the-art music foundation model capable of generating full, high-fidelity songs with vocals and instrumentation from text prompts. It aims to provide developers with a robust, Python-based solution for yue: open full-song music generation foundation model, something similar to suno.ai but open.

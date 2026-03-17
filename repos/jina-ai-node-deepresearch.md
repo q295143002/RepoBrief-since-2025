@@ -1,33 +1,19 @@
 ---
-title: "jina-ai/node-DeepResearch"
+id: 922423439
 repo_name: "jina-ai/node-DeepResearch"
 url: "https://github.com/jina-ai/node-DeepResearch"
-github_url: "https://github.com/jina-ai/node-DeepResearch"
 stars: 5116
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI-Research"
-  - "Node.js"
-  - "Web-Scraping"
-  - "Jina-AI"
-  - "Agents"
-  - "Search-Engine"
+tags: ["AI-Research","Node.js","Web-Scraping","Jina-AI","Agents","Search-Engine"]
+original_description: "Keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget)"
+english_summary: "A Node.js framework for building autonomous research agents that perform deep web browsing, information synthesis, and report generation."
+chinese_summary: null
+problems_solved: "- Manual research takes hours; AI agents often lack real-time web context; high cost of proprietary research platforms."
+how_to_use: "Clone repo; install dependencies; configure Jina and LLM keys; run 'node index.js \"Research the impact of X\"' to generate a detailed markdown report."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A Node.js framework for building autonomous research agents that perform deep web browsing, information synthesis, and report generation.
-
-## Problems solved
-
-- Manual research takes hours; AI agents often lack real-time web context; high cost of proprietary research platforms.
-
-## How to get started
-
-Clone repo; install dependencies; configure Jina and LLM keys; run 'node index.js "Research the impact of X"' to generate a detailed markdown report.
-
-## Detailed report
+# jina-ai/node-DeepResearch
 
 ### 1. Positioning
 jina-ai/node-DeepResearch is positioned as a a node.js framework for building autonomous research agents that perform deep web browsing, information synthesis, and report generation. It aims to provide developers with a robust, TypeScript-based solution for keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget).

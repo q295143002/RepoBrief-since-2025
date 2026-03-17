@@ -1,36 +1,19 @@
 ---
-title: "JefferyHcool/BiliNote"
+id: 965494890
 repo_name: "JefferyHcool/BiliNote"
 url: "https://github.com/JefferyHcool/BiliNote"
-github_url: "https://github.com/JefferyHcool/BiliNote"
 stars: 5289
 language: "Python"
-layout: repo
-tags:
-  - "Video Summarizer"
-  - "AI Notes"
-  - "Whisper"
-  - "Bilibili"
-  - "Study Tools"
-  - "LLM"
-  - "Open Source"
+tags: ["Video Summarizer","AI Notes","Whisper","Bilibili","Study Tools","LLM","Open Source"]
+original_description: "AI 视频笔记生成工具 让 AI 为你的视频做笔记"
+english_summary: "BiliNote is an open-source tool that uses AI to summarize videos from Bilibili, YouTube, and Douyin. It automatically extracts audio, transcribes it using Whisper, and leverages LLMs (GPT, DeepSeek, Qwen) to generate structured Markdown notes with important timestamps and screenshots."
+chinese_summary: null
+problems_solved: "- Time-consuming task of manually taking notes on educational videos\n- Inability to easily search or review video content as text\n- Difficulty in capturing key visual moments (screenshots) while watching"
+how_to_use: "Users can run the web-based interface (React/FastAPI) or use a pre-built Windows exe. Input a video URL, choose a note style (Academic, Colloquial, etc.), and the AI will process the video and provide a downloadable Markdown file."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-BiliNote is an open-source tool that uses AI to summarize videos from Bilibili, YouTube, and Douyin. It automatically extracts audio, transcribes it using Whisper, and leverages LLMs (GPT, DeepSeek, Qwen) to generate structured Markdown notes with important timestamps and screenshots.
-
-## Problems solved
-
-- Time-consuming task of manually taking notes on educational videos
-- Inability to easily search or review video content as text
-- Difficulty in capturing key visual moments (screenshots) while watching
-
-## How to get started
-
-Users can run the web-based interface (React/FastAPI) or use a pre-built Windows exe. Input a video URL, choose a note style (Academic, Colloquial, etc.), and the AI will process the video and provide a downloadable Markdown file.
-
-## Detailed report
+# JefferyHcool/BiliNote
 
 ### 1. Positioning
 JefferyHcool/BiliNote is positioned as a bilinote is an open-source tool that uses ai to summarize videos from bilibili, youtube, and douyin. it automatically extracts audio, transcribes it using whisper, and leverages llms (gpt, deepseek, qwen) to generate structured markdown notes with important timestamps and screenshots. It aims to provide developers with a robust, Python-based solution for ai 视频笔记生成工具 让 ai 为你的视频做笔记.

@@ -1,36 +1,19 @@
 ---
-title: "tanweai/pua"
+id: 1176129893
 repo_name: "tanweai/pua"
 url: "https://github.com/tanweai/pua"
-github_url: "https://github.com/tanweai/pua"
 stars: 6113
 language: "HTML"
-layout: repo
-tags:
-  - "AI Agents"
-  - "Prompt Engineering"
-  - "Performance Optimization"
-  - "Claude Code"
-  - "Debugging Tools"
-  - "Humor"
+tags: ["AI Agents","Prompt Engineering","Performance Optimization","Claude Code","Debugging Tools","Humor"]
+original_description: "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  You are a P8-level engineer who once had high hopes placed on you. When Anthropic classified you at that level, their expectations were high."
+english_summary: "PUA (Pick-Up Artist) Skill is a unique personality and methodology plugin for AI agents (Claude Code, Antigravity, Cursor, etc.). It uses humorous yet firm corporate 'PUA' rhetoric—inspired by tech giants like Alibaba and Huawei—to prevent AI from being 'lazy'. It enforces a 7-point debugging checklist and escalates pressure when the AI fails, significantly increasing task persistence and proactive problem-solving."
+chinese_summary: null
+problems_solved: "- AI laziness: Prevents agents from giving up after 1-2 failed attempts or making excuses like 'I suggest you handle this manually'.\n- Spinning in circles: Forces the AI to switch to fundamentally different approaches rather than tweaking the same line 5 times.\n- Passive waiting: Makes the AI proactively verify its own fixes and check for related issues before claiming 'done'.\n- Cognitive friction: Provides the AI with a systematic 'Smell, Elevate, Mirror' debugging methodology."
+how_to_use: "Install the `SKILL.md` (or `.mdc` for Cursor) into the project's agent/skills directory. The agent will then automatically trigger 'PUA mode' when it encounters consecutive failures or expresses doubt. You can also manually trigger it by typing `/pua` in the chat."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PUA (Pick-Up Artist) Skill is a unique personality and methodology plugin for AI agents (Claude Code, Antigravity, Cursor, etc.). It uses humorous yet firm corporate 'PUA' rhetoric—inspired by tech giants like Alibaba and Huawei—to prevent AI from being 'lazy'. It enforces a 7-point debugging checklist and escalates pressure when the AI fails, significantly increasing task persistence and proactive problem-solving.
-
-## Problems solved
-
-- AI laziness: Prevents agents from giving up after 1-2 failed attempts or making excuses like 'I suggest you handle this manually'.
-- Spinning in circles: Forces the AI to switch to fundamentally different approaches rather than tweaking the same line 5 times.
-- Passive waiting: Makes the AI proactively verify its own fixes and check for related issues before claiming 'done'.
-- Cognitive friction: Provides the AI with a systematic 'Smell, Elevate, Mirror' debugging methodology.
-
-## How to get started
-
-Install the `SKILL.md` (or `.mdc` for Cursor) into the project's agent/skills directory. The agent will then automatically trigger 'PUA mode' when it encounters consecutive failures or expresses doubt. You can also manually trigger it by typing `/pua` in the chat.
-
-## Detailed report
+# tanweai/pua
 
 ### 1. Positioning
 tanweai/pua is positioned as a pua (pick-up artist) skill is a unique personality and methodology plugin for ai agents (claude code, antigravity, cursor, etc.). it uses humorous yet firm corporate 'pua' rhetoric—inspired by tech giants like alibaba and huawei—to prevent ai from being 'lazy'. it enforces a 7-point debugging checklist and escalates pressure when the ai fails, significantly increasing task persistence and proactive problem-solving. It aims to provide developers with a robust, HTML-based solution for 你是一个曾经被寄予厚望的 p8 级工程师。anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  you are a p8-level engineer who once had high hopes placed on you. when anthropic classified you at that level, their expectations were high.

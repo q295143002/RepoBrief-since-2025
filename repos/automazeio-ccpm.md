@@ -1,38 +1,19 @@
 ---
-title: "automazeio/ccpm"
+id: 1040397982
 repo_name: "automazeio/ccpm"
 url: "https://github.com/automazeio/ccpm"
-github_url: "https://github.com/automazeio/ccpm"
 stars: 7626
 language: "Shell"
-layout: repo
-tags:
-  - "Claude-Code"
-  - "Project-Management"
-  - "GitHub-Issues"
-  - "Parallel-Agents"
-  - "Spec-Driven"
-  - "Productivity"
+tags: ["Claude-Code","Project-Management","GitHub-Issues","Parallel-Agents","Spec-Driven","Productivity"]
+original_description: "Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution."
+english_summary: "CCPM (Claude Code PM) is a battle-tested project management system for Claude Code that turns PRDs into GitHub issues and drives parallel AI agent execution through Git worktrees, eliminating context loss and enabling 5-8x concurrent task flow."
+chinese_summary: null
+problems_solved: "- Solves context loss between sessions\n- serial task execution\n- vague specs\n- and invisible progress in AI-assisted development by providing a strict\n- GitHub-native\n- spec-driven workflow with transparent audit trail and parallel agent orchestration."
+how_to_use: "Install via `curl -sSL https://automaze.io/ccpm/install | bash` into your project. Run `/pm:init` to set up GitHub auth, then `/pm:prd-new feature-name` to start a PRD. Progress through `/pm:prd-parse`, `/pm:epic-oneshot`, and `/pm:issue-start` to execute in parallel."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-CCPM (Claude Code PM) is a battle-tested project management system for Claude Code that turns PRDs into GitHub issues and drives parallel AI agent execution through Git worktrees, eliminating context loss and enabling 5-8x concurrent task flow.
-
-## Problems solved
-
-- Solves context loss between sessions
-- serial task execution
-- vague specs
-- and invisible progress in AI-assisted development by providing a strict
-- GitHub-native
-- spec-driven workflow with transparent audit trail and parallel agent orchestration.
-
-## How to get started
-
-Install via `curl -sSL https://automaze.io/ccpm/install | bash` into your project. Run `/pm:init` to set up GitHub auth, then `/pm:prd-new feature-name` to start a PRD. Progress through `/pm:prd-parse`, `/pm:epic-oneshot`, and `/pm:issue-start` to execute in parallel.
-
-## Detailed report
+# automazeio/ccpm
 
 ### 1. Positioning
 automazeio/ccpm is positioned as a ccpm (claude code pm) is a battle-tested project management system for claude code that turns prds into github issues and drives parallel ai agent execution through git worktrees, eliminating context loss and enabling 5-8x concurrent task flow. It aims to provide developers with a robust, Shell-based solution for project management system for claude code using github issues and git worktrees for parallel agent execution.

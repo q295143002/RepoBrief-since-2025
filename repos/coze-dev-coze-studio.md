@@ -1,36 +1,19 @@
 ---
-title: "coze-dev/coze-studio"
+id: 1008726722
 repo_name: "coze-dev/coze-studio"
 url: "https://github.com/coze-dev/coze-studio"
-github_url: "https://github.com/coze-dev/coze-studio"
 stars: 20127
 language: "TypeScript"
-layout: repo
-tags:
-  - "Coze"
-  - "No-Code AI"
-  - "Low-Code"
-  - "Agent Platform"
-  - "ByteDance"
-  - "Workflow Automation"
-  - "Bot SDK"
+tags: ["Coze","No-Code AI","Low-Code","Agent Platform","ByteDance","Workflow Automation","Bot SDK"]
+original_description: "Coze Studio: An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment."
+english_summary: "ByteDance's official visual IDE for building, testing, and deploying high-performance AI agents and bots."
+chinese_summary: null
+problems_solved: "- High technical barrier for non-developers to create complex AI agents with tool-use\n- Lack of a centralized 'App Store' for agent skills and plugins\n- Fragmentation between 'Development' (scripts) and 'Deployment' (bot platforms)"
+how_to_use: "Access via the Coze.com web interface. For local development, use the Coze CLI to build and test plugins before publishing."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ByteDance's official visual IDE for building, testing, and deploying high-performance AI agents and bots.
-
-## Problems solved
-
-- High technical barrier for non-developers to create complex AI agents with tool-use
-- Lack of a centralized 'App Store' for agent skills and plugins
-- Fragmentation between 'Development' (scripts) and 'Deployment' (bot platforms)
-
-## How to get started
-
-Access via the Coze.com web interface. For local development, use the Coze CLI to build and test plugins before publishing.
-
-## Detailed report
+# coze-dev/coze-studio
 
 ### 1. Positioning
 Coze Studio is ByteDance's flagship 'Low-Code' agent platform. It provides a visual IDE for building agent 'Brains' (LLM config), 'Hands' (Plugins), and 'Workflows' using a drag-and-drop interface, acting as a 'Shopify' for AI agents.

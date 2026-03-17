@@ -1,33 +1,19 @@
 ---
-title: "steipete/agent-rules"
+id: 1000814478
 repo_name: "steipete/agent-rules"
 url: "https://github.com/steipete/agent-rules"
-github_url: "https://github.com/steipete/agent-rules"
 stars: 5632
 language: "Shell"
-layout: repo
-tags:
-  - "AI Agents"
-  - "Coding Assistant"
-  - "Deprecated"
-  - "Historical"
-  - "Rules"
+tags: ["AI Agents","Coding Assistant","Deprecated","Historical","Rules"]
+original_description: "Rules and Knowledge to work better with agents such as Claude Code or Cursor"
+english_summary: "This was a historical repository containing guidelines and rule sets for AI agents, specifically tailored for tools like Cursor in early 2025. It is now deprecated in favor of the author's new active repository for agent automation."
+chinese_summary: null
+problems_solved: "- Outdated agent instructions for older IDE versions\n- Lack of a consolidated place for contemporary AI agent scripts"
+how_to_use: "Users are advised to visit the new repository at github.com/steipete/agent-scripts for current work, as this repo is no longer maintained."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This was a historical repository containing guidelines and rule sets for AI agents, specifically tailored for tools like Cursor in early 2025. It is now deprecated in favor of the author's new active repository for agent automation.
-
-## Problems solved
-
-- Outdated agent instructions for older IDE versions
-- Lack of a consolidated place for contemporary AI agent scripts
-
-## How to get started
-
-Users are advised to visit the new repository at github.com/steipete/agent-scripts for current work, as this repo is no longer maintained.
-
-## Detailed report
+# steipete/agent-rules
 
 ### 1. Positioning
 steipete/agent-rules is positioned as a this was a historical repository containing guidelines and rule sets for ai agents, specifically tailored for tools like cursor in early 2025. it is now deprecated in favor of the author's new active repository for agent automation. It aims to provide developers with a robust, Shell-based solution for rules and knowledge to work better with agents such as claude code or cursor.

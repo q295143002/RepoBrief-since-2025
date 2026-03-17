@@ -1,37 +1,19 @@
 ---
-title: "steipete/gogcli"
+id: 1115161703
 repo_name: "steipete/gogcli"
 url: "https://github.com/steipete/gogcli"
-github_url: "https://github.com/steipete/gogcli"
 stars: 6232
 language: "Go"
-layout: repo
-tags:
-  - "Google Workspace"
-  - "CLI"
-  - "Gmail"
-  - "Google Drive"
-  - "Automation"
-  - "DevOps"
-  - "Security"
+tags: ["Google Workspace","CLI","Gmail","Google Drive","Automation","DevOps","Security"]
+original_description: "Google Suite CLI: Gmail, GCal, GDrive, GContacts."
+english_summary: "gogcli (gog) is a comprehensive command-line interface for Google services including Gmail, Drive, Calendar, Sheets, Docs, and more. It is designed for both human use and automation, providing JSON-first outputs, secure keyring-based token storage, and multi-account management. It uniquely supports Workspace-specific features like domain-wide delegation and service accounts."
+chinese_summary: null
+problems_solved: "- Clunky Google Web UIs: Provides a blazing fast terminal interface for common tasks (searching mail, creating events).\n- Automation friction: Every command outputs clean JSON, making it trivial to pipe into `jq` or AI agents.\n- Auth management: Handles OAuth refresh tokens, service accounts, and headless auth flows smoothly.\n- Security sandboxing: Includes a command allowlist feature to restrict which Google APIs an AI agent can access."
+how_to_use: "Install via Homebrew (`brew install gogcli`). Run `gog auth credentials <json>` to set up your OAuth client, then `gog auth add <email>` to sign in. Once authenticated, use commands like `gog gmail search 'unread'` or `gog calendar events --today`. It supports setting aliases for accounts to simplify multi-account usage (e.g., `GOG_ACCOUNT=work gog ...`)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-gogcli (gog) is a comprehensive command-line interface for Google services including Gmail, Drive, Calendar, Sheets, Docs, and more. It is designed for both human use and automation, providing JSON-first outputs, secure keyring-based token storage, and multi-account management. It uniquely supports Workspace-specific features like domain-wide delegation and service accounts.
-
-## Problems solved
-
-- Clunky Google Web UIs: Provides a blazing fast terminal interface for common tasks (searching mail, creating events).
-- Automation friction: Every command outputs clean JSON, making it trivial to pipe into `jq` or AI agents.
-- Auth management: Handles OAuth refresh tokens, service accounts, and headless auth flows smoothly.
-- Security sandboxing: Includes a command allowlist feature to restrict which Google APIs an AI agent can access.
-
-## How to get started
-
-Install via Homebrew (`brew install gogcli`). Run `gog auth credentials <json>` to set up your OAuth client, then `gog auth add <email>` to sign in. Once authenticated, use commands like `gog gmail search 'unread'` or `gog calendar events --today`. It supports setting aliases for accounts to simplify multi-account usage (e.g., `GOG_ACCOUNT=work gog ...`).
-
-## Detailed report
+# steipete/gogcli
 
 ### 1. Positioning
 steipete/gogcli is positioned as a gogcli (gog) is a comprehensive command-line interface for google services including gmail, drive, calendar, sheets, docs, and more. it is designed for both human use and automation, providing json-first outputs, secure keyring-based token storage, and multi-account management. it uniquely supports workspace-specific features like domain-wide delegation and service accounts. It aims to provide developers with a robust, Go-based solution for google suite cli: gmail, gcal, gdrive, gcontacts.

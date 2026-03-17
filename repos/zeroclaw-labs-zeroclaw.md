@@ -1,37 +1,19 @@
 ---
-title: "zeroclaw-labs/zeroclaw"
+id: 1156956890
 repo_name: "zeroclaw-labs/zeroclaw"
 url: "https://github.com/zeroclaw-labs/zeroclaw"
-github_url: "https://github.com/zeroclaw-labs/zeroclaw"
 stars: 26645
 language: "Rust"
-layout: repo
-tags:
-  - "ZeroClaw"
-  - "Terminal Agent"
-  - "Performance"
-  - "Local Automation"
-  - "Rust"
-  - "Minimalist"
-  - "System Tools"
+tags: ["ZeroClaw","Terminal Agent","Performance","Local Automation","Rust","Minimalist","System Tools"]
+original_description: "ZeroClaw: A lightweight branch of the OpenClaw ecosystem, optimized for extremely low-latency local execution and minimal dependencies."
+english_summary: "Extreme-performance minimal version of the OpenClaw agent for local system automation."
+chinese_summary: null
+problems_solved: "- Latency overhead in full-featured agent frameworks when running simple local scripts.\n- Dependency bloat making it hard to embed agents in small IoT or utility apps.\n- Need for a 'zero-shot' fast command executor for terminal power users."
+how_to_use: "git clone https://github.com/zeroclaw-labs/zeroclaw\n./zeroclaw \"clean my downloads folder and group by file extension\""
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Extreme-performance minimal version of the OpenClaw agent for local system automation.
-
-## Problems solved
-
-- Latency overhead in full-featured agent frameworks when running simple local scripts.
-- Dependency bloat making it hard to embed agents in small IoT or utility apps.
-- Need for a 'zero-shot' fast command executor for terminal power users.
-
-## How to get started
-
-git clone https://github.com/zeroclaw-labs/zeroclaw
-./zeroclaw "clean my downloads folder and group by file extension"
-
-## Detailed report
+# zeroclaw-labs/zeroclaw
 
 ### 1. Positioning
 ZeroClaw is the 'Lite' performance-optimized variant of OpenClaw. It strips away the complex GUI and heavy multi-model routing to provide a razor-sharp terminal assistant that specializes in local file system and OS-level automation with near-zero startup time.

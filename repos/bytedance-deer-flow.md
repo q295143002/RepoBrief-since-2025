@@ -1,38 +1,19 @@
 ---
-title: "bytedance/deer-flow"
+id: 979115477
 repo_name: "bytedance/deer-flow"
 url: "https://github.com/bytedance/deer-flow"
-github_url: "https://github.com/bytedance/deer-flow"
 stars: 30059
 language: "Python"
-layout: repo
-tags:
-  - "ByteDance"
-  - "Orchestration Engine"
-  - "DAG"
-  - "High Concurrency"
-  - "Go"
-  - "AI Pipeline"
-  - "Parallel Processing"
+tags: ["ByteDance","Orchestration Engine","DAG","High Concurrency","Go","AI Pipeline","Parallel Processing"]
+original_description: "Deer-Flow: A lightweight AI task orchestration engine from ByteDance, optimized for high-concurrency AI tasks using a DAG-driven approach."
+english_summary: "ByteDance's lightweight, high-concurrency AI task orchestration engine based on DAG pipelines."
+chinese_summary: null
+problems_solved: "- Performance bottlenecks in sequential AI task processing.\n- Difficulty in visualizing and managing complex multi-stage AI workflows (e.g., Video -> Audio -> Summary).\n- High infrastructure costs due to inefficient resource scheduling in AI pipelines."
+how_to_use: "git clone https://github.com/bytedance/deer-flow\n./build.sh\n./deer-flow --flow my_task.yaml"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ByteDance's lightweight, high-concurrency AI task orchestration engine based on DAG pipelines.
-
-## Problems solved
-
-- Performance bottlenecks in sequential AI task processing.
-- Difficulty in visualizing and managing complex multi-stage AI workflows (e.g., Video -> Audio -> Summary).
-- High infrastructure costs due to inefficient resource scheduling in AI pipelines.
-
-## How to get started
-
-git clone https://github.com/bytedance/deer-flow
-./build.sh
-./deer-flow --flow my_task.yaml
-
-## Detailed report
+# bytedance/deer-flow
 
 ### 1. Positioning
 Deer-Flow is a high-performance orchestration engine from ByteDance. It allows developers to define complex AI task sequences as Directed Acyclic Graphs (DAGs), ensuring maximum parallelism and efficient resource utilization for large-scale AI processing. Primarily used for enterprise-grade 'production AI'.

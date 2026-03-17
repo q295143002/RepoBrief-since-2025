@@ -1,32 +1,19 @@
 ---
-title: "bytedance/UI-TARS-desktop"
+id: 918932603
 repo_name: "bytedance/UI-TARS-desktop"
 url: "https://github.com/bytedance/UI-TARS-desktop"
-github_url: "https://github.com/bytedance/UI-TARS-desktop"
 stars: 28799
 language: "TypeScript"
-layout: repo
-tags:
-  - "Ai Agent"
+tags: ["Ai Agent"]
+original_description: "UI-TARS-desktop: The desktop control terminal for UI-TARS, ByteDance's vision-driven universal Agent core library."
+english_summary: "ByteDance's desktop interface for controlling vision-driven AI agents on local systems."
+chinese_summary: null
+problems_solved: "- Lack of a GUI to monitor and troubleshoot complex vision-based agent actions.\n- Difficulty in 'handoff' between human user and AI agent on a desktop environment.\n- Complexity in managing multiple local UI-TARS instances."
+how_to_use: "git clone https://github.com/bytedance/UI-TARS-desktop\nnpm install && npm run build\n./UI-TARS-desktop --connect local"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ByteDance's desktop interface for controlling vision-driven AI agents on local systems.
-
-## Problems solved
-
-- Lack of a GUI to monitor and troubleshoot complex vision-based agent actions.
-- Difficulty in 'handoff' between human user and AI agent on a desktop environment.
-- Complexity in managing multiple local UI-TARS instances.
-
-## How to get started
-
-git clone https://github.com/bytedance/UI-TARS-desktop
-npm install && npm run build
-./UI-TARS-desktop --connect local
-
-## Detailed report
+# bytedance/UI-TARS-desktop
 
 ### 1. Positioning
 UI-TARS-desktop is the official GUI for ByteDance's UI-TARS (Universal Intelligent Task Assistant via Remote Sensing). While the core library handles the vision and reasoning, this desktop client provides the 'Control Center' for users to initiate, monitor, and intercede in AI-driven desktop automation tasks.

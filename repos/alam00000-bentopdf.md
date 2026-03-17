@@ -1,29 +1,19 @@
 ---
-title: "alam00000/bentopdf"
+id: 1074785178
 repo_name: "alam00000/bentopdf"
 url: "https://github.com/alam00000/bentopdf"
-github_url: "https://github.com/alam00000/bentopdf"
 stars: 11996
 language: "JavaScript"
-layout: repo
-tags:
-  - "CLI"
-  - "Security"
+tags: ["CLI","Security"]
+original_description: "BentoPDF is a powerful, privacy-first, client-side PDF toolkit that is self hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser."
+english_summary: "An incredibly comprehensive fully client-side WASM-powered PDF manipulation suite offering explicitly flawless browser-based editing seamlessly bypassing any server privacy vectors entirely."
+chinese_summary: null
+problems_solved: "Shatters completely the massive security vulnerabilities explicitly tied to uploading sensitive financial or legal PDFs into obscure remote cloud processors operating absolutely natively inside local client sandboxes safely."
+how_to_use: "Instantiate instantly via `docker run -p 3000:8080 ghcr.io/alam00000/bentopdf:latest` loading seamlessly the UI mapping fully explicit WASM modules perfectly executing local conversions smoothly."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An incredibly comprehensive fully client-side WASM-powered PDF manipulation suite offering explicitly flawless browser-based editing seamlessly bypassing any server privacy vectors entirely.
-
-## Problems solved
-
-Shatters completely the massive security vulnerabilities explicitly tied to uploading sensitive financial or legal PDFs into obscure remote cloud processors operating absolutely natively inside local client sandboxes safely.
-
-## How to get started
-
-Instantiate instantly via `docker run -p 3000:8080 ghcr.io/alam00000/bentopdf:latest` loading seamlessly the UI mapping fully explicit WASM modules perfectly executing local conversions smoothly.
-
-## Detailed report
+# alam00000/bentopdf
 
 ### 1. Positioning
 BentoPDF establishes itself unequivocally as the definitive privacy-hardened alternative protecting absolutely sensitive digital documents wrapping explicitly military-grade PDF mechanics intuitively within accessible modern front-end layouts perfectly.

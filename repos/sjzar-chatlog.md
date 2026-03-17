@@ -1,31 +1,19 @@
 ---
-title: "sjzar/chatlog"
+id: 944487482
 repo_name: "sjzar/chatlog"
 url: "https://github.com/sjzar/chatlog"
-github_url: "https://github.com/sjzar/chatlog"
 stars: 9195
-language: ""
-layout: repo
-tags:
-  - "Notice"
-  - "Discontinued"
-  - "Compliance"
-  - "Open Source"
+language: null
+tags: ["Notice","Discontinued","Compliance","Open Source"]
+original_description: "Chatlog: 由于合规风险，本项目代码已被移除。项目曾是一个日志管理/查看工具。"
+english_summary: "Chatlog was an open-source log management tool that has been discontinued and its code removed due to compliance risks; the repository now serves as a notice for previous users."
+chinese_summary: null
+problems_solved: "- Previously provided log visualization and management; now serves as a cautionary example of navigating compliance and legal requirements in the open-source ecosystem."
+how_to_use: "The code is no longer available. Previous users are advised by the author to delete their local copies and assess potential compliance risks if they continue to use any archived versions."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Chatlog was an open-source log management tool that has been discontinued and its code removed due to compliance risks; the repository now serves as a notice for previous users.
-
-## Problems solved
-
-- Previously provided log visualization and management; now serves as a cautionary example of navigating compliance and legal requirements in the open-source ecosystem.
-
-## How to get started
-
-The code is no longer available. Previous users are advised by the author to delete their local copies and assess potential compliance risks if they continue to use any archived versions.
-
-## Detailed report
+# sjzar/chatlog
 
 ### 1. Positioning
 Chatlog is currently a 'Sunsetted Repository'. Originally positioned as a utility for the developer community (likely focused on message or log analysis), it now serves as a formal notice of project termination and a statement of responsibility from the maintainer.

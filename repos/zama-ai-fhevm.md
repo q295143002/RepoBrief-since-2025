@@ -1,38 +1,19 @@
 ---
-title: "zama-ai/fhevm"
+id: 976568879
 repo_name: "zama-ai/fhevm"
 url: "https://github.com/zama-ai/fhevm"
-github_url: "https://github.com/zama-ai/fhevm"
 stars: 25701
 language: "Rust"
-layout: repo
-tags:
-  - "FHE"
-  - "Blockchain"
-  - "Privacy"
-  - "Smart Contracts"
-  - "Cryptography"
-  - "Solidity"
-  - "EVM"
+tags: ["FHE","Blockchain","Privacy","Smart Contracts","Cryptography","Solidity","EVM"]
+original_description: "fhevm: A Fully Homomorphic Encryption (FHE) powered Virtual Machine for blockchains, enabling private smart contracts on public ledgers."
+english_summary: "An EVM-compatible blockchain virtual machine that supports computation on encrypted data using FHE."
+chinese_summary: null
+problems_solved: "- Lack of true privacy in public smart contracts (all data is visible on-chain).\n- Fragility of ZK-proofs in complex multi-user state transitions.\n- Inability to perform selective 'de-anonymization' or threshold decryption natively in Solidity."
+how_to_use: "git clone https://github.com/zama-ai/fhevm\nnpm install\nnpx hardhat compile"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An EVM-compatible blockchain virtual machine that supports computation on encrypted data using FHE.
-
-## Problems solved
-
-- Lack of true privacy in public smart contracts (all data is visible on-chain).
-- Fragility of ZK-proofs in complex multi-user state transitions.
-- Inability to perform selective 'de-anonymization' or threshold decryption natively in Solidity.
-
-## How to get started
-
-git clone https://github.com/zama-ai/fhevm
-npm install
-npx hardhat compile
-
-## Detailed report
+# zama-ai/fhevm
 
 ### 1. Positioning
 fhevm is a groundbreaking virtual machine by Zama. It allows developers to write smart contracts in Solidity that perform calculations on encrypted data (FHE). It bridges the gap between public transparency and private computation for DeFi, voting, and private identity.

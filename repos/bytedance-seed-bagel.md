@@ -1,35 +1,19 @@
 ---
-title: "ByteDance-Seed/Bagel"
+id: 967889784
 repo_name: "ByteDance-Seed/Bagel"
 url: "https://github.com/ByteDance-Seed/Bagel"
-github_url: "https://github.com/ByteDance-Seed/Bagel"
 stars: 5737
 language: "Python"
-layout: repo
-tags:
-  - "Multimodal AI"
-  - "LLM"
-  - "Image Generation"
-  - "VLM"
-  - "Open Source"
-  - "Computer Vision"
+tags: ["Multimodal AI","LLM","Image Generation","VLM","Open Source","Computer Vision"]
+original_description: "Open-source unified multimodal model"
+english_summary: "BAGEL is a 7B-parameter multimodal foundation model (14B total using MoE) capable of both visual understanding and high-quality image generation/editing. It rivals top-tier models like Qwen2.5-VL and Gemini 2.0 on reasoning benchmarks."
+chinese_summary: null
+problems_solved: "- Fragmented models for understanding vs generation\n- High compute requirements for multimodal AI\n- Limited qualitative image editing in open models"
+how_to_use: "Clone the repo, set up the environment with `flash_attn`, and download checkpoints from Hugging Face. Launch the Gradio WebUI for interactive chats, image generation, and free-form visual manipulation."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-BAGEL is a 7B-parameter multimodal foundation model (14B total using MoE) capable of both visual understanding and high-quality image generation/editing. It rivals top-tier models like Qwen2.5-VL and Gemini 2.0 on reasoning benchmarks.
-
-## Problems solved
-
-- Fragmented models for understanding vs generation
-- High compute requirements for multimodal AI
-- Limited qualitative image editing in open models
-
-## How to get started
-
-Clone the repo, set up the environment with `flash_attn`, and download checkpoints from Hugging Face. Launch the Gradio WebUI for interactive chats, image generation, and free-form visual manipulation.
-
-## Detailed report
+# ByteDance-Seed/Bagel
 
 ### 1. Positioning
 ByteDance-Seed/Bagel is positioned as a bagel is a 7b-parameter multimodal foundation model (14b total using moe) capable of both visual understanding and high-quality image generation/editing. it rivals top-tier models like qwen2.5-vl and gemini 2.0 on reasoning benchmarks. It aims to provide developers with a robust, Python-based solution for open-source unified multimodal model.

@@ -1,31 +1,19 @@
 ---
-title: "muratcankoylan/Agent-Skills-for-Context-Engineering"
+id: 1120349776
 repo_name: "muratcankoylan/Agent-Skills-for-Context-Engineering"
 url: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-github_url: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
 stars: 13814
 language: "Python"
-layout: repo
-tags:
-  - "Context Engineering"
-  - "AI Agent"
-  - "Skills"
-  - "Prompt Engineering"
+tags: ["Context Engineering","AI Agent","Skills","Prompt Engineering"]
+original_description: "A collection of Agent Skills focused on context engineering for AI agents."
+english_summary: "A repository offering a collection of Agent Skills aimed specifically at optimizing and engineering context management for AI agents."
+chinese_summary: null
+problems_solved: "- Alleviates context window limitations by providing specific agent instructions and patterns on how to store, retrieve, and architect context effectively."
+how_to_use: "Add the raw markdown contents of the skills you need directly to your `.claude/skills` directory, enabling you to use commands for context optimization."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A repository offering a collection of Agent Skills aimed specifically at optimizing and engineering context management for AI agents.
-
-## Problems solved
-
-- Alleviates context window limitations by providing specific agent instructions and patterns on how to store, retrieve, and architect context effectively.
-
-## How to get started
-
-Add the raw markdown contents of the skills you need directly to your `.claude/skills` directory, enabling you to use commands for context optimization.
-
-## Detailed report
+# muratcankoylan/Agent-Skills-for-Context-Engineering
 
 ### 1. Positioning
 This project provides specialized Agent Skills for AI coding assistants (like Claude) specifically to master "Context Engineering"—how the agent retains, organizes, and parses project knowledge.

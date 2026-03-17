@@ -1,36 +1,19 @@
 ---
-title: "wassupjay/n8n-free-templates"
+id: 986087124
 repo_name: "wassupjay/n8n-free-templates"
 url: "https://github.com/wassupjay/n8n-free-templates"
-github_url: "https://github.com/wassupjay/n8n-free-templates"
 stars: 5552
-language: ""
-layout: repo
-tags:
-  - "n8n"
-  - "Automation"
-  - "AI Workflows"
-  - "RAG"
-  - "Low-Code"
-  - "DevOps"
-  - "Open Source"
+language: null
+tags: ["n8n","Automation","AI Workflows","RAG","Low-Code","DevOps","Open Source"]
+original_description: " A curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today’s AI stack—vector DBs, embeddings, and LLMs. Import any JSON, add your creds, hit Activate, and you’re live. Built to demo, prototype, or drop straight into production."
+english_summary: "This repository is a massive collection of over 200 production-ready n8n workflow templates. It covers categories like AI agents, RAG stacks, Vector DB integrations (Pinecone, Weaviate), DevOps automation, and financial tracking."
+chinese_summary: null
+problems_solved: "- Steep learning curve for complex n8n automations\n- Time-consuming manual setup of RAG and LLM workflows\n- Lack of standardized error-handling and guardrails in automated tasks"
+how_to_use: "Clone the repo and import the desired JSON files directly into your n8n instance. Configure the required credentials (OpenAI, Slack, etc.) for each node and activate the workflow."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This repository is a massive collection of over 200 production-ready n8n workflow templates. It covers categories like AI agents, RAG stacks, Vector DB integrations (Pinecone, Weaviate), DevOps automation, and financial tracking.
-
-## Problems solved
-
-- Steep learning curve for complex n8n automations
-- Time-consuming manual setup of RAG and LLM workflows
-- Lack of standardized error-handling and guardrails in automated tasks
-
-## How to get started
-
-Clone the repo and import the desired JSON files directly into your n8n instance. Configure the required credentials (OpenAI, Slack, etc.) for each node and activate the workflow.
-
-## Detailed report
+# wassupjay/n8n-free-templates
 
 ### 1. Positioning
 wassupjay/n8n-free-templates is positioned as a this repository is a massive collection of over 200 production-ready n8n workflow templates. it covers categories like ai agents, rag stacks, vector db integrations (pinecone, weaviate), devops automation, and financial tracking. It aims to provide developers with a robust, Various-based solution for  a curated set of 200+ plug-and-play n8n workflows that fuse classic automation with today’s ai stack—vector dbs, embeddings, and llms. import any json, add your creds, hit activate, and you’re live. built to demo, prototype, or drop straight into production.

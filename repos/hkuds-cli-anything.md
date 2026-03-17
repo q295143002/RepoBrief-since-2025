@@ -1,33 +1,19 @@
 ---
-title: "HKUDS/CLI-Anything"
+id: 1176011916
 repo_name: "HKUDS/CLI-Anything"
 url: "https://github.com/HKUDS/CLI-Anything"
-github_url: "https://github.com/HKUDS/CLI-Anything"
 stars: 10191
 language: "Python"
-layout: repo
-tags:
-  - "AI Agent"
-  - "CLI"
-  - "Agent-Native"
-  - "Automation"
+tags: ["AI Agent","CLI","Agent-Native","Automation"]
+original_description: "CLI-Anything: Making ALL Software Agent-Native. Bridging the Gap Between AI Agents and the World's Software by building structured, agent-ready interfaces for any codebase."
+english_summary: "CLI-Anything is an automated tool that transforms any software repository into an agent-controllable CLI, enabling AI models to operate professional software natively."
+chinese_summary: null
+problems_solved: "- Fixes the 'AI-Software Gap' where agents can reason but can't use professional tools; replaces brittle GUI automation with deterministic\n- self-describing\n- and structured (JSON) CLI interfaces; automates the expensive process of manual tool integration via a 7-phase generation pipeline."
+how_to_use: "In Claude Code, add the marketplace `HKUDS/CLI-Anything` and install `/plugin install cli-anything`. Then run `/cli-anything ./your-repo` to generate a full harness. Access the new CLI via `cli-anything-{software} --help`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-CLI-Anything is an automated tool that transforms any software repository into an agent-controllable CLI, enabling AI models to operate professional software natively.
-
-## Problems solved
-
-- Fixes the 'AI-Software Gap' where agents can reason but can't use professional tools; replaces brittle GUI automation with deterministic
-- self-describing
-- and structured (JSON) CLI interfaces; automates the expensive process of manual tool integration via a 7-phase generation pipeline.
-
-## How to get started
-
-In Claude Code, add the marketplace `HKUDS/CLI-Anything` and install `/plugin install cli-anything`. Then run `/cli-anything ./your-repo` to generate a full harness. Access the new CLI via `cli-anything-{software} --help`.
-
-## Detailed report
+# HKUDS/CLI-Anything
 
 ### 1. Positioning
 Developed by HKUDS, CLI-Anything targets agent developers and researchers who want to unlock complex software (e.g., Blender, GIMP, LibreOffice) for their autonomous agents. It acts as a bridge between human-centric software and agent-native execution environments.

@@ -1,33 +1,19 @@
 ---
-title: "danielmiessler/Personal_AI_Infrastructure"
+id: 1052845083
 repo_name: "danielmiessler/Personal_AI_Infrastructure"
 url: "https://github.com/danielmiessler/Personal_AI_Infrastructure"
-github_url: "https://github.com/danielmiessler/Personal_AI_Infrastructure"
 stars: 9837
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Infrastructure"
-  - "Claude Code"
-  - "Productivity"
-  - "SRE"
-  - "Personal AI"
+tags: ["AI Infrastructure","Claude Code","Productivity","SRE","Personal AI"]
+original_description: "Personal AI Infrastructure (PAI). A goal-oriented, agent-native framework built on Claude Code to magnify human capabilities through persistent memory and specialized skills."
+english_summary: "PAI is a premium open-source framework by Daniel Miessler that transforms AI agents into persistent personal assistants with deep goal-understanding and self-improving memory."
+chinese_summary: null
+problems_solved: "- Eliminates the 'amnesia' of standard chatbots by providing persistent history and goal context; replaces haphazard prompting with structured\n- deterministic 'skills'; enables a scientific 'meta-loop' where the system learns from its own successes and failures."
+how_to_use: "Requires Bun and Claude Code. Clone the repo and run `bash install.sh`. Launch the interactive environment with the `pai` alias. Customize your identity and goals in the `USER/` directory."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PAI is a premium open-source framework by Daniel Miessler that transforms AI agents into persistent personal assistants with deep goal-understanding and self-improving memory.
-
-## Problems solved
-
-- Eliminates the 'amnesia' of standard chatbots by providing persistent history and goal context; replaces haphazard prompting with structured
-- deterministic 'skills'; enables a scientific 'meta-loop' where the system learns from its own successes and failures.
-
-## How to get started
-
-Requires Bun and Claude Code. Clone the repo and run `bash install.sh`. Launch the interactive environment with the `pai` alias. Customize your identity and goals in the `USER/` directory.
-
-## Detailed report
+# danielmiessler/Personal_AI_Infrastructure
 
 ### 1. Positioning
 PAI is for power users, developers, and researchers who want their AI to be a 'Digital Assistant' rather than just a one-off tool. It targets those who follow the 'Unix Philosophy' and prefer CLI-based, highly-configurable infrastructure.

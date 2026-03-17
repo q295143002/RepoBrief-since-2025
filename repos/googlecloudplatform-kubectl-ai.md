@@ -1,33 +1,19 @@
 ---
-title: "GoogleCloudPlatform/kubectl-ai"
+id: 919615603
 repo_name: "GoogleCloudPlatform/kubectl-ai"
 url: "https://github.com/GoogleCloudPlatform/kubectl-ai"
-github_url: "https://github.com/GoogleCloudPlatform/kubectl-ai"
 stars: 7357
 language: "Go"
-layout: repo
-tags:
-  - "Kubernetes"
-  - "DevOps"
-  - "Vertex-AI"
-  - "Google-Cloud"
-  - "kubectl"
-  - "CLI-Tools"
+tags: ["Kubernetes","DevOps","Vertex-AI","Google-Cloud","kubectl","CLI-Tools"]
+original_description: "AI powered Kubernetes Assistant"
+english_summary: "An official kubectl plugin that allows developers to manage, troubleshoot, and generate Kubernetes manifests using Google Cloud's Vertex AI."
+chinese_summary: null
+problems_solved: "- Steep learning curve of K8s YAML; difficulty diagnosing obscure pod errors; manual effort in repetitive resource management commands."
+how_to_use: "Install via Krew: 'kubectl krew install ai'; authenticate with GCP; run 'kubectl ai \"Explain why pod X is pending\"' or 'kubectl ai \"Generate a deployment for Nginx\"'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An official kubectl plugin that allows developers to manage, troubleshoot, and generate Kubernetes manifests using Google Cloud's Vertex AI.
-
-## Problems solved
-
-- Steep learning curve of K8s YAML; difficulty diagnosing obscure pod errors; manual effort in repetitive resource management commands.
-
-## How to get started
-
-Install via Krew: 'kubectl krew install ai'; authenticate with GCP; run 'kubectl ai "Explain why pod X is pending"' or 'kubectl ai "Generate a deployment for Nginx"'.
-
-## Detailed report
+# GoogleCloudPlatform/kubectl-ai
 
 ### 1. Positioning
 GoogleCloudPlatform/kubectl-ai is positioned as a an official kubectl plugin that allows developers to manage, troubleshoot, and generate kubernetes manifests using google cloud's vertex ai. It aims to provide developers with a robust, Go-based solution for ai powered kubernetes assistant.

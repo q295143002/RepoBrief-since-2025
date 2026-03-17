@@ -1,32 +1,19 @@
 ---
-title: "browseros-ai/BrowserOS"
+id: 985839104
 repo_name: "browseros-ai/BrowserOS"
 url: "https://github.com/browseros-ai/BrowserOS"
-github_url: "https://github.com/browseros-ai/BrowserOS"
 stars: 9707
 language: "C++"
-layout: repo
-tags:
-  - "Browser"
-  - "AI Agent"
-  - "MCP"
-  - "Chromium"
-  - "Privacy"
+tags: ["Browser","AI Agent","MCP","Chromium","Privacy"]
+original_description: "BrowserOS: The open-source Chromium fork that runs AI agents natively. The privacy-first alternative to ChatGPT Atlas, Perplexity Comet, and Dia."
+english_summary: "BrowserOS is a specialized, open-source Chromium fork designed to run AI agents locally and securely, featuring native MCP support and visual workflow automation."
+chinese_summary: null
+problems_solved: "- Eliminates privacy concerns of cloud-based browsing agents by executing tasks locally; provides a standardized bridge between AI agents and the browser via 31+ MCP tools; solves the 'static' nature of modern browsing through autopilot scheduled tasks and data scraping workflows."
+how_to_use: "Download the DMG (Mac), EXE (Windows), or AppImage (Linux) from the website. Connect your AI provider (OpenAI, Anthropic, Gemini, or local Ollama). Install as an MCP server for tools like Claude Code to control your browser via JSON-RPC."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-BrowserOS is a specialized, open-source Chromium fork designed to run AI agents locally and securely, featuring native MCP support and visual workflow automation.
-
-## Problems solved
-
-- Eliminates privacy concerns of cloud-based browsing agents by executing tasks locally; provides a standardized bridge between AI agents and the browser via 31+ MCP tools; solves the 'static' nature of modern browsing through autopilot scheduled tasks and data scraping workflows.
-
-## How to get started
-
-Download the DMG (Mac), EXE (Windows), or AppImage (Linux) from the website. Connect your AI provider (OpenAI, Anthropic, Gemini, or local Ollama). Install as an MCP server for tools like Claude Code to control your browser via JSON-RPC.
-
-## Detailed report
+# browseros-ai/BrowserOS
 
 ### 1. Positioning
 BrowserOS positions itself as the 'Agent-Native Browser'. It targets power users and developers who find modern search engines and standard browsers inadequate for the era of AI. It is built to be the primary interface where humans and agents collaborate on the live web.

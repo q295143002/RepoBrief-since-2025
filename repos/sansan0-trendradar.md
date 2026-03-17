@@ -1,36 +1,19 @@
 ---
-title: "sansan0/TrendRadar"
+id: 974186260
 repo_name: "sansan0/TrendRadar"
 url: "https://github.com/sansan0/TrendRadar"
-github_url: "https://github.com/sansan0/TrendRadar"
 stars: 48817
 language: "Python"
-layout: repo
-tags:
-  - "Tech Trends"
-  - "GitHub Monitor"
-  - "AI Agent"
-  - "Data Ingestion"
-  - "Intelligence"
-  - "Python"
-  - "Open Source"
+tags: ["Tech Trends","GitHub Monitor","AI Agent","Data Ingestion","Intelligence","Python","Open Source"]
+original_description: "TrendRadar automates the tracking of GitHub trends and technology shifts using AI to generate daily reports. Stay ahead of the tech curve effortlessly."
+english_summary: "An AI agent system that autonomously tracks tech trends and generates strategic reports."
+chinese_summary: "TrendRadar 是一款开源的新闻热点聚合分析系统，支持热搜抓取并通过 MCP 接口为 AI 助手提供实时热点感知能力。"
+problems_solved: "- Information fatigue from manually tracking daily tech updates on GitHub and X\n- Inability to distinguish 'hyped' projects from high-quality 'hidden gems' in massive data sets\n- Need for a unified, automated intelligence report for engineering teams and CTOs"
+how_to_use: "Clone the repo and install requirements: `pip install -r requirements.txt`. Configure your keywords in `config.yaml` and run `python monitor.py --interval 24h`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An AI agent system that autonomously tracks tech trends and generates strategic reports.
-
-## Problems solved
-
-- Information fatigue from manually tracking daily tech updates on GitHub and X
-- Inability to distinguish 'hyped' projects from high-quality 'hidden gems' in massive data sets
-- Need for a unified, automated intelligence report for engineering teams and CTOs
-
-## How to get started
-
-Clone the repo and install requirements: `pip install -r requirements.txt`. Configure your keywords in `config.yaml` and run `python monitor.py --interval 24h`.
-
-## Detailed report
+# sansan0/TrendRadar
 
 ### 1. Positioning
 TrendRadar is a 'Digital Intelligence Officer' for developers and tech leaders. It uses AI to autonomously parse thousands of GitHub repositories and tech blogs, distilling them into high-signal strategic reports.

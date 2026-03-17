@@ -1,34 +1,19 @@
 ---
-title: "chaitin/PandaWiki"
+id: 984133376
 repo_name: "chaitin/PandaWiki"
 url: "https://github.com/chaitin/PandaWiki"
-github_url: "https://github.com/chaitin/PandaWiki"
 stars: 9278
 language: "TypeScript"
-layout: repo
-tags:
-  - "Knowledge Base"
-  - "RAG"
-  - "AI Agent"
-  - "Documentation"
-  - "Wiki"
+tags: ["Knowledge Base","RAG","AI Agent","Documentation","Wiki"]
+original_description: "PandaWiki: 一款 AI 大模型驱动的开源知识库搭建系统，构建智能化的产品文档、技术文档、FAQ、博客系统。"
+english_summary: "PandaWiki is an AI-driven, open-source knowledge base system that transforms static documents into interactive platforms with AI searching, Q&A, and content creation capabilities."
+chinese_summary: null
+problems_solved: "- Solves the 'information silo' problem by making documentation searchable via natural language Q&A; reduces technical documentation overhead through AI-assisted writing; enables easy integration with team tools like DingTalk\n- Feishu\n- and WeChat bots."
+how_to_use: "Install on a Linux server via: `bash -c '$(curl -fsSLk https://release.baizhi.cloud/panda-wiki/manager.sh)'`. Log in to the dashboard, configure your LLM provider (like DeepSeek or OpenAI), and create a 'Knowledge Base' by importing URLs, RSS feeds, or offline files."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PandaWiki is an AI-driven, open-source knowledge base system that transforms static documents into interactive platforms with AI searching, Q&A, and content creation capabilities.
-
-## Problems solved
-
-- Solves the 'information silo' problem by making documentation searchable via natural language Q&A; reduces technical documentation overhead through AI-assisted writing; enables easy integration with team tools like DingTalk
-- Feishu
-- and WeChat bots.
-
-## How to get started
-
-Install on a Linux server via: `bash -c '$(curl -fsSLk https://release.baizhi.cloud/panda-wiki/manager.sh)'`. Log in to the dashboard, configure your LLM provider (like DeepSeek or OpenAI), and create a 'Knowledge Base' by importing URLs, RSS feeds, or offline files.
-
-## Detailed report
+# chaitin/PandaWiki
 
 ### 1. Positioning
 PandaWiki positions itself as an 'AI-Native Documentation Hub'. It targets businesses and developers who want to move beyond static 'Wiki' pages to a dynamic system where the documentation can 'speak' to the users, answer questions, and assist in content creation.

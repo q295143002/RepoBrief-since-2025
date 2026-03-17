@@ -1,35 +1,19 @@
 ---
-title: "manaflow-ai/cmux"
+id: 1144115288
 repo_name: "manaflow-ai/cmux"
 url: "https://github.com/manaflow-ai/cmux"
-github_url: "https://github.com/manaflow-ai/cmux"
 stars: 5690
 language: "Swift"
-layout: repo
-tags:
-  - "Terminal"
-  - "AI Coding"
-  - "Developer Tools"
-  - "macOS"
-  - "Productivity"
-  - "Open Source"
+tags: ["Terminal","AI Coding","Developer Tools","macOS","Productivity","Open Source"]
+original_description: "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents"
+english_summary: "cmux is a native macOS terminal optimized for parallel AI coding sessions. It features vertical tabs, notification rings that alert you when an agent needs attention, and a scriptable in-app browser for direct agent interaction."
+chinese_summary: null
+problems_solved: "- Managing multiple concurrent AI coding sessions (Claude Code, etc.)\n- Missed notifications from background agents\n- Heavy memory usage of Electron-based orchestrators"
+how_to_use: "Install via DMG or Homebrew. Use the sidebar to manage workspaces and monitor git status. Use `cmux notify` in your agent hooks to trigger visual alerts when input is required."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-cmux is a native macOS terminal optimized for parallel AI coding sessions. It features vertical tabs, notification rings that alert you when an agent needs attention, and a scriptable in-app browser for direct agent interaction.
-
-## Problems solved
-
-- Managing multiple concurrent AI coding sessions (Claude Code, etc.)
-- Missed notifications from background agents
-- Heavy memory usage of Electron-based orchestrators
-
-## How to get started
-
-Install via DMG or Homebrew. Use the sidebar to manage workspaces and monitor git status. Use `cmux notify` in your agent hooks to trigger visual alerts when input is required.
-
-## Detailed report
+# manaflow-ai/cmux
 
 ### 1. Positioning
 manaflow-ai/cmux is positioned as a cmux is a native macos terminal optimized for parallel ai coding sessions. it features vertical tabs, notification rings that alert you when an agent needs attention, and a scriptable in-app browser for direct agent interaction. It aims to provide developers with a robust, Swift-based solution for ghostty-based macos terminal with vertical tabs and notifications for ai coding agents.

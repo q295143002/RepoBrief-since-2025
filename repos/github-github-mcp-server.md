@@ -1,33 +1,19 @@
 ---
-title: "github/github-mcp-server"
+id: 942771284
 repo_name: "github/github-mcp-server"
 url: "https://github.com/github/github-mcp-server"
-github_url: "https://github.com/github/github-mcp-server"
 stars: 27843
 language: "Go"
-layout: repo
-tags:
-  - "Workflow"
-  - "Github"
-  - "Mcp"
+tags: ["Workflow","Github","Mcp"]
+original_description: "GitHub Model Context Protocol (MCP) server: Seamlessly integrate GitHub's management and search capabilities into your AI workflows."
+english_summary: "Official GitHub MCP server for direct AI access to repositories, issues, and PR management."
+chinese_summary: null
+problems_solved: "- Fragmentation between AI code writing and GitHub project management (issue tracking, PR review).\n- Manual labor in copying GitHub context into AI tools.\n- Difficulty for AI to search across large organizations in a structured way."
+how_to_use: "npx @modelcontextprotocol/server-github\n# Or configure in Claude Desktop with GITHUB_PERSONAL_ACCESS_TOKEN"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Official GitHub MCP server for direct AI access to repositories, issues, and PR management.
-
-## Problems solved
-
-- Fragmentation between AI code writing and GitHub project management (issue tracking, PR review).
-- Manual labor in copying GitHub context into AI tools.
-- Difficulty for AI to search across large organizations in a structured way.
-
-## How to get started
-
-npx @modelcontextprotocol/server-github
-# Or configure in Claude Desktop with GITHUB_PERSONAL_ACCESS_TOKEN
-
-## Detailed report
+# github/github-mcp-server
 
 ### 1. Positioning
 The GitHub MCP Server is an official integration developed by GitHub (and the MCP team) to expose the GitHub API as a set of standardized tools for LLMs. It enables AI agents to read, write, and search GitHub data (repos, issues, PRs) directly, transforming a chatbot into a collaborative developer.

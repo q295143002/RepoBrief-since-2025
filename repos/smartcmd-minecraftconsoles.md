@@ -1,36 +1,19 @@
 ---
-title: "smartcmd/MinecraftConsoles"
+id: 1169696969
 repo_name: "smartcmd/MinecraftConsoles"
 url: "https://github.com/smartcmd/MinecraftConsoles"
-github_url: "https://github.com/smartcmd/MinecraftConsoles"
 stars: 5184
 language: "C++"
-layout: repo
-tags:
-  - "Minecraft"
-  - "Game Preservation"
-  - "C++"
-  - "Legacy Console"
-  - "Multiplayer"
-  - "Gaming"
-  - "Open Source"
+tags: ["Minecraft","Game Preservation","C++","Legacy Console","Multiplayer","Gaming","Open Source"]
+original_description: "A certain block game"
+english_summary: "MinecraftConsoles is a community-driven project that preserves and improves the source code of Minecraft Legacy Console Edition v1.6.0560.0 (TU19). It brings the classic console experience to modern Windows systems with fixes for high-resolution displays, mouse/keyboard support, and LAN multiplayer."
+chinese_summary: null
+problems_solved: "- Inability to run the specific 'Legacy Console' version of Minecraft on modern PCs\n- Lack of native mouse and keyboard controls in the original console builds\n- Fixed 1080p resolution limits and V-Sync issues on modern high-refresh monitors"
+how_to_use: "Windows users can download the 'Nightly Build' ZIP and run `Minecraft.Client.exe`. Developers can build from source using Visual Studio 2022. It supports LAN discovery, allowing players on the same network to join worlds automatically."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-MinecraftConsoles is a community-driven project that preserves and improves the source code of Minecraft Legacy Console Edition v1.6.0560.0 (TU19). It brings the classic console experience to modern Windows systems with fixes for high-resolution displays, mouse/keyboard support, and LAN multiplayer.
-
-## Problems solved
-
-- Inability to run the specific 'Legacy Console' version of Minecraft on modern PCs
-- Lack of native mouse and keyboard controls in the original console builds
-- Fixed 1080p resolution limits and V-Sync issues on modern high-refresh monitors
-
-## How to get started
-
-Windows users can download the 'Nightly Build' ZIP and run `Minecraft.Client.exe`. Developers can build from source using Visual Studio 2022. It supports LAN discovery, allowing players on the same network to join worlds automatically.
-
-## Detailed report
+# smartcmd/MinecraftConsoles
 
 ### 1. Positioning
 smartcmd/MinecraftConsoles is positioned as a minecraftconsoles is a community-driven project that preserves and improves the source code of minecraft legacy console edition v1.6.0560.0 (tu19). it brings the classic console experience to modern windows systems with fixes for high-resolution displays, mouse/keyboard support, and lan multiplayer. It aims to provide developers with a robust, C++-based solution for a certain block game.

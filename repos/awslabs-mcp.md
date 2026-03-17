@@ -1,33 +1,19 @@
 ---
-title: "awslabs/mcp"
+id: 952238700
 repo_name: "awslabs/mcp"
 url: "https://github.com/awslabs/mcp"
-github_url: "https://github.com/awslabs/mcp"
 stars: 8437
 language: "Python"
-layout: repo
-tags:
-  - "AWS"
-  - "MCP"
-  - "AI-Tools"
-  - "Cloud-Infrastructure"
-  - "Anthropic-MCP"
-  - "DevOps"
+tags: ["AWS","MCP","AI-Tools","Cloud-Infrastructure","Anthropic-MCP","DevOps"]
+original_description: "Official MCP Servers for AWS"
+english_summary: "A collection of open-source Model Context Protocol (MCP) servers providing specialized tools and real-time documentation access for AWS services."
+chinese_summary: null
+problems_solved: "- Lack of real-time AWS documentation in AI assistants; complexity of managing IaC through LLMs; difficulty executing secure AWS API calls from agents."
+how_to_use: "Install servers via 'uvx'; connect in Cursor/VS Code settings; configure AWS credentials for API access."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A collection of open-source Model Context Protocol (MCP) servers providing specialized tools and real-time documentation access for AWS services.
-
-## Problems solved
-
-- Lack of real-time AWS documentation in AI assistants; complexity of managing IaC through LLMs; difficulty executing secure AWS API calls from agents.
-
-## How to get started
-
-Install servers via 'uvx'; connect in Cursor/VS Code settings; configure AWS credentials for API access.
-
-## Detailed report
+# awslabs/mcp
 
 ### 1. Positioning
 awslabs/mcp is positioned as a a collection of open-source model context protocol (mcp) servers providing specialized tools and real-time documentation access for aws services. It aims to provide developers with a robust, Python-based solution for official mcp servers for aws.

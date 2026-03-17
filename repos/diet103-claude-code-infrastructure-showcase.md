@@ -1,32 +1,19 @@
 ---
-title: "diet103/claude-code-infrastructure-showcase"
+id: 1086161926
 repo_name: "diet103/claude-code-infrastructure-showcase"
 url: "https://github.com/diet103/claude-code-infrastructure-showcase"
-github_url: "https://github.com/diet103/claude-code-infrastructure-showcase"
 stars: 9234
 language: "Shell"
-layout: repo
-tags:
-  - "Claude Code"
-  - "AI Engineering"
-  - "Infrastructure"
-  - "Prompt Engineering"
-  - "Productivity"
+tags: ["Claude Code","AI Engineering","Infrastructure","Prompt Engineering","Productivity"]
+original_description: "Claude Code Infrastructure Showcase: A curated reference library of production-tested Claude Code infrastructure. Patterns for auto-activating skills, modular patterns, and specialized agents."
+english_summary: "This repository is a production-hardened reference library for Claude Code infrastructure, providing patterns for auto-activating skills, modular configurations (the 500-line rule), and specialized task agents."
+chinese_summary: null
+problems_solved: "- Solves the 'passive skill' problem by enabling auto-activation via hooks; overcomes context limits through a 'Progressive Disclosure' modular skill pattern; prevents knowledge loss across context resets using a structured 'Dev Docs' system."
+how_to_use: "Copy relevant files from `.claude/skills/`, `.claude/hooks/`, or `.claude/agents/` into your own project. Reference `CLAUDE_INTEGRATION_GUIDE.md` to set up the two essential hooks for skill auto-activation and tool tracking."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This repository is a production-hardened reference library for Claude Code infrastructure, providing patterns for auto-activating skills, modular configurations (the 500-line rule), and specialized task agents.
-
-## Problems solved
-
-- Solves the 'passive skill' problem by enabling auto-activation via hooks; overcomes context limits through a 'Progressive Disclosure' modular skill pattern; prevents knowledge loss across context resets using a structured 'Dev Docs' system.
-
-## How to get started
-
-Copy relevant files from `.claude/skills/`, `.claude/hooks/`, or `.claude/agents/` into your own project. Reference `CLAUDE_INTEGRATION_GUIDE.md` to set up the two essential hooks for skill auto-activation and tool tracking.
-
-## Detailed report
+# diet103/claude-code-infrastructure-showcase
 
 ### 1. Positioning
 This showcase is an 'Infrastructure Blueprint' for professional Claude Code users. It targets developers managing complex, large-scale TypeScript projects (50,000+ lines) who need to optimize the agent's efficiency, reliability, and project-specific knowledge.

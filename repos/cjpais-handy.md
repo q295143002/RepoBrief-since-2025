@@ -1,36 +1,19 @@
 ---
-title: "cjpais/Handy"
+id: 931888694
 repo_name: "cjpais/Handy"
 url: "https://github.com/cjpais/Handy"
-github_url: "https://github.com/cjpais/Handy"
 stars: 17512
 language: "Rust"
-layout: repo
-tags:
-  - "macOS"
-  - "Productivity"
-  - "Utility"
-  - "Swift"
-  - "Rust"
-  - "CLI"
-  - "Workflow Enhancement"
+tags: ["macOS","Productivity","Utility","Swift","Rust","CLI","Workflow Enhancement"]
+original_description: "Handy: A set of useful, specialized AI tools and commands accessible directly from the macOS menu bar and terminal."
+english_summary: "A versatile macOS productivity utility that puts a suite of AI-powered commands and tools at your fingertips."
+chinese_summary: null
+problems_solved: "- Time wasted copy-pasting text between apps and browser AI chats\n- Lack of instant access for small tasks like formatting or summarizing\n- Cognitive load in managing dozens of custom shell aliases for AI scripts"
+how_to_use: "Install via Homebrew: `brew install cjpais/handy`. Use global shortcuts or the menu bar icon to trigger AI actions on selected text."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A versatile macOS productivity utility that puts a suite of AI-powered commands and tools at your fingertips.
-
-## Problems solved
-
-- Time wasted copy-pasting text between apps and browser AI chats
-- Lack of instant access for small tasks like formatting or summarizing
-- Cognitive load in managing dozens of custom shell aliases for AI scripts
-
-## How to get started
-
-Install via Homebrew: `brew install cjpais/handy`. Use global shortcuts or the menu bar icon to trigger AI actions on selected text.
-
-## Detailed report
+# cjpais/Handy
 
 ### 1. Positioning
 Handy is a 'Macro-Level' AI companion for macOS. It provides pre-built actions ('Rewrite', 'Extract Links', etc.) triggered via shortcuts on any selected text, acting as a productivity swiss army knife.

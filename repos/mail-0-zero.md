@@ -1,31 +1,19 @@
 ---
-title: "Mail-0/Zero"
+id: 926252103
 repo_name: "Mail-0/Zero"
 url: "https://github.com/Mail-0/Zero"
-github_url: "https://github.com/Mail-0/Zero"
 stars: 10479
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Email"
-  - "Self-Hosted"
-  - "Privacy"
-  - "Next.js"
+tags: ["AI Email","Self-Hosted","Privacy","Next.js"]
+original_description: "Zero: An Open-Source Gmail Alternative for the Future of Email. An AI-powered email solution that supports self-hosting and integration with external providers like Gmail and Outlook."
+english_summary: "Zero is a privacy-first, open-source AI email client and server that offers a unified, self-hosted inbox with deep LLM agent integrations."
+chinese_summary: null
+problems_solved: "- Combines the privacy of self-hosting with the convenience of unified Gmail/Outlook access; uses AI agents to automate email categorization, summarization, and responses; replaces complex, data-hungry, and closed-source email solutions with a modern, developer-friendly stack."
+how_to_use: "Requires Node.js v18+, pnpm, and Docker. Clone the repo, run `pnpm install`, start the DB with `pnpm docker:db:up`, configure `.env` via `pnpm nizzy env`, and launch the app with `pnpm dev`. Access at `http://localhost:3000`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Zero is a privacy-first, open-source AI email client and server that offers a unified, self-hosted inbox with deep LLM agent integrations.
-
-## Problems solved
-
-- Combines the privacy of self-hosting with the convenience of unified Gmail/Outlook access; uses AI agents to automate email categorization, summarization, and responses; replaces complex, data-hungry, and closed-source email solutions with a modern, developer-friendly stack.
-
-## How to get started
-
-Requires Node.js v18+, pnpm, and Docker. Clone the repo, run `pnpm install`, start the DB with `pnpm docker:db:up`, configure `.env` via `pnpm nizzy env`, and launch the app with `pnpm dev`. Access at `http://localhost:3000`.
-
-## Detailed report
+# Mail-0/Zero
 
 ### 1. Positioning
 Zero is designed for privacy-advocates, developers, and enterprises looking for a modern email experience without the surveillance of traditional providers. It positions itself as an 'Agent-Native' email client where LLMs are central to the workflow.

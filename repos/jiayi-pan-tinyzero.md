@@ -1,32 +1,19 @@
 ---
-title: "Jiayi-Pan/TinyZero"
+id: 920152532
 repo_name: "Jiayi-Pan/TinyZero"
 url: "https://github.com/Jiayi-Pan/TinyZero"
-github_url: "https://github.com/Jiayi-Pan/TinyZero"
 stars: 12930
 language: "Python"
-layout: repo
-tags:
-  - "Reinforcement-Learning"
-  - "Reasoning"
-  - "Deep-Research"
-  - "Machine-Learning"
-  - "Open-Source-AI"
+tags: ["Reinforcement-Learning","Reasoning","Deep-Research","Machine-Learning","Open-Source-AI"]
+original_description: "TinyZero is a reproduction of DeepSeek R1 Zero in countdown and multiplication tasks."
+english_summary: "A reinforcement learning project replicating DeepSeek R1 Zero's reasoning capabilities scaling on much smaller 3B parameter models."
+chinese_summary: null
+problems_solved: "- Democratizes empirical DeepRL reasoning research explicitly demonstrating how smaller models self-develop sophisticated verifiable chains of thought without relying heavily on supervised instruction tuning."
+how_to_use: "Establish a conda environment, install `veRL` and `vLLM`. Prepare dataset variables, and run `bash ./scripts/train_tiny_zero.sh` utilizing a target <3B base model."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A reinforcement learning project replicating DeepSeek R1 Zero's reasoning capabilities scaling on much smaller 3B parameter models.
-
-## Problems solved
-
-- Democratizes empirical DeepRL reasoning research explicitly demonstrating how smaller models self-develop sophisticated verifiable chains of thought without relying heavily on supervised instruction tuning.
-
-## How to get started
-
-Establish a conda environment, install `veRL` and `vLLM`. Prepare dataset variables, and run `bash ./scripts/train_tiny_zero.sh` utilizing a target <3B base model.
-
-## Detailed report
+# Jiayi-Pan/TinyZero
 
 ### 1. Positioning
 TinyZero is an experimental, highly educational Reinforcement Learning (RL) project proving that sophisticated logical deduction mechanisms (self-verification/search) can be induced entirely from scratch within small, 3-billion-parameter language models.

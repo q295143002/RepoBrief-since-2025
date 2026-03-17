@@ -1,36 +1,19 @@
 ---
-title: "coze-dev/coze-loop"
+id: 1007406267
 repo_name: "coze-dev/coze-loop"
 url: "https://github.com/coze-dev/coze-loop"
-github_url: "https://github.com/coze-dev/coze-loop"
 stars: 5354
 language: "Go"
-layout: repo
-tags:
-  - "AI Agents"
-  - "LLMOps"
-  - "Observability"
-  - "Prompt Engineering"
-  - "Evaluation"
-  - "Platform"
-  - "Open Source"
+tags: ["AI Agents","LLMOps","Observability","Prompt Engineering","Evaluation","Platform","Open Source"]
+original_description: "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.  "
+english_summary: "Coze Loop is a platform-level solution for the full lifecycle management of AI agents. It provides a shared core technology framework for developing, debugging, evaluating, and monitoring agents. It features a visual Playground for prompt engineering, automated multi-dimensional evaluation, and deep observability (tracing) of the agent's execution process."
+chinese_summary: null
+problems_solved: "- Difficulties in systematically evaluating AI agent performance (accuracy, compliance)\n- Lack of observability into internal agent steps (tool calls, prompt parsing)\n- Fragmented tools for prompt engineering and version management"
+how_to_use: "The open-source version can be deployed using Docker Compose or Kubernetes (Helm). Once running, access the web UI at `http://localhost:8082`. Configure your LLM providers (e.g., OpenAI, Volcengine) in the configuration files to start building and tracing agents."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Coze Loop is a platform-level solution for the full lifecycle management of AI agents. It provides a shared core technology framework for developing, debugging, evaluating, and monitoring agents. It features a visual Playground for prompt engineering, automated multi-dimensional evaluation, and deep observability (tracing) of the agent's execution process.
-
-## Problems solved
-
-- Difficulties in systematically evaluating AI agent performance (accuracy, compliance)
-- Lack of observability into internal agent steps (tool calls, prompt parsing)
-- Fragmented tools for prompt engineering and version management
-
-## How to get started
-
-The open-source version can be deployed using Docker Compose or Kubernetes (Helm). Once running, access the web UI at `http://localhost:8082`. Configure your LLM providers (e.g., OpenAI, Volcengine) in the configuration files to start building and tracing agents.
-
-## Detailed report
+# coze-dev/coze-loop
 
 ### 1. Positioning
 coze-dev/coze-loop is positioned as a coze loop is a platform-level solution for the full lifecycle management of ai agents. it provides a shared core technology framework for developing, debugging, evaluating, and monitoring agents. it features a visual playground for prompt engineering, automated multi-dimensional evaluation, and deep observability (tracing) of the agent's execution process. It aims to provide developers with a robust, Go-based solution for next-generation ai agent optimization platform: cozeloop addresses challenges in ai agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.  .

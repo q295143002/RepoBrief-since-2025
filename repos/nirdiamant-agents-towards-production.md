@@ -1,36 +1,19 @@
 ---
-title: "NirDiamant/agents-towards-production"
+id: 1003143578
 repo_name: "NirDiamant/agents-towards-production"
 url: "https://github.com/NirDiamant/agents-towards-production"
-github_url: "https://github.com/NirDiamant/agents-towards-production"
 stars: 18171
 language: "Jupyter Notebook"
-layout: repo
-tags:
-  - "Production AI"
-  - "Agent Patterns"
-  - "DevOps"
-  - "Observability"
-  - "Safety Gates"
-  - "Python"
-  - "Software Engineering"
+tags: ["Production AI","Agent Patterns","DevOps","Observability","Safety Gates","Python","Software Engineering"]
+original_description: "Agents Towards Production: A comprehensive guide and codebase for transitioning from toy AI examples to production-ready agent systems."
+english_summary: "A professional-level repository documenting industry best practices for building production-ready AI agent systems."
+chinese_summary: null
+problems_solved: "- The 'Lab-to-Live' gap where agents fail in real-world environments due to latency\n- Lack of observability in multi-step missions (knowing why an agent failed at step #15)\n- Complexity in managing long-running state in distributed systems"
+how_to_use: "Clone the repo and study the implementation guides in the `/patterns` folder. Use the provided blueprints for rate-limiting and human-in-the-loop gates."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A professional-level repository documenting industry best practices for building production-ready AI agent systems.
-
-## Problems solved
-
-- The 'Lab-to-Live' gap where agents fail in real-world environments due to latency
-- Lack of observability in multi-step missions (knowing why an agent failed at step #15)
-- Complexity in managing long-running state in distributed systems
-
-## How to get started
-
-Clone the repo and study the implementation guides in the `/patterns` folder. Use the provided blueprints for rate-limiting and human-in-the-loop gates.
-
-## Detailed report
+# NirDiamant/agents-towards-production
 
 ### 1. Positioning
 'Agents Towards Production' is an implementation bible curated by Nir Diamant. It provides code blueprints for critical parts of agent deployment: multi-model fallbacks, rate-limiting, and semantic caching.

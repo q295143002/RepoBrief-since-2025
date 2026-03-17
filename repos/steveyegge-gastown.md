@@ -1,32 +1,19 @@
 ---
-title: "steveyegge/gastown"
+id: 1117184424
 repo_name: "steveyegge/gastown"
 url: "https://github.com/steveyegge/gastown"
-github_url: "https://github.com/steveyegge/gastown"
 stars: 11944
 language: "Go"
-layout: repo
-tags:
-  - "AI Agent"
-  - "TypeScript"
-  - "Productivity"
-  - "CLI"
-  - "Claude"
+tags: ["AI Agent","TypeScript","Productivity","CLI","Claude"]
+original_description: "Multi-agent orchestration system for Claude Code with persistent work tracking"
+english_summary: "A sophisticated CLI orchestration manager defining resilient Multi-Agent collaborative workflows utilizing strictly Git worktrees guaranteeing precisely state persistence executing across deeply complex engineering projects effectively."
+chinese_summary: null
+problems_solved: "Eliminates entirely catastrophic context amnesia inherent within standard agent sessions wrapping fundamentally agent tasks inside persistent Git nodes maintaining perfectly isolated memory continuity mitigating completely destructive cross-agent overwrites."
+how_to_use: "Download Go binaries running `gt install ~/gt --git` invoking explicitly `gt mayor attach` describing natively your target architecture routing explicit Sub-Agent assignments directly."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A sophisticated CLI orchestration manager defining resilient Multi-Agent collaborative workflows utilizing strictly Git worktrees guaranteeing precisely state persistence executing across deeply complex engineering projects effectively.
-
-## Problems solved
-
-Eliminates entirely catastrophic context amnesia inherent within standard agent sessions wrapping fundamentally agent tasks inside persistent Git nodes maintaining perfectly isolated memory continuity mitigating completely destructive cross-agent overwrites.
-
-## How to get started
-
-Download Go binaries running `gt install ~/gt --git` invoking explicitly `gt mayor attach` describing natively your target architecture routing explicit Sub-Agent assignments directly.
-
-## Detailed report
+# steveyegge/gastown
 
 ### 1. Positioning
 Gas Town positions itself fundamentally optimizing exactly advanced Claude Code interactions building specifically an operating-system layer directing gracefully multi-agent concurrency simulating identically physical corporate software divisions precisely.

@@ -1,37 +1,19 @@
 ---
-title: "anthropics/skills"
+id: 1061953414
 repo_name: "anthropics/skills"
 url: "https://github.com/anthropics/skills"
-github_url: "https://github.com/anthropics/skills"
 stars: 92402
 language: "Python"
-layout: repo
-tags:
-  - "Claude"
-  - "Agent Skills"
-  - "Anthropic"
-  - "Prompt Engineering"
-  - "Modular AI"
-  - "Developer Tools"
-  - "Best Practices"
+tags: ["Claude","Agent Skills","Anthropic","Prompt Engineering","Modular AI","Developer Tools","Best Practices"]
+original_description: "A collection of pre-built, production-ready 'skills' for Claude models. These modular instructions and resources empower Claude to handle specialized tasks with human-level precision."
+english_summary: "Anthropic's official collection of modular skills to extend Claude's task-specific capabilities."
+chinese_summary: "该仓库包含 Anthropic 为 Claude 设计的 '技能（Skills）' 标准和示例模板，支持动态加载特定任务流。"
+problems_solved: "- Performance degradation of general-purpose LLMs on specialized workflows.\n- Need for a standardized way to share 'best practice' instructions across AI instances.\n- Inconsistency in AI output format when handling complex document generation."
+how_to_use: "git clone https://github.com/anthropics/skills\n# In Claude Code: /plugin marketplace add anthropics/skills"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Anthropic's official collection of modular skills to extend Claude's task-specific capabilities.
-
-## Problems solved
-
-- Performance degradation of general-purpose LLMs on specialized workflows.
-- Need for a standardized way to share 'best practice' instructions across AI instances.
-- Inconsistency in AI output format when handling complex document generation.
-
-## How to get started
-
-git clone https://github.com/anthropics/skills
-# In Claude Code: /plugin marketplace add anthropics/skills
-
-## Detailed report
+# anthropics/skills
 
 ### 1. Positioning
 This repository is Anthropic's official collection of modular 'Skills.' By providing structured instructions and resource packages, it significantly enhances Claude's performance on vertical tasks. It is aimed at developers and enterprise users looking to productize AI capabilities.

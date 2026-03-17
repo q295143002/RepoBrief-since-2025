@@ -1,35 +1,19 @@
 ---
-title: "apple/ml-fastvlm"
+id: 976325482
 repo_name: "apple/ml-fastvlm"
 url: "https://github.com/apple/ml-fastvlm"
-github_url: "https://github.com/apple/ml-fastvlm"
 stars: 7257
 language: "Python"
-layout: repo
-tags:
-  - "Apple"
-  - "Vision-Language-Model"
-  - "VLM"
-  - "CVPR-2025"
-  - "On-Device-AI"
-  - "Mobile-AI"
-  - "Research"
+tags: ["Apple","Vision-Language-Model","VLM","CVPR-2025","On-Device-AI","Mobile-AI","Research"]
+original_description: "This repository contains the official implementation of \"FastVLM: Efficient Vision Encoding for Vision Language Models\" - CVPR 2025"
+english_summary: "Apple's CVPR 2025 research introducing FastViTHD, a novel hybrid vision encoder that drastically reduces the number of visual tokens and encoding latency for VLMs, enabling real-time on-device multimodal AI on mobile hardware."
+chinese_summary: null
+problems_solved: "- Standard VLM vision encoders are slow and produce too many tokens for high-resolution images\n- making real-time on-device inference (iPhone/iPad) impractical. FastViTHD reduces Time-to-First-Token by up to 85x while maintaining or exceeding accuracy."
+how_to_use: "Create conda env, `pip install -e .`. Download models via `bash get_models.sh`. Run inference with `python predict.py --model-path /path/to/checkpoint --image-file image.png --prompt 'Describe this image.'`. For Apple Silicon, export models via `model_export/` and run native app in `app/` folder."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Apple's CVPR 2025 research introducing FastViTHD, a novel hybrid vision encoder that drastically reduces the number of visual tokens and encoding latency for VLMs, enabling real-time on-device multimodal AI on mobile hardware.
-
-## Problems solved
-
-- Standard VLM vision encoders are slow and produce too many tokens for high-resolution images
-- making real-time on-device inference (iPhone/iPad) impractical. FastViTHD reduces Time-to-First-Token by up to 85x while maintaining or exceeding accuracy.
-
-## How to get started
-
-Create conda env, `pip install -e .`. Download models via `bash get_models.sh`. Run inference with `python predict.py --model-path /path/to/checkpoint --image-file image.png --prompt 'Describe this image.'`. For Apple Silicon, export models via `model_export/` and run native app in `app/` folder.
-
-## Detailed report
+# apple/ml-fastvlm
 
 ### 1. Positioning
 apple/ml-fastvlm is positioned as a apple's cvpr 2025 research introducing fastvithd, a novel hybrid vision encoder that drastically reduces the number of visual tokens and encoding latency for vlms, enabling real-time on-device multimodal ai on mobile hardware. It aims to provide developers with a robust, Python-based solution for this repository contains the official implementation of "fastvlm: efficient vision encoding for vision language models" - cvpr 2025.

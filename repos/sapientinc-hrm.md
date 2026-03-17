@@ -1,32 +1,19 @@
 ---
-title: "sapientinc/HRM"
+id: 1016423859
 repo_name: "sapientinc/HRM"
 url: "https://github.com/sapientinc/HRM"
-github_url: "https://github.com/sapientinc/HRM"
 stars: 12357
 language: "Python"
-layout: repo
-tags:
-  - "Hierarchical-Reasoning"
-  - "ARC-AGI"
-  - "Logic-Models"
-  - "Recurrent-Neural-Networks"
-  - "Tiny-AI"
+tags: ["Hierarchical-Reasoning","ARC-AGI","Logic-Models","Recurrent-Neural-Networks","Tiny-AI"]
+original_description: "Hierarchical Reasoning Model"
+english_summary: "A highly lightweight recurrent AI model simulating System 1/System 2 thinking solving intricate logic tasks dynamically without explicit Chain-of-Thought prompting naturally."
+chinese_summary: null
+problems_solved: "- Substitutes extraordinarily brittle and token-heavy Chain-of-Thought LLM mechanics explicitly providing deterministic goal-execution utilizing multi-tier computational modules massively lowering parameter demands systematically."
+how_to_use: "Allocate CUDA environments running FlashAttention natively mapping `/pretrain.py` executing exactly onto the `sudoku-extreme-1k` parameters verifying explicit inference outputs manually."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A highly lightweight recurrent AI model simulating System 1/System 2 thinking solving intricate logic tasks dynamically without explicit Chain-of-Thought prompting naturally.
-
-## Problems solved
-
-- Substitutes extraordinarily brittle and token-heavy Chain-of-Thought LLM mechanics explicitly providing deterministic goal-execution utilizing multi-tier computational modules massively lowering parameter demands systematically.
-
-## How to get started
-
-Allocate CUDA environments running FlashAttention natively mapping `/pretrain.py` executing exactly onto the `sudoku-extreme-1k` parameters verifying explicit inference outputs manually.
-
-## Detailed report
+# sapientinc/HRM
 
 ### 1. Positioning
 The Hierarchical Reasoning Model posits an inherently divergent artificial intelligence paradigm prioritizing abstract sequential depth reasoning structurally replacing generic language correlations emphasizing mathematically provable execution natively.

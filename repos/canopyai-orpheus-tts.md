@@ -1,33 +1,19 @@
 ---
-title: "canopyai/Orpheus-TTS"
+id: 944828547
 repo_name: "canopyai/Orpheus-TTS"
 url: "https://github.com/canopyai/Orpheus-TTS"
-github_url: "https://github.com/canopyai/Orpheus-TTS"
 stars: 6000
 language: "Python"
-layout: repo
-tags:
-  - "TTS"
-  - "Vintage Audio"
-  - "Artistic AI"
-  - "Vocal Synthesis"
+tags: ["TTS","Vintage Audio","Artistic AI","Vocal Synthesis"]
+original_description: "Towards Human-Sounding Speech"
+english_summary: "An AI voice engine specializing in classical, retro, and vintage vocal styles for unique audio production."
+chinese_summary: null
+problems_solved: "- Modern TTS voices sounding too 'perfect' or sterile\n- Lack of specialized models for period-appropriate vocal timbres\n- Difficulty in achieving expressive retro-style narration"
+how_to_use: "Use the API or CLI to generate audio with retro-themed vocal profiles."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An AI voice engine specializing in classical, retro, and vintage vocal styles for unique audio production.
-
-## Problems solved
-
-- Modern TTS voices sounding too 'perfect' or sterile
-- Lack of specialized models for period-appropriate vocal timbres
-- Difficulty in achieving expressive retro-style narration
-
-## How to get started
-
-Use the API or CLI to generate audio with retro-themed vocal profiles.
-
-## Detailed report
+# canopyai/Orpheus-TTS
 
 ### 1. Positioning
 canopyai/Orpheus-TTS is positioned as a an ai voice engine specializing in classical, retro, and vintage vocal styles for unique audio production. It aims to provide developers with a robust, Python-based solution for towards human-sounding speech.

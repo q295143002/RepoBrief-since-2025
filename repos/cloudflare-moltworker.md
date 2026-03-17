@@ -1,33 +1,19 @@
 ---
-title: "cloudflare/moltworker"
+id: 1143261428
 repo_name: "cloudflare/moltworker"
 url: "https://github.com/cloudflare/moltworker"
-github_url: "https://github.com/cloudflare/moltworker"
 stars: 9586
 language: "TypeScript"
-layout: repo
-tags:
-  - "Cloudflare Workers"
-  - "Serverless"
-  - "AI Agent"
-  - "OpenClaw"
-  - "R2 Storage"
+tags: ["Cloudflare Workers","Serverless","AI Agent","OpenClaw","R2 Storage"]
+original_description: "moltworker: OpenClaw on Cloudflare Workers. Run the OpenClaw personal AI assistant in a Cloudflare Sandbox (containers)."
+english_summary: "Moltworker is an experimental project that allows developers to host the OpenClaw AI assistant within Cloudflare's serverless container infrastructure (Sandboxes)."
+chinese_summary: null
+problems_solved: "- Eliminates the need for self-hosting a persistent home server for AI agents; provides a secure\n- managed environment with built-in Cloudflare Access authentication; enables persistent agent states via R2 storage integration."
+how_to_use: "Requires a Cloudflare Workers Paid plan. Clone the repo, set secrets (ANTHROPIC_API_KEY, CF_ACCESS_AUD) via `wrangler secret put`, and deploy with `npm run deploy`. Access the web UI via your worker URL with a generated gateway token."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Moltworker is an experimental project that allows developers to host the OpenClaw AI assistant within Cloudflare's serverless container infrastructure (Sandboxes).
-
-## Problems solved
-
-- Eliminates the need for self-hosting a persistent home server for AI agents; provides a secure
-- managed environment with built-in Cloudflare Access authentication; enables persistent agent states via R2 storage integration.
-
-## How to get started
-
-Requires a Cloudflare Workers Paid plan. Clone the repo, set secrets (ANTHROPIC_API_KEY, CF_ACCESS_AUD) via `wrangler secret put`, and deploy with `npm run deploy`. Access the web UI via your worker URL with a generated gateway token.
-
-## Detailed report
+# cloudflare/moltworker
 
 ### 1. Positioning
 Moltworker is a proof-of-concept for the 'Cloud-Native Personal Assistant'. It targets developers who want a dedicated, always-on AI gateway (OpenClaw) but prefer the reliability and security of Cloudflare's global network over a local Raspberry Pi or VPS.

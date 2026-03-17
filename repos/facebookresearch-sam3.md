@@ -1,34 +1,19 @@
 ---
-title: "facebookresearch/sam3"
+id: 1021587722
 repo_name: "facebookresearch/sam3"
 url: "https://github.com/facebookresearch/sam3"
-github_url: "https://github.com/facebookresearch/sam3"
 stars: 8145
 language: "Python"
-layout: repo
-tags:
-  - "Computer-Vision"
-  - "Segmentation"
-  - "Meta-AI"
-  - "SAM"
-  - "PyTorch"
-  - "Deep-Learning"
+tags: ["Computer-Vision","Segmentation","Meta-AI","SAM","PyTorch","Deep-Learning"]
+original_description: "The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example notebooks that show how to use the model."
+english_summary: "Meta's next-generation 'Segment Anything' model adding open-vocabulary concept segmentation for images and videos."
+chinese_summary: null
+problems_solved: "- Difficulty segmenting specific concepts (e.g.\n- 'red player') without manual effort; task interference in video tracking; limited vocabulary of previous models."
+how_to_use: "Request access on Hugging Face; install dependencies (PyTorch 2.7, CUDA 12.6); use Sam3Processor for inference."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Meta's next-generation 'Segment Anything' model adding open-vocabulary concept segmentation for images and videos.
-
-## Problems solved
-
-- Difficulty segmenting specific concepts (e.g.
-- 'red player') without manual effort; task interference in video tracking; limited vocabulary of previous models.
-
-## How to get started
-
-Request access on Hugging Face; install dependencies (PyTorch 2.7, CUDA 12.6); use Sam3Processor for inference.
-
-## Detailed report
+# facebookresearch/sam3
 
 ### 1. Positioning
 facebookresearch/sam3 is positioned as a meta's next-generation 'segment anything' model adding open-vocabulary concept segmentation for images and videos. It aims to provide developers with a robust, Python-based solution for the repository provides code for running inference and finetuning with the meta segment anything model 3 (sam 3), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.

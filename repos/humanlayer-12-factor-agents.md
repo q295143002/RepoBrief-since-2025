@@ -1,36 +1,19 @@
 ---
-title: "humanlayer/12-factor-agents"
+id: 957658915
 repo_name: "humanlayer/12-factor-agents"
 url: "https://github.com/humanlayer/12-factor-agents"
-github_url: "https://github.com/humanlayer/12-factor-agents"
 stars: 18688
 language: "TypeScript"
-layout: repo
-tags:
-  - "Agent Principles"
-  - "Best Practices"
-  - "AI Safety"
-  - "Engineering Standards"
-  - "DevOps"
-  - "Scalability"
-  - "Enterprise AI"
+tags: ["Agent Principles","Best Practices","AI Safety","Engineering Standards","DevOps","Scalability","Enterprise AI"]
+original_description: "12-Factor Agents: A set of principles and best practices for building production-grade LLM-powered software."
+english_summary: "The 'Twelve-Factor App' equivalent for AI agents, outlining principles for scale, safety, and reliability."
+chinese_summary: null
+problems_solved: "- Fragmentation and 'Experimental' nature of most AI agent projects lacking logging and safety\n- Scalability issues in agentic software regarding cost, latency, and concurrency\n- Lack of 'Industrial Standards' for the deployment of autonomous systems"
+how_to_use: "Review the principles at the project website and use the reference implementations in the `/examples` folder to audit your own agent's architecture."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The 'Twelve-Factor App' equivalent for AI agents, outlining principles for scale, safety, and reliability.
-
-## Problems solved
-
-- Fragmentation and 'Experimental' nature of most AI agent projects lacking logging and safety
-- Scalability issues in agentic software regarding cost, latency, and concurrency
-- Lack of 'Industrial Standards' for the deployment of autonomous systems
-
-## How to get started
-
-Review the principles at the project website and use the reference implementations in the `/examples` folder to audit your own agent's architecture.
-
-## Detailed report
+# humanlayer/12-factor-agents
 
 ### 1. Positioning
 12-Factor Agents is a thought-leadership project by HumanLayer. It adapts the '12-Factor App' methodology for the Generative AI era, providing a checklist for building production-stable agents.

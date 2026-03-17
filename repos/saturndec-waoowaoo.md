@@ -1,34 +1,19 @@
 ---
-title: "saturndec/waoowaoo"
+id: 1139782619
 repo_name: "saturndec/waoowaoo"
 url: "https://github.com/saturndec/waoowaoo"
-github_url: "https://github.com/saturndec/waoowaoo"
 stars: 9279
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Video"
-  - "Film Production"
-  - "Next.js"
-  - "Docker"
-  - "Storyboarding"
+tags: ["AI Video","Film Production","Next.js","Docker","Storyboarding"]
+original_description: "waoowaoo AI 影视 Studio: 一款基于 AI 技术的短剧/漫画视频制作工具，支持从小说文本自动生成分镜、角色、场景。"
+english_summary: "waoowaoo is an AI-powered film studio for short dramas and comics, automating the entire workflow from novel script analysis to character design and final video synthesis."
+chinese_summary: null
+problems_solved: "- Streamlines the labor-intensive process of converting text to video content; solves character consistency issues across multiple scenes (storytelling consistency); provides a unified interface for script analysis\n- voiceover\n- and visual synthesis."
+how_to_use: "Requires Docker Desktop. Run `docker compose up -d` after downloading the `docker-compose.yml`. Access the studio at `http://localhost:13000`, configure your API keys in the settings center, and upload a novel text to begin analysis."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-waoowaoo is an AI-powered film studio for short dramas and comics, automating the entire workflow from novel script analysis to character design and final video synthesis.
-
-## Problems solved
-
-- Streamlines the labor-intensive process of converting text to video content; solves character consistency issues across multiple scenes (storytelling consistency); provides a unified interface for script analysis
-- voiceover
-- and visual synthesis.
-
-## How to get started
-
-Requires Docker Desktop. Run `docker compose up -d` after downloading the `docker-compose.yml`. Access the studio at `http://localhost:13000`, configure your API keys in the settings center, and upload a novel text to begin analysis.
-
-## Detailed report
+# saturndec/waoowaoo
 
 ### 1. Positioning
 waoowaoo positions itself as the 'Next-Gen Creative Workflow' for short-form video creators. It targets individual creators and small studios who want to produce high-quality AI short dramas or manga videos with minimal manual effort.

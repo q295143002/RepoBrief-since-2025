@@ -1,34 +1,19 @@
 ---
-title: "shaxiu/XianyuAutoAgent"
+id: 948663423
 repo_name: "shaxiu/XianyuAutoAgent"
 url: "https://github.com/shaxiu/XianyuAutoAgent"
-github_url: "https://github.com/shaxiu/XianyuAutoAgent"
 stars: 5740
 language: "Python"
-layout: repo
-tags:
-  - "Agent"
-  - "Automation"
-  - "E-commerce"
-  - "Xianyu"
-  - "Tooling"
+tags: ["Agent","Automation","E-commerce","Xianyu","Tooling"]
+original_description: "智能闲鱼客服机器人系统：专为闲鱼平台打造的AI值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。"
+english_summary: "An autonomous trading and customer service agent specifically optimized for the Xianyu (Idle Fish) platform."
+chinese_summary: null
+problems_solved: "- Tedious manual handling of buyer inquiries on second-hand markets\n- Missed trading opportunities due to slow human response times\n- Complex negotiation patterns requiring a specialized local agent"
+how_to_use: "Run the agent locally and connect it to your Xianyu account to automate listing management and buyer chats."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An autonomous trading and customer service agent specifically optimized for the Xianyu (Idle Fish) platform.
-
-## Problems solved
-
-- Tedious manual handling of buyer inquiries on second-hand markets
-- Missed trading opportunities due to slow human response times
-- Complex negotiation patterns requiring a specialized local agent
-
-## How to get started
-
-Run the agent locally and connect it to your Xianyu account to automate listing management and buyer chats.
-
-## Detailed report
+# shaxiu/XianyuAutoAgent
 
 ### 1. Positioning
 shaxiu/XianyuAutoAgent is positioned as a an autonomous trading and customer service agent specifically optimized for the xianyu (idle fish) platform. It aims to provide developers with a robust, Python-based solution for 智能闲鱼客服机器人系统：专为闲鱼平台打造的ai值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。.

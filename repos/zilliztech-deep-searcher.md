@@ -1,34 +1,19 @@
 ---
-title: "zilliztech/deep-searcher"
+id: 929200745
 repo_name: "zilliztech/deep-searcher"
 url: "https://github.com/zilliztech/deep-searcher"
-github_url: "https://github.com/zilliztech/deep-searcher"
 stars: 7700
 language: "Python"
-layout: repo
-tags:
-  - "Search Engine"
-  - "Zilliz"
-  - "Semantic Search"
-  - "RAG"
-  - "Vector Search"
+tags: ["Search Engine","Zilliz","Semantic Search","RAG","Vector Search"]
+original_description: "Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python."
+english_summary: "Zilliztech's deep content search and semantic indexing framework for massive datasets."
+chinese_summary: null
+problems_solved: "- Inefficiency of keyword search in large unstructured datasets\n- High cost of scaling semantic search over millions of documents\n- Complexity in managing vector-metadata consistency"
+how_to_use: "Deploy with Milvus/Zilliz and run the indexer on your data source."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Zilliztech's deep content search and semantic indexing framework for massive datasets.
-
-## Problems solved
-
-- Inefficiency of keyword search in large unstructured datasets
-- High cost of scaling semantic search over millions of documents
-- Complexity in managing vector-metadata consistency
-
-## How to get started
-
-Deploy with Milvus/Zilliz and run the indexer on your data source.
-
-## Detailed report
+# zilliztech/deep-searcher
 
 ### 1. Positioning
 zilliztech/deep-searcher is positioned as a zilliztech's deep content search and semantic indexing framework for massive datasets. It aims to provide developers with a robust, Python-based solution for open source deep research alternative to reason and search on private data. written in python.

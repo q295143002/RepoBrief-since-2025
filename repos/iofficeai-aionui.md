@@ -1,36 +1,19 @@
 ---
-title: "iOfficeAI/AionUi"
+id: 1033778670
 repo_name: "iOfficeAI/AionUi"
 url: "https://github.com/iOfficeAI/AionUi"
-github_url: "https://github.com/iOfficeAI/AionUi"
 stars: 18643
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI UI"
-  - "Agent Dashboard"
-  - "Frontend SDK"
-  - "Preact"
-  - "Stream Visualization"
-  - "Aion OS"
-  - "Web Components"
+tags: ["AI UI","Agent Dashboard","Frontend SDK","Preact","Stream Visualization","Aion OS","Web Components"]
+original_description: "AionUI: The official, high-performance UI library for the Aion agentic operating system. Built for speed and flexibility."
+english_summary: "The official high-performance UI components for the Aion agentic operating system."
+chinese_summary: null
+problems_solved: "- Standard UI components being too heavy for high-frequency agentic updates\n- Lack of 'State-Aware' UI elements that reflect an AI's internal reasoning process\n- High latency in rendering complex agent dashboards on low-resource devices"
+how_to_use: "Install via npm: `npm install @aion/ui`. Import components like `AgentCard` or `ReasoningTrace` to build your agentic frontend."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The official high-performance UI components for the Aion agentic operating system.
-
-## Problems solved
-
-- Standard UI components being too heavy for high-frequency agentic updates
-- Lack of 'State-Aware' UI elements that reflect an AI's internal reasoning process
-- High latency in rendering complex agent dashboards on low-resource devices
-
-## How to get started
-
-Install via npm: `npm install @aion/ui`. Import components like `AgentCard` or `ReasoningTrace` to build your agentic frontend.
-
-## Detailed report
+# iOfficeAI/AionUi
 
 ### 1. Positioning
 AionUI is a specialized UI kit designed for the 'Agentic Web.' It provides lightweight, high-performance components specifically tuned for real-time AI interactions and long-running agent streams. Flagship library for the Aion OS ecosystem.

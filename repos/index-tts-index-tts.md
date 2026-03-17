@@ -1,36 +1,19 @@
 ---
-title: "index-tts/index-tts"
+id: 928102730
 repo_name: "index-tts/index-tts"
 url: "https://github.com/index-tts/index-tts"
-github_url: "https://github.com/index-tts/index-tts"
 stars: 19332
 language: "Python"
-layout: repo
-tags:
-  - "TTS"
-  - "Speech Synthesis"
-  - "AI Voice"
-  - "Zero-Shot"
-  - "Voice Cloning"
-  - "Diffusion Models"
-  - "Industrial AI"
+tags: ["TTS","Speech Synthesis","AI Voice","Zero-Shot","Voice Cloning","Diffusion Models","Industrial AI"]
+original_description: "Index-TTS: An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System."
+english_summary: "A professional-grade, controllable zero-shot TTS system for industrial-scale speech synthesis."
+chinese_summary: null
+problems_solved: "- Lack of speaker diversity in standard TTS systems requiring massive data for each voice\n- Difficulty in controlling 'Prosody' and 'Emotion' in automated voice-overs\n- High latency in high-fidelity zero-shot voice cloning"
+how_to_use: "Install via pip: `pip install index-tts`. Synthesize speech by providing a text and a reference audio: `python -m index_tts.synth --text \"Hello world\" --reference \"speaker_sample.wav\"`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A professional-grade, controllable zero-shot TTS system for industrial-scale speech synthesis.
-
-## Problems solved
-
-- Lack of speaker diversity in standard TTS systems requiring massive data for each voice
-- Difficulty in controlling 'Prosody' and 'Emotion' in automated voice-overs
-- High latency in high-fidelity zero-shot voice cloning
-
-## How to get started
-
-Install via pip: `pip install index-tts`. Synthesize speech by providing a text and a reference audio: `python -m index_tts.synth --text "Hello world" --reference "speaker_sample.wav"`.
-
-## Detailed report
+# index-tts/index-tts
 
 ### 1. Positioning
 Index-TTS is a high-performance TTS framework designed for industrial applications. It specializes in 'Zero-Shot' synthesis—cloning a new voice from just a few seconds of audio—while maintaining high control over tone and pacing.

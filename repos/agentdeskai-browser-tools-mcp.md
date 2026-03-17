@@ -1,33 +1,19 @@
 ---
-title: "AgentDeskAI/browser-tools-mcp"
+id: 930217913
 repo_name: "AgentDeskAI/browser-tools-mcp"
 url: "https://github.com/AgentDeskAI/browser-tools-mcp"
-github_url: "https://github.com/AgentDeskAI/browser-tools-mcp"
 stars: 7118
 language: "JavaScript"
-layout: repo
-tags:
-  - "MCP"
-  - "Browser Tools"
-  - "Developer Tools"
-  - "Web Automation"
+tags: ["MCP","Browser Tools","Developer Tools","Web Automation"]
+original_description: "Monitor browser logs directly from Cursor and other MCP compatible IDEs."
+english_summary: "An MCP server that exposes browser developer tools (DOM, Network, Console) to AI agents."
+chinese_summary: null
+problems_solved: "- AI agents lacking deep visibility into browser internals\n- Fragility of standard DOM scrapers on dynamic sites\n- Difficulty in debugging agent-browser interactions"
+how_to_use: "Install the MCP server and connect it to your agent host (e.g., Claude Desktop)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An MCP server that exposes browser developer tools (DOM, Network, Console) to AI agents.
-
-## Problems solved
-
-- AI agents lacking deep visibility into browser internals
-- Fragility of standard DOM scrapers on dynamic sites
-- Difficulty in debugging agent-browser interactions
-
-## How to get started
-
-Install the MCP server and connect it to your agent host (e.g., Claude Desktop).
-
-## Detailed report
+# AgentDeskAI/browser-tools-mcp
 
 ### 1. Positioning
 AgentDeskAI/browser-tools-mcp is positioned as a an mcp server that exposes browser developer tools (dom, network, console) to ai agents. It aims to provide developers with a robust, JavaScript-based solution for monitor browser logs directly from cursor and other mcp compatible ides.

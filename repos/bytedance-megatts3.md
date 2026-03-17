@@ -1,33 +1,19 @@
 ---
-title: "bytedance/MegaTTS3"
+id: 951794942
 repo_name: "bytedance/MegaTTS3"
 url: "https://github.com/bytedance/MegaTTS3"
-github_url: "https://github.com/bytedance/MegaTTS3"
 stars: 6073
 language: "Python"
-layout: repo
-tags:
-  - "TTS"
-  - "ByteDance"
-  - "Audio AI"
-  - "Voice Cloning"
+tags: ["TTS","ByteDance","Audio AI","Voice Cloning"]
+original_description: null
+english_summary: "ByteDance's next-generation zero-shot TTS model for ultra-realistic voice cloning and long-form speech."
+chinese_summary: null
+problems_solved: "- High training data requirements for high-fidelity voice clones\n- Inability to maintain emotion across long audio narrations\n- Robot-sounding results in current zero-shot systems"
+how_to_use: "Access the model via the provided API or local inference scripts for professional narration."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ByteDance's next-generation zero-shot TTS model for ultra-realistic voice cloning and long-form speech.
-
-## Problems solved
-
-- High training data requirements for high-fidelity voice clones
-- Inability to maintain emotion across long audio narrations
-- Robot-sounding results in current zero-shot systems
-
-## How to get started
-
-Access the model via the provided API or local inference scripts for professional narration.
-
-## Detailed report
+# bytedance/MegaTTS3
 
 ### 1. Positioning
 bytedance/MegaTTS3 is positioned as a bytedance's next-generation zero-shot tts model for ultra-realistic voice cloning and long-form speech. It aims to provide developers with a robust, Python-based solution for no description provided.

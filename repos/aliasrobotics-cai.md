@@ -1,38 +1,19 @@
 ---
-title: "aliasrobotics/cai"
+id: 957859485
 repo_name: "aliasrobotics/cai"
 url: "https://github.com/aliasrobotics/cai"
-github_url: "https://github.com/aliasrobotics/cai"
 stars: 7392
 language: "Python"
-layout: repo
-tags:
-  - "Cybersecurity"
-  - "AI-Agent"
-  - "Penetration-Testing"
-  - "Open-Source"
-  - "CTF"
-  - "LLM"
-  - "Python"
+tags: ["Cybersecurity","AI-Agent","Penetration-Testing","Open-Source","CTF","LLM","Python"]
+original_description: "Cybersecurity AI (CAI), the framework for AI Security"
+english_summary: "CAI is the de-facto open-source framework for AI-powered cybersecurity, supporting 300+ LLMs and featuring built-in security tools, agentic patterns, guardrails, and HITL for automated penetration testing, CTF solving, and bug bounty research."
+chinese_summary: null
+problems_solved: "- Democratizes AI-powered security testing by providing a modular\n- lightweight\n- and fully open-source framework that anyone can use for authorized pentesting and bug bounty hunting\n- proven to achieve 3\n- 600× performance improvement over human testers in CTF benchmarks."
+how_to_use: "Install via `pip install cai-framework`. Set up `.env` with your LLM API keys. Launch the CLI with `cai`. Custom agents, tools, and patterns can be defined in Python using the CAI SDK (`cai.sdk.agents.Agent`)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-CAI is the de-facto open-source framework for AI-powered cybersecurity, supporting 300+ LLMs and featuring built-in security tools, agentic patterns, guardrails, and HITL for automated penetration testing, CTF solving, and bug bounty research.
-
-## Problems solved
-
-- Democratizes AI-powered security testing by providing a modular
-- lightweight
-- and fully open-source framework that anyone can use for authorized pentesting and bug bounty hunting
-- proven to achieve 3
-- 600× performance improvement over human testers in CTF benchmarks.
-
-## How to get started
-
-Install via `pip install cai-framework`. Set up `.env` with your LLM API keys. Launch the CLI with `cai`. Custom agents, tools, and patterns can be defined in Python using the CAI SDK (`cai.sdk.agents.Agent`).
-
-## Detailed report
+# aliasrobotics/cai
 
 ### 1. Positioning
 aliasrobotics/cai is positioned as a cai is the de-facto open-source framework for ai-powered cybersecurity, supporting 300+ llms and featuring built-in security tools, agentic patterns, guardrails, and hitl for automated penetration testing, ctf solving, and bug bounty research. It aims to provide developers with a robust, Python-based solution for cybersecurity ai (cai), the framework for ai security.

@@ -1,37 +1,19 @@
 ---
-title: "tonyantony300/alt-sendme"
+id: 1078137951
 repo_name: "tonyantony300/alt-sendme"
 url: "https://github.com/tonyantony300/alt-sendme"
-github_url: "https://github.com/tonyantony300/alt-sendme"
 stars: 6020
 language: "TypeScript"
-layout: repo
-tags:
-  - "P2P"
-  - "File Sharing"
-  - "Privacy"
-  - "Networking"
-  - "Rust"
-  - "Tauri"
-  - "Cryptography"
+tags: ["P2P","File Sharing","Privacy","Networking","Rust","Tauri","Cryptography"]
+original_description: "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions."
+english_summary: "AltSendme is a modern file sharing application built with Rust and Tauri. It uses the Iroh networking protocol to facilitate direct peer-to-peer (P2P) transfers without any middle-man cloud servers. It features end-to-end encryption, NAT traversal (hole punching), and a simple 'ticket' system for securely connecting devices across the internet."
+chinese_summary: null
+problems_solved: "- Privacy risks in cloud storage: Files are transferred directly between devices, never stored on servers like Dropbox or WeTransfer.\n- Size limits: No artificial limits on file or directory size.\n- Complex network setup: Uses QUIC hole-punching to work through firewalls/NATs automatically.\n- Insecure transfers: All data is protected with TLS 1.3 and verified using BLAKE3 hashes for integrity."
+how_to_use: "Install the app on both sending and receiving devices (Windows, macOS, or Linux). Drag a file into the app to generate a 'ticket'. Share this ticket with the recipient, who pastes it into their app to start the P2P transfer. No accounts or sign-ups are required."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-AltSendme is a modern file sharing application built with Rust and Tauri. It uses the Iroh networking protocol to facilitate direct peer-to-peer (P2P) transfers without any middle-man cloud servers. It features end-to-end encryption, NAT traversal (hole punching), and a simple 'ticket' system for securely connecting devices across the internet.
-
-## Problems solved
-
-- Privacy risks in cloud storage: Files are transferred directly between devices, never stored on servers like Dropbox or WeTransfer.
-- Size limits: No artificial limits on file or directory size.
-- Complex network setup: Uses QUIC hole-punching to work through firewalls/NATs automatically.
-- Insecure transfers: All data is protected with TLS 1.3 and verified using BLAKE3 hashes for integrity.
-
-## How to get started
-
-Install the app on both sending and receiving devices (Windows, macOS, or Linux). Drag a file into the app to generate a 'ticket'. Share this ticket with the recipient, who pastes it into their app to start the P2P transfer. No accounts or sign-ups are required.
-
-## Detailed report
+# tonyantony300/alt-sendme
 
 ### 1. Positioning
 tonyantony300/alt-sendme is positioned as a altsendme is a modern file sharing application built with rust and tauri. it uses the iroh networking protocol to facilitate direct peer-to-peer (p2p) transfers without any middle-man cloud servers. it features end-to-end encryption, nat traversal (hole punching), and a simple 'ticket' system for securely connecting devices across the internet. It aims to provide developers with a robust, TypeScript-based solution for send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions.

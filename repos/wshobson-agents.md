@@ -1,38 +1,19 @@
 ---
-title: "wshobson/agents"
+id: 1025856648
 repo_name: "wshobson/agents"
 url: "https://github.com/wshobson/agents"
-github_url: "https://github.com/wshobson/agents"
 stars: 31135
 language: "Python"
-layout: repo
-tags:
-  - "Voice AI"
-  - "Real-time"
-  - "Low Latency"
-  - "STT"
-  - "TTS"
-  - "WebSockets"
-  - "Conversation Server"
+tags: ["Voice AI","Real-time","Low Latency","STT","TTS","WebSockets","Conversation Server"]
+original_description: "Agents: A conversation server that supports text and real-time voice (TTS/STT). Aimed at reducing latency for AI voice conversations."
+english_summary: "High-performance AI conversation server supporting real-time text and voice interaction."
+chinese_summary: null
+problems_solved: "- Frustrating latency in AI voice conversations due to separate STT/LLM/TTS roundtrips.\n- Inconsistency in voice output emotion and pacing.\n- Complexity in managing multi-modal session state for real-time applications."
+how_to_use: "git clone https://github.com/wshobson/agents\nnpm install\nnpm run dev:voice"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-High-performance AI conversation server supporting real-time text and voice interaction.
-
-## Problems solved
-
-- Frustrating latency in AI voice conversations due to separate STT/LLM/TTS roundtrips.
-- Inconsistency in voice output emotion and pacing.
-- Complexity in managing multi-modal session state for real-time applications.
-
-## How to get started
-
-git clone https://github.com/wshobson/agents
-npm install
-npm run dev:voice
-
-## Detailed report
+# wshobson/agents
 
 ### 1. Positioning
 Agents is a real-time conversation orchestration server. It integrates STT (Speech-to-Text), LLM reasoning, and TTS (Text-to-Speech) into a single, low-latency pipeline, allowing for human-like voice interactions without the typical 'wait-response' delay.

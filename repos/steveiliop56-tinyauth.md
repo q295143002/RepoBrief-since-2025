@@ -1,33 +1,19 @@
 ---
-title: "steveiliop56/tinyauth"
+id: 918974884
 repo_name: "steveiliop56/tinyauth"
 url: "https://github.com/steveiliop56/tinyauth"
-github_url: "https://github.com/steveiliop56/tinyauth"
 stars: 7098
 language: "Go"
-layout: repo
-tags:
-  - "Authentication"
-  - "Auth-Server"
-  - "Go"
-  - "Security"
-  - "Self-Hosted"
-  - "JWT"
+tags: ["Authentication","Auth-Server","Go","Security","Self-Hosted","JWT"]
+original_description: "The tiniest authentication and authorization server you have ever seen."
+english_summary: "A minimalist, secure authentication server providing JWT-based login, MFA, and user management for small-to-medium projects without external dependencies."
+chinese_summary: null
+problems_solved: "- Over-complexity of auth providers like Auth0 or Keycloak for simple apps; privacy concerns with third-party auth; high implementation time for DIY auth systems."
+how_to_use: "Run via Docker: 'docker run -p 8080:8080 steveiliop56/tinyauth'; configure using simple JSON files; integrate with frontend using standard OIDC or custom API calls."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A minimalist, secure authentication server providing JWT-based login, MFA, and user management for small-to-medium projects without external dependencies.
-
-## Problems solved
-
-- Over-complexity of auth providers like Auth0 or Keycloak for simple apps; privacy concerns with third-party auth; high implementation time for DIY auth systems.
-
-## How to get started
-
-Run via Docker: 'docker run -p 8080:8080 steveiliop56/tinyauth'; configure using simple JSON files; integrate with frontend using standard OIDC or custom API calls.
-
-## Detailed report
+# steveiliop56/tinyauth
 
 ### 1. Positioning
 steveiliop56/tinyauth is positioned as a a minimalist, secure authentication server providing jwt-based login, mfa, and user management for small-to-medium projects without external dependencies. It aims to provide developers with a robust, Go-based solution for the tiniest authentication and authorization server you have ever seen.

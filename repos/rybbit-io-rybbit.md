@@ -1,33 +1,19 @@
 ---
-title: "rybbit-io/rybbit"
+id: 916747943
 repo_name: "rybbit-io/rybbit"
 url: "https://github.com/rybbit-io/rybbit"
-github_url: "https://github.com/rybbit-io/rybbit"
 stars: 11800
 language: "TypeScript"
-layout: repo
-tags:
-  - "Translation"
-  - "Real-time AI"
-  - "NLP"
-  - "Communication"
+tags: ["Translation","Real-time AI","NLP","Communication"]
+original_description: "Open Source Web & Product Analytics"
+english_summary: "A high-performance real-time AI translation library for low-latency communication."
+chinese_summary: null
+problems_solved: "- High latency in traditional translation APIs\n- Loss of context in streaming audio translations\n- Difficulty in deploying local translation models"
+how_to_use: "Install via npm or pip and use the streaming API for real-time results."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-performance real-time AI translation library for low-latency communication.
-
-## Problems solved
-
-- High latency in traditional translation APIs
-- Loss of context in streaming audio translations
-- Difficulty in deploying local translation models
-
-## How to get started
-
-Install via npm or pip and use the streaming API for real-time results.
-
-## Detailed report
+# rybbit-io/rybbit
 
 ### 1. Positioning
 rybbit-io/rybbit is positioned as a a high-performance real-time ai translation library for low-latency communication. It aims to provide developers with a robust, TypeScript-based solution for open source web & product analytics.

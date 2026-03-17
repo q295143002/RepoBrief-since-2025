@@ -1,36 +1,19 @@
 ---
-title: "HKUDS/RAG-Anything"
+id: 997220241
 repo_name: "HKUDS/RAG-Anything"
 url: "https://github.com/HKUDS/RAG-Anything"
-github_url: "https://github.com/HKUDS/RAG-Anything"
 stars: 14187
 language: "Python"
-layout: repo
-tags:
-  - "RAG"
-  - "Multimodal"
-  - "AI Search"
-  - "Document AI"
-  - "Bioinformatics"
-  - "Computer Vision"
-  - "HKUDS"
+tags: ["RAG","Multimodal","AI Search","Document AI","Bioinformatics","Computer Vision","HKUDS"]
+original_description: "RAG-Anything: All-in-One RAG Framework handling text, images, tables, equations."
+english_summary: "An advanced, all-in-one Retrieval-Augmented Generation (RAG) framework capable of intelligently querying multimodal documents."
+chinese_summary: null
+problems_solved: "- Inability of standard RAG to comprehend images and complex tables in documents\n- Fragmented data extraction where equations or charts are lost during context chunking\n- Lack of unified knowledge retrieval across disparate media formats"
+how_to_use: "Install via pip, set your API keys, and ingest complex PDFs. Use the `query` method to ask questions about charts, images, and text simultaneously."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An advanced, all-in-one Retrieval-Augmented Generation (RAG) framework capable of intelligently querying multimodal documents.
-
-## Problems solved
-
-- Inability of standard RAG to comprehend images and complex tables in documents
-- Fragmented data extraction where equations or charts are lost during context chunking
-- Lack of unified knowledge retrieval across disparate media formats
-
-## How to get started
-
-Install via pip, set your API keys, and ingest complex PDFs. Use the `query` method to ask questions about charts, images, and text simultaneously.
-
-## Detailed report
+# HKUDS/RAG-Anything
 
 ### 1. Positioning
 RAG-Anything is a multimodal intelligence framework by HKUDS that upgrades textual RAG into a contextually aware system for text, images, and equations.

@@ -1,33 +1,19 @@
 ---
-title: "StrayMeteor3337/WechatRealFriends"
+id: 931447402
 repo_name: "StrayMeteor3337/WechatRealFriends"
 url: "https://github.com/StrayMeteor3337/WechatRealFriends"
-github_url: "https://github.com/StrayMeteor3337/WechatRealFriends"
 stars: 5277
 language: "JavaScript"
-layout: repo
-tags:
-  - "Social Analysis"
-  - "WeChat"
-  - "AI Analytics"
-  - "Friendship Graph"
+tags: ["Social Analysis","WeChat","AI Analytics","Friendship Graph"]
+original_description: "微信好友关系一键检测，基于微信ipad协议，看看有没有朋友偷偷删掉或者拉黑你"
+english_summary: "An AI-driven WeChat social analysis tool that identifies true interaction frequency and friendship depth."
+chinese_summary: null
+problems_solved: "- Surface-level social metrics in messaging apps\n- Difficulty in identifying high-quality social connections\n- Privacy concerns in manual chat history analysis"
+how_to_use: "Run the script locally to analyze your exported WeChat logs and generate a friendship leaderboard."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An AI-driven WeChat social analysis tool that identifies true interaction frequency and friendship depth.
-
-## Problems solved
-
-- Surface-level social metrics in messaging apps
-- Difficulty in identifying high-quality social connections
-- Privacy concerns in manual chat history analysis
-
-## How to get started
-
-Run the script locally to analyze your exported WeChat logs and generate a friendship leaderboard.
-
-## Detailed report
+# StrayMeteor3337/WechatRealFriends
 
 ### 1. Positioning
 StrayMeteor3337/WechatRealFriends is positioned as a an ai-driven wechat social analysis tool that identifies true interaction frequency and friendship depth. It aims to provide developers with a robust, JavaScript-based solution for 微信好友关系一键检测，基于微信ipad协议，看看有没有朋友偷偷删掉或者拉黑你.

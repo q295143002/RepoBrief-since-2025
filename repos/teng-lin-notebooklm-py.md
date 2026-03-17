@@ -1,36 +1,19 @@
 ---
-title: "teng-lin/notebooklm-py"
+id: 1129786550
 repo_name: "teng-lin/notebooklm-py"
 url: "https://github.com/teng-lin/notebooklm-py"
-github_url: "https://github.com/teng-lin/notebooklm-py"
 stars: 5382
 language: "Python"
-layout: repo
-tags:
-  - "NotebookLM"
-  - "Python API"
-  - "AI Agent"
-  - "Research Tools"
-  - "Content Generation"
-  - "SDK"
-  - "Open Source"
+tags: ["NotebookLM","Python API","AI Agent","Research Tools","Content Generation","SDK","Open Source"]
+original_description: "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw."
+english_summary: "NotebookLM-py is a comprehensive, unofficial Python SDK and CLI for Google's NotebookLM. It enables programmatic access to features not fully exposed in the web UI, such as batch downloads, structured quiz/flashcard export (JSON/Markdown), and hierarchical mind map extraction. It also includes an 'agentic skill' to integrate NotebookLM directly into AI agents like Claude Code."
+chinese_summary: null
+problems_solved: "- Lack of an official API for Google NotebookLM\n- Manual effort required for bulk importing sources (URLs, PDFs, YouTube)\n- Inability to export NotebookLM artifacts like quizzes and mind maps in machine-readable formats"
+how_to_use: "Install via `pip install notebooklm-py`. Use `notebooklm login` to authenticate via browser cookies. From there, you can use the CLI to create notebooks, add sources, and generate/download artifacts, or use the `NotebookLMClient` in your own Python scripts."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-NotebookLM-py is a comprehensive, unofficial Python SDK and CLI for Google's NotebookLM. It enables programmatic access to features not fully exposed in the web UI, such as batch downloads, structured quiz/flashcard export (JSON/Markdown), and hierarchical mind map extraction. It also includes an 'agentic skill' to integrate NotebookLM directly into AI agents like Claude Code.
-
-## Problems solved
-
-- Lack of an official API for Google NotebookLM
-- Manual effort required for bulk importing sources (URLs, PDFs, YouTube)
-- Inability to export NotebookLM artifacts like quizzes and mind maps in machine-readable formats
-
-## How to get started
-
-Install via `pip install notebooklm-py`. Use `notebooklm login` to authenticate via browser cookies. From there, you can use the CLI to create notebooks, add sources, and generate/download artifacts, or use the `NotebookLMClient` in your own Python scripts.
-
-## Detailed report
+# teng-lin/notebooklm-py
 
 ### 1. Positioning
 teng-lin/notebooklm-py is positioned as a notebooklm-py is a comprehensive, unofficial python sdk and cli for google's notebooklm. it enables programmatic access to features not fully exposed in the web ui, such as batch downloads, structured quiz/flashcard export (json/markdown), and hierarchical mind map extraction. it also includes an 'agentic skill' to integrate notebooklm directly into ai agents like claude code. It aims to provide developers with a robust, Python-based solution for unofficial python api and agentic skill for google notebooklm. full programmatic access to notebooklm's features—including capabilities the web ui doesn't expose—via python, cli, and ai agents like claude code, codex, and openclaw.

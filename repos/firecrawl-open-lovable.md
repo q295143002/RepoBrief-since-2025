@@ -1,38 +1,19 @@
 ---
-title: "firecrawl/open-lovable"
+id: 1034478597
 repo_name: "firecrawl/open-lovable"
 url: "https://github.com/firecrawl/open-lovable"
-github_url: "https://github.com/firecrawl/open-lovable"
 stars: 24425
 language: "TypeScript"
-layout: repo
-tags:
-  - "Open-Lovable"
-  - "Design to Code"
-  - "React"
-  - "Tailwind CSS"
-  - "Web Scraping"
-  - "Firecrawl"
-  - "Frontend Automation"
+tags: ["Open-Lovable","Design to Code","React","Tailwind CSS","Web Scraping","Firecrawl","Frontend Automation"]
+original_description: "Open-Lovable: An open-source implementation of the Lovable design-to-code philosophy, utilizing Firecrawl for high-fidelity web-to-component conversion."
+english_summary: "A design-to-code automation tool that converts live websites into clean, editable React/Tailwind components."
+chinese_summary: null
+problems_solved: "- The 'Design-Developer Gap'—manual recreation of web layouts in code from screenshots or Figma.\n- Inaccuracy of AI vision in identifying subtle CSS properties like shadows, gradients, and custom spacing.\n- Difficulty in scraping complex, dynamic web pages into a format suitable for AI regeneration."
+how_to_use: "git clone https://github.com/firecrawl/open-lovable\nnpm install\nnpx open-lovable scrape \"https://design.com\" --output component.tsx"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A design-to-code automation tool that converts live websites into clean, editable React/Tailwind components.
-
-## Problems solved
-
-- The 'Design-Developer Gap'—manual recreation of web layouts in code from screenshots or Figma.
-- Inaccuracy of AI vision in identifying subtle CSS properties like shadows, gradients, and custom spacing.
-- Difficulty in scraping complex, dynamic web pages into a format suitable for AI regeneration.
-
-## How to get started
-
-git clone https://github.com/firecrawl/open-lovable
-npm install
-npx open-lovable scrape "https://design.com" --output component.tsx
-
-## Detailed report
+# firecrawl/open-lovable
 
 ### 1. Positioning
 Open-Lovable is an open-source bridge between existing web design and developer code. It leverages Firecrawl's deep structural crawling capabilities to turn any live website into a modular, production-ready React component with Tailwind CSS. It is the 'Reverse-Engineering' tool for the modern web.

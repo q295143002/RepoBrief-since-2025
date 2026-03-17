@@ -1,34 +1,19 @@
 ---
-title: "LaurieWired/GhidraMCP"
+id: 953335676
 repo_name: "LaurieWired/GhidraMCP"
 url: "https://github.com/LaurieWired/GhidraMCP"
-github_url: "https://github.com/LaurieWired/GhidraMCP"
 stars: 7900
 language: "Java"
-layout: repo
-tags:
-  - "Reverse-Engineering"
-  - "Ghidra"
-  - "MCP"
-  - "Cybersecurity"
-  - "AI-Tools"
-  - "Java"
-  - "Python"
+tags: ["Reverse-Engineering","Ghidra","MCP","Cybersecurity","AI-Tools","Java","Python"]
+original_description: "MCP Server for Ghidra"
+english_summary: "An MCP server that bridges Ghidra's reverse engineering tools with LLM agents, enabling automated binary analysis and decompilation."
+chinese_summary: null
+problems_solved: "- High cognitive load in reverse engineering; friction in passing code between analysis tools and LLMs; lack of interactive variable recovery for agents."
+how_to_use: "Install Ghidra plugin; run the Python bridge script; configure in MCP client (Claude Desktop); interact with Ghidra tools via agent."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An MCP server that bridges Ghidra's reverse engineering tools with LLM agents, enabling automated binary analysis and decompilation.
-
-## Problems solved
-
-- High cognitive load in reverse engineering; friction in passing code between analysis tools and LLMs; lack of interactive variable recovery for agents.
-
-## How to get started
-
-Install Ghidra plugin; run the Python bridge script; configure in MCP client (Claude Desktop); interact with Ghidra tools via agent.
-
-## Detailed report
+# LaurieWired/GhidraMCP
 
 ### 1. Positioning
 LaurieWired/GhidraMCP is positioned as a an mcp server that bridges ghidra's reverse engineering tools with llm agents, enabling automated binary analysis and decompilation. It aims to provide developers with a robust, Java-based solution for mcp server for ghidra.

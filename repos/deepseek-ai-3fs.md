@@ -1,32 +1,19 @@
 ---
-title: "deepseek-ai/3FS"
+id: 940018401
 repo_name: "deepseek-ai/3FS"
 url: "https://github.com/deepseek-ai/3FS"
-github_url: "https://github.com/deepseek-ai/3FS"
 stars: 9766
 language: "C++"
-layout: repo
-tags:
-  - "Storage"
-  - "Distributed Systems"
-  - "AI Infrastructure"
-  - "C++"
-  - "Performance"
+tags: ["Storage","Distributed Systems","AI Infrastructure","C++","Performance"]
+original_description: "Fire-Flyer File System (3FS). A high-performance distributed file system designed for AI training and inference, leveraging SSDs and RDMA for 6.6 TiB/s peak throughput."
+english_summary: "3FS is a distributed, high-performance file system from DeepSeek-AI, specifically architected for massive-scale AI workloads using modern SSD/RDMA technologies."
+chinese_summary: null
+problems_solved: "- Solves the storage bottleneck in large-scale AI training (Checkpointing) and inference (KV-Cache); eliminates the need for data shuffling/prefetching via locality-oblivious storage; provides strong consistency and familiar file interfaces while scaling to thousands of nodes."
+how_to_use: "Requires Ubuntu 20.04/22.04 with RDMA hardware. Install dependencies (libuv, foundationdb, etc.), clone with submodules, and build via CMake: `cmake -DSHUFFLE_METHOD=g++11 .. && make`. Deployment instructions are found in the `deploy/` directory."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-3FS is a distributed, high-performance file system from DeepSeek-AI, specifically architected for massive-scale AI workloads using modern SSD/RDMA technologies.
-
-## Problems solved
-
-- Solves the storage bottleneck in large-scale AI training (Checkpointing) and inference (KV-Cache); eliminates the need for data shuffling/prefetching via locality-oblivious storage; provides strong consistency and familiar file interfaces while scaling to thousands of nodes.
-
-## How to get started
-
-Requires Ubuntu 20.04/22.04 with RDMA hardware. Install dependencies (libuv, foundationdb, etc.), clone with submodules, and build via CMake: `cmake -DSHUFFLE_METHOD=g++11 .. && make`. Deployment instructions are found in the `deploy/` directory.
-
-## Detailed report
+# deepseek-ai/3FS
 
 ### 1. Positioning
 3FS is mission-critical infrastructure for organizations building super-large-scale AI models (like LLMs). It targets systems engineers at AI labs and cloud providers who need to move terabytes of data per second across massive GPU clusters.

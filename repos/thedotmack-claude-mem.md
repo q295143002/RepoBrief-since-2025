@@ -1,38 +1,19 @@
 ---
-title: "thedotmack/claude-mem"
+id: 1048065319
 repo_name: "thedotmack/claude-mem"
 url: "https://github.com/thedotmack/claude-mem"
-github_url: "https://github.com/thedotmack/claude-mem"
 stars: 34477
 language: "TypeScript"
-layout: repo
-tags:
-  - "Claude"
-  - "Memory"
-  - "Knowledge Graph"
-  - "RAG"
-  - "Context Management"
-  - "Node.js"
-  - "Long-term memory"
+tags: ["Claude","Memory","Knowledge Graph","RAG","Context Management","Node.js","Long-term memory"]
+original_description: "Claude-Mem: A memory patch for Claude AI that maintains a local knowledge graph to overcome context limitations in long conversations."
+english_summary: "A local knowledge-graph-based memory extension for Claude AI to sustain long-term context."
+chinese_summary: null
+problems_solved: "- Loss of 'long-term memory' in Claude when the token context window is exceeded.\n- Inefficiency in RAG-based systems that use simple vector search without relational context.\n- Need for a local, private alternative to cloud-hosted memory services."
+how_to_use: "git clone https://github.com/thedotmack/claude-mem\nnpm install\nnpm run serve"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A local knowledge-graph-based memory extension for Claude AI to sustain long-term context.
-
-## Problems solved
-
-- Loss of 'long-term memory' in Claude when the token context window is exceeded.
-- Inefficiency in RAG-based systems that use simple vector search without relational context.
-- Need for a local, private alternative to cloud-hosted memory services.
-
-## How to get started
-
-git clone https://github.com/thedotmack/claude-mem
-npm install
-npm run serve
-
-## Detailed report
+# thedotmack/claude-mem
 
 ### 1. Positioning
 Claude-Mem is a community-built memory enhancement for Claude. It uses a local knowledge graph to store facts and relationships from past conversations, allowing the AI to 'remember' details even after they have aged out of its primary context window.

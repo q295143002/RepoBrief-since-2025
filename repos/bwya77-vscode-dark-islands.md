@@ -1,36 +1,19 @@
 ---
-title: "bwya77/vscode-dark-islands"
+id: 1157656960
 repo_name: "bwya77/vscode-dark-islands"
 url: "https://github.com/bwya77/vscode-dark-islands"
-github_url: "https://github.com/bwya77/vscode-dark-islands"
 stars: 5202
 language: "PowerShell"
-layout: repo
-tags:
-  - "VS Code Theme"
-  - "Glassmorphism"
-  - "UI/UX"
-  - "CSS Injection"
-  - "Dark Mode"
-  - "Customization"
-  - "Open Source"
+tags: ["VS Code Theme","Glassmorphism","UI/UX","CSS Injection","Dark Mode","Customization","Open Source"]
+original_description: "VSCode theme based off the easemate IDE and Jetbrains islands theme"
+english_summary: "Islands Dark is a highly customized VS Code theme that transforms the editor's UI into a modern, 'floating' aesthetic. It goes beyond simple color changes by using CSS injection to create glass-like panels, rounded corners, and smooth transitions that mimic the look of the luxury easemate IDE."
+chinese_summary: null
+problems_solved: "- Generic, flat look of standard VS Code themes\n- Lack of visual depth and modern 'glassmorphism' in desktop development environments\n- Difficulty in achieving cohesive rounded-corner designs across all VS Code UI elements"
+how_to_use: "Install via the provided one-liner scripts for macOS/Linux or Windows. These scripts install the color theme, the 'Custom UI Style' extension for CSS injection, required fonts (Bear Sans UI), and a recommended settings.json to enable all visual effects."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Islands Dark is a highly customized VS Code theme that transforms the editor's UI into a modern, 'floating' aesthetic. It goes beyond simple color changes by using CSS injection to create glass-like panels, rounded corners, and smooth transitions that mimic the look of the luxury easemate IDE.
-
-## Problems solved
-
-- Generic, flat look of standard VS Code themes
-- Lack of visual depth and modern 'glassmorphism' in desktop development environments
-- Difficulty in achieving cohesive rounded-corner designs across all VS Code UI elements
-
-## How to get started
-
-Install via the provided one-liner scripts for macOS/Linux or Windows. These scripts install the color theme, the 'Custom UI Style' extension for CSS injection, required fonts (Bear Sans UI), and a recommended settings.json to enable all visual effects.
-
-## Detailed report
+# bwya77/vscode-dark-islands
 
 ### 1. Positioning
 bwya77/vscode-dark-islands is positioned as a islands dark is a highly customized vs code theme that transforms the editor's ui into a modern, 'floating' aesthetic. it goes beyond simple color changes by using css injection to create glass-like panels, rounded corners, and smooth transitions that mimic the look of the luxury easemate ide. It aims to provide developers with a robust, PowerShell-based solution for vscode theme based off the easemate ide and jetbrains islands theme.

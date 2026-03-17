@@ -1,38 +1,19 @@
 ---
-title: "google-gemini/gemini-cli"
+id: 968197216
 repo_name: "google-gemini/gemini-cli"
 url: "https://github.com/google-gemini/gemini-cli"
-github_url: "https://github.com/google-gemini/gemini-cli"
 stars: 97506
 language: "TypeScript"
-layout: repo
-tags:
-  - "Gemini"
-  - "CLI"
-  - "Terminal Agent"
-  - "Google AI"
-  - "Developer Tools"
-  - "MCP"
-  - "Automation"
+tags: ["Gemini","CLI","Terminal Agent","Google AI","Developer Tools","MCP","Automation"]
+original_description: "Gemini CLI is the official, high-performance terminal interface for Google's Gemini models. It enables seamless AI-driven development workflows directly from the command line."
+english_summary: "The official Google-built terminal agent for high-performance Gemini model interactions."
+chinese_summary: "谷歌官方发布的 Gemini 命令行界面（CLI）工具，支持文件读取、多轮对话及 MCP 协议扩展。"
+problems_solved: "- High latency and manual overhead in switching between IDE and web-based AI chats.\n- Lack of direct terminal-native tools for AI-driven system administration and scripting.\n- Complexity in managing Gemini API keys and settings across multiple local projects."
+how_to_use: "npm install -g @google/gemini-cli\ngemini login\ngemini \"Explain the docker-compose.yml in this folder\""
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The official Google-built terminal agent for high-performance Gemini model interactions.
-
-## Problems solved
-
-- High latency and manual overhead in switching between IDE and web-based AI chats.
-- Lack of direct terminal-native tools for AI-driven system administration and scripting.
-- Complexity in managing Gemini API keys and settings across multiple local projects.
-
-## How to get started
-
-npm install -g @google/gemini-cli
-gemini login
-gemini "Explain the docker-compose.yml in this folder"
-
-## Detailed report
+# google-gemini/gemini-cli
 
 ### 1. Positioning
 Gemini CLI is the official high-performance terminal interface designed to inject Google's Gemini models directly into a developer's command-line workflow. It primarily serves backend development, DevOps, and scripting scenarios.

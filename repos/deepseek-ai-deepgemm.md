@@ -1,34 +1,19 @@
 ---
-title: "deepseek-ai/DeepGEMM"
+id: 932038801
 repo_name: "deepseek-ai/DeepGEMM"
 url: "https://github.com/deepseek-ai/DeepGEMM"
-github_url: "https://github.com/deepseek-ai/DeepGEMM"
 stars: 6254
 language: "Cuda"
-layout: repo
-tags:
-  - "CUDA"
-  - "FP8"
-  - "Optimization"
-  - "DeepSeek"
-  - "Deep Learning"
+tags: ["CUDA","FP8","Optimization","DeepSeek","Deep Learning"]
+original_description: "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling"
+english_summary: "DeepSeek's high-performance FP8 GEMM (General Matrix Multiplication) library for ultra-fast training."
+chinese_summary: null
+problems_solved: "- High computational cost of traditional FP16/BF16 training\n- Lack of optimized kernels for FP8 precision on NVIDIA GPUs\n- Inefficiency in large-scale model pre-training throughput"
+how_to_use: "Clone the repo, compile the CUDA kernels, and integrate with your PyTorch training loop."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-DeepSeek's high-performance FP8 GEMM (General Matrix Multiplication) library for ultra-fast training.
-
-## Problems solved
-
-- High computational cost of traditional FP16/BF16 training
-- Lack of optimized kernels for FP8 precision on NVIDIA GPUs
-- Inefficiency in large-scale model pre-training throughput
-
-## How to get started
-
-Clone the repo, compile the CUDA kernels, and integrate with your PyTorch training loop.
-
-## Detailed report
+# deepseek-ai/DeepGEMM
 
 ### 1. Positioning
 deepseek-ai/DeepGEMM is positioned as a deepseek's high-performance fp8 gemm (general matrix multiplication) library for ultra-fast training. It aims to provide developers with a robust, Cuda-based solution for deepgemm: clean and efficient fp8 gemm kernels with fine-grained scaling.

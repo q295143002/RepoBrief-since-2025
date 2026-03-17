@@ -1,33 +1,19 @@
 ---
-title: "rllm-org/rllm"
+id: 922406522
 repo_name: "rllm-org/rllm"
 url: "https://github.com/rllm-org/rllm"
-github_url: "https://github.com/rllm-org/rllm"
 stars: 5219
 language: "Python"
-layout: repo
-tags:
-  - "RLHF"
-  - "Reinforcement-Learning"
-  - "AI-Agents"
-  - "Fine-Tuning"
-  - "Machine-Learning"
-  - "Llama-3"
+tags: ["RLHF","Reinforcement-Learning","AI-Agents","Fine-Tuning","Machine-Learning","Llama-3"]
+original_description: "Democratizing Reinforcement Learning for LLMs"
+english_summary: "A comprehensive framework for training LLM agents using Reinforcement Learning from Human Feedback (RLHF) and other advanced RL techniques for reasoning."
+chinese_summary: null
+problems_solved: "- Difficulty in fine-tuning agents for specific multi-step tasks; lack of tools for training 'Reasoner' models; low efficiency in RL-based text generation training."
+how_to_use: "Install via pip; requires GPU cluster for training; use 'python rllm/train.py --config config.yaml' to start the RL loop on a base model (e.g., Llama 3)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive framework for training LLM agents using Reinforcement Learning from Human Feedback (RLHF) and other advanced RL techniques for reasoning.
-
-## Problems solved
-
-- Difficulty in fine-tuning agents for specific multi-step tasks; lack of tools for training 'Reasoner' models; low efficiency in RL-based text generation training.
-
-## How to get started
-
-Install via pip; requires GPU cluster for training; use 'python rllm/train.py --config config.yaml' to start the RL loop on a base model (e.g., Llama 3).
-
-## Detailed report
+# rllm-org/rllm
 
 ### 1. Positioning
 rllm-org/rllm is positioned as a a comprehensive framework for training llm agents using reinforcement learning from human feedback (rlhf) and other advanced rl techniques for reasoning. It aims to provide developers with a robust, Python-based solution for democratizing reinforcement learning for llms.

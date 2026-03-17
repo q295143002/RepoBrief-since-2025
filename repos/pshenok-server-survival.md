@@ -1,36 +1,19 @@
 ---
-title: "pshenok/server-survival"
+id: 1100973251
 repo_name: "pshenok/server-survival"
 url: "https://github.com/pshenok/server-survival"
-github_url: "https://github.com/pshenok/server-survival"
 stars: 5438
 language: "JavaScript"
-layout: repo
-tags:
-  - "Game"
-  - "Education"
-  - "Cloud Architecture"
-  - "Three.js"
-  - "DevOps"
-  - "Simulation"
-  - "Open Source"
+tags: ["Game","Education","Cloud Architecture","Three.js","DevOps","Simulation","Open Source"]
+original_description: "Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling."
+english_summary: "Server Survival is an educational 3D game where players act as Cloud Architects. The objective is to build a resilient infrastructure using services like Load Balancers, Firewalls, and Databases to handle increasing web traffic while defending against DDoS attacks and managing a budget."
+chinese_summary: null
+problems_solved: "- Abstract difficulty of learning cloud architecture concepts\n- Lack of interactive environments to test infrastructure resilience\n- Need for engaging ways to understand traffic management and rate limiting"
+how_to_use: "Play directly in the browser. Use the 3D interface to place services and connect them (Internet -> Gateway -> Load Balancer, etc.). Manage your budget and reputation as the 'RPS' (Requests Per Second) scales over time."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Server Survival is an educational 3D game where players act as Cloud Architects. The objective is to build a resilient infrastructure using services like Load Balancers, Firewalls, and Databases to handle increasing web traffic while defending against DDoS attacks and managing a budget.
-
-## Problems solved
-
-- Abstract difficulty of learning cloud architecture concepts
-- Lack of interactive environments to test infrastructure resilience
-- Need for engaging ways to understand traffic management and rate limiting
-
-## How to get started
-
-Play directly in the browser. Use the 3D interface to place services and connect them (Internet -> Gateway -> Load Balancer, etc.). Manage your budget and reputation as the 'RPS' (Requests Per Second) scales over time.
-
-## Detailed report
+# pshenok/server-survival
 
 ### 1. Positioning
 pshenok/server-survival is positioned as a server survival is an educational 3d game where players act as cloud architects. the objective is to build a resilient infrastructure using services like load balancers, firewalls, and databases to handle increasing web traffic while defending against ddos attacks and managing a budget. It aims to provide developers with a robust, JavaScript-based solution for tower defense game that teaches cloud architecture. build infrastructure, survive traffic, learn scaling.

@@ -1,34 +1,19 @@
 ---
-title: "bytedance/Dolphin"
+id: 982697710
 repo_name: "bytedance/Dolphin"
 url: "https://github.com/bytedance/Dolphin"
-github_url: "https://github.com/bytedance/Dolphin"
 stars: 8859
 language: "Python"
-layout: repo
-tags:
-  - "OCR"
-  - "Document Parsing"
-  - "VLM"
-  - "AI"
-  - "ByteDance"
+tags: ["OCR","Document Parsing","VLM","AI","ByteDance"]
+original_description: "Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting. A universal document parsing model from ByteDance."
+english_summary: "Dolphin is an advanced Document Image Parsing model that handles digital and photographed documents using a two-stage approach with heterogeneous anchor prompting for high accuracy."
+chinese_summary: null
+problems_solved: "- Solves the 'messy document' problem where text\n- formulas\n- and tables are intertwined; overcomes the difficulty of parsing photographed documents with warped or low-quality layouts; improves reading order prediction for complex multi-column pages."
+how_to_use: "Clone the repo and install dependencies: `pip install -r requirements.txt`. Download pre-trained models from Hugging Face (`ByteDance/Dolphin-v2`). Run `python demo_page.py --model_path ./hf_model --input_path [image_path]` to parse a document into structured JSON/Markdown."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Dolphin is an advanced Document Image Parsing model that handles digital and photographed documents using a two-stage approach with heterogeneous anchor prompting for high accuracy.
-
-## Problems solved
-
-- Solves the 'messy document' problem where text
-- formulas
-- and tables are intertwined; overcomes the difficulty of parsing photographed documents with warped or low-quality layouts; improves reading order prediction for complex multi-column pages.
-
-## How to get started
-
-Clone the repo and install dependencies: `pip install -r requirements.txt`. Download pre-trained models from Hugging Face (`ByteDance/Dolphin-v2`). Run `python demo_page.py --model_path ./hf_model --input_path [image_path]` to parse a document into structured JSON/Markdown.
-
-## Detailed report
+# bytedance/Dolphin
 
 ### 1. Positioning
 Dolphin positions itself as the 'Next-Gen OCR' for professional document workflows. It targets industries with high-volume document digitization needs (Legal, Finance, Research) and AI researchers looking for efficient multi-modal parsing solutions.

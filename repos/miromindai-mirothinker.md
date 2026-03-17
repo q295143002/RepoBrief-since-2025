@@ -1,36 +1,19 @@
 ---
-title: "MiroMindAI/MiroThinker"
+id: 1033873680
 repo_name: "MiroMindAI/MiroThinker"
 url: "https://github.com/MiroMindAI/MiroThinker"
-github_url: "https://github.com/MiroMindAI/MiroThinker"
 stars: 6714
 language: "Python"
-layout: repo
-tags:
-  - "Research-Agent"
-  - "LLM"
-  - "Benchmark"
-  - "Qwen3"
-  - "Deep-Research"
-  - "Python"
-  - "Open-Source"
+tags: ["Research-Agent","LLM","Benchmark","Qwen3","Deep-Research","Python","Open-Source"]
+original_description: "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7 and MiroThinker-H1, achieve 74.0 and 88.2 on the BrowseComp, respectively."
+english_summary: "MiroThinker is an open-source deep research agent series from MiroMindAI built on Qwen3 base models, introducing 'interactive scaling' (more frequent agent-environment interactions as a third scaling dimension). MiroThinker-1.7 (30B/235B variants) achieves SOTA on BrowseComp-ZH (75.3%) and GAIA-Val-165 (82.7%). The MiroFlow framework supports fully configurable single/multi-agent setups with Serper, Jina, and E2B tools."
+chinese_summary: null
+problems_solved: "- Open-source research agents lagged far behind commercial deep research systems (Perplexity\n- OpenAI Deep Research). MiroThinker introduces interactive scaling — dramatically more tool interactions per task — to close this gap at 30B/235B scales\n- surpassing larger proprietary models on many benchmarks."
+how_to_use: "Clone repo, install with `uv sync` in `apps/miroflow-agent`, configure `.env` with Serper/Jina/E2B keys, serve MiroThinker model with SGLang, then run `uv run python main.py llm=qwen-3 agent=mirothinker_1.7_keep5_max200`. Benchmark scripts in `scripts/` directory."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-MiroThinker is an open-source deep research agent series from MiroMindAI built on Qwen3 base models, introducing 'interactive scaling' (more frequent agent-environment interactions as a third scaling dimension). MiroThinker-1.7 (30B/235B variants) achieves SOTA on BrowseComp-ZH (75.3%) and GAIA-Val-165 (82.7%). The MiroFlow framework supports fully configurable single/multi-agent setups with Serper, Jina, and E2B tools.
-
-## Problems solved
-
-- Open-source research agents lagged far behind commercial deep research systems (Perplexity
-- OpenAI Deep Research). MiroThinker introduces interactive scaling — dramatically more tool interactions per task — to close this gap at 30B/235B scales
-- surpassing larger proprietary models on many benchmarks.
-
-## How to get started
-
-Clone repo, install with `uv sync` in `apps/miroflow-agent`, configure `.env` with Serper/Jina/E2B keys, serve MiroThinker model with SGLang, then run `uv run python main.py llm=qwen-3 agent=mirothinker_1.7_keep5_max200`. Benchmark scripts in `scripts/` directory.
-
-## Detailed report
+# MiroMindAI/MiroThinker
 
 ### 1. Positioning
 MiroMindAI/MiroThinker is positioned as a mirothinker is an open-source deep research agent series from miromindai built on qwen3 base models, introducing 'interactive scaling' (more frequent agent-environment interactions as a third scaling dimension). mirothinker-1.7 (30b/235b variants) achieves sota on browsecomp-zh (75.3%) and gaia-val-165 (82.7%). the miroflow framework supports fully configurable single/multi-agent setups with serper, jina, and e2b tools. It aims to provide developers with a robust, Python-based solution for mirothinker is a deep research agent optimized for complex research and prediction tasks. our latest models, mirothinker-1.7 and mirothinker-h1, achieve 74.0 and 88.2 on the browsecomp, respectively.

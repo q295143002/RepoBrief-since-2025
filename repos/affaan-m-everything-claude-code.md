@@ -1,37 +1,19 @@
 ---
-title: "affaan-m/everything-claude-code"
+id: 1136590548
 repo_name: "affaan-m/everything-claude-code"
 url: "https://github.com/affaan-m/everything-claude-code"
-github_url: "https://github.com/affaan-m/everything-claude-code"
 stars: 74106
 language: "JavaScript"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Guide"
-  - "Community"
-  - "Best Practices"
-  - "Workflow"
-  - "AI Productivity"
-  - "Configuration"
+tags: ["Claude Code","Guide","Community","Best Practices","Workflow","AI Productivity","Configuration"]
+original_description: "Everything Claude Code: The ultimate community-driven guide to mastering Anthropic's Claude Code agent. Includes tips, tricks, and advanced configuration setups."
+english_summary: "A comprehensive community resource and guide for mastering Claude Code optimization."
+chinese_summary: "致力于最大化主流 AI 编程工具潜力的综合性配置插件，包含数十种 Agent 角色、指令、技能及 MCP 服务器配置。"
+problems_solved: "- Steep learning curve for advanced Claude Code features.\n- Lack of documented real-world production configurations.\n- Need for curated lists of compatible MCP servers and custom CLI tools."
+how_to_use: "git clone https://github.com/affaan-m/everything-claude-code\n# Browse 'docs/' and 'examples/'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive community resource and guide for mastering Claude Code optimization.
-
-## Problems solved
-
-- Steep learning curve for advanced Claude Code features.
-- Lack of documented real-world production configurations.
-- Need for curated lists of compatible MCP servers and custom CLI tools.
-
-## How to get started
-
-git clone https://github.com/affaan-m/everything-claude-code
-# Browse 'docs/' and 'examples/'.
-
-## Detailed report
+# affaan-m/everything-claude-code
 
 ### 1. Positioning
 This is a community-driven knowledge base gathering the essence of using Anthropic's Claude Code. It is a practical guide including advanced configurations, workflow templates, and trap-avoidance tips for professional developers reliant on AI for productivity.

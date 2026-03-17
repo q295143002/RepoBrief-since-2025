@@ -1,32 +1,19 @@
 ---
-title: "vxcontrol/pentagi"
+id: 913030762
 repo_name: "vxcontrol/pentagi"
 url: "https://github.com/vxcontrol/pentagi"
-github_url: "https://github.com/vxcontrol/pentagi"
 stars: 9454
 language: "Go"
-layout: repo
-tags:
-  - "Cybersecurity"
-  - "Penetration Testing"
-  - "AI Agent"
-  - "Knowledge Graph"
-  - "Docker"
+tags: ["Cybersecurity","Penetration Testing","AI Agent","Knowledge Graph","Docker"]
+original_description: "PentAGI: Penetration testing Artificial General Intelligence. Fully autonomous, AI-powered agent for automated security testing in a sandboxed environment."
+english_summary: "PentAGI is a state-of-the-art, autonomous AI system for penetration testing, combining 20+ professional security tools with long-term memory and knowledge graph reasoning."
+chinese_summary: null
+problems_solved: "- Automates the high-skill domain of security testing; solves the isolation issue by running all attacks in sandboxed Docker containers; overcomes LLM context limits via an intelligent memory system and Neo4j-based knowledge graphs."
+how_to_use: "Requires Docker and 4GB+ RAM. Use the interactive `./installer` to configure LLM providers (OpenAI, Anthropic, or local Ollama). Access the web UI at `localhost:8443` and define a 'Flow' to start an autonomous security audit."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PentAGI is a state-of-the-art, autonomous AI system for penetration testing, combining 20+ professional security tools with long-term memory and knowledge graph reasoning.
-
-## Problems solved
-
-- Automates the high-skill domain of security testing; solves the isolation issue by running all attacks in sandboxed Docker containers; overcomes LLM context limits via an intelligent memory system and Neo4j-based knowledge graphs.
-
-## How to get started
-
-Requires Docker and 4GB+ RAM. Use the interactive `./installer` to configure LLM providers (OpenAI, Anthropic, or local Ollama). Access the web UI at `localhost:8443` and define a 'Flow' to start an autonomous security audit.
-
-## Detailed report
+# vxcontrol/pentagi
 
 ### 1. Positioning
 PentAGI positions itself as a 'Virtual Security Engineer'. It targets CISOs, developers, and researchers who need frequent, deep security audits but don't have the budget or time for manual human penetration testing teams.

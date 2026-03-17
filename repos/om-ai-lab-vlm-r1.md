@@ -1,33 +1,19 @@
 ---
-title: "om-ai-lab/VLM-R1"
+id: 928427049
 repo_name: "om-ai-lab/VLM-R1"
 url: "https://github.com/om-ai-lab/VLM-R1"
-github_url: "https://github.com/om-ai-lab/VLM-R1"
 stars: 5865
 language: "Python"
-layout: repo
-tags:
-  - "VLM"
-  - "DeepSeek-R1"
-  - "Computer-Vision"
-  - "RL"
-  - "Qwen-VL"
-  - "Open-Source-AI"
+tags: ["VLM","DeepSeek-R1","Computer-Vision","RL","Qwen-VL","Open-Source-AI"]
+original_description: "Solve Visual Understanding with Reinforced VLMs"
+english_summary: "A multimodal foundation model that applies DeepSeek-R1's reasoning techniques to vision-language tasks like Referring Expression Comprehension (REC)."
+chinese_summary: null
+problems_solved: "- Lack of reasoning stability in vision models; poor generalization to out-of-domain visual data; high resource cost for training advanced VLMs."
+how_to_use: "Install via 'bash setup.sh'; download COCO/LISA datasets; run 'bash run_scripts/run_grpo_rec.sh' to start reinforcement learning on a Qwen2.5-VL base."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A multimodal foundation model that applies DeepSeek-R1's reasoning techniques to vision-language tasks like Referring Expression Comprehension (REC).
-
-## Problems solved
-
-- Lack of reasoning stability in vision models; poor generalization to out-of-domain visual data; high resource cost for training advanced VLMs.
-
-## How to get started
-
-Install via 'bash setup.sh'; download COCO/LISA datasets; run 'bash run_scripts/run_grpo_rec.sh' to start reinforcement learning on a Qwen2.5-VL base.
-
-## Detailed report
+# om-ai-lab/VLM-R1
 
 ### 1. Positioning
 om-ai-lab/VLM-R1 is positioned as a a multimodal foundation model that applies deepseek-r1's reasoning techniques to vision-language tasks like referring expression comprehension (rec). It aims to provide developers with a robust, Python-based solution for solve visual understanding with reinforced vlms.

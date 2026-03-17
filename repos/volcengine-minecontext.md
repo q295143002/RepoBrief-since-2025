@@ -1,36 +1,19 @@
 ---
-title: "volcengine/MineContext"
+id: 1007681088
 repo_name: "volcengine/MineContext"
 url: "https://github.com/volcengine/MineContext"
-github_url: "https://github.com/volcengine/MineContext"
 stars: 5050
 language: "Python"
-layout: repo
-tags:
-  - "AI Assistant"
-  - "VLM"
-  - "Context-Aware"
-  - "ByteDance"
-  - "Local-First"
-  - "Automation"
-  - "Open Source"
+tags: ["AI Assistant","VLM","Context-Aware","ByteDance","Local-First","Automation","Open Source"]
+original_description: "MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）"
+english_summary: "MineContext is an open-source, proactive AI assistant platform built by ByteDance (Volcengine). It continuously gathers digital context via screenshots and content comprehension to proactively deliver insights, daily/weekly summaries, and actionable to-do lists. It emphasizes a 'local-first' architecture to ensure user privacy while providing a bridge to powerful models like Doubao or local LLMs via LM Studio."
+chinese_summary: null
+problems_solved: "- Information overload from daily digital work making it hard to find relevant past context\n- Manual effort required to summarize work progress or extract tasks from various Slack/Zoom/Email sessions\n- Privacy concerns regarding sending continuous screen activity to cloud-based AI providers"
+how_to_use: "Download the desktop app for macOS or Windows. Configure your API key (Doubao, OpenAI, or local). Grant screen recording permissions and select a capture area. The app will run in the background, 'mining' your activity to generate value over time, which you can access via the dashboard or a context-aware chat interface."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-MineContext is an open-source, proactive AI assistant platform built by ByteDance (Volcengine). It continuously gathers digital context via screenshots and content comprehension to proactively deliver insights, daily/weekly summaries, and actionable to-do lists. It emphasizes a 'local-first' architecture to ensure user privacy while providing a bridge to powerful models like Doubao or local LLMs via LM Studio.
-
-## Problems solved
-
-- Information overload from daily digital work making it hard to find relevant past context
-- Manual effort required to summarize work progress or extract tasks from various Slack/Zoom/Email sessions
-- Privacy concerns regarding sending continuous screen activity to cloud-based AI providers
-
-## How to get started
-
-Download the desktop app for macOS or Windows. Configure your API key (Doubao, OpenAI, or local). Grant screen recording permissions and select a capture area. The app will run in the background, 'mining' your activity to generate value over time, which you can access via the dashboard or a context-aware chat interface.
-
-## Detailed report
+# volcengine/MineContext
 
 ### 1. Positioning
 volcengine/MineContext is positioned as a minecontext is an open-source, proactive ai assistant platform built by bytedance (volcengine). it continuously gathers digital context via screenshots and content comprehension to proactively deliver insights, daily/weekly summaries, and actionable to-do lists. it emphasizes a 'local-first' architecture to ensure user privacy while providing a bridge to powerful models like doubao or local llms via lm studio. It aims to provide developers with a robust, Python-based solution for minecontext is your proactive context-aware ai partner（context-engineering+chatgpt pulse）.

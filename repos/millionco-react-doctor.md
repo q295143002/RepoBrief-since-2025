@@ -1,36 +1,19 @@
 ---
-title: "millionco/react-doctor"
+id: 1156960719
 repo_name: "millionco/react-doctor"
 url: "https://github.com/millionco/react-doctor"
-github_url: "https://github.com/millionco/react-doctor"
 stars: 5708
 language: "TypeScript"
-layout: repo
-tags:
-  - "React"
-  - "Developer Tools"
-  - "Code Quality"
-  - "Performance"
-  - "Linter"
-  - "Static Analysis"
-  - "Open Source"
+tags: ["React","Developer Tools","Code Quality","Performance","Linter","Static Analysis","Open Source"]
+original_description: "Let coding agents diagnose and fix your React code"
+english_summary: "React Doctor is an automated diagnostic tool that scans React codebases for security, performance, and architectural issues. It provides actionable scores and insights to help developers maintain high-quality React applications."
+chinese_summary: null
+problems_solved: "- Technical debt in large React apps\n- Undetected performance bottlenecks\n- Manual code review overhead for security and best practices"
+how_to_use: "Run the scan via CLI or integrate it programmatically using the Node.js API. It automatically detects your framework (Next.js, Vite, etc.) and performs linting and dead code detection."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-React Doctor is an automated diagnostic tool that scans React codebases for security, performance, and architectural issues. It provides actionable scores and insights to help developers maintain high-quality React applications.
-
-## Problems solved
-
-- Technical debt in large React apps
-- Undetected performance bottlenecks
-- Manual code review overhead for security and best practices
-
-## How to get started
-
-Run the scan via CLI or integrate it programmatically using the Node.js API. It automatically detects your framework (Next.js, Vite, etc.) and performs linting and dead code detection.
-
-## Detailed report
+# millionco/react-doctor
 
 ### 1. Positioning
 millionco/react-doctor is positioned as a react doctor is an automated diagnostic tool that scans react codebases for security, performance, and architectural issues. it provides actionable scores and insights to help developers maintain high-quality react applications. It aims to provide developers with a robust, TypeScript-based solution for let coding agents diagnose and fix your react code.

@@ -1,36 +1,19 @@
 ---
-title: "Wan-Video/Wan2.1"
+id: 938717878
 repo_name: "Wan-Video/Wan2.1"
 url: "https://github.com/Wan-Video/Wan2.1"
-github_url: "https://github.com/Wan-Video/Wan2.1"
 stars: 15563
 language: "Python"
-layout: repo
-tags:
-  - "Video Generation"
-  - "Alibaba AI"
-  - "Diffusion Models"
-  - "SOTA"
-  - "Open Source"
-  - "Text-to-Video"
-  - "Generative AI"
+tags: ["Video Generation","Alibaba AI","Diffusion Models","SOTA","Open Source","Text-to-Video","Generative AI"]
+original_description: "Wan2.1: A comprehensive and open-source video generation model suite covering text-to-video, image-to-video, and video editing."
+english_summary: "An open-source, state-of-the-art video generation model suite by Alibaba supporting text, image, and editing tasks."
+chinese_summary: null
+problems_solved: "- Lack of accessible, high-performance open-source models for video generation\n- High computational barriers for generating high-quality cinematic videos on consumer hardware\n- Difficulty in performing precise video editing with generative models"
+how_to_use: "Clone the repo, install dependencies via pip, and download weights from Hugging Face. Run generation using `python generate.py` with your desired prompts."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source, state-of-the-art video generation model suite by Alibaba supporting text, image, and editing tasks.
-
-## Problems solved
-
-- Lack of accessible, high-performance open-source models for video generation
-- High computational barriers for generating high-quality cinematic videos on consumer hardware
-- Difficulty in performing precise video editing with generative models
-
-## How to get started
-
-Clone the repo, install dependencies via pip, and download weights from Hugging Face. Run generation using `python generate.py` with your desired prompts.
-
-## Detailed report
+# Wan-Video/Wan2.1
 
 ### 1. Positioning
 Wan2.1 is a comprehensive open-source video generation suite by Alibaba. It provides SOTA text-to-video, image-to-video, and editing capabilities for developers and creators.

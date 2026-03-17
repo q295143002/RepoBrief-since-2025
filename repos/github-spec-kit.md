@@ -1,38 +1,19 @@
 ---
-title: "github/spec-kit"
+id: 1042367133
 repo_name: "github/spec-kit"
 url: "https://github.com/github/spec-kit"
-github_url: "https://github.com/github/spec-kit"
 stars: 76396
 language: "Python"
-layout: repo
-tags:
-  - "AI Standards"
-  - "Agent testing"
-  - "GitHub"
-  - "JSON Schema"
-  - "Protocol"
-  - "Developer Tools"
-  - "Contract-Driven"
+tags: ["AI Standards","Agent testing","GitHub","JSON Schema","Protocol","Developer Tools","Contract-Driven"]
+original_description: "Spec-Kit is a standardized framework for defining and evaluating Agent capabilities. It provides a set of schemas and testing tools to ensure your Agents are production-ready."
+english_summary: "A standardized framework for defining, documenting, and evaluating AI agent capabilities."
+chinese_summary: "GitHub Spec Kit 是用于定义和验证 AI 规范的开发套件。帮助开发者结构化描述 AI 代理的行为模式，提高系统可预测性。"
+problems_solved: "- Inconsistency in how different AI agents define their tools and features.\n- Lack of a rigorous testing standard for 'agentic' behaviors.\n- Difficulty for developers to audit and benchmark AI agent performance across models."
+how_to_use: "npm install @github/spec-kit\nnpx spec-kit init\nnpx spec-kit test"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A standardized framework for defining, documenting, and evaluating AI agent capabilities.
-
-## Problems solved
-
-- Inconsistency in how different AI agents define their tools and features.
-- Lack of a rigorous testing standard for 'agentic' behaviors.
-- Difficulty for developers to audit and benchmark AI agent performance across models.
-
-## How to get started
-
-npm install @github/spec-kit
-npx spec-kit init
-npx spec-kit test
-
-## Detailed report
+# github/spec-kit
 
 ### 1. Positioning
 Spec-Kit is a framework released by GitHub for standardizing the definition and testing of AI agent capabilities. It provides 'Specs' that ensure agents from different vendors can collaborate under a unified protocol. Targets agent platform developers and system architects.

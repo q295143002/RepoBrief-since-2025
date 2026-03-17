@@ -1,33 +1,19 @@
 ---
-title: "nickscamara/open-deep-research"
+id: 926639724
 repo_name: "nickscamara/open-deep-research"
 url: "https://github.com/nickscamara/open-deep-research"
-github_url: "https://github.com/nickscamara/open-deep-research"
 stars: 6191
 language: "TypeScript"
-layout: repo
-tags:
-  - "Open-Source-AI"
-  - "Research-Agent"
-  - "LangGraph"
-  - "Node.js"
-  - "Web-Browsing"
-  - "Automation"
+tags: ["Open-Source-AI","Research-Agent","LangGraph","Node.js","Web-Browsing","Automation"]
+original_description: "An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl"
+english_summary: "An open-source implementation of a multi-agent research system that can browse the web and write long-form, cited scientific reports."
+chinese_summary: null
+problems_solved: "- Expensive subscriptions for AI research tools; lack of transparency in automated research; limited depth in generic chat-based research."
+how_to_use: "Requires Node.js and a Firecrawl API key; run 'npm install'; execute 'npm start' and provide your research topic via the CLI interface."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source implementation of a multi-agent research system that can browse the web and write long-form, cited scientific reports.
-
-## Problems solved
-
-- Expensive subscriptions for AI research tools; lack of transparency in automated research; limited depth in generic chat-based research.
-
-## How to get started
-
-Requires Node.js and a Firecrawl API key; run 'npm install'; execute 'npm start' and provide your research topic via the CLI interface.
-
-## Detailed report
+# nickscamara/open-deep-research
 
 ### 1. Positioning
 nickscamara/open-deep-research is positioned as a an open-source implementation of a multi-agent research system that can browse the web and write long-form, cited scientific reports. It aims to provide developers with a robust, TypeScript-based solution for an open source deep research clone. ai agent that reasons large amounts of web data extracted with firecrawl.

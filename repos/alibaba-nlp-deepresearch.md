@@ -1,36 +1,19 @@
 ---
-title: "Alibaba-NLP/DeepResearch"
+id: 914316754
 repo_name: "Alibaba-NLP/DeepResearch"
 url: "https://github.com/Alibaba-NLP/DeepResearch"
-github_url: "https://github.com/Alibaba-NLP/DeepResearch"
 stars: 18422
 language: "Python"
-layout: repo
-tags:
-  - "NLP"
-  - "Alibaba AI"
-  - "Qwen"
-  - "Document Understanding"
-  - "Knowledge Graph"
-  - "RAG"
-  - "Big Data"
+tags: ["NLP","Alibaba AI","Qwen","Document Understanding","Knowledge Graph","RAG","Big Data"]
+original_description: "DeepResearch: Alibaba-NLP's research project for large-scale document understanding and autonomous reasoning across massive datasets."
+english_summary: "Alibaba's official framework for large-scale document comprehension and autonomous research reasoning."
+chinese_summary: null
+problems_solved: "- Context ceiling when processing thousands of documents for a single goal\n- Difficulty maintaining logical consistency synthesising contradictory sources\n- Inefficiency in flat RAG for connecting dots across different files"
+how_to_use: "Clone the repo and install via pip. Run using `python run_research.py` specifying the document dataset and your research query."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Alibaba's official framework for large-scale document comprehension and autonomous research reasoning.
-
-## Problems solved
-
-- Context ceiling when processing thousands of documents for a single goal
-- Difficulty maintaining logical consistency synthesising contradictory sources
-- Inefficiency in flat RAG for connecting dots across different files
-
-## How to get started
-
-Clone the repo and install via pip. Run using `python run_research.py` specifying the document dataset and your research query.
-
-## Detailed report
+# Alibaba-NLP/DeepResearch
 
 ### 1. Positioning
 Alibaba-NLP's DeepResearch is a research framework for 'Global Document Understanding.' It focuses on analyzing millions of private docs (papers, corporate reports) and performing long-range reasoning for strategic synthesis.

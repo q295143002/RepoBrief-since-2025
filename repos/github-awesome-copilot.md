@@ -1,37 +1,19 @@
 ---
-title: "github/awesome-copilot"
+id: 1000362065
 repo_name: "github/awesome-copilot"
 url: "https://github.com/github/awesome-copilot"
-github_url: "https://github.com/github/awesome-copilot"
 stars: 24951
 language: "TypeScript"
-layout: repo
-tags:
-  - "GitHub Copilot"
-  - "AI Extensions"
-  - "Developer Tools"
-  - "Awesome List"
-  - "Prompt Engineering"
-  - "Enterprise AI"
-  - "Workflow Optimization"
+tags: ["GitHub Copilot","AI Extensions","Developer Tools","Awesome List","Prompt Engineering","Enterprise AI","Workflow Optimization"]
+original_description: "Awesome Copilot: A curated collection of extensions, prompts, and advanced tricks for GitHub Copilot and the Copilot Extensions ecosystem."
+english_summary: "The authoritative official list of Copilot extensions, enterprise patterns, and advanced workflows."
+chinese_summary: null
+problems_solved: "- Under-utilization of Copilot beyond simple auto-complete.\n- Difficulty for enterprise teams to find 'vetted' custom extensions for their internal tools.\n- Need for a standard library of 'System Instructions' to make Copilot adhere to specific coding styles."
+how_to_use: "git clone https://github.com/github/awesome-copilot\n# Browse categorized lists by technology stack."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The authoritative official list of Copilot extensions, enterprise patterns, and advanced workflows.
-
-## Problems solved
-
-- Under-utilization of Copilot beyond simple auto-complete.
-- Difficulty for enterprise teams to find 'vetted' custom extensions for their internal tools.
-- Need for a standard library of 'System Instructions' to make Copilot adhere to specific coding styles.
-
-## How to get started
-
-git clone https://github.com/github/awesome-copilot
-# Browse categorized lists by technology stack.
-
-## Detailed report
+# github/awesome-copilot
 
 ### 1. Positioning
 This is the definitive guide to the GitHub Copilot ecosystem. It serves as both a directory for new users and a technical reference for enterprises looking to extend Copilot's capabilities via the new 'Copilot Extensions' API. Target: All developers using Copilot.

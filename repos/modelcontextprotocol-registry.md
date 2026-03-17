@@ -1,33 +1,19 @@
 ---
-title: "modelcontextprotocol/registry"
+id: 927890076
 repo_name: "modelcontextprotocol/registry"
 url: "https://github.com/modelcontextprotocol/registry"
-github_url: "https://github.com/modelcontextprotocol/registry"
 stars: 6548
 language: "Go"
-layout: repo
-tags:
-  - "MCP"
-  - "Registry"
-  - "AI-Agents"
-  - "Developer-Tools"
-  - "Package-Manager"
-  - "Ecosystem"
+tags: ["MCP","Registry","AI-Agents","Developer-Tools","Package-Manager","Ecosystem"]
+original_description: "A community driven registry service for Model Context Protocol (MCP) servers."
+english_summary: "A central registry and discovery platform where developers can publish and find specialized MCP servers for their AI agents."
+chinese_summary: null
+problems_solved: "- Fragmentation of the MCP ecosystem; difficulty discovering reliable servers for specific tools; lack of version control for communal agent skills."
+how_to_use: "Browse the registry at the official URL; use the CLI to install servers like 'mcp install [package-name]'; submit your own servers via Pull Request."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A central registry and discovery platform where developers can publish and find specialized MCP servers for their AI agents.
-
-## Problems solved
-
-- Fragmentation of the MCP ecosystem; difficulty discovering reliable servers for specific tools; lack of version control for communal agent skills.
-
-## How to get started
-
-Browse the registry at the official URL; use the CLI to install servers like 'mcp install [package-name]'; submit your own servers via Pull Request.
-
-## Detailed report
+# modelcontextprotocol/registry
 
 ### 1. Positioning
 modelcontextprotocol/registry is positioned as a a central registry and discovery platform where developers can publish and find specialized mcp servers for their ai agents. It aims to provide developers with a robust, Go-based solution for a community driven registry service for model context protocol (mcp) servers.

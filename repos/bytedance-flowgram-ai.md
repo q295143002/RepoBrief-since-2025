@@ -1,33 +1,19 @@
 ---
-title: "bytedance/flowgram.ai"
+id: 933963452
 repo_name: "bytedance/flowgram.ai"
 url: "https://github.com/bytedance/flowgram.ai"
-github_url: "https://github.com/bytedance/flowgram.ai"
 stars: 7770
 language: "TypeScript"
-layout: repo
-tags:
-  - "Visual Programming"
-  - "Agent Flows"
-  - "ByteDance"
-  - "Orchestration"
+tags: ["Visual Programming","Agent Flows","ByteDance","Orchestration"]
+original_description: "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler."
+english_summary: "ByteDance's visual, node-based development environment for orchestrating complex AI agent flows."
+chinese_summary: null
+problems_solved: "- High boilerplate in writing complex, branching agent logic\n- Lack of visual visibility into multi-agent workflows\n- Difficulty for non-engineers to prototype agentic applications"
+how_to_use: "Open the Flowgram GUI and start dragging nodes to build your agent's decision tree."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ByteDance's visual, node-based development environment for orchestrating complex AI agent flows.
-
-## Problems solved
-
-- High boilerplate in writing complex, branching agent logic
-- Lack of visual visibility into multi-agent workflows
-- Difficulty for non-engineers to prototype agentic applications
-
-## How to get started
-
-Open the Flowgram GUI and start dragging nodes to build your agent's decision tree.
-
-## Detailed report
+# bytedance/flowgram.ai
 
 ### 1. Positioning
 bytedance/flowgram.ai is positioned as a bytedance's visual, node-based development environment for orchestrating complex ai agent flows. It aims to provide developers with a robust, TypeScript-based solution for flowgram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build ai workflow platforms faster and simpler.

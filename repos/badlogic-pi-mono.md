@@ -1,38 +1,19 @@
 ---
-title: "badlogic/pi-mono"
+id: 1035029907
 repo_name: "badlogic/pi-mono"
 url: "https://github.com/badlogic/pi-mono"
-github_url: "https://github.com/badlogic/pi-mono"
 stars: 23076
 language: "TypeScript"
-layout: repo
-tags:
-  - "Agent Toolkit"
-  - "vLLM"
-  - "Multi-platform AI"
-  - "CLI"
-  - "TUI"
-  - "TypeScript"
-  - "DevOps AI"
+tags: ["Agent Toolkit","vLLM","Multi-platform AI","CLI","TUI","TypeScript","DevOps AI"]
+original_description: "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods."
+english_summary: "A comprehensive, all-in-one Swiss Army knife for building and deploying AI agents across multiple platforms."
+chinese_summary: null
+problems_solved: "- Fragmentation in agent development tools (different libraries for CLI vs. Web vs. Bots).\n- Complexity in switching between local vLLM instances and cloud LLM providers.\n- High boilerplate when building interactive TUI (Terminal UI) for AI interactions."
+how_to_use: "npm install @badlogic/pi-mono\npi-mono init-cloud # Setup cloud providers\npi-mono start-tui"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive, all-in-one Swiss Army knife for building and deploying AI agents across multiple platforms.
-
-## Problems solved
-
-- Fragmentation in agent development tools (different libraries for CLI vs. Web vs. Bots).
-- Complexity in switching between local vLLM instances and cloud LLM providers.
-- High boilerplate when building interactive TUI (Terminal UI) for AI interactions.
-
-## How to get started
-
-npm install @badlogic/pi-mono
-pi-mono init-cloud # Setup cloud providers
-pi-mono start-tui
-
-## Detailed report
+# badlogic/pi-mono
 
 ### 1. Positioning
 Pi-Mono is a multi-platform toolkit for AI agent development. It provides a unified codebase for creating CLI-based coding agents, web-based assistants, Slack bots, and even managing local GPU pods (vLLM), targeting power users and DevOps teams.

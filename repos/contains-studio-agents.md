@@ -1,32 +1,19 @@
 ---
-title: "contains-studio/agents"
+id: 1027794681
 repo_name: "contains-studio/agents"
 url: "https://github.com/contains-studio/agents"
-github_url: "https://github.com/contains-studio/agents"
 stars: 12296
-language: ""
-layout: repo
-tags:
-  - "Claude-Code"
-  - "AI-Agents"
-  - "Multi-Agent-System"
-  - "Developer-Tools"
-  - "Instructions"
+language: null
+tags: ["Claude-Code","AI-Agents","Multi-Agent-System","Developer-Tools","Instructions"]
+original_description: "A comprehensive collection of specialized AI agents designed to accelerate and enhance every aspect of rapid development."
+english_summary: "A structured library detailing explicit Claude Code sub-agent instructions configuring perfectly segmented virtual departments executing highly specialized development workflows identically."
+chinese_summary: null
+problems_solved: "- Mitigates profoundly generic and unfocused LLM outputs systematically instantiating highly detailed character constraints simulating professional hierarchies maximizing efficiency radically executing complex software sprints reliably."
+how_to_use: "Clone repositories copying explicitly `.md` specifications verifying `.claude/agents/` directories loading custom prompts determining exact instructions effectively restarting Claude accurately."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A structured library detailing explicit Claude Code sub-agent instructions configuring perfectly segmented virtual departments executing highly specialized development workflows identically.
-
-## Problems solved
-
-- Mitigates profoundly generic and unfocused LLM outputs systematically instantiating highly detailed character constraints simulating professional hierarchies maximizing efficiency radically executing complex software sprints reliably.
-
-## How to get started
-
-Clone repositories copying explicitly `.md` specifications verifying `.claude/agents/` directories loading custom prompts determining exact instructions effectively restarting Claude accurately.
-
-## Detailed report
+# contains-studio/agents
 
 ### 1. Positioning
 Contains Studio Agents operates precisely detailing a sophisticated orchestration blueprint designed rigorously maximizing Claude Code capabilities executing specialized functional protocols mimicking exactly agency-level product groups natively.

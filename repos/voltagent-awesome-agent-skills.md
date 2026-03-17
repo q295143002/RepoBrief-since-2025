@@ -1,36 +1,19 @@
 ---
-title: "VoltAgent/awesome-agent-skills"
+id: 1084853233
 repo_name: "VoltAgent/awesome-agent-skills"
 url: "https://github.com/VoltAgent/awesome-agent-skills"
-github_url: "https://github.com/VoltAgent/awesome-agent-skills"
 stars: 11090
-language: ""
-layout: repo
-tags:
-  - "AI Agents"
-  - "Skills"
-  - "MCP"
-  - "Developer Tools"
+language: null
+tags: ["AI Agents","Skills","MCP","Developer Tools"]
+original_description: "A curated collection of official Agent Skills from leading development teams and the community."
+english_summary: "A comprehensive repository of curated and community-driven AI agent skills designed to enhance various AI development frameworks and environments."
+chinese_summary: null
+problems_solved: "- Solves the problem of fragmented and unreliable AI toolkits by providing an organized\n- audited (mostly from trusted official sources)\n- and expansive list of ready-to-use skills. It helps developers avoid 'bulk-generated' repository issues by providing practical integration points for varied SDKs from platforms like HuggingFace\n- Vercel\n- Supabase\n- and more."
+how_to_use: "Browse the categorized markdown file directly. Identify the necessary skills by vendor (e.g., Stripe, Netlify, Binance), review their linked repositories, install them per the individual repository instructions, or refer to security scanners before integrating them into an agentic context."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive repository of curated and community-driven AI agent skills designed to enhance various AI development frameworks and environments.
-
-## Problems solved
-
-- Solves the problem of fragmented and unreliable AI toolkits by providing an organized
-- audited (mostly from trusted official sources)
-- and expansive list of ready-to-use skills. It helps developers avoid 'bulk-generated' repository issues by providing practical integration points for varied SDKs from platforms like HuggingFace
-- Vercel
-- Supabase
-- and more.
-
-## How to get started
-
-Browse the categorized markdown file directly. Identify the necessary skills by vendor (e.g., Stripe, Netlify, Binance), review their linked repositories, install them per the individual repository instructions, or refer to security scanners before integrating them into an agentic context.
-
-## Detailed report
+# VoltAgent/awesome-agent-skills
 
 ### 1. Positioning
 This repository is a comprehensive directory (an 'Awesome List') of agent skills, tailored for AI developers using platforms like Claude Code, Cursor, OpenCode, and VoltAgent. Its core value lies in indexing official integrations crafted by prominent tech companies to extend the functional capabilities of LLM-based autonomous agents.

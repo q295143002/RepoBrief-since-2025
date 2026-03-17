@@ -1,36 +1,19 @@
 ---
-title: "SesameAILabs/csm"
+id: 939470275
 repo_name: "SesameAILabs/csm"
 url: "https://github.com/SesameAILabs/csm"
-github_url: "https://github.com/SesameAILabs/csm"
 stars: 14539
 language: "Python"
-layout: repo
-tags:
-  - "Speech Generation"
-  - "Conversational AI"
-  - "Audio LLM"
-  - "Llama"
-  - "TTS"
-  - "Audio Synthesis"
-  - "Sesame AI"
+tags: ["Speech Generation","Conversational AI","Audio LLM","Llama","TTS","Audio Synthesis","Sesame AI"]
+original_description: "CSM (Conversational Speech Model) from Sesame."
+english_summary: "A state-of-the-art Conversational Speech Model integrating Llama logic with audio generation capabilities."
+chinese_summary: null
+problems_solved: "- Unnatural cadence and robotic tone in traditional TTS systems\n- Lack of contextual intelligence in generating multi-turn dialogue audio\n- Difficulty in representing nuances like pauses, breaths, and social timing"
+how_to_use: "Install dependencies (Torch/Torchaudio), download CSM-1B checkpoints, and run `run_csm.py` with your text and audio-history context."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A state-of-the-art Conversational Speech Model integrating Llama logic with audio generation capabilities.
-
-## Problems solved
-
-- Unnatural cadence and robotic tone in traditional TTS systems
-- Lack of contextual intelligence in generating multi-turn dialogue audio
-- Difficulty in representing nuances like pauses, breaths, and social timing
-
-## How to get started
-
-Install dependencies (Torch/Torchaudio), download CSM-1B checkpoints, and run `run_csm.py` with your text and audio-history context.
-
-## Detailed report
+# SesameAILabs/csm
 
 ### 1. Positioning
 SesameAILabs/csm is positioned as a a state-of-the-art conversational speech model integrating llama logic with audio generation capabilities. It aims to provide developers with a robust, Python-based solution for csm (conversational speech model) from sesame.

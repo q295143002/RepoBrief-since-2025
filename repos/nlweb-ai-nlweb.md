@@ -1,36 +1,19 @@
 ---
-title: "nlweb-ai/NLWeb"
+id: 974473130
 repo_name: "nlweb-ai/NLWeb"
 url: "https://github.com/nlweb-ai/NLWeb"
-github_url: "https://github.com/nlweb-ai/NLWeb"
 stars: 6162
 language: "Python"
-layout: repo
-tags:
-  - "MCP"
-  - "Semantic Web"
-  - "AI Agents"
-  - "Schema.org"
-  - "Web Development"
-  - "Information Retrieval"
+tags: ["MCP","Semantic Web","AI Agents","Schema.org","Web Development","Information Retrieval"]
+original_description: "Main reference implementation for NLWeb, implemented in Python."
+english_summary: "NLWeb is an open protocol designed to bring natural language interfaces to the web. It treats the web of the future as a connected 'web of agents'. By leveraging existing Schema.org and RSS markup, NLWeb allows websites to quickly implement conversational endpoints that can serve both humans and AI agents. It is fully MCP-compliant, meaning any NLWeb instance acts as an MCP server."
+chinese_summary: null
+problems_solved: "- Web-AI gap: Provides a standard way for AI agents to 'talk' to websites without complex custom scraping.\n- Fragmented data: Uses Schema.org as a universal vocabulary for structured web responses.\n- Scoping AI interaction: Defines the 'Ask' method as a foundational primitive for AI-Web communication.\n- Implementation overhead: Provides tools like 'AskAgent' and 'ModelRouter' to lower the barrier for site owners."
+how_to_use: "Site owners can integrate NLWeb by deploying the 'AskAgent' module. It connects to the site's existing data (via vector stores like Qdrant or Milvus) and provides a REST API. Developers can then use the `ask` method to query the site in natural language. It supports all major LLMs including OpenAI, Anthropic, and DeepSeek."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-NLWeb is an open protocol designed to bring natural language interfaces to the web. It treats the web of the future as a connected 'web of agents'. By leveraging existing Schema.org and RSS markup, NLWeb allows websites to quickly implement conversational endpoints that can serve both humans and AI agents. It is fully MCP-compliant, meaning any NLWeb instance acts as an MCP server.
-
-## Problems solved
-
-- Web-AI gap: Provides a standard way for AI agents to 'talk' to websites without complex custom scraping.
-- Fragmented data: Uses Schema.org as a universal vocabulary for structured web responses.
-- Scoping AI interaction: Defines the 'Ask' method as a foundational primitive for AI-Web communication.
-- Implementation overhead: Provides tools like 'AskAgent' and 'ModelRouter' to lower the barrier for site owners.
-
-## How to get started
-
-Site owners can integrate NLWeb by deploying the 'AskAgent' module. It connects to the site's existing data (via vector stores like Qdrant or Milvus) and provides a REST API. Developers can then use the `ask` method to query the site in natural language. It supports all major LLMs including OpenAI, Anthropic, and DeepSeek.
-
-## Detailed report
+# nlweb-ai/NLWeb
 
 ### 1. Positioning
 nlweb-ai/NLWeb is positioned as a nlweb is an open protocol designed to bring natural language interfaces to the web. it treats the web of the future as a connected 'web of agents'. by leveraging existing schema.org and rss markup, nlweb allows websites to quickly implement conversational endpoints that can serve both humans and ai agents. it is fully mcp-compliant, meaning any nlweb instance acts as an mcp server. It aims to provide developers with a robust, Python-based solution for main reference implementation for nlweb, implemented in python.

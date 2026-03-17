@@ -1,33 +1,19 @@
 ---
-title: "YouMind-OpenLab/awesome-nano-banana-pro-prompts"
+id: 1102293054
 repo_name: "YouMind-OpenLab/awesome-nano-banana-pro-prompts"
 url: "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
-github_url: "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
 stars: 8675
 language: "TypeScript"
-layout: repo
-tags:
-  - "Nano-Banana-Pro"
-  - "Prompt-Engineering"
-  - "Generative-AI"
-  - "Google-AI"
-  - "Creative-Tools"
-  - "Multimodal-AI"
+tags: ["Nano-Banana-Pro","Prompt-Engineering","Generative-AI","Google-AI","Creative-Tools","Multimodal-AI"]
+original_description: "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source."
+english_summary: "A comprehensive collection of visual and creative prompts optimized for Google's Nano Banana Pro multimodal AI model."
+chinese_summary: null
+problems_solved: "- High barrier to entry for generating high-quality AI images/video; lack of structured templates for complex tasks like infographics; difficulty finding community-tested prompts for specific artistic styles."
+how_to_use: "Browse categories in the README or visit the Web Gallery; copy prompts into the Nano Banana Pro interface; use Raycast for parametric prompts."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive collection of visual and creative prompts optimized for Google's Nano Banana Pro multimodal AI model.
-
-## Problems solved
-
-- High barrier to entry for generating high-quality AI images/video; lack of structured templates for complex tasks like infographics; difficulty finding community-tested prompts for specific artistic styles.
-
-## How to get started
-
-Browse categories in the README or visit the Web Gallery; copy prompts into the Nano Banana Pro interface; use Raycast for parametric prompts.
-
-## Detailed report
+# YouMind-OpenLab/awesome-nano-banana-pro-prompts
 
 ### 1. Positioning
 YouMind-OpenLab/awesome-nano-banana-pro-prompts is positioned as a a comprehensive collection of visual and creative prompts optimized for google's nano banana pro multimodal ai model. It aims to provide developers with a robust, TypeScript-based solution for 🍌 world's largest nano banana pro prompt library — 10,000+ curated prompts with preview images, 16 languages. google gemini ai image generation. free & open source.

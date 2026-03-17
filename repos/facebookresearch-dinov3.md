@@ -1,34 +1,19 @@
 ---
-title: "facebookresearch/dinov3"
+id: 1033896376
 repo_name: "facebookresearch/dinov3"
 url: "https://github.com/facebookresearch/dinov3"
-github_url: "https://github.com/facebookresearch/dinov3"
 stars: 9813
 language: "Jupyter Notebook"
-layout: repo
-tags:
-  - "Computer Vision"
-  - "PyTorch"
-  - "Self-Supervised"
-  - "Meta AI"
+tags: ["Computer Vision","PyTorch","Self-Supervised","Meta AI"]
+original_description: "DINOv3: Self-Supervised Vision Foundation Models. An extended family of versatile vision models producing high-quality dense features for diverse tasks."
+english_summary: "DINOv3 is Meta AI's latest family of self-supervised vision models, ranging from 21M to 7B parameters, delivering SOTA performance on vision tasks without fine-tuning."
+chinese_summary: null
+problems_solved: "- Provides universal\n- high-resolution visual embeddings for downstream tasks like classification\n- segmentation\n- and depth estimation; achieves outstanding 'zero-shot' performance through large-scale pretraining on web and satellite datasets; simplifies the use of massive models (7B) via PyTorch Hub and Transformers."
+how_to_use: "Load backbones via PyTorch Hub: `torch.hub.load('facebookresearch/dinov3', 'dinov3_vitb16')`. For Hugging Face Transformers, use `AutoModel.from_pretrained('facebook/dinov3-vits16-pretrain-lvd1689m')`. Pretrained heads for segmentation and depth are also available."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-DINOv3 is Meta AI's latest family of self-supervised vision models, ranging from 21M to 7B parameters, delivering SOTA performance on vision tasks without fine-tuning.
-
-## Problems solved
-
-- Provides universal
-- high-resolution visual embeddings for downstream tasks like classification
-- segmentation
-- and depth estimation; achieves outstanding 'zero-shot' performance through large-scale pretraining on web and satellite datasets; simplifies the use of massive models (7B) via PyTorch Hub and Transformers.
-
-## How to get started
-
-Load backbones via PyTorch Hub: `torch.hub.load('facebookresearch/dinov3', 'dinov3_vitb16')`. For Hugging Face Transformers, use `AutoModel.from_pretrained('facebook/dinov3-vits16-pretrain-lvd1689m')`. Pretrained heads for segmentation and depth are also available.
-
-## Detailed report
+# facebookresearch/dinov3
 
 ### 1. Positioning
 DINOv3 targets computer vision researchers and AI engineers who need the best possible visual features ('embeddings') for their applications. It serves as a foundation for a huge variety of vision tasks from medical imaging to satellite analysis.

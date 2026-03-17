@@ -1,37 +1,19 @@
 ---
-title: "paperclipai/paperclip"
+id: 1170821064
 repo_name: "paperclipai/paperclip"
 url: "https://github.com/paperclipai/paperclip"
-github_url: "https://github.com/paperclipai/paperclip"
 stars: 21483
 language: "TypeScript"
-layout: repo
-tags:
-  - "Autonomous Business"
-  - "Agent Orchestration"
-  - "Paperclip"
-  - "Business Automation"
-  - "Multi-Agent Systems"
-  - "Solo-Founder Tools"
+tags: ["Autonomous Business","Agent Orchestration","Paperclip","Business Automation","Multi-Agent Systems","Solo-Founder Tools"]
+original_description: "Open-source orchestration for zero-human companies focusing on autonomous service management."
+english_summary: "A radical 'Autonomous Company' framework that orchestrates agents to handle customer service, billing, and fulfillment with zero human intervention."
+chinese_summary: null
+problems_solved: "- Extreme manual overhead in running small internet businesses (handling emails, checking stripe, updating shipping).\n- Lack of a 'Vertical Orchestrator' that understands how to connect business strategy with operational actions.\n- Scaling limits of human-based service companies."
+how_to_use: "git clone https://github.com/paperclipai/paperclip\n# Set your Business-Intent and connect your service APIs.\nnpm run start:autonomous"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A radical 'Autonomous Company' framework that orchestrates agents to handle customer service, billing, and fulfillment with zero human intervention.
-
-## Problems solved
-
-- Extreme manual overhead in running small internet businesses (handling emails, checking stripe, updating shipping).
-- Lack of a 'Vertical Orchestrator' that understands how to connect business strategy with operational actions.
-- Scaling limits of human-based service companies.
-
-## How to get started
-
-git clone https://github.com/paperclipai/paperclip
-# Set your Business-Intent and connect your service APIs.
-npm run start:autonomous
-
-## Detailed report
+# paperclipai/paperclip
 
 ### 1. Positioning
 Paperclip is a high-level framework designed to run a 'Zero-Human Business.' It orchestrates a fleet of specialized agents (Sales, Support, Ops) that coordinate through a central 'Business Brain' to handle everything from lead generation to customer refunds autonomously. Aimed at solo-founders and high-automation startups.

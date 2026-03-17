@@ -1,35 +1,19 @@
 ---
-title: "NVIDIA/personaplex"
+id: 1128525239
 repo_name: "NVIDIA/personaplex"
 url: "https://github.com/NVIDIA/personaplex"
-github_url: "https://github.com/NVIDIA/personaplex"
 stars: 5734
 language: "Python"
-layout: repo
-tags:
-  - "Speech-to-Speech"
-  - "AI Voice"
-  - "Conversational AI"
-  - "Deep Learning"
-  - "Persona"
-  - "Real-Time"
+tags: ["Speech-to-Speech","AI Voice","Conversational AI","Deep Learning","Persona","Real-Time"]
+original_description: "PersonaPlex code."
+english_summary: "PersonaPlex is a real-time speech-to-speech conversational model that allows precise control over voice (via audio conditioning) and role (via text prompts). It enables low-latency, natural interactions with consistent personas."
+chinese_summary: null
+problems_solved: "- Rigid AI voices in conversational models\n- High latency in speech-to-speech interactions\n- Lack of consistent role-play in voice assistants"
+how_to_use: "Install prerequisites (libopus-dev), clone the repo, and accept the license on Hugging Face. Launch the server for live interaction or use the offline evaluation scripts for streaming WAV processing."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PersonaPlex is a real-time speech-to-speech conversational model that allows precise control over voice (via audio conditioning) and role (via text prompts). It enables low-latency, natural interactions with consistent personas.
-
-## Problems solved
-
-- Rigid AI voices in conversational models
-- High latency in speech-to-speech interactions
-- Lack of consistent role-play in voice assistants
-
-## How to get started
-
-Install prerequisites (libopus-dev), clone the repo, and accept the license on Hugging Face. Launch the server for live interaction or use the offline evaluation scripts for streaming WAV processing.
-
-## Detailed report
+# NVIDIA/personaplex
 
 ### 1. Positioning
 NVIDIA/personaplex is positioned as a personaplex is a real-time speech-to-speech conversational model that allows precise control over voice (via audio conditioning) and role (via text prompts). it enables low-latency, natural interactions with consistent personas. It aims to provide developers with a robust, Python-based solution for personaplex code.

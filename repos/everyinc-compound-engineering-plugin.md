@@ -1,35 +1,19 @@
 ---
-title: "EveryInc/compound-engineering-plugin"
+id: 1073224021
 repo_name: "EveryInc/compound-engineering-plugin"
 url: "https://github.com/EveryInc/compound-engineering-plugin"
-github_url: "https://github.com/EveryInc/compound-engineering-plugin"
 stars: 10331
 language: "TypeScript"
-layout: repo
-tags:
-  - "Claude Code"
-  - "AI Engineering"
-  - "Workflow"
-  - "Productivity"
+tags: ["Claude Code","AI Engineering","Workflow","Productivity"]
+original_description: "A Claude Code plugin marketplace featuring the Compound Engineering Plugin — tools that make each unit of engineering work easier than the last."
+english_summary: "EveryInc's plugin marketplace offers a suite of 'Compound Engineering' tools for Claude Code and other AI coding assistants, emphasizing thorough planning and codified learnings."
+chinese_summary: null
+problems_solved: "- Combats technical debt and complexity creep by enforcing a 'Compound Engineering' philosophy; bridges the gap between different AI coding tools (Cursor\n- Gemini CLI\n- Windsurf) via a unified plugin conversion CLI; automates the cycle of brainstorming\n- planning\n- and documenting learnings."
+how_to_use: "In Claude Code, add the marketplace with `/plugin marketplace add EveryInc/compound-engineering-plugin`, then install via `/plugin install compound-engineering`. For other tools, use the provided conversion CLI: `bunx @every-env/compound-plugin install compound-engineering --to opencode`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-EveryInc's plugin marketplace offers a suite of 'Compound Engineering' tools for Claude Code and other AI coding assistants, emphasizing thorough planning and codified learnings.
-
-## Problems solved
-
-- Combats technical debt and complexity creep by enforcing a 'Compound Engineering' philosophy; bridges the gap between different AI coding tools (Cursor
-- Gemini CLI
-- Windsurf) via a unified plugin conversion CLI; automates the cycle of brainstorming
-- planning
-- and documenting learnings.
-
-## How to get started
-
-In Claude Code, add the marketplace with `/plugin marketplace add EveryInc/compound-engineering-plugin`, then install via `/plugin install compound-engineering`. For other tools, use the provided conversion CLI: `bunx @every-env/compound-plugin install compound-engineering --to opencode`.
-
-## Detailed report
+# EveryInc/compound-engineering-plugin
 
 ### 1. Positioning
 This marketplace serves professional software engineers who use agentic coding tools and want to adopt a high-quality development lifecycle. It targets the 'Every' engineering philosophy: 80% planning/review and 20% execution.

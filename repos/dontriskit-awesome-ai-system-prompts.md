@@ -1,33 +1,19 @@
 ---
-title: "dontriskit/awesome-ai-system-prompts"
+id: 943460007
 repo_name: "dontriskit/awesome-ai-system-prompts"
 url: "https://github.com/dontriskit/awesome-ai-system-prompts"
-github_url: "https://github.com/dontriskit/awesome-ai-system-prompts"
 stars: 5518
 language: "TypeScript"
-layout: repo
-tags:
-  - "Prompt Engineering"
-  - "System Prompts"
-  - "Best Practices"
-  - "Security"
+tags: ["Prompt Engineering","System Prompts","Best Practices","Security"]
+original_description: "🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI. "
+english_summary: "A curated collection of elite system prompts and model instructions from top-tier AI applications."
+chinese_summary: null
+problems_solved: "- Poor agent performance due to weak system instructions\n- Lack of a centralized library for state-of-the-art prompt templates\n- Difficulty in preventing jailbreaks in custom agents"
+how_to_use: "Browse the repository to find prompts for Claude, GPT, and specialized coding agents."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A curated collection of elite system prompts and model instructions from top-tier AI applications.
-
-## Problems solved
-
-- Poor agent performance due to weak system instructions
-- Lack of a centralized library for state-of-the-art prompt templates
-- Difficulty in preventing jailbreaks in custom agents
-
-## How to get started
-
-Browse the repository to find prompts for Claude, GPT, and specialized coding agents.
-
-## Detailed report
+# dontriskit/awesome-ai-system-prompts
 
 ### 1. Positioning
 dontriskit/awesome-ai-system-prompts is positioned as a a curated collection of elite system prompts and model instructions from top-tier ai applications. It aims to provide developers with a robust, TypeScript-based solution for 🧠 curated collection of system prompts for top ai tools. perfect for ai agent builders and prompt engineers. incuding: chatgpt, claude, perplexity, manus, claude-code, loveable, v0, grok, same new, windsurf, notion, and metaai. .

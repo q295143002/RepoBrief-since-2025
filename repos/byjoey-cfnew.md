@@ -1,34 +1,19 @@
 ---
-title: "byJoey/cfnew"
+id: 1051763468
 repo_name: "byJoey/cfnew"
 url: "https://github.com/byJoey/cfnew"
-github_url: "https://github.com/byJoey/cfnew"
 stars: 10579
-language: ""
-layout: repo
-tags:
-  - "Networking"
-  - "Cloudflare Workers"
-  - "Proxy"
-  - "VLESS"
-  - "Trojan"
+language: null
+tags: ["Networking","Cloudflare Workers","Proxy","VLESS","Trojan"]
+original_description: "CFnew - 终端 v2.9.4. 多协议支持：VLESS、Trojan、xhttp... 延迟测试：内置测试工具，测IP延迟..."
+english_summary: "CFnew is an advanced Cloudflare Workers script deploying a multi-protocol (VLESS, Trojan, xhttp) proxy terminal with built-in latency testing, API management, and dynamic visual configurations."
+chinese_summary: null
+problems_solved: "- Simplifies the complex deployment and continual optimization of serverless proxy nodes. It offers instantaneous graphical configuration using KV storage\n- automated regional selection\n- and rapid API-driven node generation without requiring worker redeployments."
+how_to_use: "Deploy to Cloudflare Workers, configure your UUID via the `u` environment variable, bind a KV namespace to `C` for graphical configurations, and access the setup page via `/{your-uuid}` or a requested custom path."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-CFnew is an advanced Cloudflare Workers script deploying a multi-protocol (VLESS, Trojan, xhttp) proxy terminal with built-in latency testing, API management, and dynamic visual configurations.
-
-## Problems solved
-
-- Simplifies the complex deployment and continual optimization of serverless proxy nodes. It offers instantaneous graphical configuration using KV storage
-- automated regional selection
-- and rapid API-driven node generation without requiring worker redeployments.
-
-## How to get started
-
-Deploy to Cloudflare Workers, configure your UUID via the `u` environment variable, bind a KV namespace to `C` for graphical configurations, and access the setup page via `/{your-uuid}` or a requested custom path.
-
-## Detailed report
+# byJoey/cfnew
 
 ### 1. Positioning
 byJoey/cfnew is positioned as a cfnew is an advanced cloudflare workers script deploying a multi-protocol (vless, trojan, xhttp) proxy terminal with built-in latency testing, api management, and dynamic visual configurations. It aims to provide developers with a robust, Various-based solution for cfnew - 终端 v2.9.4. 多协议支持：vless、trojan、xhttp... 延迟测试：内置测试工具，测ip延迟.

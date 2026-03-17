@@ -1,38 +1,19 @@
 ---
-title: "ZyperWave/ZyperWinOptimize"
+id: 1032212475
 repo_name: "ZyperWave/ZyperWinOptimize"
 url: "https://github.com/ZyperWave/ZyperWinOptimize"
-github_url: "https://github.com/ZyperWave/ZyperWinOptimize"
 stars: 6938
 language: "C#"
-layout: repo
-tags:
-  - "Windows"
-  - "Optimization"
-  - "C#"
-  - "System-Tool"
-  - "Desktop-App"
-  - "Open-Source"
+tags: ["Windows","Optimization","C#","System-Tool","Desktop-App","Open-Source"]
+original_description: "ZyperWin++是一个轻便的Windows优化工具，适用于Win7-Win11最新版的优化，包括性能优化、服务项优化、垃圾清理等操作，还支持系统激活和Office快速安装。"
+english_summary: "ZyperWin++ is a lightweight Windows optimization desktop tool (v4.1) built in C#/.NET4 with an AntDUI interface, providing batch performance tuning, service management, junk cleanup, Defender disabling, Appx/UWP management, and one-click Office installation for Win7–Win11."
+chinese_summary: null
+problems_solved: "- Provides an all-in-one\n- no-bloatware Windows optimization utility that replaces multiple separate tools — covering system services\n- garbage cleanup\n- security software management\n- Office deployment\n- and personalized configuration import/export — in a single compact executable."
+how_to_use: "Download the executable and run it. Select optimization items using the checkbox controls, review descriptions, then apply batch optimization. Configure import/export for personal presets. Defender disable and Appx management are in dedicated tabs."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ZyperWin++ is a lightweight Windows optimization desktop tool (v4.1) built in C#/.NET4 with an AntDUI interface, providing batch performance tuning, service management, junk cleanup, Defender disabling, Appx/UWP management, and one-click Office installation for Win7–Win11.
-
-## Problems solved
-
-- Provides an all-in-one
-- no-bloatware Windows optimization utility that replaces multiple separate tools — covering system services
-- garbage cleanup
-- security software management
-- Office deployment
-- and personalized configuration import/export — in a single compact executable.
-
-## How to get started
-
-Download the executable and run it. Select optimization items using the checkbox controls, review descriptions, then apply batch optimization. Configure import/export for personal presets. Defender disable and Appx management are in dedicated tabs.
-
-## Detailed report
+# ZyperWave/ZyperWinOptimize
 
 ### 1. Positioning
 ZyperWave/ZyperWinOptimize is positioned as a zyperwin++ is a lightweight windows optimization desktop tool (v4.1) built in c#/.net4 with an antdui interface, providing batch performance tuning, service management, junk cleanup, defender disabling, appx/uwp management, and one-click office installation for win7–win11. It aims to provide developers with a robust, C#-based solution for zyperwin++是一个轻便的windows优化工具，适用于win7-win11最新版的优化，包括性能优化、服务项优化、垃圾清理等操作，还支持系统激活和office快速安装。.

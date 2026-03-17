@@ -1,38 +1,19 @@
 ---
-title: "resemble-ai/chatterbox"
+id: 971241545
 repo_name: "resemble-ai/chatterbox"
 url: "https://github.com/resemble-ai/chatterbox"
-github_url: "https://github.com/resemble-ai/chatterbox"
 stars: 23264
 language: "Python"
-layout: repo
-tags:
-  - "P2P"
-  - "Agent Swarms"
-  - "Communication Bus"
-  - "Rust"
-  - "Decentralized AI"
-  - "Networking"
-  - "QUIC"
+tags: ["P2P","Agent Swarms","Communication Bus","Rust","Decentralized AI","Networking","QUIC"]
+original_description: "Chatterbox: A high-performance, P2P communication layer for agents to exchange data and tasks without relying on a central coordinator."
+english_summary: "A decentralized, high-throughput P2P communication bus for autonomous agent swarms."
+chinese_summary: null
+problems_solved: "- Single-point-of-failure and bottleneck issues in centralized multi-agent orchestrators.\n- High costs and privacy risks of routing agent-to-agent messages through cloud brokers (AWS/GCP).\n- Lack of 'Discovery' in dynamic agent swarms moving across local networks."
+how_to_use: "npm install @resemble-ai/chatterbox\nconst node = new Chatterbox();\nnode.broadcast('TASK_AVAILABLE', { type: 'OCR' });"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A decentralized, high-throughput P2P communication bus for autonomous agent swarms.
-
-## Problems solved
-
-- Single-point-of-failure and bottleneck issues in centralized multi-agent orchestrators.
-- High costs and privacy risks of routing agent-to-agent messages through cloud brokers (AWS/GCP).
-- Lack of 'Discovery' in dynamic agent swarms moving across local networks.
-
-## How to get started
-
-npm install @resemble-ai/chatterbox
-const node = new Chatterbox();
-node.broadcast('TASK_AVAILABLE', { type: 'OCR' });
-
-## Detailed report
+# resemble-ai/chatterbox
 
 ### 1. Positioning
 Chatterbox is a specialized messaging bus for 'Agent Swarms.' It enables agents to discover each other on a local network or via DHT, exchange task definitions, and coordinate work without a human or a central server in the middle. It is the 'Gossiping Protocol' for autonomous software.

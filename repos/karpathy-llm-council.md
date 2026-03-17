@@ -1,36 +1,19 @@
 ---
-title: "karpathy/llm-council"
+id: 1102157650
 repo_name: "karpathy/llm-council"
 url: "https://github.com/karpathy/llm-council"
-github_url: "https://github.com/karpathy/llm-council"
 stars: 15592
 language: "Python"
-layout: repo
-tags:
-  - "Karpathy"
-  - "AI Debate"
-  - "Consensus"
-  - "Multi-Agent"
-  - "Reasoning"
-  - "Hallucination Reduction"
-  - "Python"
+tags: ["Karpathy","AI Debate","Consensus","Multi-Agent","Reasoning","Hallucination Reduction","Python"]
+original_description: "llm-council: Andrej Karpathy's experimental project for achieving consensus through a multi-agent debate and voting mechanism."
+english_summary: "Karpathy's project for high-precision decision-making through multi-agent debate and consensus."
+chinese_summary: null
+problems_solved: "- Individual LLM hallucinations in high-stakes tasks\n- Bias in model outputs favoring specific styles or viewpoints\n- Lack of structured voting protocols for reaching final agent answers"
+how_to_use: "Clone the repo and run `council.py`. Provide your question and number of agents to start a multi-round debate session."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Karpathy's project for high-precision decision-making through multi-agent debate and consensus.
-
-## Problems solved
-
-- Individual LLM hallucinations in high-stakes tasks
-- Bias in model outputs favoring specific styles or viewpoints
-- Lack of structured voting protocols for reaching final agent answers
-
-## How to get started
-
-Clone the repo and run `council.py`. Provide your question and number of agents to start a multi-round debate session.
-
-## Detailed report
+# karpathy/llm-council
 
 ### 1. Positioning
 llm-council is Karpathy's explore of the 'Wisdom of the Crowd' for AI. It creates a 'Council' of agents from different providers that debate a question before a Judge agent synthesizes the view. Gold standard for high-confidence reasoning.

@@ -1,31 +1,19 @@
 ---
-title: "openai/symphony"
+id: 1167965563
 repo_name: "openai/symphony"
 url: "https://github.com/openai/symphony"
-github_url: "https://github.com/openai/symphony"
 stars: 12085
 language: "Elixir"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Coding Tools"
-  - "OpenAI"
-  - "Orchestration"
+tags: ["AI Agent","Coding Tools","OpenAI","Orchestration"]
+original_description: "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents."
+english_summary: "An experimental multi-agent orchestration framework automating totally the software implementation lifecycle converting linear issues seamlessly into fully executed verifiable pull requests robustly."
+chinese_summary: null
+problems_solved: "Shifts profoundly the developer paradigm from actively micromanaging individual coding agent subtasks towards operating strictly at the macro product-management layer verifying explicitly automated CI proofs definitively."
+how_to_use: "Employ exactly the provided specification blueprints replicating exactly standard Symphony mechanics utilizing Elixir reference implementations natively linking explicitly internal agentic pipelines naturally."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An experimental multi-agent orchestration framework automating totally the software implementation lifecycle converting linear issues seamlessly into fully executed verifiable pull requests robustly.
-
-## Problems solved
-
-Shifts profoundly the developer paradigm from actively micromanaging individual coding agent subtasks towards operating strictly at the macro product-management layer verifying explicitly automated CI proofs definitively.
-
-## How to get started
-
-Employ exactly the provided specification blueprints replicating exactly standard Symphony mechanics utilizing Elixir reference implementations natively linking explicitly internal agentic pipelines naturally.
-
-## Detailed report
+# openai/symphony
 
 ### 1. Positioning
 Symphony operates profoundly as an enterprise-grade conceptual specification bridging explicitly the transition from manual "Coding Copilot" reliance into absolute autonomous software production execution seamlessly.

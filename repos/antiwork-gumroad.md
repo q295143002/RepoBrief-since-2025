@@ -1,32 +1,19 @@
 ---
-title: "antiwork/gumroad"
+id: 959682770
 repo_name: "antiwork/gumroad"
 url: "https://github.com/antiwork/gumroad"
-github_url: "https://github.com/antiwork/gumroad"
 stars: 8613
 language: "Ruby"
-layout: repo
-tags:
-  - "Ecommerce"
-  - "Ruby-on-Rails"
-  - "Creator-Economy"
-  - "Open-Source-Platform"
-  - "FinTech"
+tags: ["Ecommerce","Ruby-on-Rails","Creator-Economy","Open-Source-Platform","FinTech"]
+original_description: "Sell stuff and see what sticks"
+english_summary: "The open-source core platform of Gumroad, a major e-commerce tool for the creator economy."
+chinese_summary: null
+problems_solved: "- Complex setups for selling digital products; difficulty managing taxes and customer relationships for creators; fragmented creator tools."
+how_to_use: "Install Ruby, Node, and Docker; run 'bundle install' and 'npm install'; setup database with 'bin/rails db:prepare'; run 'make local' and 'bin/dev'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The open-source core platform of Gumroad, a major e-commerce tool for the creator economy.
-
-## Problems solved
-
-- Complex setups for selling digital products; difficulty managing taxes and customer relationships for creators; fragmented creator tools.
-
-## How to get started
-
-Install Ruby, Node, and Docker; run 'bundle install' and 'npm install'; setup database with 'bin/rails db:prepare'; run 'make local' and 'bin/dev'.
-
-## Detailed report
+# antiwork/gumroad
 
 ### 1. Positioning
 antiwork/gumroad is positioned as a the open-source core platform of gumroad, a major e-commerce tool for the creator economy. It aims to provide developers with a robust, Ruby-based solution for sell stuff and see what sticks.

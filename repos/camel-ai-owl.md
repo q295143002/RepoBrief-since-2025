@@ -1,36 +1,19 @@
 ---
-title: "camel-ai/owl"
+id: 942114501
 repo_name: "camel-ai/owl"
 url: "https://github.com/camel-ai/owl"
-github_url: "https://github.com/camel-ai/owl"
 stars: 19186
 language: "Python"
-layout: repo
-tags:
-  - "Multi-Agent"
-  - "Agent Orchestration"
-  - "CAMEL-AI"
-  - "Task Automation"
-  - "Machine Learning"
-  - "Enterprise AI"
-  - "Workforce"
+tags: ["Multi-Agent","Agent Orchestration","CAMEL-AI","Task Automation","Machine Learning","Enterprise AI","Workforce"]
+original_description: "OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation by CAMEL-AI."
+english_summary: "CAMEL-AI's framework for multi-agent 'Workforce' coordination and real-world task automation."
+chinese_summary: null
+problems_solved: "- Inefficiency in simple 'Chain of Thought' agents when faced with complex, multi-departmental business tasks\n- High failure rates in autonomous task completion due to poor 'Role-Playing' and coordination\n- Lack of a standardized way to 'Train' a virtual workforce on historical task data"
+how_to_use: "Install via pip: `pip install camel-owl`. Initialize a `Workforce` object with a specific goal and let the agents coordinate the execution."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-CAMEL-AI's framework for multi-agent 'Workforce' coordination and real-world task automation.
-
-## Problems solved
-
-- Inefficiency in simple 'Chain of Thought' agents when faced with complex, multi-departmental business tasks
-- High failure rates in autonomous task completion due to poor 'Role-Playing' and coordination
-- Lack of a standardized way to 'Train' a virtual workforce on historical task data
-
-## How to get started
-
-Install via pip: `pip install camel-owl`. Initialize a `Workforce` object with a specific goal and let the agents coordinate the execution.
-
-## Detailed report
+# camel-ai/owl
 
 ### 1. Positioning
 OWL is a high-level orchestration framework from CAMEL-AI. It introduces 'Workforce Learning,' where specialized agents are managed as a cohesive 'Team' that learns from successes and failures in real-world scenarios.

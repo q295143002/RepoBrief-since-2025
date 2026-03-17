@@ -1,36 +1,19 @@
 ---
-title: "virattt/dexter"
+id: 1076426995
 repo_name: "virattt/dexter"
 url: "https://github.com/virattt/dexter"
-github_url: "https://github.com/virattt/dexter"
 stars: 17813
 language: "TypeScript"
-layout: repo
-tags:
-  - "Parallel Processing"
-  - "Task Queue"
-  - "Agent Cluster"
-  - "Performance"
-  - "Asyncio"
-  - "LiteLLM"
-  - "Batch Processing"
+tags: ["Parallel Processing","Task Queue","Agent Cluster","Performance","Asyncio","LiteLLM","Batch Processing"]
+original_description: "Dexter: A simple and efficient agent framework specializing in high-speed task delegation and worker pools."
+english_summary: "A lightweight, high-performance 'Worker Pool' framework for delegating massive tasks across agent clusters."
+chinese_summary: null
+problems_solved: "- Concurrency bottlenecks when agents perform sequential tasks on large datasets\n- High memory overhead of spawning multiple heavy framework instances\n- Lack of simple 'Job Queue' metaphors for agentic workloads"
+how_to_use: "Install via pip: `pip install dexter-ai`. Create a `Cluster` and `Worker` objects, then use `cluster.dispatch` to parallelize your AI tasks."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A lightweight, high-performance 'Worker Pool' framework for delegating massive tasks across agent clusters.
-
-## Problems solved
-
-- Concurrency bottlenecks when agents perform sequential tasks on large datasets
-- High memory overhead of spawning multiple heavy framework instances
-- Lack of simple 'Job Queue' metaphors for agentic workloads
-
-## How to get started
-
-Install via pip: `pip install dexter-ai`. Create a `Cluster` and `Worker` objects, then use `cluster.dispatch` to parallelize your AI tasks.
-
-## Detailed report
+# virattt/dexter
 
 ### 1. Positioning
 Dexter is a 'Performance-First' framework shifting focus from complex reasoning to efficient execution. It treats agents as workers in a cluster, parallelizing LLM tasks with minimal overhead.

@@ -1,32 +1,19 @@
 ---
-title: "rowboatlabs/rowboat"
+id: 916009087
 repo_name: "rowboatlabs/rowboat"
 url: "https://github.com/rowboatlabs/rowboat"
-github_url: "https://github.com/rowboatlabs/rowboat"
 stars: 9174
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Knowledge Graph"
-  - "Local-First"
-  - "Obsidian"
-  - "Productivity"
+tags: ["AI Agent","Knowledge Graph","Local-First","Obsidian","Productivity"]
+original_description: "Rowboat: Open-source AI coworker that turns work into a knowledge graph and acts on it. Local-first by design."
+english_summary: "Rowboat is a local-first AI coworker that integrates with your email and meeting notes to build an Obsidian-compatible knowledge graph, allowing you to generate decks, briefs, and automate workflows from your private data."
+chinese_summary: null
+problems_solved: "- Eliminates 'context amnesia' by building a long-lived memory graph; solves privacy concerns by keeping all data on the user's machine in Markdown format; reduces meeting prep time by automatically synthesizing decisions and open questions from past threads."
+how_to_use: "Download the app for Mac/Windows/Linux from `rowboatlabs.com`. Connect your Google account (Gmail/Calendar) following the provided guide. Optionally add Deepgram/Brave API keys in `~/.rowboat/config/` to enable voice notes and web search."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Rowboat is a local-first AI coworker that integrates with your email and meeting notes to build an Obsidian-compatible knowledge graph, allowing you to generate decks, briefs, and automate workflows from your private data.
-
-## Problems solved
-
-- Eliminates 'context amnesia' by building a long-lived memory graph; solves privacy concerns by keeping all data on the user's machine in Markdown format; reduces meeting prep time by automatically synthesizing decisions and open questions from past threads.
-
-## How to get started
-
-Download the app for Mac/Windows/Linux from `rowboatlabs.com`. Connect your Google account (Gmail/Calendar) following the provided guide. Optionally add Deepgram/Brave API keys in `~/.rowboat/config/` to enable voice notes and web search.
-
-## Detailed report
+# rowboatlabs/rowboat
 
 ### 1. Positioning
 Rowboat is an 'Intelligence Node' for professional workflows. It targets knowledge workers who are drowning in fragmented data across emails and meetings. It positions itself as a 'compound interest' memory tool—the more you work, the smarter and more personalized its context becomes.

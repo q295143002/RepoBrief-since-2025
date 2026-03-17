@@ -1,28 +1,19 @@
 ---
-title: "Nagi-ovo/gemini-voyager"
+id: 1069943001
 repo_name: "Nagi-ovo/gemini-voyager"
 url: "https://github.com/Nagi-ovo/gemini-voyager"
-github_url: "https://github.com/Nagi-ovo/gemini-voyager"
 stars: 11729
 language: "TypeScript"
-layout: repo
-tags:
-  - "Google Gemini"
+tags: ["Google Gemini"]
+original_description: "Make Your Gemini Experience Truly Yours ✨"
+english_summary: "A sophisticated Chromium extension significantly enhancing exactly the vanilla Google Gemini interface injecting seamlessly incredibly robust hierarchical organization tools tracking exactly prompt pipelines beautifully."
+chinese_summary: null
+problems_solved: "Alleviates entirely the profoundly frustrating linear limitations inherent within standard Gemini web interfaces implementing structurally permanent historical navigation solving precisely catastrophic data-loss unreliability dynamically."
+how_to_use: "Navigate directly loading the Chrome Web Store installing explicit permissions tracking precisely the newly structured DOM elements configuring exactly specific visual parameters naturally."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A sophisticated Chromium extension significantly enhancing exactly the vanilla Google Gemini interface injecting seamlessly incredibly robust hierarchical organization tools tracking exactly prompt pipelines beautifully.
-
-## Problems solved
-
-Alleviates entirely the profoundly frustrating linear limitations inherent within standard Gemini web interfaces implementing structurally permanent historical navigation solving precisely catastrophic data-loss unreliability dynamically.
-
-## How to get started
-
-Navigate directly loading the Chrome Web Store installing explicit permissions tracking precisely the newly structured DOM elements configuring exactly specific visual parameters naturally.
-
-## Detailed report
+# Nagi-ovo/gemini-voyager
 
 ### 1. Positioning
 Gemini Voyager establishes itself implicitly operating as the definitive "Missing Toolkit" upgrading fundamentally the core Google workspace evaluating precisely a drastically superior UX overlay augmenting standard chat parameters effectively.

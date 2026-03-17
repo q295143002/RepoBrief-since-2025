@@ -1,35 +1,19 @@
 ---
-title: "mmulet/term.everything"
+id: 1051928239
 repo_name: "mmulet/term.everything"
 url: "https://github.com/mmulet/term.everything"
-github_url: "https://github.com/mmulet/term.everything"
 stars: 7774
 language: "Go"
-layout: repo
-tags:
-  - "Terminal"
-  - "Wayland"
-  - "GUI"
-  - "Go"
-  - "Linux"
-  - "Developer-Tools"
-  - "Remote-Access"
+tags: ["Terminal","Wayland","GUI","Go","Linux","Developer-Tools","Remote-Access"]
+original_description: "Run any GUI app in the terminal❗"
+english_summary: "term.everything is a Linux CLI tool that functions as a from-scratch Wayland compositor, allowing users to run any GUI application directly inside a terminal window using the chafa library to render graphics as UTF-8 characters."
+chinese_summary: null
+problems_solved: "- Enables running GUI applications over remote SSH sessions without a display server\n- and provides a way to access graphical apps from pure terminal environments — combining the power of GUI tools with the flexibility of the terminal."
+how_to_use: "Clone and build the Go project. Launch `term.everything` as a Wayland compositor in your terminal, then run any GUI application within it. It works on both X11 and Wayland host systems."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-term.everything is a Linux CLI tool that functions as a from-scratch Wayland compositor, allowing users to run any GUI application directly inside a terminal window using the chafa library to render graphics as UTF-8 characters.
-
-## Problems solved
-
-- Enables running GUI applications over remote SSH sessions without a display server
-- and provides a way to access graphical apps from pure terminal environments — combining the power of GUI tools with the flexibility of the terminal.
-
-## How to get started
-
-Clone and build the Go project. Launch `term.everything` as a Wayland compositor in your terminal, then run any GUI application within it. It works on both X11 and Wayland host systems.
-
-## Detailed report
+# mmulet/term.everything
 
 ### 1. Positioning
 mmulet/term.everything is positioned as a term.everything is a linux cli tool that functions as a from-scratch wayland compositor, allowing users to run any gui application directly inside a terminal window using the chafa library to render graphics as utf-8 characters. It aims to provide developers with a robust, Go-based solution for run any gui app in the terminal❗.

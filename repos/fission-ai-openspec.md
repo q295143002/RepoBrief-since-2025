@@ -1,37 +1,19 @@
 ---
-title: "Fission-AI/OpenSpec"
+id: 1032459340
 repo_name: "Fission-AI/OpenSpec"
 url: "https://github.com/Fission-AI/OpenSpec"
-github_url: "https://github.com/Fission-AI/OpenSpec"
 stars: 30128
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Interoperability"
-  - "Protocol"
-  - "Agent Capabilities"
-  - "Standards"
-  - "JSON Schema"
-  - "Service Discovery"
-  - "Agentic AI"
+tags: ["AI Interoperability","Protocol","Agent Capabilities","Standards","JSON Schema","Service Discovery","Agentic AI"]
+original_description: "OpenSpec: An open protocol for AI agents to exchange capability specifications, enabling interoperability between different AI systems."
+english_summary: "An open-source interoperability protocol for AI agents to share and invoke cross-platform capabilities."
+chinese_summary: null
+problems_solved: "- Siloed AI agents that cannot 'talk' to each other or use each other's specialized tools.\n- Redundancy in creating similar tools for different agent frameworks (LangChain vs. AutoGPT).\n- Lack of a discovery mechanism for third-party AI 'services'."
+how_to_use: "npm install @fission-ai/openspec\n# Declare your agent's manifest.json following OpenSpec standards."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source interoperability protocol for AI agents to share and invoke cross-platform capabilities.
-
-## Problems solved
-
-- Siloed AI agents that cannot 'talk' to each other or use each other's specialized tools.
-- Redundancy in creating similar tools for different agent frameworks (LangChain vs. AutoGPT).
-- Lack of a discovery mechanism for third-party AI 'services'.
-
-## How to get started
-
-npm install @fission-ai/openspec
-# Declare your agent's manifest.json following OpenSpec standards.
-
-## Detailed report
+# Fission-AI/OpenSpec
 
 ### 1. Positioning
 OpenSpec is a standardization protocol by Fission-AI. It allows AI agents to 'broadcast' their capabilities in a machine-readable format so that other agents can discover and invoke their tools, effectively creating a 'Marketplace of Skills' for AI.

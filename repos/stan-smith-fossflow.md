@@ -1,36 +1,19 @@
 ---
-title: "stan-smith/FossFLOW"
+id: 1011253718
 repo_name: "stan-smith/FossFLOW"
 url: "https://github.com/stan-smith/FossFLOW"
-github_url: "https://github.com/stan-smith/FossFLOW"
 stars: 19076
 language: "TypeScript"
-layout: repo
-tags:
-  - "Infrastructure-as-Code"
-  - "Diagramming"
-  - "DevOps"
-  - "Isometric"
-  - "Visualization"
-  - "Technical Writing"
-  - "Three.js"
+tags: ["Infrastructure-as-Code","Diagramming","DevOps","Isometric","Visualization","Technical Writing","Three.js"]
+original_description: "FossFLOW: Make beautiful isometric infrastructure diagrams from YAML code or terminal commands."
+english_summary: "An isometric diagramming tool that converts infrastructure-as-code into stunning 3D visual layouts."
+chinese_summary: null
+problems_solved: "- Tedious manual drawing of cloud infrastructure diagrams in tools like PowerPoint\n- Difficulty in keeping diagrams in sync with actual code (YAML/JSON) configurations\n- Lack of 'Aesthetic Quality' in automatically generated engineering diagrams"
+how_to_use: "Install via npm: `npm install -g fossflow`. Use `fossflow draw my_infra.yaml` to generate a 3D diagram. Choose from various styles like 'neon' or 'glass'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An isometric diagramming tool that converts infrastructure-as-code into stunning 3D visual layouts.
-
-## Problems solved
-
-- Tedious manual drawing of cloud infrastructure diagrams in tools like PowerPoint
-- Difficulty in keeping diagrams in sync with actual code (YAML/JSON) configurations
-- Lack of 'Aesthetic Quality' in automatically generated engineering diagrams
-
-## How to get started
-
-Install via npm: `npm install -g fossflow`. Use `fossflow draw my_infra.yaml` to generate a 3D diagram. Choose from various styles like 'neon' or 'glass'.
-
-## Detailed report
+# stan-smith/FossFLOW
 
 ### 1. Positioning
 FossFLOW is a specialized visualization tool for DevOps and SRE teams. It renders structured infrastructure data as semantically-meaningful 'Isometric Diagrams' for presentations and technical documentation.

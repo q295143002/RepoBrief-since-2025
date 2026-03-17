@@ -1,32 +1,19 @@
 ---
-title: "vercel-labs/json-render"
+id: 1134411737
 repo_name: "vercel-labs/json-render"
 url: "https://github.com/vercel-labs/json-render"
-github_url: "https://github.com/vercel-labs/json-render"
 stars: 12369
 language: "TypeScript"
-layout: repo
-tags:
-  - "Generative-UI"
-  - "JSON-Schema"
-  - "Form-Builder"
-  - "React"
-  - "Vercel"
+tags: ["Generative-UI","JSON-Schema","Form-Builder","React","Vercel"]
+original_description: "The Generative UI framework."
+english_summary: "A framework developed by Vercel constraining AI code generation precisely onto designated UI catalogs preventing hallucinations and assuring guaranteed predictable frontend rendering safely."
+chinese_summary: null
+problems_solved: "- Shatters the fundamental instability facing pure generative UI solutions dynamically ensuring agent intent perfectly aligns precisely using predetermined local TSX code components reducing security vulnerabilities."
+how_to_use: "Install generic UI renderers via `npm install @json-render/core @json-render/react` wrapping specific native registries explicitly checking generated strings inside a root schema array."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A framework developed by Vercel constraining AI code generation precisely onto designated UI catalogs preventing hallucinations and assuring guaranteed predictable frontend rendering safely.
-
-## Problems solved
-
-- Shatters the fundamental instability facing pure generative UI solutions dynamically ensuring agent intent perfectly aligns precisely using predetermined local TSX code components reducing security vulnerabilities.
-
-## How to get started
-
-Install generic UI renderers via `npm install @json-render/core @json-render/react` wrapping specific native registries explicitly checking generated strings inside a root schema array.
-
-## Detailed report
+# vercel-labs/json-render
 
 ### 1. Positioning
 JSON-Render acts aggressively as crucial intermediary translation layer dictating exactly how generic server LLM data converts physically into rendered DOM structures reliably for sophisticated GenUI operations seamlessly.

@@ -1,36 +1,19 @@
 ---
-title: "charmbracelet/crush"
+id: 987670088
 repo_name: "charmbracelet/crush"
 url: "https://github.com/charmbracelet/crush"
-github_url: "https://github.com/charmbracelet/crush"
 stars: 21279
 language: "Go"
-layout: repo
-tags:
-  - "TUI"
-  - "Charm Bracelet"
-  - "Go"
-  - "Coding Agent"
-  - "Developer Tools"
-  - "Aesthetic AI"
-  - "Bubble Tea"
+tags: ["TUI","Charm Bracelet","Go","Coding Agent","Developer Tools","Aesthetic AI","Bubble Tea"]
+original_description: "Glamourous agentic coding for all 💘 focusing on beautiful, terminal-native interfaces for AI power users."
+english_summary: "Charm Bracelet's aesthetic, high-performance TUI coding agent for terminal luxury and efficiency."
+chinese_summary: null
+problems_solved: "- Boring text-only outputs in standard AI-CLI tools\n- Difficulty visualizing complex diffs in a shell\n- Lack of interactivity in developer automation"
+how_to_use: "Install via Go: `go install github.com/charmbracelet/crush@latest`. Provide a natural language coding task to start."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Charm Bracelet's aesthetic, high-performance TUI coding agent for terminal luxury and efficiency.
-
-## Problems solved
-
-- Boring text-only outputs in standard AI-CLI tools
-- Difficulty visualizing complex diffs in a shell
-- Lack of interactivity in developer automation
-
-## How to get started
-
-Install via Go: `go install github.com/charmbracelet/crush@latest`. Provide a natural language coding task to start.
-
-## Detailed report
+# charmbracelet/crush
 
 ### 1. Positioning
 Crush is a 'Luxury' terminal coding agent powered by Charm's Bubble Tea, designed for efficiency and aesthetic pleasure.

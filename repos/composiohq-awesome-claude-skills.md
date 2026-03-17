@@ -1,36 +1,19 @@
 ---
-title: "ComposioHQ/awesome-claude-skills"
+id: 1078079172
 repo_name: "ComposioHQ/awesome-claude-skills"
 url: "https://github.com/ComposioHQ/awesome-claude-skills"
-github_url: "https://github.com/ComposioHQ/awesome-claude-skills"
 stars: 43600
 language: "Python"
-layout: repo
-tags:
-  - "Claude"
-  - "Agent Skills"
-  - "Composio"
-  - "Integrations"
-  - "Best Practices"
-  - "MCP"
-  - "Enterprise AI"
+tags: ["Claude","Agent Skills","Composio","Integrations","Best Practices","MCP","Enterprise AI"]
+original_description: "Awesome Claude Skills by Composio: A curated collection of powerful tools, prompts, and integrations for Claude.ai and Claude Code. Build anything with Claude."
+english_summary: "A definitive curated list of industry-level skillsets and integrations to hyper-charge Claude."
+chinese_summary: null
+problems_solved: "- The 'discovery challenge' of finding verified, high-quality skills for the new Claude ecosystem\n- Lack of standardized integration patterns for industrial tools like Jira, Stripe, and GitHub\n- Absence of community-vetted benchmarks for 'well-designed' AI skill definitions"
+how_to_use: "Clone the repo and explore the categorizes directories. Import the `.json` schemas or `.md` skill definitions into your agent platform (Composio, Claude Code, or LangChain)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A definitive curated list of industry-level skillsets and integrations to hyper-charge Claude.
-
-## Problems solved
-
-- The 'discovery challenge' of finding verified, high-quality skills for the new Claude ecosystem
-- Lack of standardized integration patterns for industrial tools like Jira, Stripe, and GitHub
-- Absence of community-vetted benchmarks for 'well-designed' AI skill definitions
-
-## How to get started
-
-Clone the repo and explore the categorizes directories. Import the `.json` schemas or `.md` skill definitions into your agent platform (Composio, Claude Code, or LangChain).
-
-## Detailed report
+# ComposioHQ/awesome-claude-skills
 
 ### 1. Positioning
 This repository is a 'Super-Aggregator' for the Claude ecosystem. Owned by Composio, it provides production-ready 'patches' that give Claude the ability to securely interact with the entire enterprise software stack (SaaS, DBs, Cloud Infra).

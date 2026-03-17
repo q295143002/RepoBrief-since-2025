@@ -1,35 +1,19 @@
 ---
-title: "siddharthvaddem/openscreen"
+id: 1073433866
 repo_name: "siddharthvaddem/openscreen"
 url: "https://github.com/siddharthvaddem/openscreen"
-github_url: "https://github.com/siddharthvaddem/openscreen"
 stars: 7882
 language: "TypeScript"
-layout: repo
-tags:
-  - "Screen-Recorder"
-  - "Open-Source"
-  - "Video-Editor"
-  - "Electron"
-  - "Cross-Platform"
+tags: ["Screen-Recorder","Open-Source","Video-Editor","Electron","Cross-Platform"]
+original_description: "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. "
+english_summary: "An open-source, free-to-use screen recording application designed as a simpler alternative to Screen Studio, perfect for making beautiful product demos and walkthroughs."
+chinese_summary: null
+problems_solved: "- Provides a cost-free solution to creating high-quality screen recordings with automatic zooms\n- motion blur\n- customizable backgrounds\n- and annotations without requiring expensive subscriptions."
+how_to_use: "Download the latest installer from GitHub Releases and install. Record your screen or specific windows, easily adding automatic/manual zooms, custom backgrounds, and annotations, then export to various aspect ratios."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source, free-to-use screen recording application designed as a simpler alternative to Screen Studio, perfect for making beautiful product demos and walkthroughs.
-
-## Problems solved
-
-- Provides a cost-free solution to creating high-quality screen recordings with automatic zooms
-- motion blur
-- customizable backgrounds
-- and annotations without requiring expensive subscriptions.
-
-## How to get started
-
-Download the latest installer from GitHub Releases and install. Record your screen or specific windows, easily adding automatic/manual zooms, custom backgrounds, and annotations, then export to various aspect ratios.
-
-## Detailed report
+# siddharthvaddem/openscreen
 
 ### 1. Positioning
 siddharthvaddem/openscreen is positioned as a an open-source, free-to-use screen recording application designed as a simpler alternative to screen studio, perfect for making beautiful product demos and walkthroughs. It aims to provide developers with a robust, TypeScript-based solution for create stunning demos for free. open-source, no subscriptions, no watermarks, and free for commercial use. an alternative to screen studio. .

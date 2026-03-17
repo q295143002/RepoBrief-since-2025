@@ -1,37 +1,19 @@
 ---
-title: "obra/superpowers"
+id: 1073224795
 repo_name: "obra/superpowers"
 url: "https://github.com/obra/superpowers"
-github_url: "https://github.com/obra/superpowers"
 stars: 80880
 language: "Shell"
-layout: repo
-tags:
-  - "AI Orchestration"
-  - "Multi-Agent"
-  - "TypeScript"
-  - "MCP"
-  - "State Management"
-  - "Agentic AI"
-  - "Developer Tools"
+tags: ["AI Orchestration","Multi-Agent","TypeScript","MCP","State Management","Agentic AI","Developer Tools"]
+original_description: "Superpowers is a collection of essential tools and frameworks for building modern, agentic AI applications. It focuses on orchestration, state management, and multi-agent coordination."
+english_summary: "A high-performance toolkit for building and orchestrating complex multi-agent AI systems."
+chinese_summary: "Superpowers 是一款赋予 AI 助手（如 Claude Code 等）超级能力的插件体系。它通过预定义的指令和工具，让 AI 更好地执行复杂自动化任务。"
+problems_solved: "- Complexity in managing state across multiple asynchronous AI agents.\n- Lack of a unified protocol for agent-to-agent communication.\n- Difficulty in scaling single-agent scripts into collaborative multi-agent teams."
+how_to_use: "npm install @obra/superpowers\nimport { Orchestrator } from '@obra/superpowers';"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-performance toolkit for building and orchestrating complex multi-agent AI systems.
-
-## Problems solved
-
-- Complexity in managing state across multiple asynchronous AI agents.
-- Lack of a unified protocol for agent-to-agent communication.
-- Difficulty in scaling single-agent scripts into collaborative multi-agent teams.
-
-## How to get started
-
-npm install @obra/superpowers
-import { Orchestrator } from '@obra/superpowers';
-
-## Detailed report
+# obra/superpowers
 
 ### 1. Positioning
 Superpowers is a core toolkit designed for building modern 'Agentic' AI applications. It serves mid-to-senior AI developers by providing a standard library for multi-agent orchestration, complex state management, and long-term task flow.

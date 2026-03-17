@@ -1,36 +1,19 @@
 ---
-title: "browser-use/web-ui"
+id: 910986056
 repo_name: "browser-use/web-ui"
 url: "https://github.com/browser-use/web-ui"
-github_url: "https://github.com/browser-use/web-ui"
 stars: 15707
 language: "Python"
-layout: repo
-tags:
-  - "Browser Automation"
-  - "Agent Monitoring"
-  - "Playwright"
-  - "Web GUI"
-  - "FastAPI"
-  - "VNC"
-  - "User Interface"
+tags: ["Browser Automation","Agent Monitoring","Playwright","Web GUI","FastAPI","VNC","User Interface"]
+original_description: "browser-use-web-ui: A powerful and user-friendly web interface for orchestrating browser-based agents with visual monitoring."
+english_summary: "A comprehensive web dashboard for managing and visualizing autonomous browser-based agents."
+chinese_summary: null
+problems_solved: "- High technical barrier to monitoring headful browser agents\n- Lack of 'Visual Proof' during long-running browser automation tasks\n- Difficulty managing multiple sessions and cookie persistence"
+how_to_use: "Run via docker-compose and access the web UI at localhost. Define your browser missions and monitor agent progress in real-time."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive web dashboard for managing and visualizing autonomous browser-based agents.
-
-## Problems solved
-
-- High technical barrier to monitoring headful browser agents
-- Lack of 'Visual Proof' during long-running browser automation tasks
-- Difficulty managing multiple sessions and cookie persistence
-
-## How to get started
-
-Run via docker-compose and access the web UI at localhost. Define your browser missions and monitor agent progress in real-time.
-
-## Detailed report
+# browser-use/web-ui
 
 ### 1. Positioning
 browser-use-web-ui is the management portal for the browser-use ecosystem. It provides real-time VNC-like views of agent screens and a library of 'Saved Missions' for recurring automation.

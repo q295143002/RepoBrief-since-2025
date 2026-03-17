@@ -1,36 +1,19 @@
 ---
-title: "hsliuping/TradingAgents-CN"
+id: 1008857871
 repo_name: "hsliuping/TradingAgents-CN"
 url: "https://github.com/hsliuping/TradingAgents-CN"
-github_url: "https://github.com/hsliuping/TradingAgents-CN"
 stars: 18576
 language: "Python"
-layout: repo
-tags:
-  - "FinTech"
-  - "Trading Agent"
-  - "A-Share market"
-  - "Quantitative Finance"
-  - "Multi-Agent"
-  - "Chinese AI"
-  - "Investment Strategy"
+tags: ["FinTech","Trading Agent","A-Share market","Quantitative Finance","Multi-Agent","Chinese AI","Investment Strategy"]
+original_description: "TradingAgents-CN: A Chinese financial trading multi-agent framework based on the Tauric Research foundation, optimized for A-shares and HK market."
+english_summary: "High-performance Chinese financial trading agent suite with native support for A-shares, Hong Kong, and US markets."
+chinese_summary: null
+problems_solved: "- Poor support for Chinese financial news and jargon in Western-centric trading agents\n- Complexity in coordinating multiple 'Analysts' (K-line, News, Macro) for a single trade decision\n- High barrier of entry to create professional-grade backtesting for AI-driven strategies"
+how_to_use: "Clone the repo and install dependencies. Launch the web UI with `python main.py --webui`. Connect your trading data providers in the configuration panel."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-High-performance Chinese financial trading agent suite with native support for A-shares, Hong Kong, and US markets.
-
-## Problems solved
-
-- Poor support for Chinese financial news and jargon in Western-centric trading agents
-- Complexity in coordinating multiple 'Analysts' (K-line, News, Macro) for a single trade decision
-- High barrier of entry to create professional-grade backtesting for AI-driven strategies
-
-## How to get started
-
-Clone the repo and install dependencies. Launch the web UI with `python main.py --webui`. Connect your trading data providers in the configuration panel.
-
-## Detailed report
+# hsliuping/TradingAgents-CN
 
 ### 1. Positioning
 TradingAgents-CN is a multi-agent financial platform optimized for the Chinese market. It features native integration with A-share data providers and high-quality Chinese LLMs like Qwen and DeepSeek.

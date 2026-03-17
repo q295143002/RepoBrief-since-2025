@@ -1,36 +1,19 @@
 ---
-title: "QwenLM/qwen-code"
+id: 1008713177
 repo_name: "QwenLM/qwen-code"
 url: "https://github.com/QwenLM/qwen-code"
-github_url: "https://github.com/QwenLM/qwen-code"
 stars: 20453
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Coding"
-  - "Terminal Agent"
-  - "Qwen"
-  - "Open Source"
-  - "CLI"
-  - "Alibaba AI"
-  - "Code Generation"
+tags: ["AI Coding","Terminal Agent","Qwen","Open Source","CLI","Alibaba AI","Code Generation"]
+original_description: "Qwen-Code: An open-source AI agent by Alibaba that lives in your terminal, optimized for high-performance coding tasks."
+english_summary: "Alibaba's official terminal-based AI coding agent powered by the Qwen model family."
+chinese_summary: null
+problems_solved: "- Latency and privacy concerns with cloud-only coding assistants\n- Inefficiency in switching between a browser-based chat and the terminal for executing code\n- Lack of deep understanding of multi-file projects in lightweight CLI tools"
+how_to_use: "pip install qwen-code. Run with `qwen-code \"Implement a binary search tree in Python\"` or use interactive mode with `--interactive`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Alibaba's official terminal-based AI coding agent powered by the Qwen model family.
-
-## Problems solved
-
-- Latency and privacy concerns with cloud-only coding assistants
-- Inefficiency in switching between a browser-based chat and the terminal for executing code
-- Lack of deep understanding of multi-file projects in lightweight CLI tools
-
-## How to get started
-
-pip install qwen-code. Run with `qwen-code "Implement a binary search tree in Python"` or use interactive mode with `--interactive`.
-
-## Detailed report
+# QwenLM/qwen-code
 
 ### 1. Positioning
 Qwen-Code is an official terminal-based agent from the Alibaba Qwen team. It brings the power of the Qwen-2.5-Coder models directly to the developer's command line, enabling autonomous file editing, shell execution, and project-wide reasoning within a local environment.

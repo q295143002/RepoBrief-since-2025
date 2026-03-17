@@ -1,37 +1,19 @@
 ---
-title: "sipeed/picoclaw"
+id: 1149707767
 repo_name: "sipeed/picoclaw"
 url: "https://github.com/sipeed/picoclaw"
-github_url: "https://github.com/sipeed/picoclaw"
 stars: 24415
 language: "Go"
-layout: repo
-tags:
-  - "PicoClaw"
-  - "Embedded AI"
-  - "RISC-V"
-  - "IoT Agent"
-  - "Edge Computing"
-  - "C++"
-  - "Sipeed"
+tags: ["PicoClaw","Embedded AI","RISC-V","IoT Agent","Edge Computing","C++","Sipeed"]
+original_description: "PicoClaw: A lightweight, embedded version of the OpenClaw agent designed for Sipeed and other RISC-V development boards with minimal resources."
+english_summary: "Low-footprint 'Micro-Agent' implementation for RISC-V and embedded IoT vision boards."
+chinese_summary: null
+problems_solved: "- Inability to run high-level agent frameworks on extremely low-memory (MB scale) IoT devices.\n- High latency in cloud-controlled IoT agents due to round-trip times.\n- Need for 'Local Vision Control' in remote industrial monitoring without full Linux environments."
+how_to_use: "git clone https://github.com/sipeed/picoclaw\nmake flash BOARD=MAIX-III"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Low-footprint 'Micro-Agent' implementation for RISC-V and embedded IoT vision boards.
-
-## Problems solved
-
-- Inability to run high-level agent frameworks on extremely low-memory (MB scale) IoT devices.
-- High latency in cloud-controlled IoT agents due to round-trip times.
-- Need for 'Local Vision Control' in remote industrial monitoring without full Linux environments.
-
-## How to get started
-
-git clone https://github.com/sipeed/picoclaw
-make flash BOARD=MAIX-III
-
-## Detailed report
+# sipeed/picoclaw
 
 ### 1. Positioning
 PicoClaw is an official collaboration for the Sipeed hardware ecosystem. It brings 'Agentic Intelligence' to the edge by providing a highly optimized C/C++ runtime that executes small 'Reasoning Kernels' directly on RISC-V chips. Targeted at robotics and smart sensor developers.

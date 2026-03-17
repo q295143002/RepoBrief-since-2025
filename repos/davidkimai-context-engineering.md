@@ -1,33 +1,19 @@
 ---
-title: "davidkimai/Context-Engineering"
+id: 1010380782
 repo_name: "davidkimai/Context-Engineering"
 url: "https://github.com/davidkimai/Context-Engineering"
-github_url: "https://github.com/davidkimai/Context-Engineering"
 stars: 8557
 language: "Python"
-layout: repo
-tags:
-  - "Context-Engineering"
-  - "LLM-Optimization"
-  - "RAG"
-  - "AI-Education"
-  - "Prompt-Programming"
-  - "Research-Synthesis"
+tags: ["Context-Engineering","LLM-Optimization","RAG","AI-Education","Prompt-Programming","Research-Synthesis"]
+original_description: "\"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization."
+english_summary: "A comprehensive guide and curriculum for mastering the design and optimization of the LLM context window."
+chinese_summary: null
+problems_solved: "- Context Rot degrading performance; limitations of simple prompting for complex tasks; inefficient token usage and high costs."
+how_to_use: "Follow foundations in 00_foundations; run notebooks in 10_guides_zero_to_hero; use templates in 20_templates."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive guide and curriculum for mastering the design and optimization of the LLM context window.
-
-## Problems solved
-
-- Context Rot degrading performance; limitations of simple prompting for complex tasks; inefficient token usage and high costs.
-
-## How to get started
-
-Follow foundations in 00_foundations; run notebooks in 10_guides_zero_to_hero; use templates in 20_templates.
-
-## Detailed report
+# davidkimai/Context-Engineering
 
 ### 1. Positioning
 davidkimai/Context-Engineering is positioned as a a comprehensive guide and curriculum for mastering the design and optimization of the llm context window. It aims to provide developers with a robust, Python-based solution for "context engineering is the delicate art and science of filling the context window with just the right information for the next step." — andrej karpathy. a frontier, first-principles handbook inspired by karpathy and 3blue1brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.

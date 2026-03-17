@@ -1,36 +1,19 @@
 ---
-title: "facebook/pyrefly"
+id: 935685654
 repo_name: "facebook/pyrefly"
 url: "https://github.com/facebook/pyrefly"
-github_url: "https://github.com/facebook/pyrefly"
 stars: 5460
 language: "Rust"
-layout: repo
-tags:
-  - "Python"
-  - "Type Checker"
-  - "LSP"
-  - "Rust"
-  - "Static Analysis"
-  - "Meta"
-  - "Open Source"
+tags: ["Python","Type Checker","LSP","Rust","Static Analysis","Meta","Open Source"]
+original_description: "A fast type checker and language server for Python"
+english_summary: "Pyrefly is a high-performance Python type checker and LSP (Language Server Protocol) server developed by Meta/Facebook. Written in Rust, it provides lightning-fast type checking, inference, and semantic highlighting for massive Python codebases."
+chinese_summary: null
+problems_solved: "- Slow type checking in large Python projects (Mypy/Pyright performance)\n- Limited type inference in many existing checkers\n- Complexity of global state management in incremental checking"
+how_to_use: "Install via `pip install pyrefly` or use the official VS Code/Zed extensions. It can also be integrated into Neovim or used as a CLI tool for CI/CD pipelines."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Pyrefly is a high-performance Python type checker and LSP (Language Server Protocol) server developed by Meta/Facebook. Written in Rust, it provides lightning-fast type checking, inference, and semantic highlighting for massive Python codebases.
-
-## Problems solved
-
-- Slow type checking in large Python projects (Mypy/Pyright performance)
-- Limited type inference in many existing checkers
-- Complexity of global state management in incremental checking
-
-## How to get started
-
-Install via `pip install pyrefly` or use the official VS Code/Zed extensions. It can also be integrated into Neovim or used as a CLI tool for CI/CD pipelines.
-
-## Detailed report
+# facebook/pyrefly
 
 ### 1. Positioning
 facebook/pyrefly is positioned as a pyrefly is a high-performance python type checker and lsp (language server protocol) server developed by meta/facebook. written in rust, it provides lightning-fast type checking, inference, and semantic highlighting for massive python codebases. It aims to provide developers with a robust, Rust-based solution for a fast type checker and language server for python.

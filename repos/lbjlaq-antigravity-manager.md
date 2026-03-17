@@ -1,37 +1,19 @@
 ---
-title: "lbjlaq/Antigravity-Manager"
+id: 1104535633
 repo_name: "lbjlaq/Antigravity-Manager"
 url: "https://github.com/lbjlaq/Antigravity-Manager"
-github_url: "https://github.com/lbjlaq/Antigravity-Manager"
 stars: 26107
 language: "Rust"
-layout: repo
-tags:
-  - "Process Manager"
-  - "Dashboard"
-  - "Agent Monitoring"
-  - "Node.js"
-  - "Real-time"
-  - "Operational Tools"
-  - "Infrastructure"
+tags: ["Process Manager","Dashboard","Agent Monitoring","Node.js","Real-time","Operational Tools","Infrastructure"]
+original_description: "Antigravity-Manager ensures seamless orchestration of local AI agent processes, providing a dashboard for monitoring and health-checks."
+english_summary: "A robust process manager and monitor for local AI agents and background background tasks."
+chinese_summary: null
+problems_solved: "- Difficulty in monitoring multiple detached AI agent processes (zombie processes, crashes).\n- Lack of a 'God View' for multi-agent logs across different terminals.\n- High manual overhead in restarting failed long-running research tasks."
+how_to_use: "git clone https://github.com/lbjlaq/Antigravity-Manager\nnpm install && npm run start"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A robust process manager and monitor for local AI agents and background background tasks.
-
-## Problems solved
-
-- Difficulty in monitoring multiple detached AI agent processes (zombie processes, crashes).
-- Lack of a 'God View' for multi-agent logs across different terminals.
-- High manual overhead in restarting failed long-running research tasks.
-
-## How to get started
-
-git clone https://github.com/lbjlaq/Antigravity-Manager
-npm install && npm run start
-
-## Detailed report
+# lbjlaq/Antigravity-Manager
 
 ### 1. Positioning
 Antigravity-Manager is an operational dashboard for agent-centric development environments. It acts like a 'PM2' specifically for AI agents, allowing developers to spin up, monitor, and scale local agent instances via a clean web interface.

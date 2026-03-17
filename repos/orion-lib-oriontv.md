@@ -1,36 +1,19 @@
 ---
-title: "orion-lib/OrionTV"
+id: 1009980734
 repo_name: "orion-lib/OrionTV"
 url: "https://github.com/orion-lib/OrionTV"
-github_url: "https://github.com/orion-lib/OrionTV"
 stars: 5149
 language: "TypeScript"
-layout: repo
-tags:
-  - "React Native TVOS"
-  - "Expo"
-  - "Apple TV"
-  - "Android TV"
-  - "Video Player"
-  - "Smart TV"
-  - "Open Source"
+tags: ["React Native TVOS","Expo","Apple TV","Android TV","Video Player","Smart TV","Open Source"]
+original_description: "一个基于 React Native TVOS 和 Expo 构建的播放器，旨在提供流畅的视频观看体验。"
+english_summary: "OrionTV is a modern, cross-platform video playback application designed specifically for '10-foot' interfaces (TVs). Built using React Native TVOS and Expo, it provides a fluid, remote-friendly UI for both Apple TV and Android TV platforms."
+chinese_summary: null
+problems_solved: "- Complexity of developing and maintaining separate apps for Apple TV and Android TV\n- Poor remote control navigation in standard mobile-focused video apps\n- Need for a lightweight, file-system based routing system in TV applications"
+how_to_use: "Install dependencies with `yarn`. Run `yarn prebuild-tv` to generate the native project files for TV platforms, then use `yarn ios-tv` or `yarn android-tv` to deploy to a simulator or real device. It is often used in conjunction with the MoonTV video aggregation backend."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-OrionTV is a modern, cross-platform video playback application designed specifically for '10-foot' interfaces (TVs). Built using React Native TVOS and Expo, it provides a fluid, remote-friendly UI for both Apple TV and Android TV platforms.
-
-## Problems solved
-
-- Complexity of developing and maintaining separate apps for Apple TV and Android TV
-- Poor remote control navigation in standard mobile-focused video apps
-- Need for a lightweight, file-system based routing system in TV applications
-
-## How to get started
-
-Install dependencies with `yarn`. Run `yarn prebuild-tv` to generate the native project files for TV platforms, then use `yarn ios-tv` or `yarn android-tv` to deploy to a simulator or real device. It is often used in conjunction with the MoonTV video aggregation backend.
-
-## Detailed report
+# orion-lib/OrionTV
 
 ### 1. Positioning
 orion-lib/OrionTV is positioned as a oriontv is a modern, cross-platform video playback application designed specifically for '10-foot' interfaces (tvs). built using react native tvos and expo, it provides a fluid, remote-friendly ui for both apple tv and android tv platforms. It aims to provide developers with a robust, TypeScript-based solution for 一个基于 react native tvos 和 expo 构建的播放器，旨在提供流畅的视频观看体验。.

@@ -1,36 +1,19 @@
 ---
-title: "code-yeongyu/oh-my-openagent"
+id: 1108837393
 repo_name: "code-yeongyu/oh-my-openagent"
 url: "https://github.com/code-yeongyu/oh-my-openagent"
-github_url: "https://github.com/code-yeongyu/oh-my-openagent"
 stars: 39639
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Configuration"
-  - "Agent Persona"
-  - "Oh My Zsh Inspired"
-  - "Prompt Management"
-  - "Developer Tools"
-  - "Open Source"
-  - "Automation"
+tags: ["AI Configuration","Agent Persona","Oh My Zsh Inspired","Prompt Management","Developer Tools","Open Source","Automation"]
+original_description: "Oh My OpenAgent: A flexible, themeable, and plugin-oriented framework for AI agents, inspired by 'Oh My Zsh'. Simplify your agent's life with pre-built themes and functional plugins."
+english_summary: "A modular, theme-and-plugin-oriented configuration framework for managing AI agent setups."
+chinese_summary: null
+problems_solved: "- Fragmentation and difficulty in managing varied AI agent prompts and themes\n- Lack of a consistent, repeatable configuration standard for different agent personalities\n- Difficulty in community sharing and installation of agent extensions"
+how_to_use: "Install via curl: `sh -c \"$(curl -fsSL https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/master/tools/install.sh)\"`. Select themes and enable plugins in your global config file."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A modular, theme-and-plugin-oriented configuration framework for managing AI agent setups.
-
-## Problems solved
-
-- Fragmentation and difficulty in managing varied AI agent prompts and themes
-- Lack of a consistent, repeatable configuration standard for different agent personalities
-- Difficulty in community sharing and installation of agent extensions
-
-## How to get started
-
-Install via curl: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/master/tools/install.sh)"`. Select themes and enable plugins in your global config file.
-
-## Detailed report
+# code-yeongyu/oh-my-openagent
 
 ### 1. Positioning
 Oh My OpenAgent is a configuration and management framework for human-AI interaction environments, heavily inspired by the 'Oh My Zsh' philosophy. It provides a standardized way to manage agent personalities (themes) and capabilities (plugins) across different platforms.

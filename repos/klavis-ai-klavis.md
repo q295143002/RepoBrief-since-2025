@@ -1,36 +1,19 @@
 ---
-title: "Klavis-AI/klavis"
+id: 965974441
 repo_name: "Klavis-AI/klavis"
 url: "https://github.com/Klavis-AI/klavis"
-github_url: "https://github.com/Klavis-AI/klavis"
 stars: 5661
 language: "Python"
-layout: repo
-tags:
-  - "AI Agents"
-  - "MCP"
-  - "Context Optimization"
-  - "Developer Tools"
-  - "SaaS"
-  - "SDK"
-  - "Open Source"
+tags: ["AI Agents","MCP","Context Optimization","Developer Tools","SaaS","SDK","Open Source"]
+original_description: "Klavis AI (YC X25):  MCP integration platforms that let AI agents use tools reliably at any scale"
+english_summary: "Klavis provides a platform for managing and optimizing AI agent interactions with external tools. Its core component, Strata, serves as an intelligent connector that handles thousands of tools while optimizing the LLM context window through efficient tool selection and aggregation."
+chinese_summary: null
+problems_solved: "- Context window bloat from large tool definitions\n- Complexity of managing hundreds of MCP integrations\n- Lack of scalable, isolated sandboxes for LLM training and RL environments"
+how_to_use: "Access cloud-hosted services at klavis.ai or self-host via Docker. Use the Python/TypeScript SDKs to create 'Strata' instances that bundle multiple toolsets (Slack, Gmail, etc.) into a single, optimized interface for your AI agent."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Klavis provides a platform for managing and optimizing AI agent interactions with external tools. Its core component, Strata, serves as an intelligent connector that handles thousands of tools while optimizing the LLM context window through efficient tool selection and aggregation.
-
-## Problems solved
-
-- Context window bloat from large tool definitions
-- Complexity of managing hundreds of MCP integrations
-- Lack of scalable, isolated sandboxes for LLM training and RL environments
-
-## How to get started
-
-Access cloud-hosted services at klavis.ai or self-host via Docker. Use the Python/TypeScript SDKs to create 'Strata' instances that bundle multiple toolsets (Slack, Gmail, etc.) into a single, optimized interface for your AI agent.
-
-## Detailed report
+# Klavis-AI/klavis
 
 ### 1. Positioning
 Klavis-AI/klavis is positioned as a klavis provides a platform for managing and optimizing ai agent interactions with external tools. its core component, strata, serves as an intelligent connector that handles thousands of tools while optimizing the llm context window through efficient tool selection and aggregation. It aims to provide developers with a robust, Python-based solution for klavis ai (yc x25):  mcp integration platforms that let ai agents use tools reliably at any scale.

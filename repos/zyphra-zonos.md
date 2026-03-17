@@ -1,33 +1,19 @@
 ---
-title: "Zyphra/Zonos"
+id: 928631159
 repo_name: "Zyphra/Zonos"
 url: "https://github.com/Zyphra/Zonos"
-github_url: "https://github.com/Zyphra/Zonos"
 stars: 7198
 language: "Python"
-layout: repo
-tags:
-  - "TTS"
-  - "Voice-Cloning"
-  - "AI-Audio"
-  - "Generative-AI"
-  - "Multilingual-AI"
-  - "Open-Weights"
+tags: ["TTS","Voice-Cloning","AI-Audio","Generative-AI","Multilingual-AI","Open-Weights"]
+original_description: "Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers."
+english_summary: "A high-fidelity, open-weight TTS model trained on 200k hours of speech, featuring zero-shot voice cloning and fine-grained emotional control."
+chinese_summary: null
+problems_solved: "- Robotic and monotone AI voices; long audio samples required for cloning; lack of control over specific emotions (happy/sad/fear) in TTS."
+how_to_use: "Requires GPU with 6GB+ VRAM and espeak-ng; run via 'uv run gradio_interface.py' for the Web UI; or use the Python API for programmatic generation."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-fidelity, open-weight TTS model trained on 200k hours of speech, featuring zero-shot voice cloning and fine-grained emotional control.
-
-## Problems solved
-
-- Robotic and monotone AI voices; long audio samples required for cloning; lack of control over specific emotions (happy/sad/fear) in TTS.
-
-## How to get started
-
-Requires GPU with 6GB+ VRAM and espeak-ng; run via 'uv run gradio_interface.py' for the Web UI; or use the Python API for programmatic generation.
-
-## Detailed report
+# Zyphra/Zonos
 
 ### 1. Positioning
 Zyphra/Zonos is positioned as a a high-fidelity, open-weight tts model trained on 200k hours of speech, featuring zero-shot voice cloning and fine-grained emotional control. It aims to provide developers with a robust, Python-based solution for zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top tts providers.

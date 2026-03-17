@@ -1,37 +1,19 @@
 ---
-title: "BloopAI/vibe-kanban"
+id: 1002125012
 repo_name: "BloopAI/vibe-kanban"
 url: "https://github.com/BloopAI/vibe-kanban"
-github_url: "https://github.com/BloopAI/vibe-kanban"
 stars: 23092
 language: "Rust"
-layout: repo
-tags:
-  - "Kanban"
-  - "Agent Orchestration"
-  - "Claude Code"
-  - "Workflow Visualization"
-  - "TypeScript"
-  - "Coding Tools"
+tags: ["Kanban","Agent Orchestration","Claude Code","Workflow Visualization","TypeScript","Coding Tools"]
+original_description: "Get 10X more out of Claude Code, Codex or any coding agent with Vibe Kanban."
+english_summary: "A specialized Kanban board interface for orchestrating and visualizing coding agent workflows."
+chinese_summary: null
+problems_solved: "- Difficulty in tracking high-level intent across long-running AI coding sessions.\n- Lack of structural overview for complex refactoring tasks assigned to agents.\n- Inefficiency in managing the 'Agent-Human' feedback loop for iterative development."
+how_to_use: "npm install -g @bloop-ai/vibe-kanban\nvibe init\nvibe start"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A specialized Kanban board interface for orchestrating and visualizing coding agent workflows.
-
-## Problems solved
-
-- Difficulty in tracking high-level intent across long-running AI coding sessions.
-- Lack of structural overview for complex refactoring tasks assigned to agents.
-- Inefficiency in managing the 'Agent-Human' feedback loop for iterative development.
-
-## How to get started
-
-npm install -g @bloop-ai/vibe-kanban
-vibe init
-vibe start
-
-## Detailed report
+# BloopAI/vibe-kanban
 
 ### 1. Positioning
 Vibe Kanban is a workflow orchestration layer designed specifically for AI coding agents (like Claude Code or Codex). It introduces a Kanban-based visual board to manage architectural intent and task states, helping developers maintain control over autonomous code generation.

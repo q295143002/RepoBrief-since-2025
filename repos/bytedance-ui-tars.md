@@ -1,32 +1,19 @@
 ---
-title: "bytedance/UI-TARS"
+id: 918932479
 repo_name: "bytedance/UI-TARS"
 url: "https://github.com/bytedance/UI-TARS"
-github_url: "https://github.com/bytedance/UI-TARS"
 stars: 9874
 language: "Python"
-layout: repo
-tags:
-  - "Computer Use"
-  - "AI Agent"
-  - "VLM"
-  - "RL"
-  - "ByteDance"
+tags: ["Computer Use","AI Agent","VLM","RL","ByteDance"]
+original_description: "UI-TARS: Pioneering Automated GUI Interaction with Native Agents. An open-source multimodal agent capable of operating computers and mobile devices through vision-language reasoning."
+english_summary: "UI-TARS is a state-of-the-art Vision-Language model from ByteDance that acts as a native GUI agent, capable of navigating desktops and mobile apps via visual reasoning and RL-enhanced thought processes."
+chinese_summary: null
+problems_solved: "- Bridges the gap between AI and complex GUI software where APIs are missing; achieves SOTA on benchmarks like OSWorld by reasoning through 'thoughts' before taking action; handles gaming and cross-app tasks on both desktop and mobile platforms."
+how_to_use: "Install via `pip install ui-tars`. Deploy the weights from Hugging Face (7B or larger). Use the built-in action parser in Python to convert model strings like `click(start_box='(100,200)')` into executable PyAutoGUI or mobile driver code."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-UI-TARS is a state-of-the-art Vision-Language model from ByteDance that acts as a native GUI agent, capable of navigating desktops and mobile apps via visual reasoning and RL-enhanced thought processes.
-
-## Problems solved
-
-- Bridges the gap between AI and complex GUI software where APIs are missing; achieves SOTA on benchmarks like OSWorld by reasoning through 'thoughts' before taking action; handles gaming and cross-app tasks on both desktop and mobile platforms.
-
-## How to get started
-
-Install via `pip install ui-tars`. Deploy the weights from Hugging Face (7B or larger). Use the built-in action parser in Python to convert model strings like `click(start_box='(100,200)')` into executable PyAutoGUI or mobile driver code.
-
-## Detailed report
+# bytedance/UI-TARS
 
 ### 1. Positioning
 UI-TARS is ByteDance's flagship entry into the 'Computer Use' agent space. It targets researchers and AI product developers who want to build autonomous systems capable of using computers exactly like a human does—via the screen and mouse/keyboard.

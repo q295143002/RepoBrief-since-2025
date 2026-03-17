@@ -1,37 +1,19 @@
 ---
-title: "asgeirtj/system_prompts_leaks"
+id: 976921297
 repo_name: "asgeirtj/system_prompts_leaks"
 url: "https://github.com/asgeirtj/system_prompts_leaks"
-github_url: "https://github.com/asgeirtj/system_prompts_leaks"
 stars: 34243
 language: "HTML"
-layout: repo
-tags:
-  - "System Prompts"
-  - "Prompt Engineering"
-  - "AI Safety"
-  - "Reverse Engineering"
-  - "Claude"
-  - "GPT"
-  - "Alignment"
+tags: ["System Prompts","Prompt Engineering","AI Safety","Reverse Engineering","Claude","GPT","Alignment"]
+original_description: "System Prompts Leaks and Experiments: A collection and analysis of leaked or discovered system prompts from top-tier AI models and applications."
+english_summary: "Archive and research repository for discovered system prompts of major AI platforms."
+chinese_summary: null
+problems_solved: "- Lack of transparency in commercial AI behavior and safety constraints.\n- Need for a central database of prompt-engineering 'anti-patterns' and common safeguards.\n- Difficulty for researchers to track how system instructions evolve across model versions."
+how_to_use: "git clone https://github.com/asgeirtj/system_prompts_leaks\n# Navigate the 'archive/' folder."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Archive and research repository for discovered system prompts of major AI platforms.
-
-## Problems solved
-
-- Lack of transparency in commercial AI behavior and safety constraints.
-- Need for a central database of prompt-engineering 'anti-patterns' and common safeguards.
-- Difficulty for researchers to track how system instructions evolve across model versions.
-
-## How to get started
-
-git clone https://github.com/asgeirtj/system_prompts_leaks
-# Navigate the 'archive/' folder.
-
-## Detailed report
+# asgeirtj/system_prompts_leaks
 
 ### 1. Positioning
 This repository acts as a public archive for 'leaked' or discovered system instructions from prominent AI products (e.g., GPT, Claude, Perplexity). It serves as a research baseline for understanding how safety alignment and personality are implemented at the prompt level.

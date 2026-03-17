@@ -1,38 +1,19 @@
 ---
-title: "toon-format/toon"
+id: 1081397957
 repo_name: "toon-format/toon"
 url: "https://github.com/toon-format/toon"
-github_url: "https://github.com/toon-format/toon"
 stars: 23207
 language: "TypeScript"
-layout: repo
-tags:
-  - "Toon"
-  - "DSL"
-  - "Task Orchestration"
-  - "Type Safety"
-  - "Autonomous Agents"
-  - "Rust"
-  - "Formal Verification"
+tags: ["Toon","DSL","Task Orchestration","Type Safety","Autonomous Agents","Rust","Formal Verification"]
+original_description: "Toon: A high-performance, strictly-typed task orchestration format and runner designed to eliminate ambiguity in AI-to-Agent communication."
+english_summary: "A strictly-typed task definition format designed to ensure zero-ambiguity in AI autonomous task execution."
+chinese_summary: null
+problems_solved: "- AI agents failing due to 'vague' task descriptions or misinterpreting JSON schemas.\n- Inability to compile-time check if an agent can actually fulfill a requested task.\n- Lack of a 'Human-Readable yet Machine-Strict' format for defining complex multi-step workflows."
+how_to_use: "npm install toon-cli\ntoon validate workflow.toon\ntoon run workflow.toon"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A strictly-typed task definition format designed to ensure zero-ambiguity in AI autonomous task execution.
-
-## Problems solved
-
-- AI agents failing due to 'vague' task descriptions or misinterpreting JSON schemas.
-- Inability to compile-time check if an agent can actually fulfill a requested task.
-- Lack of a 'Human-Readable yet Machine-Strict' format for defining complex multi-step workflows.
-
-## How to get started
-
-npm install toon-cli
-toon validate workflow.toon
-toon run workflow.toon
-
-## Detailed report
+# toon-format/toon
 
 ### 1. Positioning
 Toon is a novel 'Task Definition Language' (TDL). It sits between natural language and raw code, providing a strictly-typed schema that forces both humans and AI to define missions with absolute clarity. It is to 'Agent Tasks' what 'TypeScript' is to 'JavaScript'.

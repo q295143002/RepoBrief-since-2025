@@ -1,34 +1,19 @@
 ---
-title: "hangwin/mcp-chrome"
+id: 998796026
 repo_name: "hangwin/mcp-chrome"
 url: "https://github.com/hangwin/mcp-chrome"
-github_url: "https://github.com/hangwin/mcp-chrome"
 stars: 10746
 language: "TypeScript"
-layout: repo
-tags:
-  - "MCP"
-  - "Chrome Extension"
-  - "Browser Automation"
-  - "AI Tools"
+tags: ["MCP","Chrome Extension","Browser Automation","AI Tools"]
+original_description: "Turn your Chrome browser into your intelligent assistant - Let AI take control of your browser, transforming it into a powerful AI-controlled automation tool."
+english_summary: "Chrome MCP Server is an extension-based model context protocol server that enables AI models to directly control and retrieve context from your everyday Chrome browser."
+chinese_summary: null
+problems_solved: "- Bypasses the limitations of headless automated browsers (like Playwright needing clean states\n- new logins\n- and high overhead) by directly hooking AI control into the user's active\n- authenticated Chrome instance via an MCP server."
+how_to_use: "Download the Chrome extension from GitHub releases and load it unpacked. Install the bridge globally via `npm install -g mcp-chrome-bridge`. Connect your MCP client (like CherryStudio) using the Streamable HTTP URL `http://127.0.0.1:12306/mcp`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Chrome MCP Server is an extension-based model context protocol server that enables AI models to directly control and retrieve context from your everyday Chrome browser.
-
-## Problems solved
-
-- Bypasses the limitations of headless automated browsers (like Playwright needing clean states
-- new logins
-- and high overhead) by directly hooking AI control into the user's active
-- authenticated Chrome instance via an MCP server.
-
-## How to get started
-
-Download the Chrome extension from GitHub releases and load it unpacked. Install the bridge globally via `npm install -g mcp-chrome-bridge`. Connect your MCP client (like CherryStudio) using the Streamable HTTP URL `http://127.0.0.1:12306/mcp`.
-
-## Detailed report
+# hangwin/mcp-chrome
 
 ### 1. Positioning
 hangwin/mcp-chrome is positioned as a chrome mcp server is an extension-based model context protocol server that enables ai models to directly control and retrieve context from your everyday chrome browser. It aims to provide developers with a robust, TypeScript-based solution for turn your chrome browser into your intelligent assistant - let ai take control of your browser, transforming it into a powerful ai-controlled automation tool.

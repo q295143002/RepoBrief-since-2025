@@ -1,36 +1,19 @@
 ---
-title: "KaringX/clashmi"
+id: 966153123
 repo_name: "KaringX/clashmi"
 url: "https://github.com/KaringX/clashmi"
-github_url: "https://github.com/KaringX/clashmi"
 stars: 5447
 language: "Dart"
-layout: repo
-tags:
-  - "Proxy"
-  - "Clash"
-  - "Flutter"
-  - "iOS"
-  - "Android"
-  - "Networking"
-  - "Open Source"
+tags: ["Proxy","Clash","Flutter","iOS","Android","Networking","Open Source"]
+original_description: "Clash Mihomo for iOS/MacOS/Android/Windows/Linux"
+english_summary: "Clash Mi is a cross-platform proxy client built with Flutter, using the mihomo (Clash.Meta) core. It offers a sleek, user-friendly interface for managing network traffic, supporting multiple protocols and advanced routing rules across iOS, Android, and Desktop."
+chinese_summary: null
+problems_solved: "- Steep configuration curve for advanced proxy tools\n- Dated or inconsistent UI in traditional Clash clients\n- Difficulty in managing complex routing rules on mobile devices"
+how_to_use: "Install the app from the App Store or GitHub releases. Import your proxy provider's subscription URL to automatically generate the required YAML configuration. The app includes a built-in 'zashboard' web panel for more familiar control."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Clash Mi is a cross-platform proxy client built with Flutter, using the mihomo (Clash.Meta) core. It offers a sleek, user-friendly interface for managing network traffic, supporting multiple protocols and advanced routing rules across iOS, Android, and Desktop.
-
-## Problems solved
-
-- Steep configuration curve for advanced proxy tools
-- Dated or inconsistent UI in traditional Clash clients
-- Difficulty in managing complex routing rules on mobile devices
-
-## How to get started
-
-Install the app from the App Store or GitHub releases. Import your proxy provider's subscription URL to automatically generate the required YAML configuration. The app includes a built-in 'zashboard' web panel for more familiar control.
-
-## Detailed report
+# KaringX/clashmi
 
 ### 1. Positioning
 KaringX/clashmi is positioned as a clash mi is a cross-platform proxy client built with flutter, using the mihomo (clash.meta) core. it offers a sleek, user-friendly interface for managing network traffic, supporting multiple protocols and advanced routing rules across ios, android, and desktop. It aims to provide developers with a robust, Dart-based solution for clash mihomo for ios/macos/android/windows/linux.

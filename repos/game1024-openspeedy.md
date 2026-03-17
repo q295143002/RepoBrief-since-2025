@@ -1,36 +1,19 @@
 ---
-title: "game1024/OpenSpeedy"
+id: 984862298
 repo_name: "game1024/OpenSpeedy"
 url: "https://github.com/game1024/OpenSpeedy"
-github_url: "https://github.com/game1024/OpenSpeedy"
 stars: 15376
 language: "C++"
-layout: repo
-tags:
-  - "Windows Utility"
-  - "Game Speed"
-  - "Open Source"
-  - "API Hooking"
-  - "Gamer Tools"
-  - "Performance"
-  - "C++"
+tags: ["Windows Utility","Game Speed","Open Source","API Hooking","Gamer Tools","Performance","C++"]
+original_description: "OpenSpeedy is a free, open-source game speed tool for Windows."
+english_summary: "An open-source Windows utility for modifying and breaking frame rate limitations in games."
+chinese_summary: null
+problems_solved: "- Locked frame rates in legacy or poorly ported games\n- Slow progression in games with unskippable content\n- High resource consumption of bulky commercial speed tools"
+how_to_use: "Run the executable, select your game process, and adjust the speed multiplier. Changes take effect instantly in the running process."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source Windows utility for modifying and breaking frame rate limitations in games.
-
-## Problems solved
-
-- Locked frame rates in legacy or poorly ported games
-- Slow progression in games with unskippable content
-- High resource consumption of bulky commercial speed tools
-
-## How to get started
-
-Run the executable, select your game process, and adjust the speed multiplier. Changes take effect instantly in the running process.
-
-## Detailed report
+# game1024/OpenSpeedy
 
 ### 1. Positioning
 OpenSpeedy is a lightweight, open-source Windows utility designed to modify game execution speeds, targeting both gamers and software testers.

@@ -1,38 +1,19 @@
 ---
-title: "google/langextract"
+id: 1016323751
 repo_name: "google/langextract"
 url: "https://github.com/google/langextract"
-github_url: "https://github.com/google/langextract"
 stars: 34668
 language: "Python"
-layout: repo
-tags:
-  - "Google"
-  - "Language Detection"
-  - "NLP"
-  - "Text Extraction"
-  - "Multilingual"
-  - "Machine Learning"
-  - "C++"
+tags: ["Google","Language Detection","NLP","Text Extraction","Multilingual","Machine Learning","C++"]
+original_description: "LangExtract: High-accuracy language identification and text extraction from multilingual web data using machine learning by Google."
+english_summary: "Google's high-accuracy machine learning tool for multilingual language identification and extraction."
+chinese_summary: null
+problems_solved: "- Low precision in traditional regex-based language detection for mixed-language pages.\n- Difficulty in extracting clean text from complex, boiler-plate heavy HTML.\n- Need for high-throughput language classification in large-scale web indexing."
+how_to_use: "pip install google-langextract\nfrom langextract import identify\nidentify(\"Bonjour tout le monde\")"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Google's high-accuracy machine learning tool for multilingual language identification and extraction.
-
-## Problems solved
-
-- Low precision in traditional regex-based language detection for mixed-language pages.
-- Difficulty in extracting clean text from complex, boiler-plate heavy HTML.
-- Need for high-throughput language classification in large-scale web indexing.
-
-## How to get started
-
-pip install google-langextract
-from langextract import identify
-identify("Bonjour tout le monde")
-
-## Detailed report
+# google/langextract
 
 ### 1. Positioning
 LangExtract is a Google-maintained machine learning utility for high-precision language detection and text extraction. It is a critical component for developers building global scale applications that need to process multilingual web content.

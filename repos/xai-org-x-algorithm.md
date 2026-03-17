@@ -1,36 +1,19 @@
 ---
-title: "xai-org/x-algorithm"
+id: 1137846174
 repo_name: "xai-org/x-algorithm"
 url: "https://github.com/xai-org/x-algorithm"
-github_url: "https://github.com/xai-org/x-algorithm"
 stars: 15987
 language: "Rust"
-layout: repo
-tags:
-  - "xAI"
-  - "Grok"
-  - "Machine Learning"
-  - "CUDA"
-  - "Linear Algebra"
-  - "Optimization"
-  - "High Performance Computing"
+tags: ["xAI","Grok","Machine Learning","CUDA","Linear Algebra","Optimization","High Performance Computing"]
+original_description: "x-algorithm: xAI's official library for high-speed linear algebra and optimization algorithms, tuned for massive agentic clusters."
+english_summary: "xAI's high-performance library for linear algebra and optimization, optimized for large-scale agent cluster training."
+chinese_summary: null
+problems_solved: "- Computational bottlenecks in training reasoning-heavy models\n- High memory overhead managing distributed gradients across GPU nodes\n- Numerical instability in long-running reinforcement learning loops"
+how_to_use: "Install via pip: `pip install x-algorithm`. Integrate into your training pipeline to leverage custom CUDA kernels for Grok-style scaling."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-xAI's high-performance library for linear algebra and optimization, optimized for large-scale agent cluster training.
-
-## Problems solved
-
-- Computational bottlenecks in training reasoning-heavy models
-- High memory overhead managing distributed gradients across GPU nodes
-- Numerical instability in long-running reinforcement learning loops
-
-## How to get started
-
-Install via pip: `pip install x-algorithm`. Integrate into your training pipeline to leverage custom CUDA kernels for Grok-style scaling.
-
-## Detailed report
+# xai-org/x-algorithm
 
 ### 1. Positioning
 x-algorithm is the performance core of xAI (Grok). It provides optimized linear algebra required for massive AI training and inference, focusing on scaling laws of agentic systems.

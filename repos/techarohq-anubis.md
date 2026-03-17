@@ -1,36 +1,19 @@
 ---
-title: "TecharoHQ/anubis"
+id: 950140488
 repo_name: "TecharoHQ/anubis"
 url: "https://github.com/TecharoHQ/anubis"
-github_url: "https://github.com/TecharoHQ/anubis"
 stars: 17689
 language: "Go"
-layout: repo
-tags:
-  - "Cybersecurity"
-  - "Cloud Native"
-  - "Kubernetes"
-  - "SecOps"
-  - "Autonomous Agents"
-  - "Red Teaming"
-  - "Vulnerability Scanning"
+tags: ["Cybersecurity","Cloud Native","Kubernetes","SecOps","Autonomous Agents","Red Teaming","Vulnerability Scanning"]
+original_description: "Anubis: A multi-agent security platform for automated cloud-native vulnerability scanning and threat modeling."
+english_summary: "A multi-agent security suite for automated discovery and threat modeling in cloud-native infrastructures."
+chinese_summary: null
+problems_solved: "- Complexity of auditing K8s clusters and multi-cloud environments manually\n- Lack of 'Correlation' in security alerts across different services\n- Manual overhead in preparing 'Attack Path' visualizations"
+how_to_use: "Clone the repo and start via docker-compose. Run `./anubis scan` specifying your cloud namespace to begin the autonomous audit."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A multi-agent security suite for automated discovery and threat modeling in cloud-native infrastructures.
-
-## Problems solved
-
-- Complexity of auditing K8s clusters and multi-cloud environments manually
-- Lack of 'Correlation' in security alerts across different services
-- Manual overhead in preparing 'Attack Path' visualizations
-
-## How to get started
-
-Clone the repo and start via docker-compose. Run `./anubis scan` specifying your cloud namespace to begin the autonomous audit.
-
-## Detailed report
+# TecharoHQ/anubis
 
 ### 1. Positioning
 Anubis is an AI SecOps platform using specialized agents (Scanner, Exploiter, Reporter) to audit cloud environments. It builds 'Reasoning Chains' to explain potential attack paths like an autonomous red team.

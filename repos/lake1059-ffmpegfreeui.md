@@ -1,41 +1,19 @@
 ---
-title: "Lake1059/FFmpegFreeUI"
+id: 985326979
 repo_name: "Lake1059/FFmpegFreeUI"
 url: "https://github.com/Lake1059/FFmpegFreeUI"
-github_url: "https://github.com/Lake1059/FFmpegFreeUI"
 stars: 6514
 language: "Visual Basic .NET"
-layout: repo
-tags:
-  - "FFmpeg"
-  - "Video-Encoding"
-  - "Windows"
-  - "GUI"
-  - "Desktop-App"
-  - "C#"
-  - "Open-Source"
+tags: ["FFmpeg","Video-Encoding","Windows","GUI","Desktop-App","C#","Open-Source"]
+original_description: "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式。"
+english_summary: "FFmpegFreeUI (3FUI) is a professional, ad-free, open-source Windows FFmpeg GUI targeting power users and video compression hobbyists. It supports 40+ video encoders (libsvtav1, av1_nvenc/qsv/amf, libx265, hevc_nvenc, libx264, prores, vvc, etc.), 20+ audio codecs, and 10+ image formats, with unlimited batch queuing, preset management, subtitle burning, color management, and remote/plugin APIs."
+chinese_summary: null
+problems_solved: "- Existing FFmpeg GUIs either hide too many parameters\n- contain ads\n- bundle outdated FFmpeg binaries\n- or lack professional-grade batch management. 3FUI provides full parameter transparency\n- no presets forced\n- no ads\n- and uses the system FFmpeg — always current\n- always pure."
+how_to_use: "Download release (ReadyToRun recommended). Place ffmpeg.exe/ffprobe.exe/ffplay.exe in app folder or add to PATH. Drag files to encoding queue. Set parameters in panel. Press start to encode. For remote invocation: enable in settings, send UDP on port 10591. For plugins: add `.3fui.dll` files to Plugin folder."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-FFmpegFreeUI (3FUI) is a professional, ad-free, open-source Windows FFmpeg GUI targeting power users and video compression hobbyists. It supports 40+ video encoders (libsvtav1, av1_nvenc/qsv/amf, libx265, hevc_nvenc, libx264, prores, vvc, etc.), 20+ audio codecs, and 10+ image formats, with unlimited batch queuing, preset management, subtitle burning, color management, and remote/plugin APIs.
-
-## Problems solved
-
-- Existing FFmpeg GUIs either hide too many parameters
-- contain ads
-- bundle outdated FFmpeg binaries
-- or lack professional-grade batch management. 3FUI provides full parameter transparency
-- no presets forced
-- no ads
-- and uses the system FFmpeg — always current
-- always pure.
-
-## How to get started
-
-Download release (ReadyToRun recommended). Place ffmpeg.exe/ffprobe.exe/ffplay.exe in app folder or add to PATH. Drag files to encoding queue. Set parameters in panel. Press start to encode. For remote invocation: enable in settings, send UDP on port 10591. For plugins: add `.3fui.dll` files to Plugin folder.
-
-## Detailed report
+# Lake1059/FFmpegFreeUI
 
 ### 1. Positioning
 Lake1059/FFmpegFreeUI is positioned as a ffmpegfreeui (3fui) is a professional, ad-free, open-source windows ffmpeg gui targeting power users and video compression hobbyists. it supports 40+ video encoders (libsvtav1, av1_nvenc/qsv/amf, libx265, hevc_nvenc, libx264, prores, vvc, etc.), 20+ audio codecs, and 10+ image formats, with unlimited batch queuing, preset management, subtitle burning, color management, and remote/plugin apis. It aims to provide developers with a robust, Visual Basic .NET-based solution for 3fui 是 ffmpeg 在 windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式。.

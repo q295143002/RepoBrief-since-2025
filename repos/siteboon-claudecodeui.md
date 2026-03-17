@@ -1,33 +1,19 @@
 ---
-title: "siteboon/claudecodeui"
+id: 1008373485
 repo_name: "siteboon/claudecodeui"
 url: "https://github.com/siteboon/claudecodeui"
-github_url: "https://github.com/siteboon/claudecodeui"
 stars: 8357
 language: "TypeScript"
-layout: repo
-tags:
-  - "Claude-Code"
-  - "AI-Tools"
-  - "GUI"
-  - "React"
-  - "Mobile-AI"
-  - "Developer-Tools"
+tags: ["Claude-Code","AI-Tools","GUI","React","Mobile-AI","Developer-Tools"]
+original_description: "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely"
+english_summary: "A web-based graphical user interface for popular AI coding CLIs, enabling cross-device project and session management."
+chinese_summary: null
+problems_solved: "- Terminal-only nature of AI assistants being hard to use on mobile; difficulty visualizing file trees and git changes in CLI; friction in managing MCP configs."
+how_to_use: "Requires Node v22+; run via 'npx @siteboon/claude-code-ui' or install globally and run 'cloudcli'; access via localhost:3001."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A web-based graphical user interface for popular AI coding CLIs, enabling cross-device project and session management.
-
-## Problems solved
-
-- Terminal-only nature of AI assistants being hard to use on mobile; difficulty visualizing file trees and git changes in CLI; friction in managing MCP configs.
-
-## How to get started
-
-Requires Node v22+; run via 'npx @siteboon/claude-code-ui' or install globally and run 'cloudcli'; access via localhost:3001.
-
-## Detailed report
+# siteboon/claudecodeui
 
 ### 1. Positioning
 siteboon/claudecodeui is positioned as a a web-based graphical user interface for popular ai coding clis, enabling cross-device project and session management. It aims to provide developers with a robust, TypeScript-based solution for use claude code, cursor cli or codex on mobile and web with cloudcli (aka claude code ui). cloudcli is a free open source webui/gui that helps you manage your claude code session and projects remotely.

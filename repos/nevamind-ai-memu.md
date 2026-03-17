@@ -1,32 +1,19 @@
 ---
-title: "NevaMind-AI/memU"
+id: 1028070615
 repo_name: "NevaMind-AI/memU"
 url: "https://github.com/NevaMind-AI/memU"
-github_url: "https://github.com/NevaMind-AI/memU"
 stars: 12883
 language: "Python"
-layout: repo
-tags:
-  - "Long-Term-Memory"
-  - "AI-Agents"
-  - "Vector-Database"
-  - "Context-Management"
-  - "Knowledge-Graph"
+tags: ["Long-Term-Memory","AI-Agents","Vector-Database","Context-Management","Knowledge-Graph"]
+original_description: "24/7 Always-On Proactive Memory for AI Agents"
+english_summary: "A proactive memory framework acting as a file-system knowledge graph, allowing long-running AI agents to understand and predict user intent constantly without explicit prompting."
+chinese_summary: null
+problems_solved: "- Eliminates the expensive context token drift native in RAG applications by hierarchically maintaining an embedded intelligence profile anticipating users prior to command execution."
+how_to_use: "Import the package (`pip install -e .`). Initialize `MemUService()`. Continuously funnel resources through `memorize()`, and trigger intent prediction using `retrieve()` specifying `method=\"rag/llm\"`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A proactive memory framework acting as a file-system knowledge graph, allowing long-running AI agents to understand and predict user intent constantly without explicit prompting.
-
-## Problems solved
-
-- Eliminates the expensive context token drift native in RAG applications by hierarchically maintaining an embedded intelligence profile anticipating users prior to command execution.
-
-## How to get started
-
-Import the package (`pip install -e .`). Initialize `MemUService()`. Continuously funnel resources through `memorize()`, and trigger intent prediction using `retrieve()` specifying `method="rag/llm"`.
-
-## Detailed report
+# NevaMind-AI/memU
 
 ### 1. Positioning
 MemU positions itself as enterprise-grade proactive memory middleware. It upgrades AI agents from reactive text-generators into "always-on" analytical copilots predicting needs autonomously via continuous background monitoring.

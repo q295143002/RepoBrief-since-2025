@@ -1,36 +1,19 @@
 ---
-title: "Jackywine/Bella"
+id: 1020609153
 repo_name: "Jackywine/Bella"
 url: "https://github.com/Jackywine/Bella"
-github_url: "https://github.com/Jackywine/Bella"
 stars: 6446
 language: "JavaScript"
-layout: repo
-tags:
-  - "AI Companion"
-  - "VLM"
-  - "ASR"
-  - "Digital Life"
-  - "Human-Computer Interaction"
-  - "Emotional AI"
+tags: ["AI Companion","VLM","ASR","Digital Life","Human-Computer Interaction","Emotional AI"]
+original_description: "Bella is best"
+english_summary: "Bella AI is a digital companion project designed to create a personalized, evolving presence. It integrates Whisper ASR for voice recognition, local LLMs for thinking, and a visual system that uses video playback with cross-fading to express emotions. It aims to transcend simple assistant functionality to become a 'digital life form' with an affinity system and personality."
+chinese_summary: null
+problems_solved: "- Cold AI interactions: Focuses on emotional connection and 'warm' digital companionship.\n- Input modality limitations: Combines voice (ASR), text (LLM), and visual feedback.\n- Static personality: Implements an emotional state and affinity system that evolves based on interaction.\n- Complex AI setup: Provides a one-click startup and automatic model management tools."
+how_to_use: "Clone the repo and run `npm install`. Use `npm run download` to fetch necessary AI models (Whisper, etc.) and `npm start` to launch. Access the companion via a web browser at `localhost:8081`. Interact via voice or text and watch the visual feedback react to the conversation."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Bella AI is a digital companion project designed to create a personalized, evolving presence. It integrates Whisper ASR for voice recognition, local LLMs for thinking, and a visual system that uses video playback with cross-fading to express emotions. It aims to transcend simple assistant functionality to become a 'digital life form' with an affinity system and personality.
-
-## Problems solved
-
-- Cold AI interactions: Focuses on emotional connection and 'warm' digital companionship.
-- Input modality limitations: Combines voice (ASR), text (LLM), and visual feedback.
-- Static personality: Implements an emotional state and affinity system that evolves based on interaction.
-- Complex AI setup: Provides a one-click startup and automatic model management tools.
-
-## How to get started
-
-Clone the repo and run `npm install`. Use `npm run download` to fetch necessary AI models (Whisper, etc.) and `npm start` to launch. Access the companion via a web browser at `localhost:8081`. Interact via voice or text and watch the visual feedback react to the conversation.
-
-## Detailed report
+# Jackywine/Bella
 
 ### 1. Positioning
 Jackywine/Bella is positioned as a bella ai is a digital companion project designed to create a personalized, evolving presence. it integrates whisper asr for voice recognition, local llms for thinking, and a visual system that uses video playback with cross-fading to express emotions. it aims to transcend simple assistant functionality to become a 'digital life form' with an affinity system and personality. It aims to provide developers with a robust, JavaScript-based solution for bella is best.

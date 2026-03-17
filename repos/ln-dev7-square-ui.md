@@ -1,36 +1,19 @@
 ---
-title: "ln-dev7/square-ui"
+id: 954589318
 repo_name: "ln-dev7/square-ui"
 url: "https://github.com/ln-dev7/square-ui"
-github_url: "https://github.com/ln-dev7/square-ui"
 stars: 5033
 language: "TypeScript"
-layout: repo
-tags:
-  - "Next.js"
-  - "shadcn/ui"
-  - "React Components"
-  - "Dashboard"
-  - "Templates"
-  - "UI/UX"
-  - "Open Source"
+tags: ["Next.js","shadcn/ui","React Components","Dashboard","Templates","UI/UX","Open Source"]
+original_description: "Collection of beautifully crafted open-source layouts UI built with shadcn/ui."
+english_summary: "Square UI is a curated collection of high-quality, professional landing page and dashboard templates. Built on top of Next.js, Tailwind CSS, and shadcn/ui, it provides developers with ready-to-use, polished layouts for various application types, from AI chat interfaces to marketing dashboards."
+chinese_summary: null
+problems_solved: "- Massive time investment required to build modern, responsive dashboard layouts from scratch\n- Lack of design inspiration for common UI patterns (Kanban boards, habit trackers, properties)\n- Difficulty in maintaining consistent styling across complex React components"
+how_to_use: "Browse the 'Templates' section in the README to see live demos. You can clone the repository and navigate to the `templates/` directory to copy specific layout code into your own Next.js project. It includes support for both Radix UI and Base UI depending on the template selected."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Square UI is a curated collection of high-quality, professional landing page and dashboard templates. Built on top of Next.js, Tailwind CSS, and shadcn/ui, it provides developers with ready-to-use, polished layouts for various application types, from AI chat interfaces to marketing dashboards.
-
-## Problems solved
-
-- Massive time investment required to build modern, responsive dashboard layouts from scratch
-- Lack of design inspiration for common UI patterns (Kanban boards, habit trackers, properties)
-- Difficulty in maintaining consistent styling across complex React components
-
-## How to get started
-
-Browse the 'Templates' section in the README to see live demos. You can clone the repository and navigate to the `templates/` directory to copy specific layout code into your own Next.js project. It includes support for both Radix UI and Base UI depending on the template selected.
-
-## Detailed report
+# ln-dev7/square-ui
 
 ### 1. Positioning
 ln-dev7/square-ui is positioned as a square ui is a curated collection of high-quality, professional landing page and dashboard templates. built on top of next.js, tailwind css, and shadcn/ui, it provides developers with ready-to-use, polished layouts for various application types, from ai chat interfaces to marketing dashboards. It aims to provide developers with a robust, TypeScript-based solution for collection of beautifully crafted open-source layouts ui built with shadcn/ui.

@@ -1,37 +1,19 @@
 ---
-title: "bmad-code-org/BMAD-METHOD"
+id: 965615190
 repo_name: "bmad-code-org/BMAD-METHOD"
 url: "https://github.com/bmad-code-org/BMAD-METHOD"
-github_url: "https://github.com/bmad-code-org/BMAD-METHOD"
 stars: 40467
 language: "JavaScript"
-layout: repo
-tags:
-  - "Agile"
-  - "Multi-Agent"
-  - "Orchestration"
-  - "Software Development"
-  - "Framework"
-  - "AI Collaboration"
-  - "Workflow"
+tags: ["Agile","Multi-Agent","Orchestration","Software Development","Framework","AI Collaboration","Workflow"]
+original_description: "BMAD Method: A framework for AI-led agile development architecture. Defines 12+ Agent roles and their collaboration protocols for building large systems."
+english_summary: "An agile architecture framework for multi-agent autonomous software development teams."
+chinese_summary: null
+problems_solved: "- Chaos in autonomous agent teams without clear hierarchy or roles.\n- Difficulty in managing large-scale software projects with AI alone.\n- Lack of a collaborative protocol that mirrors professional human dev teams."
+how_to_use: "git clone https://github.com/bmad-code-org/BMAD-METHOD\n# Review the 'architect_role.md' and 'dev_role.md' in the roles/ folder."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An agile architecture framework for multi-agent autonomous software development teams.
-
-## Problems solved
-
-- Chaos in autonomous agent teams without clear hierarchy or roles.
-- Difficulty in managing large-scale software projects with AI alone.
-- Lack of a collaborative protocol that mirrors professional human dev teams.
-
-## How to get started
-
-git clone https://github.com/bmad-code-org/BMAD-METHOD
-# Review the 'architect_role.md' and 'dev_role.md' in the roles/ folder.
-
-## Detailed report
+# bmad-code-org/BMAD-METHOD
 
 ### 1. Positioning
 The BMAD (Beta-Managed Agile Development) Method is a high-level orchestration framework for AI agents. It reimagines the agile dev cycle as a multi-agent collaboration, defining specific roles like the 'Scrum Agent', 'Architect Agent', and 'QA Agent'.

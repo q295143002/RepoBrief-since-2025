@@ -1,36 +1,19 @@
 ---
-title: "Wan-Video/Wan2.2"
+id: 1027579552
 repo_name: "Wan-Video/Wan2.2"
 url: "https://github.com/Wan-Video/Wan2.2"
-github_url: "https://github.com/Wan-Video/Wan2.2"
 stars: 14617
 language: "Python"
-layout: repo
-tags:
-  - "Video Generation"
-  - "MoE"
-  - "Alibaba AI"
-  - "Cinematic AI"
-  - "Open Source"
-  - "Diffusion"
-  - "Generative Video"
+tags: ["Video Generation","MoE","Alibaba AI","Cinematic AI","Open Source","Diffusion","Generative Video"]
+original_description: "Wan2.2: An upgraded video generation model featuring MoE architecture."
+english_summary: "The successor to Wan2.1, featuring a Mixture-of-Experts (MoE) architecture for highly efficient and cinematic video generation."
+chinese_summary: null
+problems_solved: "- Extreme VRAM consumption of large dense transformer models for video\n- Motion artifacts and lack of cinematic detail in early open models\n- Inefficient parameter scaling in video diffusion backbones"
+how_to_use: "Download MoE weights and run the updated inference scripts. Ensure your hardware supports the MoE routing logic via the latest Wan2.2 suite."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The successor to Wan2.1, featuring a Mixture-of-Experts (MoE) architecture for highly efficient and cinematic video generation.
-
-## Problems solved
-
-- Extreme VRAM consumption of large dense transformer models for video
-- Motion artifacts and lack of cinematic detail in early open models
-- Inefficient parameter scaling in video diffusion backbones
-
-## How to get started
-
-Download MoE weights and run the updated inference scripts. Ensure your hardware supports the MoE routing logic via the latest Wan2.2 suite.
-
-## Detailed report
+# Wan-Video/Wan2.2
 
 ### 1. Positioning
 Wan2.2 is Alibaba's advanced open-weight video model, utilizing Mixture-of-Experts (MoE) for high-end creative workflows and research.

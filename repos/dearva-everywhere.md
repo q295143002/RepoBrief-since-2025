@@ -1,36 +1,19 @@
 ---
-title: "DearVa/Everywhere"
+id: 971243074
 repo_name: "DearVa/Everywhere"
 url: "https://github.com/DearVa/Everywhere"
-github_url: "https://github.com/DearVa/Everywhere"
 stars: 5647
 language: "C#"
-layout: repo
-tags:
-  - "AI Assistant"
-  - "Productivity"
-  - "Computer Vision"
-  - "Desktop App"
-  - "macOS"
-  - "Windows"
-  - "Open Source"
+tags: ["AI Assistant","Productivity","Computer Vision","Desktop App","macOS","Windows","Open Source"]
+original_description: "Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools."
+english_summary: "Everywhere is a context-aware AI assistant that can perceive and understand anything currently displayed on your screen. It eliminates the need for manual screenshots or copy-pasting by allowing users to invoke the assistant over any application via shortcut keys."
+chinese_summary: null
+problems_solved: "- Friction of switching apps or taking screenshots to get AI help\n- Lack of visual context in traditional AI chat interfaces\n- Difficulty in summarizing or translating protected or non-selectable screen content"
+how_to_use: "Install the Windows or macOS application and set up an LLM provider (OpenAI, Claude, Gemini, or local models via Ollama). Use a global shortcut to bring up the assistant over your current screen activity and ask questions in natural language."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Everywhere is a context-aware AI assistant that can perceive and understand anything currently displayed on your screen. It eliminates the need for manual screenshots or copy-pasting by allowing users to invoke the assistant over any application via shortcut keys.
-
-## Problems solved
-
-- Friction of switching apps or taking screenshots to get AI help
-- Lack of visual context in traditional AI chat interfaces
-- Difficulty in summarizing or translating protected or non-selectable screen content
-
-## How to get started
-
-Install the Windows or macOS application and set up an LLM provider (OpenAI, Claude, Gemini, or local models via Ollama). Use a global shortcut to bring up the assistant over your current screen activity and ask questions in natural language.
-
-## Detailed report
+# DearVa/Everywhere
 
 ### 1. Positioning
 DearVa/Everywhere is positioned as a everywhere is a context-aware ai assistant that can perceive and understand anything currently displayed on your screen. it eliminates the need for manual screenshots or copy-pasting by allowing users to invoke the assistant over any application via shortcut keys. It aims to provide developers with a robust, C#-based solution for context-aware ai assistant for your desktop. ready to respond intelligently, seamlessly integrating multiple llms and mcp tools.

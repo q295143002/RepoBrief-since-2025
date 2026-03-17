@@ -1,38 +1,19 @@
 ---
-title: "usestrix/strix"
+id: 1032808806
 repo_name: "usestrix/strix"
 url: "https://github.com/usestrix/strix"
-github_url: "https://github.com/usestrix/strix"
 stars: 20937
 language: "Python"
-layout: repo
-tags:
-  - "Security"
-  - "Strix"
-  - "Penetration Testing"
-  - "Autonomous Agents"
-  - "Exploit Generation"
-  - "Vulnerability Scanning"
-  - "Cybersecurity"
+tags: ["Security","Strix","Penetration Testing","Autonomous Agents","Exploit Generation","Vulnerability Scanning","Cybersecurity"]
+original_description: "Open-source AI hackers to find and fix your app’s vulnerabilities using autonomous agents."
+english_summary: "Autonomous AI penetration testing agents that find and fix security vulnerabilities in your codebase."
+chinese_summary: null
+problems_solved: "- High cost and slow turnaround of manual security audits by human researchers.\n- Inability of 'Static Security Scanners' to find complex, logic-based vulnerabilities.\n- Security debt accumulating in fast-moving startups that lack dedicated security teams."
+how_to_use: "git clone https://github.com/usestrix/strix\nnpm install\n./strix scan --target ./my-app"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Autonomous AI penetration testing agents that find and fix security vulnerabilities in your codebase.
-
-## Problems solved
-
-- High cost and slow turnaround of manual security audits by human researchers.
-- Inability of 'Static Security Scanners' to find complex, logic-based vulnerabilities.
-- Security debt accumulating in fast-moving startups that lack dedicated security teams.
-
-## How to get started
-
-git clone https://github.com/usestrix/strix
-npm install
-./strix scan --target ./my-app
-
-## Detailed report
+# usestrix/strix
 
 ### 1. Positioning
 Strix is an 'AI Security Researcher' platform. It deploys autonomous agents trained in offensive security techniques to find and exploit vulnerabilities in your application. Unlike a static scanner, Strix 'chains' vulnerabilities to show true business risk and then proposes verified code fixes. Target: CISO and Lead Engineers.

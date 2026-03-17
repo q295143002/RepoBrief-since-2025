@@ -1,36 +1,19 @@
 ---
-title: "UfoMiao/zcf"
+id: 1028832403
 repo_name: "UfoMiao/zcf"
 url: "https://github.com/UfoMiao/zcf"
-github_url: "https://github.com/UfoMiao/zcf"
 stars: 5669
 language: "TypeScript"
-layout: repo
-tags:
-  - "Claude Code"
-  - "CLI"
-  - "Developer Tools"
-  - "AI Coding"
-  - "Automation"
-  - "Bilingual"
-  - "Open Source"
+tags: ["Claude Code","CLI","Developer Tools","AI Coding","Automation","Bilingual","Open Source"]
+original_description: "Zero-Config Code Flow for Claude code & Codex"
+english_summary: "ZCF (Zero-Config Code Flow) is a terminal-based tool for the rapid setup and management of AI coding agents like Claude Code and Codex. It handles initialization, workflow updates, and proxy configuration with a focus on ease of use and bilingual support."
+chinese_summary: null
+problems_solved: "- Tedious manual setup of Claude Code and related tools\n- Complex configuration of API proxies and MCP servers\n- Difficulty in managing and updating AI coding workflows"
+how_to_use: "Run `npx zcf` to open the interactive menu. Use `npx zcf i` for full initialization (installations, workflows, and API keys). It supports provider presets for various API relay services to quickly get agents running in restricted regions."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ZCF (Zero-Config Code Flow) is a terminal-based tool for the rapid setup and management of AI coding agents like Claude Code and Codex. It handles initialization, workflow updates, and proxy configuration with a focus on ease of use and bilingual support.
-
-## Problems solved
-
-- Tedious manual setup of Claude Code and related tools
-- Complex configuration of API proxies and MCP servers
-- Difficulty in managing and updating AI coding workflows
-
-## How to get started
-
-Run `npx zcf` to open the interactive menu. Use `npx zcf i` for full initialization (installations, workflows, and API keys). It supports provider presets for various API relay services to quickly get agents running in restricted regions.
-
-## Detailed report
+# UfoMiao/zcf
 
 ### 1. Positioning
 UfoMiao/zcf is positioned as a zcf (zero-config code flow) is a terminal-based tool for the rapid setup and management of ai coding agents like claude code and codex. it handles initialization, workflow updates, and proxy configuration with a focus on ease of use and bilingual support. It aims to provide developers with a robust, TypeScript-based solution for zero-config code flow for claude code & codex.

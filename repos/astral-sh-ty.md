@@ -1,36 +1,19 @@
 ---
-title: "astral-sh/ty"
+id: 976731654
 repo_name: "astral-sh/ty"
 url: "https://github.com/astral-sh/ty"
-github_url: "https://github.com/astral-sh/ty"
 stars: 17677
 language: "Python"
-layout: repo
-tags:
-  - "Programming Language"
-  - "Type Safety"
-  - "Astral"
-  - "Agent Reliability"
-  - "Compiler"
-  - "Rust"
-  - "Deterministic AI"
+tags: ["Programming Language","Type Safety","Astral","Agent Reliability","Compiler","Rust","Deterministic AI"]
+original_description: "ty: A type-safe, compiled language for AI agents, focused on creating deterministic behaviors in non-deterministic systems."
+english_summary: "Astral's experimental type-safe language for building deterministic behaviors in AI agent systems."
+chinese_summary: null
+problems_solved: "- Predictability issues where models output malformed JSON or invalid logic\n- Difficulty defining 'Strict Interfaces' for agent-to-software interaction\n- High latency in interpreting complex agent logic in Python/TS"
+how_to_use: "Install using the curl script from ty-lang.org. Build and run your agent scripts using `ty build` and `ty run` commands."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Astral's experimental type-safe language for building deterministic behaviors in AI agent systems.
-
-## Problems solved
-
-- Predictability issues where models output malformed JSON or invalid logic
-- Difficulty defining 'Strict Interfaces' for agent-to-software interaction
-- High latency in interpreting complex agent logic in Python/TS
-
-## How to get started
-
-Install using the curl script from ty-lang.org. Build and run your agent scripts using `ty build` and `ty run` commands.
-
-## Detailed report
+# astral-sh/ty
 
 ### 1. Positioning
 Ty is a radical approach to agent development by the Astral team (creators of `uv`). It's a compiled, type-safe language for defining 'Agentic State Machines', ensuring agents never deviate from pre-defined logical paths.

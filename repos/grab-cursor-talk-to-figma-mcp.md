@@ -1,34 +1,19 @@
 ---
-title: "grab/cursor-talk-to-figma-mcp"
+id: 949523404
 repo_name: "grab/cursor-talk-to-figma-mcp"
 url: "https://github.com/grab/cursor-talk-to-figma-mcp"
-github_url: "https://github.com/grab/cursor-talk-to-figma-mcp"
 stars: 6474
 language: "JavaScript"
-layout: repo
-tags:
-  - "Figma"
-  - "MCP"
-  - "Cursor"
-  - "Design-to-Code"
-  - "Frontend"
+tags: ["Figma","MCP","Cursor","Design-to-Code","Frontend"]
+original_description: "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically."
+english_summary: "An MCP server enabling Cursor or other AI editors to directly read and manipulate Figma layer hierarchies."
+chinese_summary: null
+problems_solved: "- Friction in translating Figma designs into working React/HTML code\n- AI agents lacking visibility into design-tool specifics (padding, colors, layers)\n- Slow feedback loops between design and implementation"
+how_to_use: "Install the MCP server and authorize it with your Figma API token to enable design-aware coding."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An MCP server enabling Cursor or other AI editors to directly read and manipulate Figma layer hierarchies.
-
-## Problems solved
-
-- Friction in translating Figma designs into working React/HTML code
-- AI agents lacking visibility into design-tool specifics (padding, colors, layers)
-- Slow feedback loops between design and implementation
-
-## How to get started
-
-Install the MCP server and authorize it with your Figma API token to enable design-aware coding.
-
-## Detailed report
+# grab/cursor-talk-to-figma-mcp
 
 ### 1. Positioning
 grab/cursor-talk-to-figma-mcp is positioned as a an mcp server enabling cursor or other ai editors to directly read and manipulate figma layer hierarchies. It aims to provide developers with a robust, JavaScript-based solution for talktofigma: mcp integration between ai agent (cursor, claude code) and figma, allowing agentic ai to communicate with figma for reading designs and modifying them programmatically.

@@ -1,32 +1,19 @@
 ---
-title: "tadata-org/fastapi_mcp"
+id: 944976593
 repo_name: "tadata-org/fastapi_mcp"
 url: "https://github.com/tadata-org/fastapi_mcp"
-github_url: "https://github.com/tadata-org/fastapi_mcp"
 stars: 11650
 language: "Python"
-layout: repo
-tags:
-  - "FastAPI"
-  - "MCP"
-  - "Python"
-  - "API-Gateway"
-  - "Developer-Tools"
+tags: ["FastAPI","MCP","Python","API-Gateway","Developer-Tools"]
+original_description: "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!"
+english_summary: "An incredibly straightforward integration bridge parsing natively Python FastAPI endpoints exposing strictly standardized MCP tool abstractions wrapping essentially automatic authentication parameters effortlessly."
+chinese_summary: null
+problems_solved: "- Eliminates fundamentally the incredibly tedious boilerplate previously required porting standard RESTful APIs towards novel MCP architectures leveraging inherently familiar FastAPI dependency structures inherently resolving massive authorization vulnerabilities precisely."
+how_to_use: "Employ pip package manager utilizing `uv add fastapi-mcp` declaring specifically `mcp = FastApiMCP(app)` mapping automatically pre-existing routes converting directly server paths efficiently."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An incredibly straightforward integration bridge parsing natively Python FastAPI endpoints exposing strictly standardized MCP tool abstractions wrapping essentially automatic authentication parameters effortlessly.
-
-## Problems solved
-
-- Eliminates fundamentally the incredibly tedious boilerplate previously required porting standard RESTful APIs towards novel MCP architectures leveraging inherently familiar FastAPI dependency structures inherently resolving massive authorization vulnerabilities precisely.
-
-## How to get started
-
-Employ pip package manager utilizing `uv add fastapi-mcp` declaring specifically `mcp = FastApiMCP(app)` mapping automatically pre-existing routes converting directly server paths efficiently.
-
-## Detailed report
+# tadata-org/fastapi_mcp
 
 ### 1. Positioning
 FastAPI-MCP establishes essentially a crucial architectural bridge converting explicitly standardized Python REST architectures into absolutely robust context-aware agent tooling wrapping fully native OpenAPI paradigms elegantly.

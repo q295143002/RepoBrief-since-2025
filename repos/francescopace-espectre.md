@@ -1,36 +1,19 @@
 ---
-title: "francescopace/espectre"
+id: 1083590674
 repo_name: "francescopace/espectre"
 url: "https://github.com/francescopace/espectre"
-github_url: "https://github.com/francescopace/espectre"
 stars: 6748
 language: "Python"
-layout: repo
-tags:
-  - "IoT"
-  - "ESP32"
-  - "Home-Assistant"
-  - "ESPHome"
-  - "Motion-Detection"
-  - "Wi-Fi"
-  - "Open-Source"
+tags: ["IoT","ESP32","Home-Assistant","ESPHome","Motion-Detection","Wi-Fi","Open-Source"]
+original_description: "🛜 ESPectre 👻  - Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration."
+english_summary: "ESPectre is an open-source ESPHome component for ESP32 devices that detects human motion via Wi-Fi Channel State Information (CSI) analysis — no cameras, no wearables, no router changes — with native Home Assistant auto-discovery and an optional on-device ML neural network detector."
+chinese_summary: null
+problems_solved: "- Enables privacy-preserving\n- camera-free motion detection across rooms (including through walls) for €10 in hardware using existing Wi-Fi infrastructure\n- with direct Home Assistant integration and zero programming required (YAML config only)."
+how_to_use: "Flash ESPectre YAML config to an ESP32-C6/S3 via ESPHome. Keep room still for 10 seconds at boot for MVS auto-calibration (or use ML mode to skip). Device auto-discovers in Home Assistant. Place sensor 3-8m from router for optimal detection."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ESPectre is an open-source ESPHome component for ESP32 devices that detects human motion via Wi-Fi Channel State Information (CSI) analysis — no cameras, no wearables, no router changes — with native Home Assistant auto-discovery and an optional on-device ML neural network detector.
-
-## Problems solved
-
-- Enables privacy-preserving
-- camera-free motion detection across rooms (including through walls) for €10 in hardware using existing Wi-Fi infrastructure
-- with direct Home Assistant integration and zero programming required (YAML config only).
-
-## How to get started
-
-Flash ESPectre YAML config to an ESP32-C6/S3 via ESPHome. Keep room still for 10 seconds at boot for MVS auto-calibration (or use ML mode to skip). Device auto-discovers in Home Assistant. Place sensor 3-8m from router for optimal detection.
-
-## Detailed report
+# francescopace/espectre
 
 ### 1. Positioning
 francescopace/espectre is positioned as a espectre is an open-source esphome component for esp32 devices that detects human motion via wi-fi channel state information (csi) analysis — no cameras, no wearables, no router changes — with native home assistant auto-discovery and an optional on-device ml neural network detector. It aims to provide developers with a robust, Python-based solution for 🛜 espectre 👻  - motion detection system based on wi-fi spectre analysis (csi), with home assistant integration.

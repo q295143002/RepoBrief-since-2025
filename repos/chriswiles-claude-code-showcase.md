@@ -1,36 +1,19 @@
 ---
-title: "ChrisWiles/claude-code-showcase"
+id: 1129202884
 repo_name: "ChrisWiles/claude-code-showcase"
 url: "https://github.com/ChrisWiles/claude-code-showcase"
-github_url: "https://github.com/ChrisWiles/claude-code-showcase"
 stars: 5506
 language: "JavaScript"
-layout: repo
-tags:
-  - "Claude Code"
-  - "AI Coding"
-  - "Automation"
-  - "MCP"
-  - "Productivity"
-  - "Developer Experience"
-  - "Open Source"
+tags: ["Claude Code","AI Coding","Automation","MCP","Productivity","Developer Experience","Open Source"]
+original_description: "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows"
+english_summary: "This project showcases how to maximize the potential of Claude Code by building a comprehensive ecosystem of custom skills, agents, and hooks. It provides templates for automated quality gates, deep code reviews, and integrations with ticket systems like JIRA and Linear."
+chinese_summary: null
+problems_solved: "- Inconsistent coding patterns when using AI agents\n- Manual repetitive tasks in the development lifecycle\n- Lack of structured domain knowledge for LLMs in large codebases"
+how_to_use: "Use the directory structure and example files (CLAUDE.md, .claude/skills, .claude/hooks) as a blueprint. Implement the skill evaluation system to automatically activate relevant context based on your prompts."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This project showcases how to maximize the potential of Claude Code by building a comprehensive ecosystem of custom skills, agents, and hooks. It provides templates for automated quality gates, deep code reviews, and integrations with ticket systems like JIRA and Linear.
-
-## Problems solved
-
-- Inconsistent coding patterns when using AI agents
-- Manual repetitive tasks in the development lifecycle
-- Lack of structured domain knowledge for LLMs in large codebases
-
-## How to get started
-
-Use the directory structure and example files (CLAUDE.md, .claude/skills, .claude/hooks) as a blueprint. Implement the skill evaluation system to automatically activate relevant context based on your prompts.
-
-## Detailed report
+# ChrisWiles/claude-code-showcase
 
 ### 1. Positioning
 ChrisWiles/claude-code-showcase is positioned as a this project showcases how to maximize the potential of claude code by building a comprehensive ecosystem of custom skills, agents, and hooks. it provides templates for automated quality gates, deep code reviews, and integrations with ticket systems like jira and linear. It aims to provide developers with a robust, JavaScript-based solution for comprehensive claude code project configuration example with hooks, skills, agents, commands, and github actions workflows.

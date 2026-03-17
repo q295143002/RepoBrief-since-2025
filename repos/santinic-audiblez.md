@@ -1,33 +1,19 @@
 ---
-title: "santinic/audiblez"
+id: 916662373
 repo_name: "santinic/audiblez"
 url: "https://github.com/santinic/audiblez"
-github_url: "https://github.com/santinic/audiblez"
 stars: 5837
 language: "Python"
-layout: repo
-tags:
-  - "TTS"
-  - "Audiobook"
-  - "AI-Tools"
-  - "Kokoro"
-  - "Python"
-  - "Accessibility"
+tags: ["TTS","Audiobook","AI-Tools","Kokoro","Python","Accessibility"]
+original_description: "Generate audiobooks from e-books"
+english_summary: "A CLI tool that uses local or remote AI models (like Kokoro or OpenAI) to convert documents into high-quality audiobooks with natural prosody."
+chinese_summary: null
+problems_solved: "- Robotic voices in traditional text-to-speech; high cost of professional audiobook production; difficulty consuming long-form text during chores/commutes."
+how_to_use: "Install via 'pip install audiblez'; requires 'espeak-ng' for local models; run 'audiblez book.epub --voice af_sky' to generate an MP3 file."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A CLI tool that uses local or remote AI models (like Kokoro or OpenAI) to convert documents into high-quality audiobooks with natural prosody.
-
-## Problems solved
-
-- Robotic voices in traditional text-to-speech; high cost of professional audiobook production; difficulty consuming long-form text during chores/commutes.
-
-## How to get started
-
-Install via 'pip install audiblez'; requires 'espeak-ng' for local models; run 'audiblez book.epub --voice af_sky' to generate an MP3 file.
-
-## Detailed report
+# santinic/audiblez
 
 ### 1. Positioning
 santinic/audiblez is positioned as a a cli tool that uses local or remote ai models (like kokoro or openai) to convert documents into high-quality audiobooks with natural prosody. It aims to provide developers with a robust, Python-based solution for generate audiobooks from e-books.

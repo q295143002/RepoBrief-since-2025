@@ -1,37 +1,19 @@
 ---
-title: "tbphp/gpt-load"
+id: 997490512
 repo_name: "tbphp/gpt-load"
 url: "https://github.com/tbphp/gpt-load"
-github_url: "https://github.com/tbphp/gpt-load"
 stars: 5985
 language: "Go"
-layout: repo
-tags:
-  - "API Proxy"
-  - "Load Balancing"
-  - "OpenAI"
-  - "Go"
-  - "DevOps"
-  - "Enterprise Software"
-  - "Machine Learning Infrastructure"
+tags: ["API Proxy","Load Balancing","OpenAI","Go","DevOps","Enterprise Software","Machine Learning Infrastructure"]
+original_description: "Multi-channel AI proxy with intelligent key rotation. 智能密钥轮询的多渠道 AI 代理。"
+english_summary: "GPT-Load is a Go-based proxy service for managing multiple AI API providers (OpenAI, Gemini, Claude). It features intelligent 'key pools' with automatic rotation and failure recovery, allowing businesses to maintain high availability and scale their AI usage. It provides a sleek Vue 3 management interface for monitoring requests, managing groups, and hot-reloading configurations."
+chinese_summary: null
+problems_solved: "- API reliability issues: Automatically blacklists failed keys and retries requests with healthy ones to ensure 100% uptime.\n- High costs and rate limits: Load balances across multiple accounts and keys to maximize throughput and optimize quota usage.\n- Lack of usage visibility: Provides real-time statistics and detailed request logs for better auditing.\n- Insecure key management: Stores API keys with AES encryption and provides separate authentication for admin and proxy users."
+how_to_use: "Deploy via Docker Compose. Access the web dashboard at port 3001 to create groups and add API keys. Then, update your client SDKs (Python, Node.js) to point to the GPT-Load proxy URL (e.g., `.../proxy/group-name`) and use your custom proxy keys for authentication."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-GPT-Load is a Go-based proxy service for managing multiple AI API providers (OpenAI, Gemini, Claude). It features intelligent 'key pools' with automatic rotation and failure recovery, allowing businesses to maintain high availability and scale their AI usage. It provides a sleek Vue 3 management interface for monitoring requests, managing groups, and hot-reloading configurations.
-
-## Problems solved
-
-- API reliability issues: Automatically blacklists failed keys and retries requests with healthy ones to ensure 100% uptime.
-- High costs and rate limits: Load balances across multiple accounts and keys to maximize throughput and optimize quota usage.
-- Lack of usage visibility: Provides real-time statistics and detailed request logs for better auditing.
-- Insecure key management: Stores API keys with AES encryption and provides separate authentication for admin and proxy users.
-
-## How to get started
-
-Deploy via Docker Compose. Access the web dashboard at port 3001 to create groups and add API keys. Then, update your client SDKs (Python, Node.js) to point to the GPT-Load proxy URL (e.g., `.../proxy/group-name`) and use your custom proxy keys for authentication.
-
-## Detailed report
+# tbphp/gpt-load
 
 ### 1. Positioning
 tbphp/gpt-load is positioned as a gpt-load is a go-based proxy service for managing multiple ai api providers (openai, gemini, claude). it features intelligent 'key pools' with automatic rotation and failure recovery, allowing businesses to maintain high availability and scale their ai usage. it provides a sleek vue 3 management interface for monitoring requests, managing groups, and hot-reloading configurations. It aims to provide developers with a robust, Go-based solution for multi-channel ai proxy with intelligent key rotation. 智能密钥轮询的多渠道 ai 代理。.

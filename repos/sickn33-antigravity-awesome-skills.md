@@ -1,37 +1,19 @@
 ---
-title: "sickn33/antigravity-awesome-skills"
+id: 1134426800
 repo_name: "sickn33/antigravity-awesome-skills"
 url: "https://github.com/sickn33/antigravity-awesome-skills"
-github_url: "https://github.com/sickn33/antigravity-awesome-skills"
 stars: 23866
 language: "Python"
-layout: repo
-tags:
-  - "Antigravity"
-  - "Agent Skills"
-  - "TypeScript"
-  - "Modular Tools"
-  - "Agentic Framework"
-  - "Standardization"
-  - "Developer SDK"
+tags: ["Antigravity","Agent Skills","TypeScript","Modular Tools","Agentic Framework","Standardization","Developer SDK"]
+original_description: "Antigravity Awesome Skills: A curated collection of modular skills and tools designed specifically for the Antigravity agentic pipeline."
+english_summary: "The central repository for high-performance 'Skills' compatible with the Antigravity framework."
+chinese_summary: null
+problems_solved: "- Fragmentation of agent tools: finding verified, well-tested tools for browser, search, and file manipulation.\n- High development cost for creating secure, sandbox-ready agent capabilities from scratch.\n- Lack of standardized metadata for agent tool discovery and selection."
+how_to_use: "git clone https://github.com/sickn33/antigravity-awesome-skills\n# In your project: npm install ./antigravity-awesome-skills/skills/search-expert"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The central repository for high-performance 'Skills' compatible with the Antigravity framework.
-
-## Problems solved
-
-- Fragmentation of agent tools: finding verified, well-tested tools for browser, search, and file manipulation.
-- High development cost for creating secure, sandbox-ready agent capabilities from scratch.
-- Lack of standardized metadata for agent tool discovery and selection.
-
-## How to get started
-
-git clone https://github.com/sickn33/antigravity-awesome-skills
-# In your project: npm install ./antigravity-awesome-skills/skills/search-expert
-
-## Detailed report
+# sickn33/antigravity-awesome-skills
 
 ### 1. Positioning
 Antigravity Awesome Skills is the 'Official Standard' library for the Antigravity agent ecosystem. It provides a set of highly modular, secure, and production-ready capabilities that any Antigravity-aligned agent can immediately ingest and use. Focus: Engineering efficiency and tool stability.

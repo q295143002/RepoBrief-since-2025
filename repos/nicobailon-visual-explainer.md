@@ -1,36 +1,19 @@
 ---
-title: "nicobailon/visual-explainer"
+id: 1159484260
 repo_name: "nicobailon/visual-explainer"
 url: "https://github.com/nicobailon/visual-explainer"
-github_url: "https://github.com/nicobailon/visual-explainer"
 stars: 6446
 language: "HTML"
-layout: repo
-tags:
-  - "AI Agent Tools"
-  - "Data Visualization"
-  - "Mermaid.js"
-  - "Frontend Development"
-  - "Developer Productivity"
-  - "Documentation"
+tags: ["AI Agent Tools","Data Visualization","Mermaid.js","Frontend Development","Developer Productivity","Documentation"]
+original_description: "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps"
+english_summary: "Visual Explainer is a specialized skill for AI agents (compatible with Claude Code, Cursor, and others) that replaces unreadable ASCII terminal output with rich, styled HTML pages. It automatically renders complex data, diagrams (using Mermaid.js), and architecture overviews in a browser, improving readability and mental model construction."
+chinese_summary: null
+problems_solved: "- Unreadable terminal output: Replaces ASCII art and pipe-separated tables with high-quality typography and layouts.\n- Complex architecture visualization: Uses Mermaid.js and CSS Grid to create clear, interactive diagrams.\n- Context switching difficulty: Provides a `/project-recap` command to help developers quickly understand codebase states.\n- Inflexible reports: Supports generating magazine-quality slide decks from technical content."
+how_to_use: "Install as a plugin for Claude Code or copy to the skills directory of other agents. Once active, use commands like `/diff-review` for visual code reviews, `/generate-web-diagram` for visualizations, or `/project-recap` for status summaries. For slide generation, append `--slides` to commands."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Visual Explainer is a specialized skill for AI agents (compatible with Claude Code, Cursor, and others) that replaces unreadable ASCII terminal output with rich, styled HTML pages. It automatically renders complex data, diagrams (using Mermaid.js), and architecture overviews in a browser, improving readability and mental model construction.
-
-## Problems solved
-
-- Unreadable terminal output: Replaces ASCII art and pipe-separated tables with high-quality typography and layouts.
-- Complex architecture visualization: Uses Mermaid.js and CSS Grid to create clear, interactive diagrams.
-- Context switching difficulty: Provides a `/project-recap` command to help developers quickly understand codebase states.
-- Inflexible reports: Supports generating magazine-quality slide decks from technical content.
-
-## How to get started
-
-Install as a plugin for Claude Code or copy to the skills directory of other agents. Once active, use commands like `/diff-review` for visual code reviews, `/generate-web-diagram` for visualizations, or `/project-recap` for status summaries. For slide generation, append `--slides` to commands.
-
-## Detailed report
+# nicobailon/visual-explainer
 
 ### 1. Positioning
 nicobailon/visual-explainer is positioned as a visual explainer is a specialized skill for ai agents (compatible with claude code, cursor, and others) that replaces unreadable ascii terminal output with rich, styled html pages. it automatically renders complex data, diagrams (using mermaid.js), and architecture overviews in a browser, improving readability and mental model construction. It aims to provide developers with a robust, HTML-based solution for agent skill that generates rich html pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps.

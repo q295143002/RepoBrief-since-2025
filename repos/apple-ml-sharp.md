@@ -1,33 +1,19 @@
 ---
-title: "apple/ml-sharp"
+id: 1114899133
 repo_name: "apple/ml-sharp"
 url: "https://github.com/apple/ml-sharp"
-github_url: "https://github.com/apple/ml-sharp"
 stars: 7853
 language: "Python"
-layout: repo
-tags:
-  - "Apple"
-  - "View-Synthesis"
-  - "3D-Generation"
-  - "Monocular"
-  - "Gaussian-Splatting"
-  - "Machine-Learning"
+tags: ["Apple","View-Synthesis","3D-Generation","Monocular","Gaussian-Splatting","Machine-Learning"]
+original_description: "Sharp Monocular View Synthesis in Less Than a Second"
+english_summary: "SHARP is a neural network model that rapidly converts a single 2D photograph into a 3D Gaussian representation, enabling photorealistic view synthesis in real time."
+chinese_summary: null
+problems_solved: "- Solves the slow processing times of traditional photorealistic view synthesis. SHARP processes a 2D image into 3D Gaussian Splats in under a second using a single feedforward pass on a standard GPU."
+how_to_use: "Set up a Python 3.13 environment and install dependencies. Run `sharp predict -i /path/to/images -o /path/to/gaussians` to generate 3DGS .ply files, which can then be rendered in public 3DGS renderers or directly using the `--render` flag."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-SHARP is a neural network model that rapidly converts a single 2D photograph into a 3D Gaussian representation, enabling photorealistic view synthesis in real time.
-
-## Problems solved
-
-- Solves the slow processing times of traditional photorealistic view synthesis. SHARP processes a 2D image into 3D Gaussian Splats in under a second using a single feedforward pass on a standard GPU.
-
-## How to get started
-
-Set up a Python 3.13 environment and install dependencies. Run `sharp predict -i /path/to/images -o /path/to/gaussians` to generate 3DGS .ply files, which can then be rendered in public 3DGS renderers or directly using the `--render` flag.
-
-## Detailed report
+# apple/ml-sharp
 
 ### 1. Positioning
 apple/ml-sharp is positioned as a sharp is a neural network model that rapidly converts a single 2d photograph into a 3d gaussian representation, enabling photorealistic view synthesis in real time. It aims to provide developers with a robust, Python-based solution for sharp monocular view synthesis in less than a second.

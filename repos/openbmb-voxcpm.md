@@ -1,36 +1,19 @@
 ---
-title: "OpenBMB/VoxCPM"
+id: 1057664813
 repo_name: "OpenBMB/VoxCPM"
 url: "https://github.com/OpenBMB/VoxCPM"
-github_url: "https://github.com/OpenBMB/VoxCPM"
 stars: 6123
 language: "Python"
-layout: repo
-tags:
-  - "TTS"
-  - "Voice Cloning"
-  - "Speech Synthesis"
-  - "Machine Learning"
-  - "AI Audio"
-  - "Generative AI"
+tags: ["TTS","Voice Cloning","Speech Synthesis","Machine Learning","AI Audio","Generative AI"]
+original_description: "VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning"
+english_summary: "VoxCPM is an advanced Text-to-Speech (TTS) framework that models speech in a continuous space rather than using discrete tokens. It features 'context-aware' generation, where the AI infers appropriate emotional tone and prosody from the text, and high-fidelity zero-shot voice cloning that requires only a short reference clip. It supports streaming synthesis and is optimized for consumer-grade hardware."
+chinese_summary: null
+problems_solved: "- Robotic TTS: Replaces discrete tokenization with continuous speech modeling for more natural flow.\n- Lack of expressiveness: Automatically adapts speaking style (pacing, rhythm) based on the input text's context.\n- Complex voice cloning: Does accurate cloning with minimal data, capturing timbre AND accent/emotion.\n- Latency in production: Supports streaming with a Real-Time Factor (RTF) as low as 0.15 on an RTX 4090."
+how_to_use: "Install via `pip install voxcpm`. Use the `VoxCPM.from_pretrained` method to load models like VoxCPM1.5. Run `model.generate` for non-streaming or `model.generate_streaming` for real-time applications. It supports voice cloning by passing a `prompt_wav_path` of the target speaker. A Gradio-based web UI is also provided for easy experimentation."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-VoxCPM is an advanced Text-to-Speech (TTS) framework that models speech in a continuous space rather than using discrete tokens. It features 'context-aware' generation, where the AI infers appropriate emotional tone and prosody from the text, and high-fidelity zero-shot voice cloning that requires only a short reference clip. It supports streaming synthesis and is optimized for consumer-grade hardware.
-
-## Problems solved
-
-- Robotic TTS: Replaces discrete tokenization with continuous speech modeling for more natural flow.
-- Lack of expressiveness: Automatically adapts speaking style (pacing, rhythm) based on the input text's context.
-- Complex voice cloning: Does accurate cloning with minimal data, capturing timbre AND accent/emotion.
-- Latency in production: Supports streaming with a Real-Time Factor (RTF) as low as 0.15 on an RTX 4090.
-
-## How to get started
-
-Install via `pip install voxcpm`. Use the `VoxCPM.from_pretrained` method to load models like VoxCPM1.5. Run `model.generate` for non-streaming or `model.generate_streaming` for real-time applications. It supports voice cloning by passing a `prompt_wav_path` of the target speaker. A Gradio-based web UI is also provided for easy experimentation.
-
-## Detailed report
+# OpenBMB/VoxCPM
 
 ### 1. Positioning
 OpenBMB/VoxCPM is positioned as a voxcpm is an advanced text-to-speech (tts) framework that models speech in a continuous space rather than using discrete tokens. it features 'context-aware' generation, where the ai infers appropriate emotional tone and prosody from the text, and high-fidelity zero-shot voice cloning that requires only a short reference clip. it supports streaming synthesis and is optimized for consumer-grade hardware. It aims to provide developers with a robust, Python-based solution for voxcpm: tokenizer-free tts for context-aware speech generation and true-to-life voice cloning.

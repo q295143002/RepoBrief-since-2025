@@ -1,36 +1,19 @@
 ---
-title: "agentsmd/agents.md"
+id: 1040906383
 repo_name: "agentsmd/agents.md"
 url: "https://github.com/agentsmd/agents.md"
-github_url: "https://github.com/agentsmd/agents.md"
 stars: 18887
 language: "TypeScript"
-layout: repo
-tags:
-  - "Standardization"
-  - "AI Instructions"
-  - "Coding Standards"
-  - "Prompt Engineering"
-  - "Code Documentation"
-  - "Agent Context"
-  - "Open Format"
+tags: ["Standardization","AI Instructions","Coding Standards","Prompt Engineering","Code Documentation","Agent Context","Open Format"]
+original_description: "AGENTS.md: A simple, open format for guiding coding agents and providing them with structured project-wide instructions."
+english_summary: "An open-standard format for project-level AI instructions, ensuring agents adhere to specific local coding rules."
+chinese_summary: null
+problems_solved: "- AI agents ignoring local lint rules or naming conventions on specialized projects\n- Onboarding 'New' agents to codebases where context is scattered across many files\n- Fragmentation between different coding agents regarding project-level system prompts"
+how_to_use: "Create an `AGENTS.md` file in your repository root. Use the standard headers (Mission, Tech Stack, Rules) to define your project's AI operating manual."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-standard format for project-level AI instructions, ensuring agents adhere to specific local coding rules.
-
-## Problems solved
-
-- AI agents ignoring local lint rules or naming conventions on specialized projects
-- Onboarding 'New' agents to codebases where context is scattered across many files
-- Fragmentation between different coding agents regarding project-level system prompts
-
-## How to get started
-
-Create an `AGENTS.md` file in your repository root. Use the standard headers (Mission, Tech Stack, Rules) to define your project's AI operating manual.
-
-## Detailed report
+# agentsmd/agents.md
 
 ### 1. Positioning
 AGENTS.md is a proposal for a standardized 'README' for AI. It provides a single Markdown file that any agentive tool (Claude Code, Cursor, etc.) can read to understand a project's unique constraints and priorities.

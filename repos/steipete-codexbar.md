@@ -1,33 +1,19 @@
 ---
-title: "steipete/CodexBar"
+id: 1097695258
 repo_name: "steipete/CodexBar"
 url: "https://github.com/steipete/CodexBar"
-github_url: "https://github.com/steipete/CodexBar"
 stars: 7934
 language: "Swift"
-layout: repo
-tags:
-  - "macOS-App"
-  - "AI-Tools"
-  - "Swift"
-  - "Developer-Tools"
-  - "Productivity"
-  - "Claude-Code"
+tags: ["macOS-App","AI-Tools","Swift","Developer-Tools","Productivity","Claude-Code"]
+original_description: "Show usage stats for OpenAI Codex and Claude Code, without having to login."
+english_summary: "A macOS menu bar utility for monitoring usage limits and credits across multiple AI providers like Claude, Cursor, and Gemini."
+chinese_summary: null
+problems_solved: "- Token anxiety and unexpected lockouts in AI coding; difficulty tracking disparate AI subscriptions; lack of visibility into session-based usage."
+how_to_use: "Install via Homebrew cask; enable providers in Settings; sign in via browser cookies or API keys; view usage meters in the bar."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A macOS menu bar utility for monitoring usage limits and credits across multiple AI providers like Claude, Cursor, and Gemini.
-
-## Problems solved
-
-- Token anxiety and unexpected lockouts in AI coding; difficulty tracking disparate AI subscriptions; lack of visibility into session-based usage.
-
-## How to get started
-
-Install via Homebrew cask; enable providers in Settings; sign in via browser cookies or API keys; view usage meters in the bar.
-
-## Detailed report
+# steipete/CodexBar
 
 ### 1. Positioning
 steipete/CodexBar is positioned as a a macos menu bar utility for monitoring usage limits and credits across multiple ai providers like claude, cursor, and gemini. It aims to provide developers with a robust, Swift-based solution for show usage stats for openai codex and claude code, without having to login.

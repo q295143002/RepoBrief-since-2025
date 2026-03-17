@@ -1,39 +1,19 @@
 ---
-title: "datawhalechina/hello-agents"
+id: 1052050442
 repo_name: "datawhalechina/hello-agents"
 url: "https://github.com/datawhalechina/hello-agents"
-github_url: "https://github.com/datawhalechina/hello-agents"
 stars: 27265
 language: "Python"
-layout: repo
-tags:
-  - "AI Agents"
-  - "Education"
-  - "Python"
-  - "DataWhale"
-  - "Agentic Framework"
-  - "Tutorial"
-  - "Open Source"
+tags: ["AI Agents","Education","Python","DataWhale","Agentic Framework","Tutorial","Open Source"]
+original_description: "Hello-Agents: A beginner-friendly introduction to building AI agents, providing clean, step-by-step code and pedagogical explanations from DataWhale."
+english_summary: "A comprehensive, beginner-friendly educational framework for mastering AI agent development."
+chinese_summary: null
+problems_solved: "- Steep learning curve for newcomers to the world of LLM orchestration and tools.\n- Lack of simple, 'runnable-out-of-the-box' examples for common agent patterns (ReAct, Planning).\n- Fragmented documentation in the agentic ecosystem."
+how_to_use: "git clone https://github.com/datawhalechina/hello-agents\ncd hello-agents\npip install -r requirements.txt\npython examples/simple_agent.py"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive, beginner-friendly educational framework for mastering AI agent development.
-
-## Problems solved
-
-- Steep learning curve for newcomers to the world of LLM orchestration and tools.
-- Lack of simple, 'runnable-out-of-the-box' examples for common agent patterns (ReAct, Planning).
-- Fragmented documentation in the agentic ecosystem.
-
-## How to get started
-
-git clone https://github.com/datawhalechina/hello-agents
-cd hello-agents
-pip install -r requirements.txt
-python examples/simple_agent.py
-
-## Detailed report
+# datawhalechina/hello-agents
 
 ### 1. Positioning
 Hello-Agents is an educational project by the DataWhale community. It is designed to demystify AI agents for students and engineers by providing 'Gold Standard' implementations of core agentic concepts (like tool calling, memory management, and multi-agent coordination) in plain Python.

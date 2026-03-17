@@ -1,32 +1,19 @@
 ---
-title: "bytedance/trae-agent"
+id: 1001452682
 repo_name: "bytedance/trae-agent"
 url: "https://github.com/bytedance/trae-agent"
-github_url: "https://github.com/bytedance/trae-agent"
 stars: 11013
 language: "Python"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Software Engineering"
-  - "CLI"
-  - "Multi-LLM"
+tags: ["AI Agent","Software Engineering","CLI","Multi-LLM"]
+original_description: "Trae Agent is an LLM-based agent for general purpose software engineering tasks. It provides a powerful CLI interface that can understand natural language instructions and execute complex software engineering workflows using various tools and LLM providers."
+english_summary: "Trae Agent is a research-friendly CLI tool from ByteDance used to automate diverse software engineering workflows via multi-LLM support."
+chinese_summary: null
+problems_solved: "- Offers a transparent and highly modular platform tailored for studying AI agent architectures (test-time scaling\n- ablation studies); resolves complex software engineering tasks naturally through terminal workflows without restricting users to a single vendor's LLM."
+how_to_use: "Clone the repository and install through UV: `uv sync --all-extras`, activate the environment `source .venv/bin/activate`, copy the config `cp trae_config.yaml.example trae_config.yaml` to put API keys, and run tasks like `trae-cli run \"Create a hello world Python script\"`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Trae Agent is a research-friendly CLI tool from ByteDance used to automate diverse software engineering workflows via multi-LLM support.
-
-## Problems solved
-
-- Offers a transparent and highly modular platform tailored for studying AI agent architectures (test-time scaling
-- ablation studies); resolves complex software engineering tasks naturally through terminal workflows without restricting users to a single vendor's LLM.
-
-## How to get started
-
-Clone the repository and install through UV: `uv sync --all-extras`, activate the environment `source .venv/bin/activate`, copy the config `cp trae_config.yaml.example trae_config.yaml` to put API keys, and run tasks like `trae-cli run "Create a hello world Python script"`.
-
-## Detailed report
+# bytedance/trae-agent
 
 ### 1. Positioning
 Developed primarily for executing software engineering workflows autonomously, Trae Agent acts as a command-line interface helper. It caters to both everyday developers looking for productivity boosts and researchers needing a modular architecture for conducting foundational studies on agent behaviors and test-time scaling.

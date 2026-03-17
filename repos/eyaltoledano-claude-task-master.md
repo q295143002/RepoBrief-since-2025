@@ -1,31 +1,19 @@
 ---
-title: "eyaltoledano/claude-task-master"
+id: 942837343
 repo_name: "eyaltoledano/claude-task-master"
 url: "https://github.com/eyaltoledano/claude-task-master"
-github_url: "https://github.com/eyaltoledano/claude-task-master"
 stars: 25902
 language: "JavaScript"
-layout: repo
-tags:
-  - "Automation"
+tags: ["Automation"]
+original_description: "Claude Task Master: A specialized interface and automation tool for delegating complex, hierarchical tasks to the Claude 3.5 series."
+english_summary: "Task-oriented UI and automation layer for orchestrating multi-step Claude 3.5 missions."
+chinese_summary: null
+problems_solved: "- Difficulty in tracking 'task status' when Claude is performing a 2-hour research mission.\n- High failure rate in 'long-context' missions due to cumulative errors.\n- Need for a clean way to visualize the 'Plan-vs-Execution' status for non-technical stakeholders."
+how_to_use: "git clone https://github.com/eyaltoledano/claude-task-master\nnpm install && npm start"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Task-oriented UI and automation layer for orchestrating multi-step Claude 3.5 missions.
-
-## Problems solved
-
-- Difficulty in tracking 'task status' when Claude is performing a 2-hour research mission.
-- High failure rate in 'long-context' missions due to cumulative errors.
-- Need for a clean way to visualize the 'Plan-vs-Execution' status for non-technical stakeholders.
-
-## How to get started
-
-git clone https://github.com/eyaltoledano/claude-task-master
-npm install && npm start
-
-## Detailed report
+# eyaltoledano/claude-task-master
 
 ### 1. Positioning
 Claude Task Master is an 'Orchestration Dashboard' specifically for the Claude 3.5 series. It transforms the chat interface into a project management board, where each 'Agentic Request' is treated as a job with sub-tasks, statuses (Running, Blocked, Done), and automated retries.

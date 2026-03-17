@@ -1,36 +1,19 @@
 ---
-title: "mindverse/Second-Me"
+id: 949271792
 repo_name: "mindverse/Second-Me"
 url: "https://github.com/mindverse/Second-Me"
-github_url: "https://github.com/mindverse/Second-Me"
 stars: 15332
 language: "Python"
-layout: repo
-tags:
-  - "AI Clone"
-  - "Personal Memory"
-  - "Knowledge Graph"
-  - "Privacy First"
-  - "Continual Learning"
-  - "Open Source"
-  - "Digital Twin"
+tags: ["AI Clone","Personal Memory","Knowledge Graph","Privacy First","Continual Learning","Open Source","Digital Twin"]
+original_description: "Second Me: An open-source project for creating a personalized AI self."
+english_summary: "An open-source platform enabling users to construct an intelligent, personalized AI clone with native memory."
+chinese_summary: null
+problems_solved: "- Limitations of generic LLMs in understanding personal user context\n- Privacy risks in training personal AI on centralized cloud servers\n- Lack of persistent 'Memory' in consumer AI interactions"
+how_to_use: "Clone the repo and configure your local memory store. Ingest your personal data and run the agent to start interacting with your AI self."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source platform enabling users to construct an intelligent, personalized AI clone with native memory.
-
-## Problems solved
-
-- Limitations of generic LLMs in understanding personal user context
-- Privacy risks in training personal AI on centralized cloud servers
-- Lack of persistent 'Memory' in consumer AI interactions
-
-## How to get started
-
-Clone the repo and configure your local memory store. Ingest your personal data and run the agent to start interacting with your AI self.
-
-## Detailed report
+# mindverse/Second-Me
 
 ### 1. Positioning
 Second Me is an open-source platform for creating sovereign 'AI clones' with native memory, prioritizing personal context and data ownership.

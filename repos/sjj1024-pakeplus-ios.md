@@ -1,36 +1,19 @@
 ---
-title: "Sjj1024/PakePlus-iOS"
+id: 956609746
 repo_name: "Sjj1024/PakePlus-iOS"
 url: "https://github.com/Sjj1024/PakePlus-iOS"
-github_url: "https://github.com/Sjj1024/PakePlus-iOS"
 stars: 5547
 language: "Swift"
-layout: repo
-tags:
-  - "App Packaging"
-  - "Tauri"
-  - "Rust"
-  - "iOS"
-  - "Android"
-  - "Developer Tools"
-  - "Open Source"
+tags: ["App Packaging","Tauri","Rust","iOS","Android","Developer Tools","Open Source"]
+original_description: "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app"
+english_summary: "PakePlus is a cross-platform tool that packages any website or web app (Vue/React) into native desktop (Windows/Mac/Linux) and mobile (iOS/Android) applications. It leverages Rust Tauri for extremely small binary sizes (<10MB) and high performance."
+chinese_summary: null
+problems_solved: "- High resource consumption of Electron-based apps\n- Complexity of setting up local build environments for mobile apps\n- Cost and difficulty of maintaining servers for simple web tools"
+how_to_use: "Download the PakePlus app or use the web version. Provide a GitHub Token to enable cloud-based packaging via GitHub Actions. Input the URL or upload your static files, configure the app details, and click 'Publish' to generate binaries."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PakePlus is a cross-platform tool that packages any website or web app (Vue/React) into native desktop (Windows/Mac/Linux) and mobile (iOS/Android) applications. It leverages Rust Tauri for extremely small binary sizes (<10MB) and high performance.
-
-## Problems solved
-
-- High resource consumption of Electron-based apps
-- Complexity of setting up local build environments for mobile apps
-- Cost and difficulty of maintaining servers for simple web tools
-
-## How to get started
-
-Download the PakePlus app or use the web version. Provide a GitHub Token to enable cloud-based packaging via GitHub Actions. Input the URL or upload your static files, configure the app details, and click 'Publish' to generate binaries.
-
-## Detailed report
+# Sjj1024/PakePlus-iOS
 
 ### 1. Positioning
 Sjj1024/PakePlus-iOS is positioned as a pakeplus is a cross-platform tool that packages any website or web app (vue/react) into native desktop (windows/mac/linux) and mobile (ios/android) applications. it leverages rust tauri for extremely small binary sizes (<10mb) and high performance. It aims to provide developers with a robust, Swift-based solution for turn any webpage/html/vue/react and so on into desktop and mobile app under 5m with easy in few minutes. 轻松将任意网站/html/vue/react等项目构建为轻量级(小于5m)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app.

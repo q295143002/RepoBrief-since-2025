@@ -1,31 +1,19 @@
 ---
-title: "shanraisshan/claude-code-best-practice"
+id: 1087192965
 repo_name: "shanraisshan/claude-code-best-practice"
 url: "https://github.com/shanraisshan/claude-code-best-practice"
-github_url: "https://github.com/shanraisshan/claude-code-best-practice"
 stars: 14065
 language: "HTML"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Best Practice"
-  - "Guide"
-  - "AI Assistant"
+tags: ["Claude Code","Best Practice","Guide","AI Assistant"]
+original_description: "A comprehensive guide to best practices for using Claude Code."
+english_summary: "An extensive best-practice guide for utilizing Claude Code covering Concepts like Commands, Sub-Agents, Skills, and MCP Servers."
+chinese_summary: null
+problems_solved: "- Helps users navigate the complexities of Claude Code and maximize its capability by compiling community and official insights into a unified strategy document."
+how_to_use: "Read the sections covering `Commands`, `Sub-Agents`, `Skills`, `Workflows`, `Hooks`, and `Features` to enhance your command-line AI-assisted workflow."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An extensive best-practice guide for utilizing Claude Code covering Concepts like Commands, Sub-Agents, Skills, and MCP Servers.
-
-## Problems solved
-
-- Helps users navigate the complexities of Claude Code and maximize its capability by compiling community and official insights into a unified strategy document.
-
-## How to get started
-
-Read the sections covering `Commands`, `Sub-Agents`, `Skills`, `Workflows`, `Hooks`, and `Features` to enhance your command-line AI-assisted workflow.
-
-## Detailed report
+# shanraisshan/claude-code-best-practice
 
 ### 1. Positioning
 This documentation acts as a deep-dive handbook for Anthropic's Claude Code, covering advanced topics such as agent architectures, MCP integrations, and tailored commands.

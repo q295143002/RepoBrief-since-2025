@@ -1,36 +1,19 @@
 ---
-title: "ayangweb/BongoCat"
+id: 956337638
 repo_name: "ayangweb/BongoCat"
 url: "https://github.com/ayangweb/BongoCat"
-github_url: "https://github.com/ayangweb/BongoCat"
 stars: 19325
 language: "TypeScript"
-layout: repo
-tags:
-  - "Desktop Pet"
-  - "Interactive AI"
-  - "Electron"
-  - "Productivity Tools"
-  - "Developer Culture"
-  - "Animation"
-  - "Desktop Customization"
+tags: ["Desktop Pet","Interactive AI","Electron","Productivity Tools","Developer Culture","Animation","Desktop Customization"]
+original_description: "BongoCat: A cross-platform interactive desk pet that brings fun and personality to your desktop."
+english_summary: "An adorable, cross-platform interactive desk pet that reacts to user input and environment."
+chinese_summary: null
+problems_solved: "- Loneliness and 'desk fatigue' for remote workers and students\n- Lack of personality in standard operating system interfaces\n- High resource usage of traditional desktop companions"
+how_to_use: "Install globally via npm: `npm install -g @ayangweb/bongocat`. Launch the pet with `bongocat`. Use `--theme` to customize the appearance."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An adorable, cross-platform interactive desk pet that reacts to user input and environment.
-
-## Problems solved
-
-- Loneliness and 'desk fatigue' for remote workers and students
-- Lack of personality in standard operating system interfaces
-- High resource usage of traditional desktop companions
-
-## How to get started
-
-Install globally via npm: `npm install -g @ayangweb/bongocat`. Launch the pet with `bongocat`. Use `--theme` to customize the appearance.
-
-## Detailed report
+# ayangweb/BongoCat
 
 ### 1. Positioning
 BongoCat is an interactive, animated desktop companion. It provides a lightweight, reactive 'pet' that mirrors your keyboard and mouse actions, providing visual feedback to system events. Targeted at developers and students.

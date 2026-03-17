@@ -1,29 +1,19 @@
 ---
-title: "AndyMik90/Aperant"
+id: 1110222585
 repo_name: "AndyMik90/Aperant"
 url: "https://github.com/AndyMik90/Aperant"
-github_url: "https://github.com/AndyMik90/Aperant"
 stars: 13247
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Framework"
+tags: ["AI Agent","Framework"]
+original_description: "Autonomous multi-agent coding framework that plans, builds, and validates software for you."
+english_summary: "Auto Claude represents an autonomous framework using multi-agent capabilities to oversee coding tasks, validation testing, and software building natively on desktop."
+chinese_summary: null
+problems_solved: "- Automates the tedious aspects of the SDLC (Software Development Life Cycle) like planning, quality assurance loops, branching, and codebase validation through highly coordinated AI agents."
+how_to_use: "Download the stable desktop client or construct the Electron application locally. Initiate terminal tasks or utilize the visual Kanban interface to designate multi-stage coding routines."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Auto Claude represents an autonomous framework using multi-agent capabilities to oversee coding tasks, validation testing, and software building natively on desktop.
-
-## Problems solved
-
-- Automates the tedious aspects of the SDLC (Software Development Life Cycle) like planning, quality assurance loops, branching, and codebase validation through highly coordinated AI agents.
-
-## How to get started
-
-Download the stable desktop client or construct the Electron application locally. Initiate terminal tasks or utilize the visual Kanban interface to designate multi-stage coding routines.
-
-## Detailed report
+# AndyMik90/Aperant
 
 ### 1. Positioning
 Formally known as "Auto Claude" (Aperant), this software serves as an autonomous coding workforce, combining a desktop GUI (Electron) and backend AI orchestration frameworks interacting directly with Claude Pro models.

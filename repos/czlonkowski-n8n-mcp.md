@@ -1,36 +1,19 @@
 ---
-title: "czlonkowski/n8n-mcp"
+id: 997890921
 repo_name: "czlonkowski/n8n-mcp"
 url: "https://github.com/czlonkowski/n8n-mcp"
-github_url: "https://github.com/czlonkowski/n8n-mcp"
 stars: 15032
 language: "TypeScript"
-layout: repo
-tags:
-  - "n8n"
-  - "MCP"
-  - "Automation"
-  - "Low Code"
-  - "Workflow"
-  - "AI Integration"
-  - "Protocol"
+tags: ["n8n","MCP","Automation","Low Code","Workflow","AI Integration","Protocol"]
+original_description: "n8n-MCP: Standardizes communication to n8n node operations."
+english_summary: "An MCP server giving AI assistants direct access to the n8n automation platform's node documentation and execution."
+chinese_summary: null
+problems_solved: "- Gap between AI generation and actual workflow automation syntax\n- Hallucinations regarding specific n8n node parameters and API logic\n- Difficulty in programmatically querying n8n capabilities from an LLM"
+how_to_use: "Run via npx: `npx @n8n/mcp-server`. Link it to your MCP-compatible IDE (like Claude Desktop) to start building workflows with AI."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An MCP server giving AI assistants direct access to the n8n automation platform's node documentation and execution.
-
-## Problems solved
-
-- Gap between AI generation and actual workflow automation syntax
-- Hallucinations regarding specific n8n node parameters and API logic
-- Difficulty in programmatically querying n8n capabilities from an LLM
-
-## How to get started
-
-Run via npx: `npx @n8n/mcp-server`. Link it to your MCP-compatible IDE (like Claude Desktop) to start building workflows with AI.
-
-## Detailed report
+# czlonkowski/n8n-mcp
 
 ### 1. Positioning
 n8n-MCP is an integration server exposing n8n's node ecosystem to AI via the Model Context Protocol, streamlining visual automation design.

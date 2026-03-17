@@ -1,36 +1,19 @@
 ---
-title: "a2aproject/A2A"
+id: 954873280
 repo_name: "a2aproject/A2A"
 url: "https://github.com/a2aproject/A2A"
-github_url: "https://github.com/a2aproject/A2A"
 stars: 22483
 language: "Shell"
-layout: repo
-tags:
-  - "Agent Protocol"
-  - "Interoperability"
-  - "P2P"
-  - "Multi-Agent Systems"
-  - "Communication"
-  - "Open Standard"
+tags: ["Agent Protocol","Interoperability","P2P","Multi-Agent Systems","Communication","Open Standard"]
+original_description: "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
+english_summary: "A universal communication protocol for decentralized, cross-platform AI agent interoperability."
+chinese_summary: null
+problems_solved: "- Siloed 'Agent Islands' where a task started in one app cannot be finished in another.\n- Lack of a standard 'Handshake' protocol for agents to negotiate permissions and costs.\n- Difficulty in managing 'Context Transfer' when one agent delegates a sub-task to another."
+how_to_use: "npm install @a2aproject/sdk\n# Define your agent's A2A-Manifest and start listening for peer requests."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A universal communication protocol for decentralized, cross-platform AI agent interoperability.
-
-## Problems solved
-
-- Siloed 'Agent Islands' where a task started in one app cannot be finished in another.
-- Lack of a standard 'Handshake' protocol for agents to negotiate permissions and costs.
-- Difficulty in managing 'Context Transfer' when one agent delegates a sub-task to another.
-
-## How to get started
-
-npm install @a2aproject/sdk
-# Define your agent's A2A-Manifest and start listening for peer requests.
-
-## Detailed report
+# a2aproject/A2A
 
 ### 1. Positioning
 Agent2Agent (A2A) is a foundational infrastructure project aiming to build the 'Internet of Agents.' It provides a standardized protocol (schemas and handshake logic) so that agents built by different companies can discover each other, understand each other's capabilities, and collaborate on complex tasks through a unified message bus.

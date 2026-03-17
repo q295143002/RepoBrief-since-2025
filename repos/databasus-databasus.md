@@ -1,37 +1,19 @@
 ---
-title: "databasus/databasus"
+id: 996785011
 repo_name: "databasus/databasus"
 url: "https://github.com/databasus/databasus"
-github_url: "https://github.com/databasus/databasus"
 stars: 5979
 language: "Go"
-layout: repo
-tags:
-  - "Database Backup"
-  - "PostgreSQL"
-  - "DevOps"
-  - "Cybersecurity"
-  - "Self-Hosted"
-  - "Open Source"
-  - "Cloud Storage"
+tags: ["Database Backup","PostgreSQL","DevOps","Cybersecurity","Self-Hosted","Open Source","Cloud Storage"]
+original_description: "Databases backup tool (PostgreSQL, MySQL, MongoDB)"
+english_summary: "Databasus is a professional-grade database backup manager. It allows developers to schedule automated backups for popular databases and store them in various cloud destinations (S3, Dropbox, SFTP, etc.). It features Grandfather-Father-Son (GFS) retention policies, AES-256 encryption, and a polished web UI for managing multicore database environments across different projects or 'workspaces'."
+chinese_summary: null
+problems_solved: "- Backup complexity: Simplifies the process of setting up cron jobs and storage scripts with a visual wizard.\n- Storage inefficiency: Uses smart compression to save 4-8x on storage space during backups.\n- Security risks: Implements zero-trust storage—backup files are encrypted locally before being sent to the cloud.\n- Lack of monitoring: Sends notifications via Slack, Telegram, or Discord regarding backup success or failure."
+how_to_use: "Run the automated installation script on a Linux server to set up the Docker-based dashboad. Access the UI at port 4005, add your database credentials, choose a storage destination (like AWS S3), and define your backup schedule. It also supports Helm charts for Kubernetes deployments."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Databasus is a professional-grade database backup manager. It allows developers to schedule automated backups for popular databases and store them in various cloud destinations (S3, Dropbox, SFTP, etc.). It features Grandfather-Father-Son (GFS) retention policies, AES-256 encryption, and a polished web UI for managing multicore database environments across different projects or 'workspaces'.
-
-## Problems solved
-
-- Backup complexity: Simplifies the process of setting up cron jobs and storage scripts with a visual wizard.
-- Storage inefficiency: Uses smart compression to save 4-8x on storage space during backups.
-- Security risks: Implements zero-trust storage—backup files are encrypted locally before being sent to the cloud.
-- Lack of monitoring: Sends notifications via Slack, Telegram, or Discord regarding backup success or failure.
-
-## How to get started
-
-Run the automated installation script on a Linux server to set up the Docker-based dashboad. Access the UI at port 4005, add your database credentials, choose a storage destination (like AWS S3), and define your backup schedule. It also supports Helm charts for Kubernetes deployments.
-
-## Detailed report
+# databasus/databasus
 
 ### 1. Positioning
 databasus/databasus is positioned as a databasus is a professional-grade database backup manager. it allows developers to schedule automated backups for popular databases and store them in various cloud destinations (s3, dropbox, sftp, etc.). it features grandfather-father-son (gfs) retention policies, aes-256 encryption, and a polished web ui for managing multicore database environments across different projects or 'workspaces'. It aims to provide developers with a robust, Go-based solution for databases backup tool (postgresql, mysql, mongodb).

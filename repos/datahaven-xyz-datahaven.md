@@ -1,33 +1,19 @@
 ---
-title: "datahaven-xyz/datahaven"
+id: 943950290
 repo_name: "datahaven-xyz/datahaven"
 url: "https://github.com/datahaven-xyz/datahaven"
-github_url: "https://github.com/datahaven-xyz/datahaven"
 stars: 8036
 language: "Rust"
-layout: repo
-tags:
-  - "EigenLayer"
-  - "DePIN"
-  - "Blockchain"
-  - "Decentralized-Storage"
-  - "AI-Infrastructure"
-  - "Substrate"
+tags: ["EigenLayer","DePIN","Blockchain","Decentralized-Storage","AI-Infrastructure","Substrate"]
+original_description: "An EVM compatible Substrate chain, powered by StorageHub and secured by EigenLayer"
+english_summary: "A decentralized storage network optimized for AI data and models, leveraging EigenLayer's restaking for high-security verification."
+chinese_summary: null
+problems_solved: "- Data tampering in AI training datasets; high centralization of cloud storage for ML models; trust issues in traditional decentralized storage networks."
+how_to_use: "Requires Kurtosis and Docker; launch local network via 'bun cli launch' in test/; build operator with 'cargo build --release'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A decentralized storage network optimized for AI data and models, leveraging EigenLayer's restaking for high-security verification.
-
-## Problems solved
-
-- Data tampering in AI training datasets; high centralization of cloud storage for ML models; trust issues in traditional decentralized storage networks.
-
-## How to get started
-
-Requires Kurtosis and Docker; launch local network via 'bun cli launch' in test/; build operator with 'cargo build --release'.
-
-## Detailed report
+# datahaven-xyz/datahaven
 
 ### 1. Positioning
 datahaven-xyz/datahaven is positioned as a a decentralized storage network optimized for ai data and models, leveraging eigenlayer's restaking for high-security verification. It aims to provide developers with a robust, Rust-based solution for an evm compatible substrate chain, powered by storagehub and secured by eigenlayer.

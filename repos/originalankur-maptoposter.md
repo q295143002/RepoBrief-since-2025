@@ -1,28 +1,19 @@
 ---
-title: "originalankur/maptoposter"
+id: 1130381422
 repo_name: "originalankur/maptoposter"
 url: "https://github.com/originalankur/maptoposter"
-github_url: "https://github.com/originalankur/maptoposter"
 stars: 11887
 language: "Python"
-layout: repo
-tags:
-  - "Python"
+tags: ["Python"]
+original_description: "Generate beautiful, minimalist map posters for any city in the world."
+english_summary: "A beautifully elegant Python utility converting explicit geospatial coordinates seamlessly into stunning high-resolution minimalist urban map topologies generating perfectly printable vector graphics gracefully."
+chinese_summary: null
+problems_solved: "Streamlines remarkably the immensely tedious labor required extracting OSM topographical vectors rendering visually harmonious mapped layouts avoiding completely proprietary API subscriptions gracefully."
+how_to_use: "Install standard Python dependencies running `python create_map_poster.py -c \"Paris\" -C \"France\" -t pastel_dream` parsing explicit OpenStreetMap nodes automatically."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A beautifully elegant Python utility converting explicit geospatial coordinates seamlessly into stunning high-resolution minimalist urban map topologies generating perfectly printable vector graphics gracefully.
-
-## Problems solved
-
-Streamlines remarkably the immensely tedious labor required extracting OSM topographical vectors rendering visually harmonious mapped layouts avoiding completely proprietary API subscriptions gracefully.
-
-## How to get started
-
-Install standard Python dependencies running `python create_map_poster.py -c "Paris" -C "France" -t pastel_dream` parsing explicit OpenStreetMap nodes automatically.
-
-## Detailed report
+# originalankur/maptoposter
 
 ### 1. Positioning
 MapToPoster operates perfectly maintaining an exquisitely specialized aesthetic utility bridging strictly raw geographic coordinate geometries generating profoundly beautiful typographic poster layouts flawlessly suitable directly for premium framing seamlessly.

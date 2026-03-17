@@ -1,36 +1,19 @@
 ---
-title: "google/adk-python"
+id: 958830659
 repo_name: "google/adk-python"
 url: "https://github.com/google/adk-python"
-github_url: "https://github.com/google/adk-python"
 stars: 18334
 language: "Python"
-layout: repo
-tags:
-  - "Google Cloud"
-  - "SDK"
-  - "AI Engineering"
-  - "Python"
-  - "Agent Tooling"
-  - "Production AI"
-  - "Testing"
+tags: ["Google Cloud","SDK","AI Engineering","Python","Agent Tooling","Production AI","Testing"]
+original_description: "adk-python: Google's Agent Development Kit for Python. A modular approach to building, testing, and scaling AI agents."
+english_summary: "Google's modular Python SDK for building, testing, and scaling industrial-grade AI agents."
+chinese_summary: null
+problems_solved: "- Fragmentation in agent design patterns and repeated Action-Loop implementations\n- Lack of rigorous testing tools for non-deterministic AI behaviors\n- Difficulty in scaling agents from local scripts to cloud environments"
+how_to_use: "Install via pip: `pip install google-adk`. Load the `Agent` and `Skill` classes to define tools and orchestration logic in your Python application."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Google's modular Python SDK for building, testing, and scaling industrial-grade AI agents.
-
-## Problems solved
-
-- Fragmentation in agent design patterns and repeated Action-Loop implementations
-- Lack of rigorous testing tools for non-deterministic AI behaviors
-- Difficulty in scaling agents from local scripts to cloud environments
-
-## How to get started
-
-Install via pip: `pip install google-adk`. Load the `Agent` and `Skill` classes to define tools and orchestration logic in your Python application.
-
-## Detailed report
+# google/adk-python
 
 ### 1. Positioning
 The Agent Development Kit (ADK) is Google's 'Enterprise-First' response to agentic software. It provides a modular, decoupled architecture treating Reasoning, Tooling, and State as distinct, swappable components.

@@ -1,33 +1,19 @@
 ---
-title: "ai-dynamo/dynamo"
+id: 942206898
 repo_name: "ai-dynamo/dynamo"
 url: "https://github.com/ai-dynamo/dynamo"
-github_url: "https://github.com/ai-dynamo/dynamo"
 stars: 6247
 language: "Rust"
-layout: repo
-tags:
-  - "Load Balancing"
-  - "Distributed Systems"
-  - "Performance"
-  - "Cluster Management"
+tags: ["Load Balancing","Distributed Systems","Performance","Cluster Management"]
+original_description: "A Datacenter Scale Distributed Inference Serving Framework"
+english_summary: "An adaptive load-balancing algorithm designed to dynamically distribute AI tasks across heterogeneous hardware clusters."
+chinese_summary: null
+problems_solved: "- Suboptimal utilization of mixed GPU/CPU environments\n- Static task allocation causing bottlenecks in large agent swarms\n- Inefficiency in managing spot instance clusters for AI inference"
+how_to_use: "Integrate the Dynamo library into your cluster manager to start optimizing task distribution."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An adaptive load-balancing algorithm designed to dynamically distribute AI tasks across heterogeneous hardware clusters.
-
-## Problems solved
-
-- Suboptimal utilization of mixed GPU/CPU environments
-- Static task allocation causing bottlenecks in large agent swarms
-- Inefficiency in managing spot instance clusters for AI inference
-
-## How to get started
-
-Integrate the Dynamo library into your cluster manager to start optimizing task distribution.
-
-## Detailed report
+# ai-dynamo/dynamo
 
 ### 1. Positioning
 ai-dynamo/dynamo is positioned as a an adaptive load-balancing algorithm designed to dynamically distribute ai tasks across heterogeneous hardware clusters. It aims to provide developers with a robust, Rust-based solution for a datacenter scale distributed inference serving framework.

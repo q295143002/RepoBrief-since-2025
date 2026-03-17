@@ -1,36 +1,19 @@
 ---
-title: "dzhng/deep-research"
+id: 926861272
 repo_name: "dzhng/deep-research"
 url: "https://github.com/dzhng/deep-research"
-github_url: "https://github.com/dzhng/deep-research"
 stars: 18562
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Research"
-  - "Web Scraping"
-  - "Information Retrieval"
-  - "Auto-GPT"
-  - "Deep Learning"
-  - "Open Source"
-  - "Agentic RAG"
+tags: ["AI Research","Web Scraping","Information Retrieval","Auto-GPT","Deep Learning","Open Source","Agentic RAG"]
+original_description: "dzhng/deep-research: An open-source implementation of a deep research agent that can browse the web and synthesize information autonomously."
+english_summary: "An autonomous AI research assistant that browses the web to synthesize deep, multi-page reports."
+chinese_summary: null
+problems_solved: "- LLMs limited by internal training data for recent or niche topics\n- High manual effort in 'Tab-Hopping' across many sources for a single report\n- Hallucinations caused by out-of-date info in static model contexts"
+how_to_use: "Clone the repo and run with npm. Use `--topic` to specify your research goal, e.g., `npm run start -- --topic \"The future of RISC-V in 2025\"`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An autonomous AI research assistant that browses the web to synthesize deep, multi-page reports.
-
-## Problems solved
-
-- LLMs limited by internal training data for recent or niche topics
-- High manual effort in 'Tab-Hopping' across many sources for a single report
-- Hallucinations caused by out-of-date info in static model contexts
-
-## How to get started
-
-Clone the repo and run with npm. Use `--topic` to specify your research goal, e.g., `npm run start -- --topic "The future of RISC-V in 2025"`.
-
-## Detailed report
+# dzhng/deep-research
 
 ### 1. Positioning
 dzhng/deep-research is a popular open-source researcher agent. It uses an iterative search-and-refine loop to crawl relevant web pages and structure findings into cited reports, acting as a free community alternative to OpenAI's deep research.

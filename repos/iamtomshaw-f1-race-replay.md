@@ -1,36 +1,19 @@
 ---
-title: "IAmTomShaw/f1-race-replay"
+id: 1101452882
 repo_name: "IAmTomShaw/f1-race-replay"
 url: "https://github.com/IAmTomShaw/f1-race-replay"
-github_url: "https://github.com/IAmTomShaw/f1-race-replay"
 stars: 5239
 language: "Python"
-layout: repo
-tags:
-  - "Formula 1"
-  - "Data Visualization"
-  - "Telemetry"
-  - "Python"
-  - "Arcade"
-  - "Simulation"
-  - "Open Source"
+tags: ["Formula 1","Data Visualization","Telemetry","Python","Arcade","Simulation","Open Source"]
+original_description: "An interactive Formula 1 race visualisation and data analysis tool built with Python! 🏎️"
+english_summary: "F1 Race Replay is a Python-based interactive visualization tool for Formula 1 race data. It uses telemetry from the FastF1 API to render driver positions, safety cars, and tyre compounds on a 2D track map, allowing fans and analysts to 're-watch' races with detailed data overlays."
+chinese_summary: null
+problems_solved: "- Fragmented and difficult-to-visualize raw F1 telemetry data\n- Lack of interactive tools to analyze specific driver battles or strategy after a race\n- Need for simulated markers like the Safety Car (which isn't directly in GPS logs)"
+how_to_use: "Install requirements and run `python main.py`. Use the GUI to select a year and round. During playback, use keyboard shortcuts or on-screen buttons to pause, fast-forward, or toggle HUD elements like DRS zones and driver names."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-F1 Race Replay is a Python-based interactive visualization tool for Formula 1 race data. It uses telemetry from the FastF1 API to render driver positions, safety cars, and tyre compounds on a 2D track map, allowing fans and analysts to 're-watch' races with detailed data overlays.
-
-## Problems solved
-
-- Fragmented and difficult-to-visualize raw F1 telemetry data
-- Lack of interactive tools to analyze specific driver battles or strategy after a race
-- Need for simulated markers like the Safety Car (which isn't directly in GPS logs)
-
-## How to get started
-
-Install requirements and run `python main.py`. Use the GUI to select a year and round. During playback, use keyboard shortcuts or on-screen buttons to pause, fast-forward, or toggle HUD elements like DRS zones and driver names.
-
-## Detailed report
+# IAmTomShaw/f1-race-replay
 
 ### 1. Positioning
 IAmTomShaw/f1-race-replay is positioned as a f1 race replay is a python-based interactive visualization tool for formula 1 race data. it uses telemetry from the fastf1 api to render driver positions, safety cars, and tyre compounds on a 2d track map, allowing fans and analysts to 're-watch' races with detailed data overlays. It aims to provide developers with a robust, Python-based solution for an interactive formula 1 race visualisation and data analysis tool built with python! 🏎️.

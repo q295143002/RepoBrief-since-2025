@@ -1,35 +1,19 @@
 ---
-title: "CyberTimon/RapidRAW"
+id: 1001684671
 repo_name: "CyberTimon/RapidRAW"
 url: "https://github.com/CyberTimon/RapidRAW"
-github_url: "https://github.com/CyberTimon/RapidRAW"
 stars: 5878
 language: "TypeScript"
-layout: repo
-tags:
-  - "Image Editing"
-  - "RAW Processing"
-  - "GPU Acceleration"
-  - "Rust"
-  - "Photography"
-  - "Open Source"
+tags: ["Image Editing","RAW Processing","GPU Acceleration","Rust","Photography","Open Source"]
+original_description: "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind."
+english_summary: "RapidRAW is a high-performance RAW image editor built with Rust and GPU acceleration. It offers non-destructive editing, sophisticated masking, and generative features for professional-grade photo processing."
+chinese_summary: null
+problems_solved: "- Sluggish RAW processing in traditional editors\n- Complex masking workflows\n- Destructive editing limitations"
+how_to_use: "Install via executable or build from source (Rust). Open RAW files, use adjustment sliders for non-destructive edits, apply masks for selective adjustments, and export to common formats."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-RapidRAW is a high-performance RAW image editor built with Rust and GPU acceleration. It offers non-destructive editing, sophisticated masking, and generative features for professional-grade photo processing.
-
-## Problems solved
-
-- Sluggish RAW processing in traditional editors
-- Complex masking workflows
-- Destructive editing limitations
-
-## How to get started
-
-Install via executable or build from source (Rust). Open RAW files, use adjustment sliders for non-destructive edits, apply masks for selective adjustments, and export to common formats.
-
-## Detailed report
+# CyberTimon/RapidRAW
 
 ### 1. Positioning
 CyberTimon/RapidRAW is positioned as a rapidraw is a high-performance raw image editor built with rust and gpu acceleration. it offers non-destructive editing, sophisticated masking, and generative features for professional-grade photo processing. It aims to provide developers with a robust, TypeScript-based solution for a beautiful, non-destructive, and gpu-accelerated raw image editor built with performance in mind.

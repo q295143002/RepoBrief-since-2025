@@ -1,36 +1,19 @@
 ---
-title: "oraios/serena"
+id: 953683578
 repo_name: "oraios/serena"
 url: "https://github.com/oraios/serena"
-github_url: "https://github.com/oraios/serena"
 stars: 21442
 language: "Python"
-layout: repo
-tags:
-  - "MCP"
-  - "Coding Agent"
-  - "Semantic Search"
-  - "AST"
-  - "Code Refactoring"
-  - "Developer Tools"
-  - "Structural Editing"
+tags: ["MCP","Coding Agent","Semantic Search","AST","Code Refactoring","Developer Tools","Structural Editing"]
+original_description: "A powerful coding agent toolkit providing semantic retrieval and editing capabilities through MCP."
+english_summary: "A suite of professional MCP servers for high-precision semantic code search and automated multi-file editing."
+chinese_summary: null
+problems_solved: "- Context bottlenecks in coding agents reading too many files\n- Inaccurate search results using standard string matching on large codebases\n- High risk of syntax breaking during automated bulk refactors"
+how_to_use: "Run via npx: `npx @oraios/serena-mcp`. Connect to Cursor, Claude Desktop, or Windsurf."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A suite of professional MCP servers for high-precision semantic code search and automated multi-file editing.
-
-## Problems solved
-
-- Context bottlenecks in coding agents reading too many files
-- Inaccurate search results using standard string matching on large codebases
-- High risk of syntax breaking during automated bulk refactors
-
-## How to get started
-
-Run via npx: `npx @oraios/serena-mcp`. Connect to Cursor, Claude Desktop, or Windsurf.
-
-## Detailed report
+# oraios/serena
 
 ### 1. Positioning
 Serena is a professional-grade MCP server suite specializing in 'Semantic Grounding' and 'Structural Code Editing' via AST logic.

@@ -1,32 +1,19 @@
 ---
-title: "boson-ai/higgs-audio"
+id: 1022907328
 repo_name: "boson-ai/higgs-audio"
 url: "https://github.com/boson-ai/higgs-audio"
-github_url: "https://github.com/boson-ai/higgs-audio"
 stars: 7975
 language: "Python"
-layout: repo
-tags:
-  - "TTS"
-  - "Voice-Cloning"
-  - "AI-Audio"
-  - "Generative-AI"
-  - "Foundation-Models"
+tags: ["TTS","Voice-Cloning","AI-Audio","Generative-AI","Foundation-Models"]
+original_description: "Text-audio foundation model from Boson AI"
+english_summary: "A state-of-the-art 3.6B parameter audio foundation model for expressive text-to-speech, zero-shot voice cloning, and multilingual dialogue."
+chinese_summary: null
+problems_solved: "- Monotone delivery in traditional TTS; large dataset requirements for voice cloning; lack of complex prosody and emotion in generated speech."
+how_to_use: "Requires GPU with 24GB+ VRAM; run via NVIDIA Deep Learning Container; install via pip/uv; use Python API for generation."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A state-of-the-art 3.6B parameter audio foundation model for expressive text-to-speech, zero-shot voice cloning, and multilingual dialogue.
-
-## Problems solved
-
-- Monotone delivery in traditional TTS; large dataset requirements for voice cloning; lack of complex prosody and emotion in generated speech.
-
-## How to get started
-
-Requires GPU with 24GB+ VRAM; run via NVIDIA Deep Learning Container; install via pip/uv; use Python API for generation.
-
-## Detailed report
+# boson-ai/higgs-audio
 
 ### 1. Positioning
 boson-ai/higgs-audio is positioned as a a state-of-the-art 3.6b parameter audio foundation model for expressive text-to-speech, zero-shot voice cloning, and multilingual dialogue. It aims to provide developers with a robust, Python-based solution for text-audio foundation model from boson ai.

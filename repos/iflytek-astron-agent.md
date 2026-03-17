@@ -1,32 +1,19 @@
 ---
-title: "iflytek/astron-agent"
+id: 1060001762
 repo_name: "iflytek/astron-agent"
 url: "https://github.com/iflytek/astron-agent"
-github_url: "https://github.com/iflytek/astron-agent"
 stars: 10113
 language: "Java"
-layout: repo
-tags:
-  - "AI Workflow"
-  - "Enterprise"
-  - "RPA"
-  - "iFLYTEK"
+tags: ["AI Workflow","Enterprise","RPA","iFLYTEK"]
+original_description: "Astron Agent is an enterprise-grade, commercial-friendly Agentic Workflow development platform. Integrates AI workflow orchestration, model management, AI and MCP tool integration, RPA automation, and team collaboration."
+english_summary: "Astron Agent is an open-source, enterprise-ready platform from iFLYTEK designed for building and managing high-availability intelligent agent applications and RPA workflows."
+chinese_summary: null
+problems_solved: "- Simplifies the deployment of production-ready AI agents with high-availability requirements; bridges enterprise systems via intelligent RPA integration; resolves the fragmentation of model and tool access through a unified\n- business-friendly (Apache 2.0) ecosystem."
+how_to_use: "Recommended deployment via Docker Compose: clone the repo, navigate to `docker/astronAgent`, copy `.env.example` to `.env`, configure your auth settings, and run `docker compose -f docker-compose-with-auth.yaml up -d`. Access the frontend at `http://localhost/`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Astron Agent is an open-source, enterprise-ready platform from iFLYTEK designed for building and managing high-availability intelligent agent applications and RPA workflows.
-
-## Problems solved
-
-- Simplifies the deployment of production-ready AI agents with high-availability requirements; bridges enterprise systems via intelligent RPA integration; resolves the fragmentation of model and tool access through a unified
-- business-friendly (Apache 2.0) ecosystem.
-
-## How to get started
-
-Recommended deployment via Docker Compose: clone the repo, navigate to `docker/astronAgent`, copy `.env.example` to `.env`, configure your auth settings, and run `docker compose -f docker-compose-with-auth.yaml up -d`. Access the frontend at `http://localhost/`.
-
-## Detailed report
+# iflytek/astron-agent
 
 ### 1. Positioning
 Astron Agent targets large-scale enterprises and software teams within the iFLYTEK ecosystem and beyond. It is built as a complete 'AI Foundation' platform for organizations that need to transition from experimentation to production-grade agentic applications.

@@ -1,32 +1,19 @@
 ---
-title: "alibaba/zvec"
+id: 1110443421
 repo_name: "alibaba/zvec"
 url: "https://github.com/alibaba/zvec"
-github_url: "https://github.com/alibaba/zvec"
 stars: 8904
 language: "C++"
-layout: repo
-tags:
-  - "Vector Database"
-  - "RAG"
-  - "AI"
-  - "Embedding"
-  - "Search"
+tags: ["Vector Database","RAG","AI","Embedding","Search"]
+original_description: "Zvec: An open-source, in-process vector database. Lightweight, lightning-fast, and designed to embed directly into applications. Built on Alibaba's Proxima."
+english_summary: "Zvec is a high-performance, in-process vector database built on the Proxima engine, providing low-latency similarity search for dense and sparse vectors directly within applications."
+chinese_summary: null
+problems_solved: "- Eliminates the complexity and latency of external vector database servers; solves the 'cold start' and management overhead for lightweight AI apps; provides high-performance search for billions of vectors with minimal resource usage."
+how_to_use: "Install via pip: `pip install zvec`. Define a `CollectionSchema`, create a collection with `zvec.create_and_open()`, insert documents (id + vectors), and query using `collection.query()`. Node.js users can use `npm install @zvec/zvec`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Zvec is a high-performance, in-process vector database built on the Proxima engine, providing low-latency similarity search for dense and sparse vectors directly within applications.
-
-## Problems solved
-
-- Eliminates the complexity and latency of external vector database servers; solves the 'cold start' and management overhead for lightweight AI apps; provides high-performance search for billions of vectors with minimal resource usage.
-
-## How to get started
-
-Install via pip: `pip install zvec`. Define a `CollectionSchema`, create a collection with `zvec.create_and_open()`, insert documents (id + vectors), and query using `collection.query()`. Node.js users can use `npm install @zvec/zvec`.
-
-## Detailed report
+# alibaba/zvec
 
 ### 1. Positioning
 Zvec positions itself as the 'SQLite of Vector Databases'. It targets developers building RAG applications, recommendation systems, or edge AI who need production-grade vector search without the operational burden of a standalone database cluster.

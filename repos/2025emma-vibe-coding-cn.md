@@ -1,36 +1,19 @@
 ---
-title: "2025Emma/vibe-coding-cn"
+id: 1117874367
 repo_name: "2025Emma/vibe-coding-cn"
 url: "https://github.com/2025Emma/vibe-coding-cn"
-github_url: "https://github.com/2025Emma/vibe-coding-cn"
 stars: 14296
 language: "Python"
-layout: repo
-tags:
-  - "Vibe Coding"
-  - "Pair Programming"
-  - "AI Workflow"
-  - "Prompt Engineering"
-  - "Developer Experience"
-  - "Software Architecture"
-  - "Chinese Guide"
+tags: ["Vibe Coding","Pair Programming","AI Workflow","Prompt Engineering","Developer Experience","Software Architecture","Chinese Guide"]
+original_description: "Vibe Coding: The ultimate workstation for turning ideas into reality through pair programming with AI."
+english_summary: "An extensive Chinese-language guide and framework for optimizing AI-assisted software pair programming workflows."
+chinese_summary: null
+problems_solved: "- AI hallucination and chaos in large-scale codebase refactoring\n- Lack of structured methodology for AI pair programming sessions\n- Inconsistent code quality when using multiple coding agents (Cursor, Claude)"
+how_to_use: "Follow the documentation in the repo to set up your 'Memory Bank' and 'Implementation Plan' workflows. Copy the provided system prompts to your IDE."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An extensive Chinese-language guide and framework for optimizing AI-assisted software pair programming workflows.
-
-## Problems solved
-
-- AI hallucination and chaos in large-scale codebase refactoring
-- Lack of structured methodology for AI pair programming sessions
-- Inconsistent code quality when using multiple coding agents (Cursor, Claude)
-
-## How to get started
-
-Follow the documentation in the repo to set up your 'Memory Bank' and 'Implementation Plan' workflows. Copy the provided system prompts to your IDE.
-
-## Detailed report
+# 2025Emma/vibe-coding-cn
 
 ### 1. Positioning
 Vibe Coding is a meta-knowledge project and workflow guide dedicated to professionalizing the art of AI pair programming through rigid methodologies.

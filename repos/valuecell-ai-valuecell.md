@@ -1,32 +1,19 @@
 ---
-title: "ValueCell-ai/valuecell"
+id: 1048320382
 repo_name: "ValueCell-ai/valuecell"
 url: "https://github.com/ValueCell-ai/valuecell"
-github_url: "https://github.com/ValueCell-ai/valuecell"
 stars: 9572
 language: "Python"
-layout: repo
-tags:
-  - "FinTech"
-  - "AI Agent"
-  - "Trading"
-  - "Financial Research"
-  - "Crypto"
+tags: ["FinTech","AI Agent","Trading","Financial Research","Crypto"]
+original_description: "ValueCell: A community-driven, multi-agent platform for financial applications. Stock selection, research, tracking, and autonomous trading."
+english_summary: "ValueCell is a decentralized, multi-agent AI platform dedicated to financial research and automated trading, supporting global markets and major crypto exchanges."
+chinese_summary: null
+problems_solved: "- Automates the tedious process of fundamental financial research through dedicated agents; provides cross-exchange 'smart trading' with built-in safety guardrails; ensures privacy by storing sensitive API keys and portfolio data locally on the user's device."
+how_to_use: "Download the macOS or Windows app from GitHub Releases. Configure your LLM provider (DeepSeek/OpenAI/Claude). Connect your exchange (Binance/OKX/Hyperliquid) and launch a 'DeepResearch' or 'Strategy' agent to start analyzing markets."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ValueCell is a decentralized, multi-agent AI platform dedicated to financial research and automated trading, supporting global markets and major crypto exchanges.
-
-## Problems solved
-
-- Automates the tedious process of fundamental financial research through dedicated agents; provides cross-exchange 'smart trading' with built-in safety guardrails; ensures privacy by storing sensitive API keys and portfolio data locally on the user's device.
-
-## How to get started
-
-Download the macOS or Windows app from GitHub Releases. Configure your LLM provider (DeepSeek/OpenAI/Claude). Connect your exchange (Binance/OKX/Hyperliquid) and launch a 'DeepResearch' or 'Strategy' agent to start analyzing markets.
-
-## Detailed report
+# ValueCell-ai/valuecell
 
 ### 1. Positioning
 ValueCell positions itself as a 'Decentralized AI Bloomberg Terminal'. It targets retail investors and crypto enthusiasts who want professional-grade research and algorithmic trading capabilities without the monthly fees of a traditional financial terminal.

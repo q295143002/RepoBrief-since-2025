@@ -1,35 +1,19 @@
 ---
-title: "NoFxAiOS/nofx"
+id: 1084802670
 repo_name: "NoFxAiOS/nofx"
 url: "https://github.com/NoFxAiOS/nofx"
-github_url: "https://github.com/NoFxAiOS/nofx"
 stars: 10874
 language: "Go"
-layout: repo
-tags:
-  - "AI"
-  - "Trading"
-  - "Crypto"
-  - "Autonomous"
-  - "Micropayments"
+tags: ["AI","Trading","Crypto","Autonomous","Micropayments"]
+original_description: "NOFX is an open-source autonomous AI trading assistant. Unlike traditional AI tools that require you to manually configure models, manage API keys, and wire up data sources - NOFX's AI perceives markets, selects models, and fetches data entirely on its own. Zero human intervention. You set the strategy, the AI handles everything else."
+english_summary: "NOFX is an autonomous AI crypto and market trading assistant powered by standard APIs or seamless x402 USDC micropayments for zero-configuration, multi-model trade execution."
+chinese_summary: null
+problems_solved: "- Eliminates the complexity of juggling various exchange APIs\n- trading bots\n- and AI model API keys. Prevents the tediousness of prepaid credits by leveraging x402 protocols where a USDC wallet executes micro-transactions automatically\n- granting access to multiple AI models and exchanges seamlessly."
+how_to_use: "Using Linux/macOS, run `curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash` and navigate to `http://127.0.0.1:3000`. Set up a USDC wallet (if using x402) or API keys, attach an exchange, and define a strategy."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-NOFX is an autonomous AI crypto and market trading assistant powered by standard APIs or seamless x402 USDC micropayments for zero-configuration, multi-model trade execution.
-
-## Problems solved
-
-- Eliminates the complexity of juggling various exchange APIs
-- trading bots
-- and AI model API keys. Prevents the tediousness of prepaid credits by leveraging x402 protocols where a USDC wallet executes micro-transactions automatically
-- granting access to multiple AI models and exchanges seamlessly.
-
-## How to get started
-
-Using Linux/macOS, run `curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash` and navigate to `http://127.0.0.1:3000`. Set up a USDC wallet (if using x402) or API keys, attach an exchange, and define a strategy.
-
-## Detailed report
+# NoFxAiOS/nofx
 
 ### 1. Positioning
 NoFxAiOS/nofx is positioned as a nofx is an autonomous ai crypto and market trading assistant powered by standard apis or seamless x402 usdc micropayments for zero-configuration, multi-model trade execution. It aims to provide developers with a robust, Go-based solution for nofx is an open-source autonomous ai trading assistant. unlike traditional ai tools that require you to manually configure models, manage api keys, and wire up data sources - nofx's ai perceives markets, selects models, and fetches data entirely on its own. zero human intervention. you set the strategy, the ai handles everything else.

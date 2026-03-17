@@ -1,37 +1,19 @@
 ---
-title: "Snouzy/workout-cool"
+id: 1000235209
 repo_name: "Snouzy/workout-cool"
 url: "https://github.com/Snouzy/workout-cool"
-github_url: "https://github.com/Snouzy/workout-cool"
 stars: 7115
 language: "TypeScript"
-layout: repo
-tags:
-  - "Fitness"
-  - "Next.js"
-  - "Open-Source"
-  - "Self-Hosted"
-  - "Exercise-Database"
-  - "TypeScript"
-  - "PostgreSQL"
+tags: ["Fitness","Next.js","Open-Source","Self-Hosted","Exercise-Database","TypeScript","PostgreSQL"]
+original_description: "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exercise database."
+english_summary: "Workout.cool is a self-hostable, open-source Next.js fitness platform with workout planning, progress tracking, and an exercise database, built as a modern revival of the abandoned workout.lol project."
+chinese_summary: null
+problems_solved: "- Fills the gap left by the abandonment of workout.lol — providing the open-source fitness community with a maintained\n- modern platform that supports self-hosting\n- exercise video imports via CSV\n- and a clean Feature-Sliced Design architecture."
+how_to_use: "Clone the repo. Use `make dev` (Docker) or `pnpm install` + `pnpm dev` (manual). Set up PostgreSQL, run Prisma migrations, and optionally seed the exercise database from a CSV file with `pnpm run import:exercises-full`. Access at `localhost:3000`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Workout.cool is a self-hostable, open-source Next.js fitness platform with workout planning, progress tracking, and an exercise database, built as a modern revival of the abandoned workout.lol project.
-
-## Problems solved
-
-- Fills the gap left by the abandonment of workout.lol — providing the open-source fitness community with a maintained
-- modern platform that supports self-hosting
-- exercise video imports via CSV
-- and a clean Feature-Sliced Design architecture.
-
-## How to get started
-
-Clone the repo. Use `make dev` (Docker) or `pnpm install` + `pnpm dev` (manual). Set up PostgreSQL, run Prisma migrations, and optionally seed the exercise database from a CSV file with `pnpm run import:exercises-full`. Access at `localhost:3000`.
-
-## Detailed report
+# Snouzy/workout-cool
 
 ### 1. Positioning
 Snouzy/workout-cool is positioned as a workout.cool is a self-hostable, open-source next.js fitness platform with workout planning, progress tracking, and an exercise database, built as a modern revival of the abandoned workout.lol project. It aims to provide developers with a robust, TypeScript-based solution for 🏋 modern open-source fitness coaching platform. create workout plans, track progress, and access a comprehensive exercise database.

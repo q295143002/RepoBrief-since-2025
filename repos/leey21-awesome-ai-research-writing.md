@@ -1,29 +1,19 @@
 ---
-title: "Leey21/awesome-ai-research-writing"
+id: 1145786318
 repo_name: "Leey21/awesome-ai-research-writing"
 url: "https://github.com/Leey21/awesome-ai-research-writing"
-github_url: "https://github.com/Leey21/awesome-ai-research-writing"
 stars: 11757
-language: ""
-layout: repo
-tags:
-  - "TypeScript"
-  - "RAG"
+language: null
+tags: ["TypeScript","RAG"]
+original_description: "Make AI Writing Better for Everyone"
+english_summary: "An expertly compiled repository detailing explicit Prompt Engineering techniques formatting specifically Academic Paper writing processes optimizing precisely model outputs satisfying exactly top-tier journal aesthetics seamlessly."
+chinese_summary: null
+problems_solved: "Reduces massively the incredibly painful prompt iterative cycles required generating completely rigorous academic syntax preventing entirely hallucinated metrics tracking exactly specific scientific formatting parameters flawlessly."
+how_to_use: "Evaluate explicitly the provided Prompt templates pasting specifically directly your conceptual Chinese logic checking exactly explicit LaTeX translation matrices parsing accurately generated outcomes smoothly."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An expertly compiled repository detailing explicit Prompt Engineering techniques formatting specifically Academic Paper writing processes optimizing precisely model outputs satisfying exactly top-tier journal aesthetics seamlessly.
-
-## Problems solved
-
-Reduces massively the incredibly painful prompt iterative cycles required generating completely rigorous academic syntax preventing entirely hallucinated metrics tracking exactly specific scientific formatting parameters flawlessly.
-
-## How to get started
-
-Evaluate explicitly the provided Prompt templates pasting specifically directly your conceptual Chinese logic checking exactly explicit LaTeX translation matrices parsing accurately generated outcomes smoothly.
-
-## Detailed report
+# Leey21/awesome-ai-research-writing
 
 ### 1. Positioning
 This repository operates precisely establishing a standardized collaborative Prompts library serving exclusively the rigorous demands defining top-tier computational research institutions optimizing dynamically how analysts interface utilizing deep-learning writing assistance natively.

@@ -1,36 +1,19 @@
 ---
-title: "HKUDS/DeepCode"
+id: 983246568
 repo_name: "HKUDS/DeepCode"
 url: "https://github.com/HKUDS/DeepCode"
-github_url: "https://github.com/HKUDS/DeepCode"
 stars: 14865
 language: "Python"
-layout: repo
-tags:
-  - "Multi-Agent"
-  - "Software Engineering"
-  - "Code Generation"
-  - "HKUDS"
-  - "Auto-Programming"
-  - "QA Automation"
-  - "Sandboxing"
+tags: ["Multi-Agent","Software Engineering","Code Generation","HKUDS","Auto-Programming","QA Automation","Sandboxing"]
+original_description: "DeepCode: An AI-powered platform for automating code generation and implementation tasks."
+english_summary: "A sophisticated multi-agent AI system for automating large-scale software generation and implementation tasks."
+chinese_summary: null
+problems_solved: "- Failure of single-prompt LLMs on complex, multi-file codebases\n- Gap between theoretical research papers and functional implementations\n- Lack of automated QA loops in generated software projects"
+how_to_use: "Clone the repo and configure your `.env` keys. Use scripts like `paper2code` to translate scientific papers into functional software repositories."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A sophisticated multi-agent AI system for automating large-scale software generation and implementation tasks.
-
-## Problems solved
-
-- Failure of single-prompt LLMs on complex, multi-file codebases
-- Gap between theoretical research papers and functional implementations
-- Lack of automated QA loops in generated software projects
-
-## How to get started
-
-Clone the repo and configure your `.env` keys. Use scripts like `paper2code` to translate scientific papers into functional software repositories.
-
-## Detailed report
+# HKUDS/DeepCode
 
 ### 1. Positioning
 DeepCode by HKUDS is an advanced multi-agent software engineering platform acting as a virtual team for generating tested repositories from high-level text.

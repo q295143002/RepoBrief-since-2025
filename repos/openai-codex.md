@@ -1,36 +1,19 @@
 ---
-title: "openai/codex"
+id: 965415649
 repo_name: "openai/codex"
 url: "https://github.com/openai/codex"
-github_url: "https://github.com/openai/codex"
 stars: 65014
 language: "Rust"
-layout: repo
-tags:
-  - "Codex"
-  - "OpenAI"
-  - "Code Generation"
-  - "GPT-3"
-  - "AI Research"
-  - "Benchmarks"
-  - "Developer Tools"
+tags: ["Codex","OpenAI","Code Generation","GPT-3","AI Research","Benchmarks","Developer Tools"]
+original_description: "OpenAI Codex is the foundational model powering GitHub Copilot. This repository provides demonstration scripts and evaluation datasets to understand its coding capabilities."
+english_summary: "Foundational code generation research repository demonstrating OpenAI's Codex model capabilities."
+chinese_summary: "OpenAI Codex 是驱动 GitHub Copilot 的底座模型，能够根据自然语言意图自动编写代码、解释逻辑并提供重构建议。"
+problems_solved: "- Inefficiency in manual repetitive coding patterns and boilerplate writing\n- High barrier for new developers to join codebases with complex, unfamiliar syntax\n- Lack of high-quality, standardized benchmarks for evaluating AI code generation"
+how_to_use: "Requires an OpenAI API Key. Clone the repo and run evaluation scripts like `python scripts/demo_generation.py` to test the model's performance on code tasks."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Foundational code generation research repository demonstrating OpenAI's Codex model capabilities.
-
-## Problems solved
-
-- Inefficiency in manual repetitive coding patterns and boilerplate writing
-- High barrier for new developers to join codebases with complex, unfamiliar syntax
-- Lack of high-quality, standardized benchmarks for evaluating AI code generation
-
-## How to get started
-
-Requires an OpenAI API Key. Clone the repo and run evaluation scripts like `python scripts/demo_generation.py` to test the model's performance on code tasks.
-
-## Detailed report
+# openai/codex
 
 ### 1. Positioning
 OpenAI Codex is the historical and technical foundation of modern AI-assisted coding. This repository serves as a research baseline and evaluation suite, showcasing the model's ability to translate natural language into functioning code samples across multiple languages.

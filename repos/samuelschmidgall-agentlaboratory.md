@@ -1,33 +1,19 @@
 ---
-title: "SamuelSchmidgall/AgentLaboratory"
+id: 913598542
 repo_name: "SamuelSchmidgall/AgentLaboratory"
 url: "https://github.com/SamuelSchmidgall/AgentLaboratory"
-github_url: "https://github.com/SamuelSchmidgall/AgentLaboratory"
 stars: 5374
 language: "Python"
-layout: repo
-tags:
-  - "Scientific AI"
-  - "Research Agent"
-  - "Paper Analysis"
-  - "Scientific Computing"
+tags: ["Scientific AI","Research Agent","Paper Analysis","Scientific Computing"]
+original_description: "Agent Laboratory is an end-to-end autonomous research workflow meant to assist you as the human researcher toward implementing your research ideas"
+english_summary: "An autonomous agentic laboratory for scientific research and automated paper analysis."
+chinese_summary: null
+problems_solved: "- High manual effort in reviewing scientific literature\n- Difficulty in orchestrating complex research experiments\n- Lack of reproducibility in agent-driven scientific workflows"
+how_to_use: "Clone the repo, install dependencies, and run the main entry point to start a research session."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An autonomous agentic laboratory for scientific research and automated paper analysis.
-
-## Problems solved
-
-- High manual effort in reviewing scientific literature
-- Difficulty in orchestrating complex research experiments
-- Lack of reproducibility in agent-driven scientific workflows
-
-## How to get started
-
-Clone the repo, install dependencies, and run the main entry point to start a research session.
-
-## Detailed report
+# SamuelSchmidgall/AgentLaboratory
 
 ### 1. Positioning
 SamuelSchmidgall/AgentLaboratory is positioned as a an autonomous agentic laboratory for scientific research and automated paper analysis. It aims to provide developers with a robust, Python-based solution for agent laboratory is an end-to-end autonomous research workflow meant to assist you as the human researcher toward implementing your research ideas.

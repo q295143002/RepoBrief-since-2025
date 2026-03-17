@@ -1,36 +1,19 @@
 ---
-title: "alibaba/page-agent"
+id: 1062458369
 repo_name: "alibaba/page-agent"
 url: "https://github.com/alibaba/page-agent"
-github_url: "https://github.com/alibaba/page-agent"
 stars: 6782
 language: "TypeScript"
-layout: repo
-tags:
-  - "Alibaba"
-  - "Browser-Automation"
-  - "Web-Agent"
-  - "TypeScript"
-  - "LLM"
-  - "No-Code"
-  - "Open-Source"
+tags: ["Alibaba","Browser-Automation","Web-Agent","TypeScript","LLM","No-Code","Open-Source"]
+original_description: "JavaScript in-page GUI agent. Control web interfaces with natural language."
+english_summary: "PageAgent (alibaba/page-agent) is a pure client-side JavaScript library that embeds an AI GUI agent directly inside any webpage, enabling natural-language control of UI elements through text-based DOM analysis — no screenshots, no Python, no browser extensions required."
+chinese_summary: null
+problems_solved: "- Eliminates the need for a separate headless browser or server-side automation infrastructure to build AI copilots and smart form-filling in web apps — everything runs in-page in pure JS with any LLM (Qwen\n- OpenAI\n- etc.)."
+how_to_use: "One-line CDN integration: add a `<script>` tag with the IIFE bundle. Or `npm install page-agent` and initialize `new PageAgent({ model, baseURL, apiKey })`. Call `await agent.execute('Click the login button')`. An optional Chrome extension enables multi-tab tasks."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-PageAgent (alibaba/page-agent) is a pure client-side JavaScript library that embeds an AI GUI agent directly inside any webpage, enabling natural-language control of UI elements through text-based DOM analysis — no screenshots, no Python, no browser extensions required.
-
-## Problems solved
-
-- Eliminates the need for a separate headless browser or server-side automation infrastructure to build AI copilots and smart form-filling in web apps — everything runs in-page in pure JS with any LLM (Qwen
-- OpenAI
-- etc.).
-
-## How to get started
-
-One-line CDN integration: add a `<script>` tag with the IIFE bundle. Or `npm install page-agent` and initialize `new PageAgent({ model, baseURL, apiKey })`. Call `await agent.execute('Click the login button')`. An optional Chrome extension enables multi-tab tasks.
-
-## Detailed report
+# alibaba/page-agent
 
 ### 1. Positioning
 alibaba/page-agent is positioned as a pageagent (alibaba/page-agent) is a pure client-side javascript library that embeds an ai gui agent directly inside any webpage, enabling natural-language control of ui elements through text-based dom analysis — no screenshots, no python, no browser extensions required. It aims to provide developers with a robust, TypeScript-based solution for javascript in-page gui agent. control web interfaces with natural language.

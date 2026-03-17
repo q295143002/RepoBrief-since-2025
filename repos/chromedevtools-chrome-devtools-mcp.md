@@ -1,36 +1,19 @@
 ---
-title: "ChromeDevTools/chrome-devtools-mcp"
+id: 1054793726
 repo_name: "ChromeDevTools/chrome-devtools-mcp"
 url: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-github_url: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 stars: 28759
 language: "TypeScript"
-layout: repo
-tags:
-  - "Chrome DevTools"
-  - "MCP"
-  - "Debugging"
-  - "Web Development"
-  - "Performance Audit"
-  - "TypeScript"
-  - "CDP"
+tags: ["Chrome DevTools","MCP","Debugging","Web Development","Performance Audit","TypeScript","CDP"]
+original_description: "Chrome-DevTools-MCP: A Model Context Protocol server that gives AI agents direct access to Chrome's developer tools for debugging and auditing."
+english_summary: "An official MCP server for AI-driven browser debugging and performance auditing via Chrome DevTools."
+chinese_summary: null
+problems_solved: "- AI agents lacking the 'technical vision' into network logs, console errors, and performance traces.\n- Slow manual process of auditing accessibility (WCAG) and SEO for web applications.\n- Inability of AI to 'live-debug' JavaScript execution inside a running browser."
+how_to_use: "npx chrome-devtools-mcp@latest"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An official MCP server for AI-driven browser debugging and performance auditing via Chrome DevTools.
-
-## Problems solved
-
-- AI agents lacking the 'technical vision' into network logs, console errors, and performance traces.
-- Slow manual process of auditing accessibility (WCAG) and SEO for web applications.
-- Inability of AI to 'live-debug' JavaScript execution inside a running browser.
-
-## How to get started
-
-npx chrome-devtools-mcp@latest
-
-## Detailed report
+# ChromeDevTools/chrome-devtools-mcp
 
 ### 1. Positioning
 Chrome-DevTools-MCP is a powerful bridge between AI and the Chrome DevTools Protocol (CDP). It allows AI agents to perform professional-grade web audits, debug console errors, and inspect network traffic, effectively giving the AI the same tools as a senior web developer.

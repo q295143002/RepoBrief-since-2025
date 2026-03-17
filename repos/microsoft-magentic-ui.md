@@ -1,31 +1,19 @@
 ---
-title: "microsoft/magentic-ui"
+id: 978331188
 repo_name: "microsoft/magentic-ui"
 url: "https://github.com/microsoft/magentic-ui"
-github_url: "https://github.com/microsoft/magentic-ui"
 stars: 9717
 language: "Python"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Web Automation"
-  - "Human-in-the-loop"
-  - "Microsoft Research"
+tags: ["AI Agent","Web Automation","Human-in-the-loop","Microsoft Research"]
+original_description: "Magentic-UI: A research prototype human-centered AI agent for complex web and coding tasks. Built by Microsoft Research with a focus on 'Co-Planning' and controllable execution."
+english_summary: "Magentic-UI is a Microsoft Research project that provides a transparent, controllable web-browsing agent featuring a human-in-the-loop plan editor and multi-agent orchestration."
+chinese_summary: null
+problems_solved: "- Solves the 'Black Box' problem of autonomous agents by exposing a Step-by-Step plan editor for user guidance; automates long-running monitoring tasks ('Tell me When'); manages sensitive web actions through explicit 'Action Guards'."
+how_to_use: "Requires Docker and Python 3.10+. Install via `pip install magentic-ui`, set your `OPENAI_API_KEY`, and launch with `magentic-ui --port 8081`. Access the dashboard in your browser to start co-planning tasks."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Magentic-UI is a Microsoft Research project that provides a transparent, controllable web-browsing agent featuring a human-in-the-loop plan editor and multi-agent orchestration.
-
-## Problems solved
-
-- Solves the 'Black Box' problem of autonomous agents by exposing a Step-by-Step plan editor for user guidance; automates long-running monitoring tasks ('Tell me When'); manages sensitive web actions through explicit 'Action Guards'.
-
-## How to get started
-
-Requires Docker and Python 3.10+. Install via `pip install magentic-ui`, set your `OPENAI_API_KEY`, and launch with `magentic-ui --port 8081`. Access the dashboard in your browser to start co-planning tasks.
-
-## Detailed report
+# microsoft/magentic-ui
 
 ### 1. Positioning
 Magentic-UI is a research-centric platform from Microsoft targeting human-AI interaction (HAI) researchers and developers. It is uniquely focused on 'Human-Centered AI', where the agent is a collaborator rather than a fully autonomous (and often silent) operator.

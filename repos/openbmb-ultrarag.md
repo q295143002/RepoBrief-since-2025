@@ -1,33 +1,19 @@
 ---
-title: "OpenBMB/UltraRAG"
+id: 917628875
 repo_name: "OpenBMB/UltraRAG"
 url: "https://github.com/OpenBMB/UltraRAG"
-github_url: "https://github.com/OpenBMB/UltraRAG"
 stars: 5459
 language: "Python"
-layout: repo
-tags:
-  - "RAG"
-  - "Enterprise-AI"
-  - "Vector-Database"
-  - "Retrieval-Systems"
-  - "Information-Extraction"
-  - "Python"
+tags: ["RAG","Enterprise-AI","Vector-Database","Retrieval-Systems","Information-Extraction","Python"]
+original_description: "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines"
+english_summary: "A high-performance RAG framework designed for enterprise-scale retrieval, supporting billion-scale vector indices and complex reasoning pipelines."
+chinese_summary: null
+problems_solved: "- Performance bottlenecks in standard RAG when dealing with massive datasets; high latency in multi-hop retrieval; lack of robustness in commercial 'black-box' RAG solutions."
+how_to_use: "Requires Python 3.10+; install via 'pip install ultrarag'; configure vector store (Milvus/FAISS); use the provided API to index documents and perform semantic queries."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-performance RAG framework designed for enterprise-scale retrieval, supporting billion-scale vector indices and complex reasoning pipelines.
-
-## Problems solved
-
-- Performance bottlenecks in standard RAG when dealing with massive datasets; high latency in multi-hop retrieval; lack of robustness in commercial 'black-box' RAG solutions.
-
-## How to get started
-
-Requires Python 3.10+; install via 'pip install ultrarag'; configure vector store (Milvus/FAISS); use the provided API to index documents and perform semantic queries.
-
-## Detailed report
+# OpenBMB/UltraRAG
 
 ### 1. Positioning
 OpenBMB/UltraRAG is positioned as a a high-performance rag framework designed for enterprise-scale retrieval, supporting billion-scale vector indices and complex reasoning pipelines. It aims to provide developers with a robust, Python-based solution for a low-code mcp framework for building complex and innovative rag pipelines.

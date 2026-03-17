@@ -1,39 +1,19 @@
 ---
-title: "HKUDS/ClawWork"
+id: 1158605484
 repo_name: "HKUDS/ClawWork"
 url: "https://github.com/HKUDS/ClawWork"
-github_url: "https://github.com/HKUDS/ClawWork"
 stars: 7130
 language: "Python"
-layout: repo
-tags:
-  - "Benchmark"
-  - "AI-Agent"
-  - "Economics"
-  - "GDPVal"
-  - "Python"
-  - "Research"
-  - "Multi-Model"
+tags: ["Benchmark","AI-Agent","Economics","GDPVal","Python","Research","Multi-Model"]
+original_description: "\"ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours\""
+english_summary: "ClawWork is an open-source economic survival benchmark from HKUDS where AI agents start with $10, complete 220 GDPVal professional tasks across 44 occupations to earn income, and pay for every LLM token, with a real-time React dashboard showing the economic drama."
+chinese_summary: null
+problems_solved: "- Replaces simplistic technical benchmarks with a realistic economic pressure test — measuring work quality\n- cost efficiency\n- and long-term solvency simultaneously across real-world professional tasks that require actual deliverables (Word docs\n- Excel\n- PDFs\n- data analysis)."
+how_to_use: "Clone the repo, set up the conda environment, install deps. Copy `.env.example` to `.env` and fill in `OPENAI_API_KEY`. Run `./start_dashboard.sh` for the dashboard and `./run_test_agent.sh` to launch an agent. Open `http://localhost:3000` to watch in real time."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ClawWork is an open-source economic survival benchmark from HKUDS where AI agents start with $10, complete 220 GDPVal professional tasks across 44 occupations to earn income, and pay for every LLM token, with a real-time React dashboard showing the economic drama.
-
-## Problems solved
-
-- Replaces simplistic technical benchmarks with a realistic economic pressure test — measuring work quality
-- cost efficiency
-- and long-term solvency simultaneously across real-world professional tasks that require actual deliverables (Word docs
-- Excel
-- PDFs
-- data analysis).
-
-## How to get started
-
-Clone the repo, set up the conda environment, install deps. Copy `.env.example` to `.env` and fill in `OPENAI_API_KEY`. Run `./start_dashboard.sh` for the dashboard and `./run_test_agent.sh` to launch an agent. Open `http://localhost:3000` to watch in real time.
-
-## Detailed report
+# HKUDS/ClawWork
 
 ### 1. Positioning
 HKUDS/ClawWork is positioned as a clawwork is an open-source economic survival benchmark from hkuds where ai agents start with $10, complete 220 gdpval professional tasks across 44 occupations to earn income, and pay for every llm token, with a real-time react dashboard showing the economic drama. It aims to provide developers with a robust, Python-based solution for "clawwork: openclaw as your ai coworker - 💰 $15k earned in 11 hours".

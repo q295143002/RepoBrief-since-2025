@@ -1,33 +1,19 @@
 ---
-title: "rednote-hilab/dots.ocr"
+id: 1028989499
 repo_name: "rednote-hilab/dots.ocr"
 url: "https://github.com/rednote-hilab/dots.ocr"
-github_url: "https://github.com/rednote-hilab/dots.ocr"
 stars: 7998
 language: "Python"
-layout: repo
-tags:
-  - "OCR"
-  - "VLM"
-  - "Open-Source-AI"
-  - "Document-Layout"
-  - "SVG-Parsing"
-  - "Multilingual"
+tags: ["OCR","VLM","Open-Source-AI","Document-Layout","SVG-Parsing","Multilingual"]
+original_description: "Multilingual Document Layout Parsing in a Single Vision-Language Model"
+english_summary: "A state-of-the-art multilingual OCR and image parsing model that converts document layout and complex graphics into structured text or SVG."
+chinese_summary: null
+problems_solved: "- Poor performance on non-Latin scripts; loss of structure (tables/formulas) during digitization; lack of tools for converting charts into code."
+how_to_use: "Requires Python 3.12 and PyTorch 2.7; deploy via vLLM for best performance using 'vllm serve rednote-hilab/dots.ocr-1.5'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A state-of-the-art multilingual OCR and image parsing model that converts document layout and complex graphics into structured text or SVG.
-
-## Problems solved
-
-- Poor performance on non-Latin scripts; loss of structure (tables/formulas) during digitization; lack of tools for converting charts into code.
-
-## How to get started
-
-Requires Python 3.12 and PyTorch 2.7; deploy via vLLM for best performance using 'vllm serve rednote-hilab/dots.ocr-1.5'.
-
-## Detailed report
+# rednote-hilab/dots.ocr
 
 ### 1. Positioning
 rednote-hilab/dots.ocr is positioned as a a state-of-the-art multilingual ocr and image parsing model that converts document layout and complex graphics into structured text or svg. It aims to provide developers with a robust, Python-based solution for multilingual document layout parsing in a single vision-language model.

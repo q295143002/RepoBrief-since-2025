@@ -1,36 +1,19 @@
 ---
-title: "FoundationAgents/OpenManus"
+id: 943934999
 repo_name: "FoundationAgents/OpenManus"
 url: "https://github.com/FoundationAgents/OpenManus"
-github_url: "https://github.com/FoundationAgents/OpenManus"
 stars: 55203
 language: "Python"
-layout: repo
-tags:
-  - "Autonomous Agent"
-  - "Web Navigation"
-  - "Manus"
-  - "Digital Assistant"
-  - "Playwright"
-  - "Task Automation"
-  - "AI Engineering"
+tags: ["Autonomous Agent","Web Navigation","Manus","Digital Assistant","Playwright","Task Automation","AI Engineering"]
+original_description: "OpenManus is a powerful, autonomous AI agent that is designed to perform complex digital searches and interactions. It functions as a general-purpose digital life assistant."
+english_summary: "An autonomous AI agent for universal digital task execution and deep research."
+chinese_summary: "OpenManus 是旨在复刻并增强自主 AI 代理能力的开源项目。它提供框架构建能自主计划、执行复杂任务（抓取、研究等）的助手。"
+problems_solved: "- Information overload and high cognitive cost of complex digital research\n- Fragmentation between searching, analyzing, and executing online actions (booking, shopping)\n- Limitations of 'chat-only' AI assistants that cannot autonomously interact with web interfaces"
+how_to_use: "Install via Python: `python setup.py install`. Run using the main script: `python run_manus.py --task 'Research and book the best value flight to Tokyo'`. Requires a browser driver (Playwright)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An autonomous AI agent for universal digital task execution and deep research.
-
-## Problems solved
-
-- Information overload and high cognitive cost of complex digital research
-- Fragmentation between searching, analyzing, and executing online actions (booking, shopping)
-- Limitations of 'chat-only' AI assistants that cannot autonomously interact with web interfaces
-
-## How to get started
-
-Install via Python: `python setup.py install`. Run using the main script: `python run_manus.py --task 'Research and book the best value flight to Tokyo'`. Requires a browser driver (Playwright).
-
-## Detailed report
+# FoundationAgents/OpenManus
 
 ### 1. Positioning
 OpenManus is an 'Agent with Hands.' It is a general-purpose autonomous assistant designed to navigate the web, reason through multi-step digital workflows, and perform actions on the user's behalf without constant supervision.

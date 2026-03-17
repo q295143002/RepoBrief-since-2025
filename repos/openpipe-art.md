@@ -1,32 +1,19 @@
 ---
-title: "OpenPipe/ART"
+id: 946178371
 repo_name: "OpenPipe/ART"
 url: "https://github.com/OpenPipe/ART"
-github_url: "https://github.com/OpenPipe/ART"
 stars: 9011
 language: "Python"
-layout: repo
-tags:
-  - "RL"
-  - "GRPO"
-  - "AI Agent"
-  - "vLLM"
-  - "Deep Learning"
+tags: ["RL","GRPO","AI Agent","vLLM","Deep Learning"]
+original_description: "Agent Reinforcement Trainer (ART): Train multi-step agents for real-world tasks using GRPO. Improvements through experience."
+english_summary: "ART (Agent Reinforcement Trainer) is an open-source RL framework that enables LLMs to improve their tool-use and reasoning through experience, providing a managed harness for GRPO (Group Relative Policy Optimization)."
+chinese_summary: null
+problems_solved: "- Solves the 'reliability gap' in multi-step agents where fine-tuning isn't enough; overcomes the infrastructure headache of RL loops (inference vs training); eliminates the need for labeled data by allowing agents to learn from environment rewards (RULER)."
+how_to_use: "Install via `pip install openpipe-art`. Define a `TrainableModel` and a `ServerlessBackend` (W&B/OpenPipe). Run agentic rollouts, assign rewards to 'Trajectories', and the framework will automatically group them for GRPO training on the backend."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ART (Agent Reinforcement Trainer) is an open-source RL framework that enables LLMs to improve their tool-use and reasoning through experience, providing a managed harness for GRPO (Group Relative Policy Optimization).
-
-## Problems solved
-
-- Solves the 'reliability gap' in multi-step agents where fine-tuning isn't enough; overcomes the infrastructure headache of RL loops (inference vs training); eliminates the need for labeled data by allowing agents to learn from environment rewards (RULER).
-
-## How to get started
-
-Install via `pip install openpipe-art`. Define a `TrainableModel` and a `ServerlessBackend` (W&B/OpenPipe). Run agentic rollouts, assign rewards to 'Trajectories', and the framework will automatically group them for GRPO training on the backend.
-
-## Detailed report
+# OpenPipe/ART
 
 ### 1. Positioning
 ART is a 'Production-Grade Optimizer' for the agentic stack. It targets developers building high-stakes agents (Email research, Coding, Games) who have reached the limits of few-shot prompting and standard SFT and need their models to 'figure it out' via reinforcement learning.

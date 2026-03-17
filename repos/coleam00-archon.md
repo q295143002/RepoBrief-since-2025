@@ -1,31 +1,19 @@
 ---
-title: "coleam00/Archon"
+id: 929121414
 repo_name: "coleam00/Archon"
 url: "https://github.com/coleam00/Archon"
-github_url: "https://github.com/coleam00/Archon"
 stars: 13757
 language: "Python"
-layout: repo
-tags:
-  - "MCP"
-  - "Server"
-  - "AI Agent"
-  - "Knowledge Management"
+tags: ["MCP","Server","AI Agent","Knowledge Management"]
+original_description: "An MCP server and command center for AI coding assistants."
+english_summary: "Archon functions as a centralized Model Context Protocol (MCP) server managing context, AI integration, and task coordination for coding assistants."
+chinese_summary: null
+problems_solved: "- Improves AI software agents by serving as an advanced knowledge and task orchestration middle-layer that easily integrates with standard MCP clients."
+how_to_use: "Install via `npx @archon/mcp`. Configure your MCP-compatible IDE (e.g., Cursor, Windsurf) to point to the Archon server endpoint."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Archon functions as a centralized Model Context Protocol (MCP) server managing context, AI integration, and task coordination for coding assistants.
-
-## Problems solved
-
-- Improves AI software agents by serving as an advanced knowledge and task orchestration middle-layer that easily integrates with standard MCP clients.
-
-## How to get started
-
-Install via `npx @archon/mcp`. Configure your MCP-compatible IDE (e.g., Cursor, Windsurf) to point to the Archon server endpoint.
-
-## Detailed report
+# coleam00/Archon
 
 ### 1. Positioning
 Archon is an intelligent Model Context Protocol (MCP) backbone targeted at developers aiming to supercharge AI coding assistants via external, managed knowledge networks and tools.

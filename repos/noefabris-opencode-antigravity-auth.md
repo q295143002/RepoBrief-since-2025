@@ -1,32 +1,19 @@
 ---
-title: "NoeFabris/opencode-antigravity-auth"
+id: 1113403973
 repo_name: "NoeFabris/opencode-antigravity-auth"
 url: "https://github.com/NoeFabris/opencode-antigravity-auth"
-github_url: "https://github.com/NoeFabris/opencode-antigravity-auth"
 stars: 9485
 language: "TypeScript"
-layout: repo
-tags:
-  - "Opencode"
-  - "Google OAuth"
-  - "Gemini"
-  - "Claude"
-  - "AI Infrastructure"
+tags: ["Opencode","Google OAuth","Gemini","Claude","AI Infrastructure"]
+original_description: "opencode-antigravity-auth: Antigravity + Gemini CLI OAuth Plugin for Opencode. Enable Opencode to authenticate against Google via OAuth."
+english_summary: "This Opencode plugin enables Google OAuth, allowing developers to access Antigravity rate limits and premium models like Gemini 3.1 and Claude 4.6 using their Google credentials."
+chinese_summary: null
+problems_solved: "- Solves the 'API Key' barrier for Google-hosted models by using native OAuth; provides multi-account rotation to bypass rate-limits; enables 'extended thinking' and 'Google Search grounding' for Gemini models within the Opencode CLI."
+how_to_use: "Add `opencode-antigravity-auth` to your `opencode.json` plugin list. Run `opencode auth login` and follow the Google OAuth flow. Configure models in your JSON config to point to the `google` provider."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-This Opencode plugin enables Google OAuth, allowing developers to access Antigravity rate limits and premium models like Gemini 3.1 and Claude 4.6 using their Google credentials.
-
-## Problems solved
-
-- Solves the 'API Key' barrier for Google-hosted models by using native OAuth; provides multi-account rotation to bypass rate-limits; enables 'extended thinking' and 'Google Search grounding' for Gemini models within the Opencode CLI.
-
-## How to get started
-
-Add `opencode-antigravity-auth` to your `opencode.json` plugin list. Run `opencode auth login` and follow the Google OAuth flow. Configure models in your JSON config to point to the `google` provider.
-
-## Detailed report
+# NoeFabris/opencode-antigravity-auth
 
 ### 1. Positioning
 This plugin is a critical infrastructure piece for the Opencode (formerly Claude Code-compatible) ecosystem. It targets developers who want to unify their AI toolchain under their Google account, leveraging professional quotas for both Claude and Gemini models.

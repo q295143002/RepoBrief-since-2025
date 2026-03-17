@@ -1,38 +1,19 @@
 ---
-title: "LuckyOne7777/LLM-Trading-Lab"
+id: 1017076804
 repo_name: "LuckyOne7777/LLM-Trading-Lab"
 url: "https://github.com/LuckyOne7777/LLM-Trading-Lab"
-github_url: "https://github.com/LuckyOne7777/LLM-Trading-Lab"
 stars: 7423
 language: "Python"
-layout: repo
-tags:
-  - "LLM"
-  - "Trading"
-  - "Finance"
-  - "ChatGPT"
-  - "Research"
-  - "Benchmark"
-  - "Python"
+tags: ["LLM","Trading","Finance","ChatGPT","Research","Benchmark","Python"]
+original_description: "This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio."
+english_summary: "A transparent, forward-only research framework documenting a live experiment in which ChatGPT autonomously manages a real micro-cap stock portfolio starting with $100, with full logs, evaluation PDFs, and analysis code."
+chinese_summary: null
+problems_solved: "- Provides empirical\n- public benchmarks on whether LLMs can generate alpha in active trading\n- combating anecdotal AI investing hype with measurable\n- forward-only\n- transparently logged portfolio performance data."
+how_to_use: "Clone the repository and run `trading_script.py` to simulate or continue an AI-managed trading session. Explore `csv_files/` for historical trades and `evaluation/` for research reports. Install dependencies via `pip install -r requirements.txt`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A transparent, forward-only research framework documenting a live experiment in which ChatGPT autonomously manages a real micro-cap stock portfolio starting with $100, with full logs, evaluation PDFs, and analysis code.
-
-## Problems solved
-
-- Provides empirical
-- public benchmarks on whether LLMs can generate alpha in active trading
-- combating anecdotal AI investing hype with measurable
-- forward-only
-- transparently logged portfolio performance data.
-
-## How to get started
-
-Clone the repository and run `trading_script.py` to simulate or continue an AI-managed trading session. Explore `csv_files/` for historical trades and `evaluation/` for research reports. Install dependencies via `pip install -r requirements.txt`.
-
-## Detailed report
+# LuckyOne7777/LLM-Trading-Lab
 
 ### 1. Positioning
 LuckyOne7777/LLM-Trading-Lab is positioned as a a transparent, forward-only research framework documenting a live experiment in which chatgpt autonomously manages a real micro-cap stock portfolio starting with $100, with full logs, evaluation pdfs, and analysis code. It aims to provide developers with a robust, Python-based solution for this repo powers my experiment where chatgpt manages a real-money micro-cap stock portfolio.

@@ -1,37 +1,19 @@
 ---
-title: "permissionlesstech/bitchat"
+id: 1013830656
 repo_name: "permissionlesstech/bitchat"
 url: "https://github.com/permissionlesstech/bitchat"
-github_url: "https://github.com/permissionlesstech/bitchat"
 stars: 25352
 language: "Swift"
-layout: repo
-tags:
-  - "P2P"
-  - "Privacy"
-  - "Encrypted Chat"
-  - "AI Privacy"
-  - "Decentralized Identity"
-  - "Local AI"
-  - "WebLLM"
+tags: ["P2P","Privacy","Encrypted Chat","AI Privacy","Decentralized Identity","Local AI","WebLLM"]
+original_description: "BitChat: A peer-to-peer, encrypted AI chat application that ensures no central server ever sees your conversation history or model interactions."
+english_summary: "A zero-knowledge, P2P AI chat platform focusing on extreme privacy and local data ownership."
+chinese_summary: null
+problems_solved: "- Privacy concerns regarding AI companies storing and training on private user conversations.\n- Risk of 'centralized leak' of personal or enterprise secrets from AI logs.\n- Inability to use AI in air-gapped or high-security environments."
+how_to_use: "npm install -g @permissionlesstech/bitchat\nbitchat init --local-only"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A zero-knowledge, P2P AI chat platform focusing on extreme privacy and local data ownership.
-
-## Problems solved
-
-- Privacy concerns regarding AI companies storing and training on private user conversations.
-- Risk of 'centralized leak' of personal or enterprise secrets from AI logs.
-- Inability to use AI in air-gapped or high-security environments.
-
-## How to get started
-
-npm install -g @permissionlesstech/bitchat
-bitchat init --local-only
-
-## Detailed report
+# permissionlesstech/bitchat
 
 ### 1. Positioning
 BitChat is a privacy-first AI communication layer. It uses peer-to-peer networking (LibP2P) and end-to-end encryption to facilitate conversations between users and AI models, ensuring that data is either local-only or cryptographically shielded from intermediaries.

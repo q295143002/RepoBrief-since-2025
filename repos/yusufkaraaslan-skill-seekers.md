@@ -1,36 +1,19 @@
 ---
-title: "yusufkaraaslan/Skill_Seekers"
+id: 1078319457
 repo_name: "yusufkaraaslan/Skill_Seekers"
 url: "https://github.com/yusufkaraaslan/Skill_Seekers"
-github_url: "https://github.com/yusufkaraaslan/Skill_Seekers"
 stars: 10764
 language: "Python"
-layout: repo
-tags:
-  - "AI"
-  - "Data Layer"
-  - "RAG"
-  - "Documentation"
-  - "Extraction"
+tags: ["AI","Data Layer","RAG","Documentation","Extraction"]
+original_description: "The data layer for AI systems. Skill Seekers turns any documentation, GitHub repo, PDF, or video into structured knowledge assets—ready to power AI Skills (Claude, Gemini, OpenAI), RAG pipelines (LangChain, LlamaIndex, Pinecone), and AI coding assistants (Cursor, Windsurf, Cline) in minutes, not hours."
+english_summary: "Skill Seekers is a universal data layer that transforms diverse content sources like docs, repos, PDFs, and videos into structured knowledge assets for immediate use in AI models, RAG pipelines, and coding assistants."
+chinese_summary: null
+problems_solved: "- Eliminates the tedious manual data preparation process required to build AI skills and RAG pipelines; unifies extraction from diverse sources (docs\n- GitHub\n- PDFs\n- videos) into standardized\n- high-quality skill structures or chunked documents; efficiently bridges the gap between raw data and platform-specific formats like LangChain or Claude Code."
+how_to_use: "Install via `pip install skill-seekers` (or `pip install skill-seekers[all-llms]` for full features). Scrape and process a source using `skill-seekers create https://docs.react.dev/`, then export the result to an AI target with `skill-seekers package output/react --target claude`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Skill Seekers is a universal data layer that transforms diverse content sources like docs, repos, PDFs, and videos into structured knowledge assets for immediate use in AI models, RAG pipelines, and coding assistants.
-
-## Problems solved
-
-- Eliminates the tedious manual data preparation process required to build AI skills and RAG pipelines; unifies extraction from diverse sources (docs
-- GitHub
-- PDFs
-- videos) into standardized
-- high-quality skill structures or chunked documents; efficiently bridges the gap between raw data and platform-specific formats like LangChain or Claude Code.
-
-## How to get started
-
-Install via `pip install skill-seekers` (or `pip install skill-seekers[all-llms]` for full features). Scrape and process a source using `skill-seekers create https://docs.react.dev/`, then export the result to an AI target with `skill-seekers package output/react --target claude`.
-
-## Detailed report
+# yusufkaraaslan/Skill_Seekers
 
 ### 1. Positioning
 yusufkaraaslan/Skill_Seekers is positioned as a skill seekers is a universal data layer that transforms diverse content sources like docs, repos, pdfs, and videos into structured knowledge assets for immediate use in ai models, rag pipelines, and coding assistants. It aims to provide developers with a robust, Python-based solution for the data layer for ai systems. skill seekers turns any documentation, github repo, pdf, or video into structured knowledge assets—ready to power ai skills (claude, gemini, openai), rag pipelines (langchain, llamaindex, pinecone), and ai coding assistants (cursor, windsurf, cline) in minutes, not hours.

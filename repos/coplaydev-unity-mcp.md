@@ -1,34 +1,19 @@
 ---
-title: "CoplayDev/unity-mcp"
+id: 950564038
 repo_name: "CoplayDev/unity-mcp"
 url: "https://github.com/CoplayDev/unity-mcp"
-github_url: "https://github.com/CoplayDev/unity-mcp"
 stars: 6988
 language: "C#"
-layout: repo
-tags:
-  - "Unity"
-  - "GameDev"
-  - "MCP"
-  - "3D AI"
-  - "Automation"
+tags: ["Unity","GameDev","MCP","3D AI","Automation"]
+original_description: "Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity."
+english_summary: "A bridge protocol connecting the Unity 3D engine with the Model Context Protocol for AI-assisted game development."
+chinese_summary: null
+problems_solved: "- Extreme complexity in scripting complex game behaviors manually\n- Lack of agentic awareness of 3D scenes and object hierarchies\n- Difficulty in automated testing of 3D game logic"
+how_to_use: "Install the Unity plugin and connect it to your MCP host to enable AI-driven game editing."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A bridge protocol connecting the Unity 3D engine with the Model Context Protocol for AI-assisted game development.
-
-## Problems solved
-
-- Extreme complexity in scripting complex game behaviors manually
-- Lack of agentic awareness of 3D scenes and object hierarchies
-- Difficulty in automated testing of 3D game logic
-
-## How to get started
-
-Install the Unity plugin and connect it to your MCP host to enable AI-driven game editing.
-
-## Detailed report
+# CoplayDev/unity-mcp
 
 ### 1. Positioning
 CoplayDev/unity-mcp is positioned as a a bridge protocol connecting the unity 3d engine with the model context protocol for ai-assisted game development. It aims to provide developers with a robust, C#-based solution for unity mcp acts as a bridge, allowing ai assistants (like claude, cursor) to interact directly with your unity editor via a local mcp (model context protocol) client. give your llm tools to manage assets, control scenes, edit scripts, and automate tasks within unity.

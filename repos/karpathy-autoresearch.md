@@ -1,38 +1,19 @@
 ---
-title: "karpathy/autoresearch"
+id: 1174820787
 repo_name: "karpathy/autoresearch"
 url: "https://github.com/karpathy/autoresearch"
-github_url: "https://github.com/karpathy/autoresearch"
 stars: 29930
 language: "Python"
-layout: repo
-tags:
-  - "AI Research"
-  - "Andrej Karpathy"
-  - "ArXiv"
-  - "Automation"
-  - "Scientific Research"
-  - "Python"
-  - "Paper Synthesis"
+tags: ["AI Research","Andrej Karpathy","ArXiv","Automation","Scientific Research","Python","Paper Synthesis"]
+original_description: "AutoResearch: An AI system by Karpathy designed to automate the research workflow, including paper searching, analysis, and report generation."
+english_summary: "Andrej Karpathy's autonomous AI research agent for automated paper ingestion and synthesis."
+chinese_summary: null
+problems_solved: "- Information overload in rapidly moving scientific fields (like AI).\n- Time-consuming task of manually reading, summarizing, and connecting new research papers.\n- Difficulty in maintaining a cross-referenced database of citations and benchmarks."
+how_to_use: "git clone https://github.com/karpathy/autoresearch\npip install -r requirements.txt\npython research.py --topic 'Reinforcement Learning from Task Feedback'"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Andrej Karpathy's autonomous AI research agent for automated paper ingestion and synthesis.
-
-## Problems solved
-
-- Information overload in rapidly moving scientific fields (like AI).
-- Time-consuming task of manually reading, summarizing, and connecting new research papers.
-- Difficulty in maintaining a cross-referenced database of citations and benchmarks.
-
-## How to get started
-
-git clone https://github.com/karpathy/autoresearch
-pip install -r requirements.txt
-python research.py --topic 'Reinforcement Learning from Task Feedback'
-
-## Detailed report
+# karpathy/autoresearch
 
 ### 1. Positioning
 AutoResearch is an experimental project by Andrej Karpathy that automates the scientific research cycle. It searches ArXiv, downloads relevant PDFs, analyzes their methodologies, and cross-references them to generate a comprehensive 'State-of-the-Field' report. Targeted at researchers and deep learners.

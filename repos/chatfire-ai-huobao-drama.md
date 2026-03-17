@@ -1,32 +1,19 @@
 ---
-title: "chatfire-AI/huobao-drama"
+id: 1128267392
 repo_name: "chatfire-AI/huobao-drama"
 url: "https://github.com/chatfire-AI/huobao-drama"
-github_url: "https://github.com/chatfire-AI/huobao-drama"
 stars: 8800
 language: "Vue"
-layout: repo
-tags:
-  - "Video Generation"
-  - "AI Drama"
-  - "Go"
-  - "Vue"
-  - "Full-Stack"
+tags: ["Video Generation","AI Drama","Go","Vue","Full-Stack"]
+original_description: "Huobao Drama: An AI-powered full-stack production platform for short dramas. Automates script parsing, character design, and video generation."
+english_summary: "Huobao Drama is an end-to-end AI production platform that transforms ideas into short videos by automating scriptwriting, character creation, storyboarding, and video synthesis using LLM and VLM technologies."
+chinese_summary: null
+problems_solved: "- Drastically reduces the cost and time of short drama production; solves the 'consistency' problem in AI video by managing persistent character portraits; provides a unified UI for non-technical creators to orchestrate complex AI video workflows."
+how_to_use: "Requires Go and Node.js. Clone the repository, run `go mod download`, then `npm install` in the `web/` directory. Deploy via Docker Compose: `docker-compose up -d`. Connect your AI providers (OpenAI, Gemini, etc.) via the Web UI to start creating."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Huobao Drama is an end-to-end AI production platform that transforms ideas into short videos by automating scriptwriting, character creation, storyboarding, and video synthesis using LLM and VLM technologies.
-
-## Problems solved
-
-- Drastically reduces the cost and time of short drama production; solves the 'consistency' problem in AI video by managing persistent character portraits; provides a unified UI for non-technical creators to orchestrate complex AI video workflows.
-
-## How to get started
-
-Requires Go and Node.js. Clone the repository, run `go mod download`, then `npm install` in the `web/` directory. Deploy via Docker Compose: `docker-compose up -d`. Connect your AI providers (OpenAI, Gemini, etc.) via the Web UI to start creating.
-
-## Detailed report
+# chatfire-AI/huobao-drama
 
 ### 1. Positioning
 Huobao Drama positions itself as the 'AI Movie Studio' for the TikTok era. It targets content creators and studios looking to leverage AI to mass-produce high-engagement vertical video content with minimum human intervention.

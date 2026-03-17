@@ -1,38 +1,19 @@
 ---
-title: "winfunc/opcode"
+id: 1004995740
 repo_name: "winfunc/opcode"
 url: "https://github.com/winfunc/opcode"
-github_url: "https://github.com/winfunc/opcode"
 stars: 20905
 language: "TypeScript"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Opcode"
-  - "GUI"
-  - "Agent Management"
-  - "Session Tracking"
-  - "Electron"
-  - "Visual Tools"
+tags: ["Claude Code","Opcode","GUI","Agent Management","Session Tracking","Electron","Visual Tools"]
+original_description: "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, and more."
+english_summary: "A comprehensive GUI and management toolkit for Claude Code, featuring agent orchestration and session history."
+chinese_summary: null
+problems_solved: "- Invisibility and lack of 'History Management' in the default Claude Code CLI.\n- Difficulty for non-CLI users to leverage the power of agentic coding.\n- High barrier in creating 'Multi-Agent Swarms' that all share the same Claude Code context."
+how_to_use: "git clone https://github.com/winfunc/opcode\nnpm install && npm run build\n./opcode --launch"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive GUI and management toolkit for Claude Code, featuring agent orchestration and session history.
-
-## Problems solved
-
-- Invisibility and lack of 'History Management' in the default Claude Code CLI.
-- Difficulty for non-CLI users to leverage the power of agentic coding.
-- High barrier in creating 'Multi-Agent Swarms' that all share the same Claude Code context.
-
-## How to get started
-
-git clone https://github.com/winfunc/opcode
-npm install && npm run build
-./opcode --launch
-
-## Detailed report
+# winfunc/opcode
 
 ### 1. Positioning
 Opcode is the 'Visual Command Center' for the Anthropic Claude Code ecosystem. It wraps the raw CLI in a powerful Desktop GUI, providing session tracking, a visual file explorer for agentic actions, and a 'Swarm Manager' for running multiple Claude sessions in parallel on separate branches. Target: Professional developers and technical PMs.

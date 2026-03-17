@@ -1,36 +1,19 @@
 ---
-title: "QwenLM/Qwen-Image"
+id: 1031256025
 repo_name: "QwenLM/Qwen-Image"
 url: "https://github.com/QwenLM/Qwen-Image"
-github_url: "https://github.com/QwenLM/Qwen-Image"
 stars: 7545
 language: "Python"
-layout: repo
-tags:
-  - "Alibaba"
-  - "Qwen"
-  - "Text-to-Image"
-  - "Image-Editing"
-  - "Diffusion-Model"
-  - "Chinese-AI"
-  - "Open-Source"
+tags: ["Alibaba","Qwen","Text-to-Image","Image-Editing","Diffusion-Model","Chinese-AI","Open-Source"]
+original_description: "Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing."
+english_summary: "Qwen-Image is Alibaba's 20B parameter multimodal diffusion transformer for text-to-image generation and image editing, excelling at complex Chinese/English text rendering and photorealistic human images."
+chinese_summary: null
+problems_solved: "- Addresses limitations of prior image gen models in accurately rendering complex multilingual text (especially Chinese)\n- producing realistic human portraits\n- and providing high-quality instruction-following for precise image editing."
+how_to_use: "Install diffusers and use `QwenImagePipeline.from_pretrained('Qwen/Qwen-Image-2512')` for text-to-image. For editing, use `QwenImageEditPlusPipeline.from_pretrained('Qwen/Qwen-Image-Edit-2511')`. Runs on CUDA GPU with bfloat16."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Qwen-Image is Alibaba's 20B parameter multimodal diffusion transformer for text-to-image generation and image editing, excelling at complex Chinese/English text rendering and photorealistic human images.
-
-## Problems solved
-
-- Addresses limitations of prior image gen models in accurately rendering complex multilingual text (especially Chinese)
-- producing realistic human portraits
-- and providing high-quality instruction-following for precise image editing.
-
-## How to get started
-
-Install diffusers and use `QwenImagePipeline.from_pretrained('Qwen/Qwen-Image-2512')` for text-to-image. For editing, use `QwenImageEditPlusPipeline.from_pretrained('Qwen/Qwen-Image-Edit-2511')`. Runs on CUDA GPU with bfloat16.
-
-## Detailed report
+# QwenLM/Qwen-Image
 
 ### 1. Positioning
 QwenLM/Qwen-Image is positioned as a qwen-image is alibaba's 20b parameter multimodal diffusion transformer for text-to-image generation and image editing, excelling at complex chinese/english text rendering and photorealistic human images. It aims to provide developers with a robust, Python-based solution for qwen-image is a powerful image generation foundation model capable of complex text rendering and precise image editing.

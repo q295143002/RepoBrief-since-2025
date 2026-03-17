@@ -1,36 +1,19 @@
 ---
-title: "ZhuLinsen/daily_stock_analysis"
+id: 1131513930
 repo_name: "ZhuLinsen/daily_stock_analysis"
 url: "https://github.com/ZhuLinsen/daily_stock_analysis"
-github_url: "https://github.com/ZhuLinsen/daily_stock_analysis"
 stars: 19404
 language: "Python"
-layout: repo
-tags:
-  - "Stock Analysis"
-  - "FinTech"
-  - "Investment Tools"
-  - "AI Agent"
-  - "Market Data"
-  - "Financial Analysis"
-  - "Python"
+tags: ["Stock Analysis","FinTech","Investment Tools","AI Agent","Market Data","Financial Analysis","Python"]
+original_description: "Daily Stock Analysis: LLM-driven stock analysis for A-share, HK, and US markets with multimodal data integration."
+english_summary: "A powerful AI-driven stock analysis agent that synthesizes market data, news, and technical indicators into decision dashboards."
+chinese_summary: null
+problems_solved: "- Information overload for individual investors across multiple news sources\n- Difficulty in correlating 'Sentiment' from news with technical 'Price Action'\n- High latency in receiving summarized actionable intelligence during market hours"
+how_to_use: "Clone the repo, install requirements, and run `python main.py --webui`. Configure your API keys for Gemini/OpenAI in the settings page."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A powerful AI-driven stock analysis agent that synthesizes market data, news, and technical indicators into decision dashboards.
-
-## Problems solved
-
-- Information overload for individual investors across multiple news sources
-- Difficulty in correlating 'Sentiment' from news with technical 'Price Action'
-- High latency in receiving summarized actionable intelligence during market hours
-
-## How to get started
-
-Clone the repo, install requirements, and run `python main.py --webui`. Configure your API keys for Gemini/OpenAI in the settings page.
-
-## Detailed report
+# ZhuLinsen/daily_stock_analysis
 
 ### 1. Positioning
 Daily Stock Analysis is a comprehensive financial intelligence platform. It uses LLMs to perform multi-modal analysis, digesting everything from K-lines to market news images for retail and professional traders.

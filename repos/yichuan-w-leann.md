@@ -1,34 +1,19 @@
 ---
-title: "yichuan-w/LEANN"
+id: 998732712
 repo_name: "yichuan-w/LEANN"
 url: "https://github.com/yichuan-w/LEANN"
-github_url: "https://github.com/yichuan-w/LEANN"
 stars: 10302
 language: "Python"
-layout: repo
-tags:
-  - "Vector Database"
-  - "RAG"
-  - "Storage Optimization"
-  - "Privacy"
+tags: ["Vector Database","RAG","Storage Optimization","Privacy"]
+original_description: "LEANN: The smallest vector index in the world. Transform your laptop into a powerful RAG system using 97% less storage than traditional solutions without accuracy loss."
+english_summary: "LEANN is an ultra-lightweight vector database that uses selective recomputation to provide high-accuracy RAG capabilities on personal devices with minimal storage overhead."
+chinese_summary: null
+problems_solved: "- Eliminates the massive storage requirements of traditional vector databases (e.g.\n- saving 195GB for 60M docs); provides full data privacy by enabling large-scale local RAG on laptops; resolves the complexity of indexing diverse personal data (emails\n- chats\n- browser history) through a unified declarative API."
+how_to_use: "Install via `uv pip install leann` (requires `uv` and some C++ build tools for DiskANN). Create an index and chat with data in Python: `builder = LeannBuilder(backend_name=\"hnsw\"); builder.add_text(\"content\"); builder.build_index(\"path\"); chat = LeannChat(\"path\"); chat.ask(\"your question\")`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-LEANN is an ultra-lightweight vector database that uses selective recomputation to provide high-accuracy RAG capabilities on personal devices with minimal storage overhead.
-
-## Problems solved
-
-- Eliminates the massive storage requirements of traditional vector databases (e.g.
-- saving 195GB for 60M docs); provides full data privacy by enabling large-scale local RAG on laptops; resolves the complexity of indexing diverse personal data (emails
-- chats
-- browser history) through a unified declarative API.
-
-## How to get started
-
-Install via `uv pip install leann` (requires `uv` and some C++ build tools for DiskANN). Create an index and chat with data in Python: `builder = LeannBuilder(backend_name="hnsw"); builder.add_text("content"); builder.build_index("path"); chat = LeannChat("path"); chat.ask("your question")`.
-
-## Detailed report
+# yichuan-w/LEANN
 
 ### 1. Positioning
 LEANN is perfectly positioned for the 'Local AI' and 'Personalized AI' movement. It targets individual users and developers who want to perform RAG on their entire digital life (millions of documents) without the cost or privacy risks of cloud databases or the storage burden of standard local solutions.

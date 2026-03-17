@@ -1,38 +1,19 @@
 ---
-title: "ruvnet/RuView"
+id: 997737944
 repo_name: "ruvnet/RuView"
 url: "https://github.com/ruvnet/RuView"
-github_url: "https://github.com/ruvnet/RuView"
 stars: 35949
 language: "Rust"
-layout: repo
-tags:
-  - "Visual Analysis"
-  - "Edge Computing"
-  - "Real-time"
-  - "Computer Vision"
-  - "C++"
-  - "Low-Resource"
-  - "Monitoring"
+tags: ["Visual Analysis","Edge Computing","Real-time","Computer Vision","C++","Low-Resource","Monitoring"]
+original_description: "RuView: AI-powered real-time visual analysis platform for camera streams. Optimized for edge computing on low-resource devices."
+english_summary: "Real-time AI visual analysis platform optimized for low-resource edge devices."
+chinese_summary: null
+problems_solved: "- Latency in processing high-resolution camera streams on central servers.\n- High bandwidth costs for streaming raw video to the cloud.\n- Difficulty in deploying complex vision models on low-power hardware."
+how_to_use: "git clone https://github.com/ruvnet/RuView\nnpm install\nnpm run start:edge"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Real-time AI visual analysis platform optimized for low-resource edge devices.
-
-## Problems solved
-
-- Latency in processing high-resolution camera streams on central servers.
-- High bandwidth costs for streaming raw video to the cloud.
-- Difficulty in deploying complex vision models on low-power hardware.
-
-## How to get started
-
-git clone https://github.com/ruvnet/RuView
-npm install
-npm run start:edge
-
-## Detailed report
+# ruvnet/RuView
 
 ### 1. Positioning
 RuView is a real-time visual analysis platform designed for edge computing. It enables low-latency AI processing of camera streams directly on resource-constrained devices, making it ideal for distributed security and industrial monitoring.

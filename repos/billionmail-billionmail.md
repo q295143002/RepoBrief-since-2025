@@ -1,30 +1,19 @@
 ---
-title: "Billionmail/BillionMail"
+id: 932580333
 repo_name: "Billionmail/BillionMail"
 url: "https://github.com/Billionmail/BillionMail"
-github_url: "https://github.com/Billionmail/BillionMail"
 stars: 13654
 language: "Go"
-layout: repo
-tags:
-  - "Email Marketing"
-  - "Mail Server"
-  - "Open Source"
+tags: ["Email Marketing","Mail Server","Open Source"]
+original_description: "An Open-Source MailServer, NewsLetter, Email Marketing Solution for Smarter Campaigns"
+english_summary: "An open-source mail server and email marketing platform offering unlimited sending, advanced analytics, and custom template capabilities."
+chinese_summary: null
+problems_solved: "- Replaces expensive, rigid closed-source email marketing SaaS with a self-hosted, privacy-first, limit-free marketing solution."
+how_to_use: "Install via script: `git clone https://github.com/aaPanel/BillionMail && bash install.sh`, or utilize the provided Docker Compose setup for deployment."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source mail server and email marketing platform offering unlimited sending, advanced analytics, and custom template capabilities.
-
-## Problems solved
-
-- Replaces expensive, rigid closed-source email marketing SaaS with a self-hosted, privacy-first, limit-free marketing solution.
-
-## How to get started
-
-Install via script: `git clone https://github.com/aaPanel/BillionMail && bash install.sh`, or utilize the provided Docker Compose setup for deployment.
-
-## Detailed report
+# Billionmail/BillionMail
 
 ### 1. Positioning
 BillionMail is a full-stack, open-source email marketing and self-hosted mail server crafted for companies and individuals seeking independence and scalability in email campaigns.

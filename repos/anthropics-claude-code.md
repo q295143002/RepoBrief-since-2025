@@ -1,38 +1,19 @@
 ---
-title: "anthropics/claude-code"
+id: 937253475
 repo_name: "anthropics/claude-code"
 url: "https://github.com/anthropics/claude-code"
-github_url: "https://github.com/anthropics/claude-code"
 stars: 77390
 language: "Shell"
-layout: repo
-tags:
-  - "Claude Code"
-  - "CLI"
-  - "Coding Agent"
-  - "Anthropic"
-  - "Refactoring"
-  - "Developer Tools"
-  - "Autonomous AI"
+tags: ["Claude Code","CLI","Coding Agent","Anthropic","Refactoring","Developer Tools","Autonomous AI"]
+original_description: "Claude Code is a research-oriented coding agent from Anthropic. It provides an agentic CLI for high-speed, secure, and accurate software development at scale."
+english_summary: "Anthropic's high-speed agentic CLI for secure and accurate software development."
+chinese_summary: "Anthropic 官方推出的终端 AI 编程助手 Claude Code。可直接读取、编辑项目文件并执行终端指令，辅助深度软件开发。"
+problems_solved: "- Slow feedback loops when using web-based AI for coding.\n- Safety risks associated with giving AI direct access to the local file system and terminal.\n- Consistency issues when performing large-scale project-wide refactoring."
+how_to_use: "npm install -g @anthropic-ai/claude-code\nclaude login\nclaude \"Refactor the authentication logic to use JWT\""
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Anthropic's high-speed agentic CLI for secure and accurate software development.
-
-## Problems solved
-
-- Slow feedback loops when using web-based AI for coding.
-- Safety risks associated with giving AI direct access to the local file system and terminal.
-- Consistency issues when performing large-scale project-wide refactoring.
-
-## How to get started
-
-npm install -g @anthropic-ai/claude-code
-claude login
-claude "Refactor the authentication logic to use JWT"
-
-## Detailed report
+# anthropics/claude-code
 
 ### 1. Positioning
 Claude Code is a research-grade AI coding agent from Anthropic. It interfaces directly with local development environments via a CLI, offering high execution speed and deep code understanding for automated project refactoring and system-level development.

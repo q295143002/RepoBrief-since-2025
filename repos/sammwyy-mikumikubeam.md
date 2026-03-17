@@ -1,33 +1,19 @@
 ---
-title: "sammwyy/MikuMikuBeam"
+id: 919237944
 repo_name: "sammwyy/MikuMikuBeam"
 url: "https://github.com/sammwyy/MikuMikuBeam"
-github_url: "https://github.com/sammwyy/MikuMikuBeam"
 stars: 5657
 language: "Go"
-layout: repo
-tags:
-  - "Streaming"
-  - "Live-Video"
-  - "RTMP"
-  - "HLS"
-  - "VTuber"
-  - "Cpp"
+tags: ["Streaming","Live-Video","RTMP","HLS","VTuber","Cpp"]
+original_description: "An open-source network stresser tool but it's Hatsune Miku"
+english_summary: "A lightweight and low-latency live streaming server supporting RTMP, HLS, and WebRTC, optimized for anime and V-Tuber community needs."
+chinese_summary: null
+problems_solved: "- Complexity of configuring OBS to private servers; high latency in traditional HLS streaming; resource-heavy nature of standard streaming servers like Nginx-RTMP."
+how_to_use: "Download the binary; configure servers.json; start with './mikubeam'; point your encoder (OBS) to the RTMP endpoint; access the web player on the provided port."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A lightweight and low-latency live streaming server supporting RTMP, HLS, and WebRTC, optimized for anime and V-Tuber community needs.
-
-## Problems solved
-
-- Complexity of configuring OBS to private servers; high latency in traditional HLS streaming; resource-heavy nature of standard streaming servers like Nginx-RTMP.
-
-## How to get started
-
-Download the binary; configure servers.json; start with './mikubeam'; point your encoder (OBS) to the RTMP endpoint; access the web player on the provided port.
-
-## Detailed report
+# sammwyy/MikuMikuBeam
 
 ### 1. Positioning
 sammwyy/MikuMikuBeam is positioned as a a lightweight and low-latency live streaming server supporting rtmp, hls, and webrtc, optimized for anime and v-tuber community needs. It aims to provide developers with a robust, Go-based solution for an open-source network stresser tool but it's hatsune miku.

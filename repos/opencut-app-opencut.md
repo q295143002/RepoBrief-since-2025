@@ -1,36 +1,19 @@
 ---
-title: "OpenCut-app/OpenCut"
+id: 1006414368
 repo_name: "OpenCut-app/OpenCut"
 url: "https://github.com/OpenCut-app/OpenCut"
-github_url: "https://github.com/OpenCut-app/OpenCut"
 stars: 46530
 language: "TypeScript"
-layout: repo
-tags:
-  - "Video Editing"
-  - "Whisper ASR"
-  - "FFmpeg"
-  - "AI Creator Tools"
-  - "Automation"
-  - "Python"
-  - "Open Source"
+tags: ["Video Editing","Whisper ASR","FFmpeg","AI Creator Tools","Automation","Python","Open Source"]
+original_description: "OpenCut is an open-source video editing assistant powered by AI. It focuses on text-based video manipulation, automated subtitling, and sequence generation using natural language."
+english_summary: "A natural language-driven AI video editor for automated cutting, captioning, and manipulation."
+chinese_summary: null
+problems_solved: "- High time consumption and manual effort for rough cutting and subtitle syncing\n- Steep learning curve of professional suites like Premiere Pro for simple editing tasks\n- Difficulty in 'searching' within long video files for specific keywords or moments using text"
+how_to_use: "Clone the repo and install dependencies (requires FFmpeg): `pip install -r requirements.txt`. Run using the prompt: `python opencut.py --video input.mp4 --prompt 'Cut out all silence and zoom in on the peaks'.`"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A natural language-driven AI video editor for automated cutting, captioning, and manipulation.
-
-## Problems solved
-
-- High time consumption and manual effort for rough cutting and subtitle syncing
-- Steep learning curve of professional suites like Premiere Pro for simple editing tasks
-- Difficulty in 'searching' within long video files for specific keywords or moments using text
-
-## How to get started
-
-Clone the repo and install dependencies (requires FFmpeg): `pip install -r requirements.txt`. Run using the prompt: `python opencut.py --video input.mp4 --prompt 'Cut out all silence and zoom in on the peaks'.`
-
-## Detailed report
+# OpenCut-app/OpenCut
 
 ### 1. Positioning
 OpenCut is an 'AI-First Video Editor.' It brings the power of LLMs to the video timeline, allowing users to edit footage as easily as they edit a document. It targets creators who want to automate the 'boring parts' of video production.

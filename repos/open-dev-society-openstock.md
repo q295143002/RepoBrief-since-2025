@@ -1,32 +1,19 @@
 ---
-title: "Open-Dev-Society/OpenStock"
+id: 1065936302
 repo_name: "Open-Dev-Society/OpenStock"
 url: "https://github.com/Open-Dev-Society/OpenStock"
-github_url: "https://github.com/Open-Dev-Society/OpenStock"
 stars: 9378
 language: "TypeScript"
-layout: repo
-tags:
-  - "FinTech"
-  - "Next.js"
-  - "AI"
-  - "MongoDB"
-  - "Financial Dashboard"
+tags: ["FinTech","Next.js","AI","MongoDB","Financial Dashboard"]
+original_description: "OpenStock: An open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights."
+english_summary: "OpenStock is an open-source financial dashboard built with Next.js and MongoDB, providing real-time stock tracking, AI-personalized news summaries, and TradingView-powered visualizations."
+chinese_summary: null
+problems_solved: "- Provides a free alternative to paid financial terminals; streamlines the 'onboarding' of new investors through AI-personalized welcome flows; saves time by aggregating cross-market news into daily personalized digests based on user watchlists."
+how_to_use: "Clone the repo, install dependencies with `pnpm install`, and configure your `.env` with a MongoDB URI and Finnhub API key. Run `pnpm dev` for the frontend and `npx inngest-cli@latest dev` for background AI tasks."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-OpenStock is an open-source financial dashboard built with Next.js and MongoDB, providing real-time stock tracking, AI-personalized news summaries, and TradingView-powered visualizations.
-
-## Problems solved
-
-- Provides a free alternative to paid financial terminals; streamlines the 'onboarding' of new investors through AI-personalized welcome flows; saves time by aggregating cross-market news into daily personalized digests based on user watchlists.
-
-## How to get started
-
-Clone the repo, install dependencies with `pnpm install`, and configure your `.env` with a MongoDB URI and Finnhub API key. Run `pnpm dev` for the frontend and `npx inngest-cli@latest dev` for background AI tasks.
-
-## Detailed report
+# Open-Dev-Society/OpenStock
 
 ### 1. Positioning
 OpenStock positions itself as the 'Community-Built Terminal'. It targets retail investors and students who want professional-grade data visualization and personalized AI insights without the high subscription costs of platforms like Bloomberg or Morningstar.

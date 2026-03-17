@@ -1,38 +1,19 @@
 ---
-title: "Yuliang-Liu/MonkeyOCR"
+id: 995214393
 repo_name: "Yuliang-Liu/MonkeyOCR"
 url: "https://github.com/Yuliang-Liu/MonkeyOCR"
-github_url: "https://github.com/Yuliang-Liu/MonkeyOCR"
 stars: 6534
 language: "Python"
-layout: repo
-tags:
-  - "OCR"
-  - "Document-Parsing"
-  - "VLM"
-  - "PDF"
-  - "Research"
-  - "Python"
-  - "Open-Source"
+tags: ["OCR","Document-Parsing","VLM","PDF","Research","Python","Open-Source"]
+original_description: "A lightweight LMM-based Document Parsing Model"
+english_summary: "MonkeyOCR is an open-source document parsing VLM that uses a Structure-Recognition-Relation triplet paradigm to efficiently parse PDFs and images into structured Markdown — handling text, formulas, tables, and reading order across 9 document types. MonkeyOCR-pro-1.2B outperforms all tested VLMs including GPT-4o and Gemini 2.5-Pro on OmniDocBench, at 1.4+ pages/sec on a 4090."
+chinese_summary: null
+problems_solved: "- Multi-tool document parsing pipelines are complex and brittle\n- while using large general-purpose VLMs page-by-page is slow and expensive. MonkeyOCR's SRR paradigm unifies structure detection\n- content recognition\n- and block-relationship modeling in a single compact model\n- achieving higher accuracy at much lower cost."
+how_to_use: "Install via guide. Download: `python tools/download_model.py -n MonkeyOCR-pro-3B`. Parse: `python parse.py input_path` (PDF, image, or folder). Single-task: `python parse.py input.pdf -t text|formula|table`. API: `uvicorn api.main:app --port 8000`. Gradio: `python demo/demo_gradio.py`. Docker: `docker compose up monkeyocr-demo`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-MonkeyOCR is an open-source document parsing VLM that uses a Structure-Recognition-Relation triplet paradigm to efficiently parse PDFs and images into structured Markdown — handling text, formulas, tables, and reading order across 9 document types. MonkeyOCR-pro-1.2B outperforms all tested VLMs including GPT-4o and Gemini 2.5-Pro on OmniDocBench, at 1.4+ pages/sec on a 4090.
-
-## Problems solved
-
-- Multi-tool document parsing pipelines are complex and brittle
-- while using large general-purpose VLMs page-by-page is slow and expensive. MonkeyOCR's SRR paradigm unifies structure detection
-- content recognition
-- and block-relationship modeling in a single compact model
-- achieving higher accuracy at much lower cost.
-
-## How to get started
-
-Install via guide. Download: `python tools/download_model.py -n MonkeyOCR-pro-3B`. Parse: `python parse.py input_path` (PDF, image, or folder). Single-task: `python parse.py input.pdf -t text|formula|table`. API: `uvicorn api.main:app --port 8000`. Gradio: `python demo/demo_gradio.py`. Docker: `docker compose up monkeyocr-demo`.
-
-## Detailed report
+# Yuliang-Liu/MonkeyOCR
 
 ### 1. Positioning
 Yuliang-Liu/MonkeyOCR is positioned as a monkeyocr is an open-source document parsing vlm that uses a structure-recognition-relation triplet paradigm to efficiently parse pdfs and images into structured markdown — handling text, formulas, tables, and reading order across 9 document types. monkeyocr-pro-1.2b outperforms all tested vlms including gpt-4o and gemini 2.5-pro on omnidocbench, at 1.4+ pages/sec on a 4090. It aims to provide developers with a robust, Python-based solution for a lightweight lmm-based document parsing model.

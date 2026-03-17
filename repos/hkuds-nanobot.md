@@ -1,37 +1,19 @@
 ---
-title: "HKUDS/nanobot"
+id: 1147094660
 repo_name: "HKUDS/nanobot"
 url: "https://github.com/HKUDS/nanobot"
-github_url: "https://github.com/HKUDS/nanobot"
 stars: 33082
 language: "Python"
-layout: repo
-tags:
-  - "Micro-Agents"
-  - "Actor Model"
-  - "TypeScript"
-  - "Memory Optimization"
-  - "Swarm Intelligence"
-  - "Concurrency"
-  - "Agentic AI"
+tags: ["Micro-Agents","Actor Model","TypeScript","Memory Optimization","Swarm Intelligence","Concurrency","Agentic AI"]
+original_description: "Nanobot: A framework for building micro-agent brains within extremely limited memory environments, utilizing the Actor Model for modularity."
+english_summary: "A lightweight 'micro-agent' framework optimized for extremely low-memory environments."
+chinese_summary: null
+problems_solved: "- High memory overhead of standard agent frameworks like LangChain.\n- Difficulty in running multiple agents concurrently on standard laptops or edge servers.\n- Lack of a clean 'Actor Model' implementation for agent-to-agent message passing."
+how_to_use: "npm install @hkuds/nanobot\nconst bot = new Nanobot({ memoryLimit: '64MB' });"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A lightweight 'micro-agent' framework optimized for extremely low-memory environments.
-
-## Problems solved
-
-- High memory overhead of standard agent frameworks like LangChain.
-- Difficulty in running multiple agents concurrently on standard laptops or edge servers.
-- Lack of a clean 'Actor Model' implementation for agent-to-agent message passing.
-
-## How to get started
-
-npm install @hkuds/nanobot
-const bot = new Nanobot({ memoryLimit: '64MB' });
-
-## Detailed report
+# HKUDS/nanobot
 
 ### 1. Positioning
 Nanobot is a specialized framework from HKUDS designed for 'Micro-Agents'. It allows developers to deploy dozens of concurrent agents with a tiny memory footprint, utilizing the Actor Model for efficient, asynchronous communication. It is ideal for 'Swarm' applications.

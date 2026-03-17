@@ -1,35 +1,19 @@
 ---
-title: "algorithmicsuperintelligence/openevolve"
+id: 984096689
 repo_name: "algorithmicsuperintelligence/openevolve"
 url: "https://github.com/algorithmicsuperintelligence/openevolve"
-github_url: "https://github.com/algorithmicsuperintelligence/openevolve"
 stars: 5603
 language: "Python"
-layout: repo
-tags:
-  - "AI Agents"
-  - "Evolutionary Algorithms"
-  - "Code Optimization"
-  - "AutoML"
-  - "LLM"
-  - "Open Source"
+tags: ["AI Agents","Evolutionary Algorithms","Code Optimization","AutoML","LLM","Open Source"]
+original_description: "Open-source implementation of AlphaEvolve"
+english_summary: "OpenEvolve is a sophisticated system that turns LLMs into autonomous code optimizers. By combining Quality-Diversity evolution (MAP-Elites) with powerful AI models, it discovers breakthrough algorithms and hardware-specific optimizations that human programmers might miss."
+chinese_summary: null
+problems_solved: "- Tedious manual algorithm tuning\n- Complexity of cross-language code optimization (e.g., Python to Rust/Metal)\n- LLM tendency to produce generic solutions without iterative refinement"
+how_to_use: "Install via pip and configure an LLM key. Provide an initial program and an evaluator (test script). OpenEvolve will iteratively mutate and test versions, maintaining a diverse population of candidates until a breakthrough optimization is found."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-OpenEvolve is a sophisticated system that turns LLMs into autonomous code optimizers. By combining Quality-Diversity evolution (MAP-Elites) with powerful AI models, it discovers breakthrough algorithms and hardware-specific optimizations that human programmers might miss.
-
-## Problems solved
-
-- Tedious manual algorithm tuning
-- Complexity of cross-language code optimization (e.g., Python to Rust/Metal)
-- LLM tendency to produce generic solutions without iterative refinement
-
-## How to get started
-
-Install via pip and configure an LLM key. Provide an initial program and an evaluator (test script). OpenEvolve will iteratively mutate and test versions, maintaining a diverse population of candidates until a breakthrough optimization is found.
-
-## Detailed report
+# algorithmicsuperintelligence/openevolve
 
 ### 1. Positioning
 algorithmicsuperintelligence/openevolve is positioned as a openevolve is a sophisticated system that turns llms into autonomous code optimizers. by combining quality-diversity evolution (map-elites) with powerful ai models, it discovers breakthrough algorithms and hardware-specific optimizations that human programmers might miss. It aims to provide developers with a robust, Python-based solution for open-source implementation of alphaevolve.

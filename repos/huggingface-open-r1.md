@@ -1,32 +1,19 @@
 ---
-title: "huggingface/open-r1"
+id: 921777121
 repo_name: "huggingface/open-r1"
 url: "https://github.com/huggingface/open-r1"
-github_url: "https://github.com/huggingface/open-r1"
 stars: 25941
 language: "Python"
-layout: repo
-tags:
-  - "Dataset"
+tags: ["Dataset"]
+original_description: "Open-R1: A fully open-source reproduction of DeepSeek's R1 reasoning model. Includes training scripts, datasets, and a full recipe for achieving o1-like performance."
+english_summary: "The community reproduction of DeepSeek-R1 for open-weights reasoning model training."
+chinese_summary: null
+problems_solved: "- High technical barrier to reproducing state-of-the-art RL-based reasoning models.\n- Need for open datasets that mirror the 'Cold Start' and 'RL' phases of reasoning models.\n- Lack of public training recipes that work on consumer-grade (or reachable) GPU clusters."
+how_to_use: "git clone https://github.com/huggingface/open-r1\npip install -e .[dev]\n# Read the training recipe in recipes/R1-Distill-Qwen-7B/"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The community reproduction of DeepSeek-R1 for open-weights reasoning model training.
-
-## Problems solved
-
-- High technical barrier to reproducing state-of-the-art RL-based reasoning models.
-- Need for open datasets that mirror the 'Cold Start' and 'RL' phases of reasoning models.
-- Lack of public training recipes that work on consumer-grade (or reachable) GPU clusters.
-
-## How to get started
-
-git clone https://github.com/huggingface/open-r1
-pip install -e .[dev]
-# Read the training recipe in recipes/R1-Distill-Qwen-7B/
-
-## Detailed report
+# huggingface/open-r1
 
 ### 1. Positioning
 Open-R1 is a high-profile open research project by Hugging Face. It aims to democratize the 'Reasoning Model' breakthrough pioneered by DeepSeek and OpenAI by providing a complete, transparent training pipeline that anyone can use to train their own R1-tier models.

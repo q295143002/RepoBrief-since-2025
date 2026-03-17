@@ -1,0 +1,25 @@
+{
+  "Header": {
+    "logo": "仓库简报"
+  },
+  "Filter": {
+    "title": "按标签筛选",
+    "overlayTitle": "选择标签",
+    "more": "更多"
+  },
+  "Intro": {
+    "title": "设计智能"
+  },
+  "Toolbar": {
+    "results": "找到 {count} 个仓库",
+    "sortByStars": "按星标排序",
+    "export": "导出 Excel",
+    "searchPlaceholder": "搜索仓库..."
+  },
+  "Drawer": {
+    "summary": "内容总结",
+    "problems": "解决的问题",
+    "howToUse": "使用方法",
+    "report": "详细报告"
+  }
+}

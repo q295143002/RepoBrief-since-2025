@@ -1,31 +1,19 @@
 ---
-title: "microsoft/edit"
+id: 952719663
 repo_name: "microsoft/edit"
 url: "https://github.com/microsoft/edit"
-github_url: "https://github.com/microsoft/edit"
 stars: 13656
 language: "Rust"
-layout: repo
-tags:
-  - "Text Editor"
-  - "Rust"
-  - "CLI"
-  - "MS-DOS"
+tags: ["Text Editor","Rust","CLI","MS-DOS"]
+original_description: "A simple editor for simple needs."
+english_summary: "A modern homage to the classic MS-DOS Editor, built with Rust for terminal-based, simple, and accessible text editing."
+chinese_summary: null
+problems_solved: "- Provides a terminal-based editor alternative designed to be vastly simpler and more accessible than Vim or Emacs for inexperienced users."
+how_to_use: "Install via `winget install Microsoft.Edit` or build from source using Cargo. Run `edit <filename>` in your terminal."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A modern homage to the classic MS-DOS Editor, built with Rust for terminal-based, simple, and accessible text editing.
-
-## Problems solved
-
-- Provides a terminal-based editor alternative designed to be vastly simpler and more accessible than Vim or Emacs for inexperienced users.
-
-## How to get started
-
-Install via `winget install Microsoft.Edit` or build from source using Cargo. Run `edit <filename>` in your terminal.
-
-## Detailed report
+# microsoft/edit
 
 ### 1. Positioning
 Open-sourced by Microsoft, `edit` is a lightweight, approachable terminal text editor targeting modern interfaces but paying homage to legacy MS-DOS editing workflows.

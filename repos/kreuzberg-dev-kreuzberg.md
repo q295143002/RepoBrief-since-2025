@@ -1,33 +1,19 @@
 ---
-title: "kreuzberg-dev/kreuzberg"
+id: 925434317
 repo_name: "kreuzberg-dev/kreuzberg"
 url: "https://github.com/kreuzberg-dev/kreuzberg"
-github_url: "https://github.com/kreuzberg-dev/kreuzberg"
 stars: 6688
 language: "Rust"
-layout: repo
-tags:
-  - "Document-Parsing"
-  - "OCR"
-  - "Markdown"
-  - "Rust"
-  - "Python-Library"
-  - "Data-Processing"
+tags: ["Document-Parsing","OCR","Markdown","Rust","Python-Library","Data-Processing"]
+original_description: "A polyglot document intelligence framework with a Rust core. Extract text, metadata, and structured information from PDFs, Office documents, images, and 76+ formats. Available for Rust, Python, Ruby, Java, Go, PHP, Elixir, C#, R, C, TypeScript (Node/Bun/Wasm/Deno)- or use via CLI, REST API, or MCP server."
+english_summary: "A robust and efficient document parsing library that Extracts plain text and metadata from PDFs, Office docs, images, and more with zero dependencies."
+chinese_summary: null
+problems_solved: "- Fragmentation of document parsing tools; heavy Java dependencies in tools like Tika; loss of formatting and encoding issues in simple parsers."
+how_to_use: "Install via 'pip install kreuzberg'; use 'kreuzberg.parse(\"file.pdf\")' to get a clean structured string output."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A robust and efficient document parsing library that Extracts plain text and metadata from PDFs, Office docs, images, and more with zero dependencies.
-
-## Problems solved
-
-- Fragmentation of document parsing tools; heavy Java dependencies in tools like Tika; loss of formatting and encoding issues in simple parsers.
-
-## How to get started
-
-Install via 'pip install kreuzberg'; use 'kreuzberg.parse("file.pdf")' to get a clean structured string output.
-
-## Detailed report
+# kreuzberg-dev/kreuzberg
 
 ### 1. Positioning
 kreuzberg-dev/kreuzberg is positioned as a a robust and efficient document parsing library that extracts plain text and metadata from pdfs, office docs, images, and more with zero dependencies. It aims to provide developers with a robust, Rust-based solution for a polyglot document intelligence framework with a rust core. extract text, metadata, and structured information from pdfs, office documents, images, and 76+ formats. available for rust, python, ruby, java, go, php, elixir, c#, r, c, typescript (node/bun/wasm/deno)- or use via cli, rest api, or mcp server.

@@ -1,31 +1,19 @@
 ---
-title: "bytebot-ai/bytebot"
+id: 926709003
 repo_name: "bytebot-ai/bytebot"
 url: "https://github.com/bytebot-ai/bytebot"
-github_url: "https://github.com/bytebot-ai/bytebot"
 stars: 10545
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Desktop Automation"
-  - "Self-Hosted"
-  - "Docker"
+tags: ["AI Agent","Desktop Automation","Self-Hosted","Docker"]
+original_description: "An AI that has its own computer to complete tasks for you. Bytebot is an open-source AI desktop agent providing a full virtual desktop where it can use any application, download files, and complete complex multi-step workflows."
+english_summary: "Bytebot is an open-source AI desktop agent that operates within a full virtual Ubuntu environment to perform complex cross-application tasks autonomously."
+chinese_summary: null
+problems_solved: "- Resolves the limitations of browser-only agents by providing a complete desktop environment; handles 2FA and complex authentications via password managers; automates native desktop application workflows (like VS Code or Office) that are typically inaccessible to standard AI web agents."
+how_to_use: "Standard deployment via Docker Compose: `git clone https://github.com/bytebot-ai/bytebot.git`, add your `ANTHROPIC_API_KEY` (or OpenAI/Gemini) to `docker/.env`, and run `docker-compose -f docker/docker-compose.yml up -d`. Access the UI at `http://localhost:9992`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Bytebot is an open-source AI desktop agent that operates within a full virtual Ubuntu environment to perform complex cross-application tasks autonomously.
-
-## Problems solved
-
-- Resolves the limitations of browser-only agents by providing a complete desktop environment; handles 2FA and complex authentications via password managers; automates native desktop application workflows (like VS Code or Office) that are typically inaccessible to standard AI web agents.
-
-## How to get started
-
-Standard deployment via Docker Compose: `git clone https://github.com/bytebot-ai/bytebot.git`, add your `ANTHROPIC_API_KEY` (or OpenAI/Gemini) to `docker/.env`, and run `docker-compose -f docker/docker-compose.yml up -d`. Access the UI at `http://localhost:9992`.
-
-## Detailed report
+# bytebot-ai/bytebot
 
 ### 1. Positioning
 Bytebot is an advanced autonomous agent platform that grants LLMs a literal 'seat at the computer'. It targets power users and developers who need an AI assistant capable of interacting with the full suite of OS applications rather than just web-based DOM elements.

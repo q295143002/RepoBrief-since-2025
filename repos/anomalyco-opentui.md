@@ -1,32 +1,19 @@
 ---
-title: "anomalyco/opentui"
+id: 1023522611
 repo_name: "anomalyco/opentui"
 url: "https://github.com/anomalyco/opentui"
-github_url: "https://github.com/anomalyco/opentui"
 stars: 9344
 language: "TypeScript"
-layout: repo
-tags:
-  - "TUI"
-  - "Zig"
-  - "TypeScript"
-  - "React"
-  - "Terminal"
+tags: ["TUI","Zig","TypeScript","React","Terminal"]
+original_description: "OpenTUI: A native terminal UI core written in Zig with TypeScript bindings. Powering OpenCode and terminal.shop."
+english_summary: "OpenTUI is a high-performance, native Terminal UI (TUI) engine written in Zig, offering specialized React and SolidJS reconcilers for building complex terminal-based applications."
+chinese_summary: null
+problems_solved: "- Provides a high-performance alternative to traditional JS-based terminal libraries by using a native Zig core; solves the complexity of terminal layouts through a component-based architecture; enables 'Web-like' development of TUIs via React/SolidJS bindings."
+how_to_use: "Install the core with `bun install @opentui/core`. If building from source, ensure the Zig compiler is installed. Use the CLI `bun create tui` to scaffold a new project with your preferred frontend reconciler."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-OpenTUI is a high-performance, native Terminal UI (TUI) engine written in Zig, offering specialized React and SolidJS reconcilers for building complex terminal-based applications.
-
-## Problems solved
-
-- Provides a high-performance alternative to traditional JS-based terminal libraries by using a native Zig core; solves the complexity of terminal layouts through a component-based architecture; enables 'Web-like' development of TUIs via React/SolidJS bindings.
-
-## How to get started
-
-Install the core with `bun install @opentui/core`. If building from source, ensure the Zig compiler is installed. Use the CLI `bun create tui` to scaffold a new project with your preferred frontend reconciler.
-
-## Detailed report
+# anomalyco/opentui
 
 ### 1. Positioning
 OpenTUI is an 'Extensible Core' for the next generation of terminal software. It targets developers building sophisticated CLI tools, SSH-based shops, or AI-native coding environments (like OpenCode) that require low-latency rendering and complex layout capabilities.

@@ -1,37 +1,19 @@
 ---
-title: "vercel-labs/agent-skills"
+id: 1112540808
 repo_name: "vercel-labs/agent-skills"
 url: "https://github.com/vercel-labs/agent-skills"
-github_url: "https://github.com/vercel-labs/agent-skills"
 stars: 22907
 language: "JavaScript"
-layout: repo
-tags:
-  - "Vercel"
-  - "Agent Skills"
-  - "MCP"
-  - "Vercel AI SDK"
-  - "TypeScript"
-  - "Tool Calling"
-  - "Enterprise AI"
+tags: ["Vercel","Agent Skills","MCP","Vercel AI SDK","TypeScript","Tool Calling","Enterprise AI"]
+original_description: "Vercel's official collection of agent skills to empower your AI applications with production-ready capabilities."
+english_summary: "Vercel's official library of modular, verified skills for building high-performance AI agents."
+chinese_summary: null
+problems_solved: "- Unreliability of community-built skills in high-traffic production environments.\n- Difficulty in standardizing 'Capability Manifests' for discovery by LLMs.\n- Security risks in allowing agents to interact with external enterprise APIs (GitHub, Slack)."
+how_to_use: "npm install @vercel/agent-skills\n# Import specific skills into your Vercel AI SDK setup."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Vercel's official library of modular, verified skills for building high-performance AI agents.
-
-## Problems solved
-
-- Unreliability of community-built skills in high-traffic production environments.
-- Difficulty in standardizing 'Capability Manifests' for discovery by LLMs.
-- Security risks in allowing agents to interact with external enterprise APIs (GitHub, Slack).
-
-## How to get started
-
-npm install @vercel/agent-skills
-# Import specific skills into your Vercel AI SDK setup.
-
-## Detailed report
+# vercel-labs/agent-skills
 
 ### 1. Positioning
 Agent-Skills is a curated, production-grade library by Vercel. It provides a set of 'verified' tools and instructions for LLMs, optimized for performance and security within the Vercel AI SDK ecosystem. Targeted at enterprise developers building reliable AI products.

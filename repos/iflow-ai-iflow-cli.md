@@ -1,36 +1,19 @@
 ---
-title: "iflow-ai/iflow-cli"
+id: 1026964974
 repo_name: "iflow-ai/iflow-cli"
 url: "https://github.com/iflow-ai/iflow-cli"
-github_url: "https://github.com/iflow-ai/iflow-cli"
 stars: 5021
 language: "Shell"
-layout: repo
-tags:
-  - "AI Coding Agent"
-  - "CLI"
-  - "Claude Code Alternative"
-  - "MCP"
-  - "SubAgents"
-  - "Terminal Assistant"
-  - "Open Source"
+tags: ["AI Coding Agent","CLI","Claude Code Alternative","MCP","SubAgents","Terminal Assistant","Open Source"]
+original_description: "iFlow cli is a comprehensive command-line intelligence that embeds in your terminal, analyzes your repositories, does coding tasks, interprets your needs across contexts, and boosts efficiency by performing tasks from simple file operations to complex workflow automation."
+english_summary: "iFlow CLI is an advanced terminal-based AI assistant comparable to Claude Code. It allows developers to interact with their codebases using natural language, automating tasks like code analysis, file editing, and complex workflow execution. It features a built-in 'Open Market' for installing specialized SubAgents and MCP tools with a single click."
+chinese_summary: null
+problems_solved: "- Friction in switching between the terminal and a browser-based AI of research or code editing\n- Difficulty in managing complex multi-step coding agent tasks (handled via Plan Mode)\n- Lack of easy access to diverse open-source models (Kimi, Qwen, DeepSeek) from a unified CLI"
+how_to_use: "Install via curl or brew. Run `iflow` to start the interactive session. Use `/init` to index an existing project or simply describe a new project requirement. It supports different modes like 'yolo' (max permission) or 'plan mode' (review before execution)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-iFlow CLI is an advanced terminal-based AI assistant comparable to Claude Code. It allows developers to interact with their codebases using natural language, automating tasks like code analysis, file editing, and complex workflow execution. It features a built-in 'Open Market' for installing specialized SubAgents and MCP tools with a single click.
-
-## Problems solved
-
-- Friction in switching between the terminal and a browser-based AI of research or code editing
-- Difficulty in managing complex multi-step coding agent tasks (handled via Plan Mode)
-- Lack of easy access to diverse open-source models (Kimi, Qwen, DeepSeek) from a unified CLI
-
-## How to get started
-
-Install via curl or brew. Run `iflow` to start the interactive session. Use `/init` to index an existing project or simply describe a new project requirement. It supports different modes like 'yolo' (max permission) or 'plan mode' (review before execution).
-
-## Detailed report
+# iflow-ai/iflow-cli
 
 ### 1. Positioning
 iflow-ai/iflow-cli is positioned as a iflow cli is an advanced terminal-based ai assistant comparable to claude code. it allows developers to interact with their codebases using natural language, automating tasks like code analysis, file editing, and complex workflow execution. it features a built-in 'open market' for installing specialized subagents and mcp tools with a single click. It aims to provide developers with a robust, Shell-based solution for iflow cli is a comprehensive command-line intelligence that embeds in your terminal, analyzes your repositories, does coding tasks, interprets your needs across contexts, and boosts efficiency by performing tasks from simple file operations to complex workflow automation.

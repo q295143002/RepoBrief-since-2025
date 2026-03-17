@@ -1,33 +1,19 @@
 ---
-title: "accomplish-ai/accomplish"
+id: 1134220362
 repo_name: "accomplish-ai/accomplish"
 url: "https://github.com/accomplish-ai/accomplish"
-github_url: "https://github.com/accomplish-ai/accomplish"
 stars: 9757
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Agent"
-  - "Desktop Automation"
-  - "Productivity"
-  - "Privacy"
-  - "Electron"
+tags: ["AI Agent","Desktop Automation","Productivity","Privacy","Electron"]
+original_description: "Accomplish: Open source AI desktop agent that automates file management, document creation, and browser tasks locally. MIT licensed, bring your own API keys."
+english_summary: "Accomplish is a privacy-first, open-source AI desktop agent for macOS and Windows that performs file operations and browser automation using local or cloud LLMs."
+chinese_summary: null
+problems_solved: "- Provides a user-friendly GUI for 'Computer Use' agents; ensures data privacy by running entirely locally and requiring user approval for every action; eliminates subscriptions by allowing users to bring their own API keys (OpenAI\n- Anthropic) or use Ollama (local)."
+how_to_use: "Download the DMG (macOS) or EXE (Windows) from the website. Connect your API key (OpenAI/Anthropic/Google) or point it to your local Ollama instance. Select which folders you want the agent to 'see' and start typing tasks in the chat window."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Accomplish is a privacy-first, open-source AI desktop agent for macOS and Windows that performs file operations and browser automation using local or cloud LLMs.
-
-## Problems solved
-
-- Provides a user-friendly GUI for 'Computer Use' agents; ensures data privacy by running entirely locally and requiring user approval for every action; eliminates subscriptions by allowing users to bring their own API keys (OpenAI
-- Anthropic) or use Ollama (local).
-
-## How to get started
-
-Download the DMG (macOS) or EXE (Windows) from the website. Connect your API key (OpenAI/Anthropic/Google) or point it to your local Ollama instance. Select which folders you want the agent to 'see' and start typing tasks in the chat window.
-
-## Detailed report
+# accomplish-ai/accomplish
 
 ### 1. Positioning
 Accomplish targets non-technical professionals and privacy-advocates who want the power of an 'AI Agent' without the complexity of a CLI or the privacy risks of cloud-based 'agent services'. It is a user-friendly wrapper around the emerging 'Computer Use' technology.

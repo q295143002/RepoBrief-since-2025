@@ -1,33 +1,19 @@
 ---
-title: "GoogleCloudPlatform/agent-starter-pack"
+id: 925298844
 repo_name: "GoogleCloudPlatform/agent-starter-pack"
 url: "https://github.com/GoogleCloudPlatform/agent-starter-pack"
-github_url: "https://github.com/GoogleCloudPlatform/agent-starter-pack"
 stars: 5945
 language: "Python"
-layout: repo
-tags:
-  - "Google-Cloud"
-  - "Vertex-AI"
-  - "Terraform"
-  - "Cloud-Architecture"
-  - "AI-Agents"
-  - "DevOps"
+tags: ["Google-Cloud","Vertex-AI","Terraform","Cloud-Architecture","AI-Agents","DevOps"]
+original_description: "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
+english_summary: "A comprehensive collection of templates, best practices, and infrastructure-as-code (Terraform) for deploying AI agents on Google Cloud Platform."
+chinese_summary: null
+problems_solved: "- High friction in moving agent demos to production; lack of standardized architectural patterns for enterprise agents; difficulty managing multi-model deployments."
+how_to_use: "Navigate to the desired template folder (e.g., Cloud-Run, GKE); run 'terraform init' and 'terraform apply'; deploy the sample Python agent code provided."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A comprehensive collection of templates, best practices, and infrastructure-as-code (Terraform) for deploying AI agents on Google Cloud Platform.
-
-## Problems solved
-
-- High friction in moving agent demos to production; lack of standardized architectural patterns for enterprise agents; difficulty managing multi-model deployments.
-
-## How to get started
-
-Navigate to the desired template folder (e.g., Cloud-Run, GKE); run 'terraform init' and 'terraform apply'; deploy the sample Python agent code provided.
-
-## Detailed report
+# GoogleCloudPlatform/agent-starter-pack
 
 ### 1. Positioning
 GoogleCloudPlatform/agent-starter-pack is positioned as a a comprehensive collection of templates, best practices, and infrastructure-as-code (terraform) for deploying ai agents on google cloud platform. It aims to provide developers with a robust, Python-based solution for ship ai agents to google cloud in minutes, not months. production-ready templates with built-in ci/cd, evaluation, and observability.

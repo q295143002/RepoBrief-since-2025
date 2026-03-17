@@ -1,38 +1,19 @@
 ---
-title: "ace-step/ACE-Step-1.5"
+id: 1050131556
 repo_name: "ace-step/ACE-Step-1.5"
 url: "https://github.com/ace-step/ACE-Step-1.5"
-github_url: "https://github.com/ace-step/ACE-Step-1.5"
 stars: 7744
 language: "Python"
-layout: repo
-tags:
-  - "Music-Generation"
-  - "Audio-Synthesis"
-  - "Open-Source"
-  - "DiT"
-  - "LLM"
-  - "Gradio"
+tags: ["Music-Generation","Audio-Synthesis","Open-Source","DiT","LLM","Gradio"]
+original_description: "The most powerful local music generation model that outperforms most commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices."
+english_summary: "A highly efficient open-source music foundation model producing commercial-grade songs natively on consumer hardware (under 10s on an RTX 3090)."
+chinese_summary: null
+problems_solved: "- Brings high-speed\n- high-quality full song generation to local hardware\n- handling lyrics for over 50 languages\n- vocal extraction\n- LoRA fine-tuning\n- and robust editing modes without needing expensive external APIs."
+how_to_use: "Install via `uv`, run the Gradio UI `uv run acestep` locally. Utilize various modes (Text2Music, Vocal2BGM, Repaint) and provide detailed tags, tempo, scale, or a reference audio file to guide generation."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A highly efficient open-source music foundation model producing commercial-grade songs natively on consumer hardware (under 10s on an RTX 3090).
-
-## Problems solved
-
-- Brings high-speed
-- high-quality full song generation to local hardware
-- handling lyrics for over 50 languages
-- vocal extraction
-- LoRA fine-tuning
-- and robust editing modes without needing expensive external APIs.
-
-## How to get started
-
-Install via `uv`, run the Gradio UI `uv run acestep` locally. Utilize various modes (Text2Music, Vocal2BGM, Repaint) and provide detailed tags, tempo, scale, or a reference audio file to guide generation.
-
-## Detailed report
+# ace-step/ACE-Step-1.5
 
 ### 1. Positioning
 ace-step/ACE-Step-1.5 is positioned as a a highly efficient open-source music foundation model producing commercial-grade songs natively on consumer hardware (under 10s on an rtx 3090). It aims to provide developers with a robust, Python-based solution for the most powerful local music generation model that outperforms most commercial alternatives, supporting mac, amd, intel, and cuda devices.

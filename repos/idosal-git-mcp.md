@@ -1,33 +1,19 @@
 ---
-title: "idosal/git-mcp"
+id: 956842312
 repo_name: "idosal/git-mcp"
 url: "https://github.com/idosal/git-mcp"
-github_url: "https://github.com/idosal/git-mcp"
 stars: 7756
 language: "TypeScript"
-layout: repo
-tags:
-  - "MCP-Server"
-  - "GitHub"
-  - "Documentation"
-  - "AI"
-  - "Zero-Hallucination"
+tags: ["MCP-Server","GitHub","Documentation","AI","Zero-Hallucination"]
+original_description: "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project"
+english_summary: "An MCP (Model Context Protocol) server that grants AI assistants direct access to the latest documentation and code of any GitHub repository, minimizing hallucinations."
+chinese_summary: null
+problems_solved: "- Provides LLMs with real-time\n- zero-hallucination access to API docs and code for rapidly changing or niche libraries that aren't available in their training data."
+how_to_use: "Add a GitMCP URL (e.g. `https://gitmcp.io/{owner}/{repo}`) to your AI IDE like Cursor, Windsurf, or Claude Desktop. Ask your AI questions, and it will fetch/search documentation natively."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An MCP (Model Context Protocol) server that grants AI assistants direct access to the latest documentation and code of any GitHub repository, minimizing hallucinations.
-
-## Problems solved
-
-- Provides LLMs with real-time
-- zero-hallucination access to API docs and code for rapidly changing or niche libraries that aren't available in their training data.
-
-## How to get started
-
-Add a GitMCP URL (e.g. `https://gitmcp.io/{owner}/{repo}`) to your AI IDE like Cursor, Windsurf, or Claude Desktop. Ask your AI questions, and it will fetch/search documentation natively.
-
-## Detailed report
+# idosal/git-mcp
 
 ### 1. Positioning
 idosal/git-mcp is positioned as a an mcp (model context protocol) server that grants ai assistants direct access to the latest documentation and code of any github repository, minimizing hallucinations. It aims to provide developers with a robust, TypeScript-based solution for put an end to code hallucinations! gitmcp is a free, open-source, remote mcp server for any github project.

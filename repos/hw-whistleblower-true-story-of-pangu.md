@@ -1,32 +1,19 @@
 ---
-title: "HW-whistleblower/True-Story-of-Pangu"
+id: 1014490924
 repo_name: "HW-whistleblower/True-Story-of-Pangu"
 url: "https://github.com/HW-whistleblower/True-Story-of-Pangu"
-github_url: "https://github.com/HW-whistleblower/True-Story-of-Pangu"
 stars: 11384
-language: ""
-layout: repo
-tags:
-  - "Whistleblower"
-  - "AI-Research"
-  - "Corporate-Fraud"
-  - "Huawei"
-  - "Transparency"
+language: null
+tags: ["Whistleblower","AI-Research","Corporate-Fraud","Huawei","Transparency"]
+original_description: "盘古之殇：华为诺亚盘古大模型研发历程的心酸与黑暗"
+english_summary: "An explosive internal whistle-blower manifesto detailing exactly explicit architectural malfeasance executing severe academic plagiarism accusing directly Huawei Noah's Ark management falsifying explicitly multi-billion parameter foundation models completely."
+chinese_summary: null
+problems_solved: "- Exposes completely the fundamentally extremely toxic internal misrepresentation manipulating deliberately Chinese national AI investments tracking inherently severe structural workflow failures rectifying explicitly public understanding verifying completely massive corporate intellectual fraud effectively."
+how_to_use: "Read dynamically the uploaded Markdown document validating completely detailed developmental timelines recognizing explicitly specific executive names tracking carefully specific LLM training node deviations deeply."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An explosive internal whistle-blower manifesto detailing exactly explicit architectural malfeasance executing severe academic plagiarism accusing directly Huawei Noah's Ark management falsifying explicitly multi-billion parameter foundation models completely.
-
-## Problems solved
-
-- Exposes completely the fundamentally extremely toxic internal misrepresentation manipulating deliberately Chinese national AI investments tracking inherently severe structural workflow failures rectifying explicitly public understanding verifying completely massive corporate intellectual fraud effectively.
-
-## How to get started
-
-Read dynamically the uploaded Markdown document validating completely detailed developmental timelines recognizing explicitly specific executive names tracking carefully specific LLM training node deviations deeply.
-
-## Detailed report
+# HW-whistleblower/True-Story-of-Pangu
 
 ### 1. Positioning
 This repository establishes explicitly a fundamentally severe historical record operating fundamentally tracing deeply hidden systemic corporate decay exposing directly massive academic corruption defining exactly extremely explosive technological realities entirely.

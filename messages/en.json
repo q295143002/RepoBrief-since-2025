@@ -1,0 +1,25 @@
+{
+  "Header": {
+    "logo": "RepoBrief"
+  },
+  "Filter": {
+    "title": "Filter by Tags",
+    "overlayTitle": "Select Tags",
+    "more": "More"
+  },
+  "Intro": {
+    "title": "Design Intelligence"
+  },
+  "Toolbar": {
+    "results": "{count} Repositories Found",
+    "sortByStars": "Sort by Stars",
+    "export": "Export Excel",
+    "searchPlaceholder": "Search repositories..."
+  },
+  "Drawer": {
+    "summary": "English Summary",
+    "problems": "Problems Solved",
+    "howToUse": "How to Use",
+    "report": "Detailed Report"
+  }
+}

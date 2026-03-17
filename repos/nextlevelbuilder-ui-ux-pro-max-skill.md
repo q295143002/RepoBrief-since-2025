@@ -1,37 +1,19 @@
 ---
-title: "nextlevelbuilder/ui-ux-pro-max-skill"
+id: 1106996539
 repo_name: "nextlevelbuilder/ui-ux-pro-max-skill"
 url: "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
-github_url: "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
 stars: 40724
 language: "Python"
-layout: repo
-tags:
-  - "UI/UX"
-  - "Design System"
-  - "Frontend"
-  - "CSS"
-  - "Tailwind"
-  - "AI Coding"
-  - "Aesthetics"
+tags: ["UI/UX","Design System","Frontend","CSS","Tailwind","AI Coding","Aesthetics"]
+original_description: "UI-UX Pro Max Skill focuses on UI/UX aesthetic enhancement for AI plugins, ensuring AI-generated code follows pixel-perfect design specifications."
+english_summary: "Pixel-perfect UI/UX aesthetic rules for AI-driven frontend generation."
+chinese_summary: null
+problems_solved: "- AI often generates 'ugly' or non-standard UI code by default.\n- Divergence between professional design mockups and AI implementation.\n- Lack of aesthetic grounding in general-purpose coding models."
+how_to_use: "/plugin install ui-ux-pro-max-skill # In compatible environments\n# Or add instructions to your system prompt."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Pixel-perfect UI/UX aesthetic rules for AI-driven frontend generation.
-
-## Problems solved
-
-- AI often generates 'ugly' or non-standard UI code by default.
-- Divergence between professional design mockups and AI implementation.
-- Lack of aesthetic grounding in general-purpose coding models.
-
-## How to get started
-
-/plugin install ui-ux-pro-max-skill # In compatible environments
-# Or add instructions to your system prompt.
-
-## Detailed report
+# nextlevelbuilder/ui-ux-pro-max-skill
 
 ### 1. Positioning
 UI-UX Pro Max is a specialized knowledge base and 'Skill' for LLMs that forces them to follow elite design systems during code generation. It turns an AI from a basic coder into a senior UI/UX engineer.

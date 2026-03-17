@@ -1,37 +1,19 @@
 ---
-title: "davila7/claude-code-templates"
+id: 1013480284
 repo_name: "davila7/claude-code-templates"
 url: "https://github.com/davila7/claude-code-templates"
-github_url: "https://github.com/davila7/claude-code-templates"
 stars: 22839
 language: "Python"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Templates"
-  - "Prompt Engineering"
-  - "Configuration Management"
-  - "CLI Tools"
-  - "Developer Productivity"
+tags: ["Claude Code","Templates","Prompt Engineering","Configuration Management","CLI Tools","Developer Productivity"]
+original_description: "CLI tool for configuring and monitoring Claude Code sessions with custom templates and profiles."
+english_summary: "A configuration management and templating CLI to hyper-optimize Claude Code environments."
+chinese_summary: null
+problems_solved: "- Manual repetition in setting up project-specific 'custom personas' for Claude Code.\n- Lack of structural monitoring for token usage across different coding profiles.\n- Difficulty in sharing 'Team-Wide' coding standards with the AI agent."
+how_to_use: "npm install -g @davila7/claude-code-templates\ncct use frontend-specialist\ncct stats --current"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A configuration management and templating CLI to hyper-optimize Claude Code environments.
-
-## Problems solved
-
-- Manual repetition in setting up project-specific 'custom personas' for Claude Code.
-- Lack of structural monitoring for token usage across different coding profiles.
-- Difficulty in sharing 'Team-Wide' coding standards with the AI agent.
-
-## How to get started
-
-npm install -g @davila7/claude-code-templates
-cct use frontend-specialist
-cct stats --current
-
-## Detailed report
+# davila7/claude-code-templates
 
 ### 1. Positioning
 Claude-Code-Templates is a power-user utility for the Anthropic Claude Code CLI. It allows developers to create, share, and switch between 'Coding Personas' (templates) that contain specific system instructions, file-access rules, and tool preferences, effectively customizing the agent for different tech stacks.

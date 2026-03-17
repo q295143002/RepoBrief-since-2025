@@ -1,33 +1,19 @@
 ---
-title: "different-ai/openwork"
+id: 1133911335
 repo_name: "different-ai/openwork"
 url: "https://github.com/different-ai/openwork"
-github_url: "https://github.com/different-ai/openwork"
 stars: 11665
 language: "TypeScript"
-layout: repo
-tags:
-  - "MCP"
-  - "AI Agent"
-  - "TypeScript"
-  - "Productivity"
-  - "Open Source"
-  - "Claude"
+tags: ["MCP","AI Agent","TypeScript","Productivity","Open Source","Claude"]
+original_description: "OpenWork helps you run your agents, skills, and MCP. It's an open-source alternative to Claude Cowork/Codex (desktop app)."
+english_summary: "A sophisticated cross-platform application wrapping essentially open-source logic routing multi-agent workflows connecting specifically desktop and remote orchestration servers seamlessly."
+chinese_summary: null
+problems_solved: "Schedules and simplifies extensively complex MCP environments circumventing absolutely proprietary locked-in ecosystems executing flawlessly local agent processing operations rendering explicitly timeline matrices clearly."
+how_to_use: "Install native DMG binaries or run `pnpm dev` locally extracting precisely custom agent configurations communicating safely testing explicit LLM command schemas natively."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A sophisticated cross-platform application wrapping essentially open-source logic routing multi-agent workflows connecting specifically desktop and remote orchestration servers seamlessly.
-
-## Problems solved
-
-Schedules and simplifies extensively complex MCP environments circumventing absolutely proprietary locked-in ecosystems executing flawlessly local agent processing operations rendering explicitly timeline matrices clearly.
-
-## How to get started
-
-Install native DMG binaries or run `pnpm dev` locally extracting precisely custom agent configurations communicating safely testing explicit LLM command schemas natively.
-
-## Detailed report
+# different-ai/openwork
 
 ### 1. Positioning
 OpenWork operates exceptionally establishing an absolute definitive open-source desktop proxy managing flawlessly sophisticated conversational coding processes simulating effectively advanced proprietary application structures cleanly.

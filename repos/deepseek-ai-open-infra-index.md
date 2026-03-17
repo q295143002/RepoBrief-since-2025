@@ -1,33 +1,19 @@
 ---
-title: "deepseek-ai/open-infra-index"
+id: 936395702
 repo_name: "deepseek-ai/open-infra-index"
 url: "https://github.com/deepseek-ai/open-infra-index"
-github_url: "https://github.com/deepseek-ai/open-infra-index"
 stars: 7974
-language: ""
-layout: repo
-tags:
-  - "AI-Infrastructure"
-  - "CUDA"
-  - "GPU-Optimization"
-  - "MoE"
-  - "DeepSeek"
-  - "Cloud-Systems"
+language: null
+tags: ["AI-Infrastructure","CUDA","GPU-Optimization","MoE","DeepSeek","Cloud-Systems"]
+original_description: "Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation"
+english_summary: "A central index for DeepSeek's high-performance infrastructure components, including specialized kernels for MoE models and file systems."
+chinese_summary: null
+problems_solved: "- Latency in scaling Mixture-of-Experts (MoE) models; bottlenecks in GPU communication for large training; centralized storage inefficiency for AI workloads."
+how_to_use: "Navigate to submodules like FlashMLA, DeepEP, or 3FS; requires specific hardware (H800/H100) and CUDA environment."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A central index for DeepSeek's high-performance infrastructure components, including specialized kernels for MoE models and file systems.
-
-## Problems solved
-
-- Latency in scaling Mixture-of-Experts (MoE) models; bottlenecks in GPU communication for large training; centralized storage inefficiency for AI workloads.
-
-## How to get started
-
-Navigate to submodules like FlashMLA, DeepEP, or 3FS; requires specific hardware (H800/H100) and CUDA environment.
-
-## Detailed report
+# deepseek-ai/open-infra-index
 
 ### 1. Positioning
 deepseek-ai/open-infra-index is positioned as a a central index for deepseek's high-performance infrastructure components, including specialized kernels for moe models and file systems. It aims to provide developers with a robust, Various-based solution for production-tested ai infrastructure tools for efficient agi development and community-driven innovation.

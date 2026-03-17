@@ -1,36 +1,19 @@
 ---
-title: "qwibitai/nanoclaw"
+id: 1146738089
 repo_name: "qwibitai/nanoclaw"
 url: "https://github.com/qwibitai/nanoclaw"
-github_url: "https://github.com/qwibitai/nanoclaw"
 stars: 22170
 language: "TypeScript"
-layout: repo
-tags:
-  - "Docker"
-  - "Rust"
-  - "Agent Gateway"
-  - "Messaging AI"
-  - "Security"
-  - "Automation"
-  - "Micro-Agent"
+tags: ["Docker","Rust","Agent Gateway","Messaging AI","Security","Automation","Micro-Agent"]
+original_description: "A lightweight alternative to OpenClaw that runs in containers for security, connecting to diverse messaging apps."
+english_summary: "A secure, containerized 'micro-agent' for cross-platform messaging and task automation."
+chinese_summary: null
+problems_solved: "- Security risks of autonomous agents with full host file access\n- Fragmented presence across multiple messaging apps\n- Resource bloat in large agent frameworks"
+how_to_use: "Run via Docker: `docker run nanoclaw/agent`. Link your messaging APIs via the local web dashboard."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A secure, containerized 'micro-agent' for cross-platform messaging and task automation.
-
-## Problems solved
-
-- Security risks of autonomous agents with full host file access
-- Fragmented presence across multiple messaging apps
-- Resource bloat in large agent frameworks
-
-## How to get started
-
-Run via Docker: `docker run nanoclaw/agent`. Link your messaging APIs via the local web dashboard.
-
-## Detailed report
+# qwibitai/nanoclaw
 
 ### 1. Positioning
 NanoClaw is a 'Security-First' variant of OpenClaw, designed for lightweight, sandboxed deployment in containers.

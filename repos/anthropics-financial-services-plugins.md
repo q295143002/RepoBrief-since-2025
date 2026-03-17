@@ -1,36 +1,19 @@
 ---
-title: "anthropics/financial-services-plugins"
+id: 1165056385
 repo_name: "anthropics/financial-services-plugins"
 url: "https://github.com/anthropics/financial-services-plugins"
-github_url: "https://github.com/anthropics/financial-services-plugins"
 stars: 5785
 language: "Python"
-layout: repo
-tags:
-  - "Finance"
-  - "FinTech"
-  - "AI Plugins"
-  - "Claude"
-  - "Data Analysis"
-  - "MCP"
-  - "Open Source"
+tags: ["Finance","FinTech","AI Plugins","Claude","Data Analysis","MCP","Open Source"]
+original_description: null
+english_summary: "A collection of specialized plugins designed to empower Claude for financial services tasks. These plugins enable complex workflows such as multi-source research, spreadsheet analysis, and automated report generation."
+chinese_summary: null
+problems_solved: "- Generic AI limitations in financial analysis\n- Need for direct integration with financial data providers (MCP)\n- Manual data mapping for financial reports"
+how_to_use: "Install the plugins using Claude Code or Cowork. Configure access to financial APIs (e.g., Alpha Vantage, Polygon) via MCP, and use natural language to initiate research-to-report workflows."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A collection of specialized plugins designed to empower Claude for financial services tasks. These plugins enable complex workflows such as multi-source research, spreadsheet analysis, and automated report generation.
-
-## Problems solved
-
-- Generic AI limitations in financial analysis
-- Need for direct integration with financial data providers (MCP)
-- Manual data mapping for financial reports
-
-## How to get started
-
-Install the plugins using Claude Code or Cowork. Configure access to financial APIs (e.g., Alpha Vantage, Polygon) via MCP, and use natural language to initiate research-to-report workflows.
-
-## Detailed report
+# anthropics/financial-services-plugins
 
 ### 1. Positioning
 anthropics/financial-services-plugins is positioned as a a collection of specialized plugins designed to empower claude for financial services tasks. these plugins enable complex workflows such as multi-source research, spreadsheet analysis, and automated report generation. It aims to provide developers with a robust, Python-based solution for no description provided.

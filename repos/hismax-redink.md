@@ -1,36 +1,19 @@
 ---
-title: "HisMax/RedInk"
+id: 1103772881
 repo_name: "HisMax/RedInk"
 url: "https://github.com/HisMax/RedInk"
-github_url: "https://github.com/HisMax/RedInk"
 stars: 5008
 language: "Python"
-layout: repo
-tags:
-  - "Social Media"
-  - "Xiaohongshu"
-  - "Content Creation"
-  - "AI Images"
-  - "Automation"
-  - "Marketing"
-  - "Open Source"
+tags: ["Social Media","Xiaohongshu","Content Creation","AI Images","Automation","Marketing","Open Source"]
+original_description: "红墨 - 基于🍌Nano Banana Pro🍌 的一站式小红书图文生成器 《一句话一张图片生成小红书图文》 Red Ink - A one-stop Xiaohongshu image-and-text generator based on the 🍌Nano Banana Pro🍌, \"One Sentence, One Image: Generate Xiaohongshu Text and Images.\""
+english_summary: "RedInk is a specialized AI tool designed for creators on platforms like Xiaohongshu (Little Red Book). It uses a unified pipeline to generate structured outlines, accurate cover images with baked-in text, and consistent content pages, all from a single prompt or title."
+chinese_summary: null
+problems_solved: "- Low efficiency in creating series of consistent, visually appealing social media posts\n- Inaccuracy of text rendering in general-purpose AI image generators (e.g., Midjourney/DALL-E)\n- Difficulty in maintaining a unified visual style across a 10-page 'carousel' post"
+how_to_use: "Deploy via Docker or locally with Python/Vue. In the web interface, input a topic or sentence. The AI generates a multi-page outline which the user can edit. Once approved, RedInk generates all images (cover and content) in parallel, ensuring consistent colors and layouts across the set."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-RedInk is a specialized AI tool designed for creators on platforms like Xiaohongshu (Little Red Book). It uses a unified pipeline to generate structured outlines, accurate cover images with baked-in text, and consistent content pages, all from a single prompt or title.
-
-## Problems solved
-
-- Low efficiency in creating series of consistent, visually appealing social media posts
-- Inaccuracy of text rendering in general-purpose AI image generators (e.g., Midjourney/DALL-E)
-- Difficulty in maintaining a unified visual style across a 10-page 'carousel' post
-
-## How to get started
-
-Deploy via Docker or locally with Python/Vue. In the web interface, input a topic or sentence. The AI generates a multi-page outline which the user can edit. Once approved, RedInk generates all images (cover and content) in parallel, ensuring consistent colors and layouts across the set.
-
-## Detailed report
+# HisMax/RedInk
 
 ### 1. Positioning
 HisMax/RedInk is positioned as a redink is a specialized ai tool designed for creators on platforms like xiaohongshu (little red book). it uses a unified pipeline to generate structured outlines, accurate cover images with baked-in text, and consistent content pages, all from a single prompt or title. It aims to provide developers with a robust, Python-based solution for 红墨 - 基于🍌nano banana pro🍌 的一站式小红书图文生成器 《一句话一张图片生成小红书图文》 red ink - a one-stop xiaohongshu image-and-text generator based on the 🍌nano banana pro🍌, "one sentence, one image: generate xiaohongshu text and images.".

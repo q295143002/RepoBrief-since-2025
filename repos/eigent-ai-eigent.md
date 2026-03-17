@@ -1,34 +1,19 @@
 ---
-title: "eigent-ai/eigent"
+id: 1028492186
 repo_name: "eigent-ai/eigent"
 url: "https://github.com/eigent-ai/eigent"
-github_url: "https://github.com/eigent-ai/eigent"
 stars: 12971
 language: "TypeScript"
-layout: repo
-tags:
-  - "Multi-Agent"
-  - "Desktop-App"
-  - "Local-First"
-  - "Productivity"
-  - "Open-Source"
+tags: ["Multi-Agent","Desktop-App","Local-First","Productivity","Open-Source"]
+original_description: "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity"
+english_summary: "An open-source, local-first Cowork desktop application employing a Multi-Agent Workforce to automate complex software development and office workflows."
+chinese_summary: null
+problems_solved: "- Consolidates disparaging AI capabilities (browsing\n- document creation\n- coding) securely inside a local offline environment via orchestrated multi-agent parallelism."
+how_to_use: "Start the cloud-connected version using `npm run dev` or utilize the comprehensive local deployment instructions to deploy a sandboxed API backend."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source, local-first Cowork desktop application employing a Multi-Agent Workforce to automate complex software development and office workflows.
-
-## Problems solved
-
-- Consolidates disparaging AI capabilities (browsing
-- document creation
-- coding) securely inside a local offline environment via orchestrated multi-agent parallelism.
-
-## How to get started
-
-Start the cloud-connected version using `npm run dev` or utilize the comprehensive local deployment instructions to deploy a sandboxed API backend.
-
-## Detailed report
+# eigent-ai/eigent
 
 ### 1. Positioning
 Eigent operates as an "Open Source Cowork Desktop," establishing a local graphical environment specifically built around Multi-Agent AI (based natively on CAMEL-AI). It is targeted at professionals seeking workflow automation with guaranteed privacy.

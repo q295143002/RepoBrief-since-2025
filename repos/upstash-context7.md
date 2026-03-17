@@ -1,36 +1,19 @@
 ---
-title: "upstash/context7"
+id: 955620917
 repo_name: "upstash/context7"
 url: "https://github.com/upstash/context7"
-github_url: "https://github.com/upstash/context7"
 stars: 48830
 language: "TypeScript"
-layout: repo
-tags:
-  - "Edge Computing"
-  - "Memory Management"
-  - "Upstash"
-  - "LLM Context"
-  - "High Performance"
-  - "Serverless"
-  - "Developer Tools"
+tags: ["Edge Computing","Memory Management","Upstash","LLM Context","High Performance","Serverless","Developer Tools"]
+original_description: "Context7 by Upstash is a high-performance, edge-first library for context management in LLM applications. It ensures low latency and smart truncation of long contexts."
+english_summary: "Edge-optimized context management library for ultra-fast, smart LLM context handling."
+chinese_summary: "Context7 是为 LLM 设计的高效上下文解析工具。能将非结构化文档转换为紧凑格式，常用于 RAG 系统构建。"
+problems_solved: "- Extreme latency when retrieving context from centralized databases in global applications\n- Inefficient, 'dumb' context truncation leading to information loss in AI responses\n- Complex implementation of per-session persistent memory at the network edge"
+how_to_use: "Install via npm: `npm install @upstash/context7`. Requires an Upstash API key. Use it as a memory layer: `const memory = new Context7({ apiKey: '...' })`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Edge-optimized context management library for ultra-fast, smart LLM context handling.
-
-## Problems solved
-
-- Extreme latency when retrieving context from centralized databases in global applications
-- Inefficient, 'dumb' context truncation leading to information loss in AI responses
-- Complex implementation of per-session persistent memory at the network edge
-
-## How to get started
-
-Install via npm: `npm install @upstash/context7`. Requires an Upstash API key. Use it as a memory layer: `const memory = new Context7({ apiKey: '...' })`.
-
-## Detailed report
+# upstash/context7
 
 ### 1. Positioning
 Context7 is a 'Global Secondary Cache' for LLMs. Developed by Upstash, it enables sub-millisecond context retrieval by operating at the network edge. It targets consumer-facing AI apps that require instant responses and high-fidelity project memory.

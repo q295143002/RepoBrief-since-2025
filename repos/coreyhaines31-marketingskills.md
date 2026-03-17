@@ -1,30 +1,19 @@
 ---
-title: "coreyhaines31/marketingskills"
+id: 1135212071
 repo_name: "coreyhaines31/marketingskills"
 url: "https://github.com/coreyhaines31/marketingskills"
-github_url: "https://github.com/coreyhaines31/marketingskills"
 stars: 13139
 language: "JavaScript"
-layout: repo
-tags:
-  - "Marketing"
-  - "AI Skills"
-  - "Claude Code"
+tags: ["Marketing","AI Skills","Claude Code"]
+original_description: "A collection of AI agent skills focused on marketing tasks."
+english_summary: "An extensive library of pre-formatted prompts and instruction sets (Agent Skills) devised explicitly to guide AI models in executing professional marketing campaigns and logic."
+chinese_summary: null
+problems_solved: "- Closes the expertise gap between generic AI outputs and professional tech marketing nuances by injecting specific frameworks governing SEO, copywriting, and CRO (Conversion Rate Optimization)."
+how_to_use: "Clone or run `npx skills add coreyhaines31/marketingskills` to inject specialized markdown capabilities into coding agents (Claude Code, Cursor). Call upon these skills explicitly in AI chat interactions."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An extensive library of pre-formatted prompts and instruction sets (Agent Skills) devised explicitly to guide AI models in executing professional marketing campaigns and logic.
-
-## Problems solved
-
-- Closes the expertise gap between generic AI outputs and professional tech marketing nuances by injecting specific frameworks governing SEO, copywriting, and CRO (Conversion Rate Optimization).
-
-## How to get started
-
-Clone or run `npx skills add coreyhaines31/marketingskills` to inject specialized markdown capabilities into coding agents (Claude Code, Cursor). Call upon these skills explicitly in AI chat interactions.
-
-## Detailed report
+# coreyhaines31/marketingskills
 
 ### 1. Positioning
 Marketing Skills acts as an enhancement plugin for agentic environments specifically tailored for founders and marketers. It injects rigorous growth engineering heuristics into otherwise standard coding/development bots.

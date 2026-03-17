@@ -1,32 +1,19 @@
 ---
-title: "Wei-Shaw/claude-relay-service"
+id: 1019432584
 repo_name: "Wei-Shaw/claude-relay-service"
 url: "https://github.com/Wei-Shaw/claude-relay-service"
-github_url: "https://github.com/Wei-Shaw/claude-relay-service"
 stars: 9446
 language: "JavaScript"
-layout: repo
-tags:
-  - "API Gateway"
-  - "Claude"
-  - "Codex"
-  - "Infrastructure"
-  - "Proxy"
+tags: ["API Gateway","Claude","Codex","Infrastructure","Proxy"]
+original_description: "Claude Relay Service: 自行搭建Claude API中转服务，支持多账户管理。支持 Claude Code 和 Codex CLI。"
+english_summary: "Claude Relay Service is a self-hosted API gateway for Claude and Codex, featuring multi-account management, intelligent rotation, and usage statistics for individuals and teams."
+chinese_summary: null
+problems_solved: "- Solves regional access restrictions to Claude services; eliminates privacy concerns of third-party mirroring sites by keeping data on private servers; enables cost-sharing of high-tier subscriptions (like Claude Max) through multi-user API key management."
+how_to_use: "Run the one-click script: `curl -fsSL https://pincc.ai/manage.sh -o manage.sh && chmod +x manage.sh && ./manage.sh install`. Configure your `JWT_SECRET` and `ENCRYPTION_KEY` in the `.env` file, then access the web dashboard at `http://your-ip:3000/web` to add accounts."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Claude Relay Service is a self-hosted API gateway for Claude and Codex, featuring multi-account management, intelligent rotation, and usage statistics for individuals and teams.
-
-## Problems solved
-
-- Solves regional access restrictions to Claude services; eliminates privacy concerns of third-party mirroring sites by keeping data on private servers; enables cost-sharing of high-tier subscriptions (like Claude Max) through multi-user API key management.
-
-## How to get started
-
-Run the one-click script: `curl -fsSL https://pincc.ai/manage.sh -o manage.sh && chmod +x manage.sh && ./manage.sh install`. Configure your `JWT_SECRET` and `ENCRYPTION_KEY` in the `.env` file, then access the web dashboard at `http://your-ip:3000/web` to add accounts.
-
-## Detailed report
+# Wei-Shaw/claude-relay-service
 
 ### 1. Positioning
 Claude Relay Service (CRS) is an infrastructure tool for the 'power user' ecosystem. It positions itself as a private, secure bridge between Anthropic's official API and developers who require high stability, multi-account pooling, and transparent cost management for tools like Claude Code and Codex.

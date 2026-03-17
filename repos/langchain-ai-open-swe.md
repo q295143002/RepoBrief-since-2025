@@ -1,36 +1,19 @@
 ---
-title: "langchain-ai/open-swe"
+id: 987975584
 repo_name: "langchain-ai/open-swe"
 url: "https://github.com/langchain-ai/open-swe"
-github_url: "https://github.com/langchain-ai/open-swe"
 stars: 5287
 language: "Python"
-layout: repo
-tags:
-  - "AI Coding Agent"
-  - "SWE Agent"
-  - "LangGraph"
-  - "Slackbot"
-  - "DevOps"
-  - "Automation"
-  - "Open Source"
+tags: ["AI Coding Agent","SWE Agent","LangGraph","Slackbot","DevOps","Automation","Open Source"]
+original_description: "An Open-Source Asynchronous Coding Agent"
+english_summary: "Open SWE is an industrial-grade framework for building 'Software Engineering' agents similar to those used internally at companies like Stripe and Ramp. Built on LangGraph, it provides a complete infrastructure including secure cloud sandboxes, Slack/Linear invocation, and subagent orchestration for complex coding tasks."
+chinese_summary: null
+problems_solved: "- High risk of running agent-generated code on local developer machines\n- Lack of standardized context-gathering from task management systems like Linear\n- Need for multi-step 'agentic loops' with safety gates (PR creation instead of direct commits)"
+how_to_use: "Deploy as a service that listens to GitHub/Slack/Linear webhooks. When an engineer mentions the bot on an issue or thread, Open SWE spins up an isolated sandbox (Modal, Daytona, etc.), clones the repo, and performs the requested engineering task asynchronously."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Open SWE is an industrial-grade framework for building 'Software Engineering' agents similar to those used internally at companies like Stripe and Ramp. Built on LangGraph, it provides a complete infrastructure including secure cloud sandboxes, Slack/Linear invocation, and subagent orchestration for complex coding tasks.
-
-## Problems solved
-
-- High risk of running agent-generated code on local developer machines
-- Lack of standardized context-gathering from task management systems like Linear
-- Need for multi-step 'agentic loops' with safety gates (PR creation instead of direct commits)
-
-## How to get started
-
-Deploy as a service that listens to GitHub/Slack/Linear webhooks. When an engineer mentions the bot on an issue or thread, Open SWE spins up an isolated sandbox (Modal, Daytona, etc.), clones the repo, and performs the requested engineering task asynchronously.
-
-## Detailed report
+# langchain-ai/open-swe
 
 ### 1. Positioning
 langchain-ai/open-swe is positioned as a open swe is an industrial-grade framework for building 'software engineering' agents similar to those used internally at companies like stripe and ramp. built on langgraph, it provides a complete infrastructure including secure cloud sandboxes, slack/linear invocation, and subagent orchestration for complex coding tasks. It aims to provide developers with a robust, Python-based solution for an open-source asynchronous coding agent.

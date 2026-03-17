@@ -1,30 +1,19 @@
 ---
-title: "LibreSpark/LibreTV"
+id: 961357433
 repo_name: "LibreSpark/LibreTV"
 url: "https://github.com/LibreSpark/LibreTV"
-github_url: "https://github.com/LibreSpark/LibreTV"
 stars: 13216
 language: "JavaScript"
-layout: repo
-tags:
-  - "TV"
-  - "Streaming"
-  - "Open Source"
+tags: ["TV","Streaming","Open Source"]
+original_description: "LibreTV - 免费在线视频搜索与观看平台"
+english_summary: "LibreTV is a lightweight, open-source online video platform aggregating search and playback features from various CMS streaming APIs without requirement for registration."
+chinese_summary: null
+problems_solved: "- Offers a centralized, free interface to discover and watch video content, overcoming disparate regional CMS complexities, while proxying streams seamlessly bypassing heavy ad payloads."
+how_to_use: "Deploy via one-click platforms like Vercel or Cloudflare pages, supplying a compulsory `PASSWORD` environment variable. Navigate to the deployed site to search and stream."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-LibreTV is a lightweight, open-source online video platform aggregating search and playback features from various CMS streaming APIs without requirement for registration.
-
-## Problems solved
-
-- Offers a centralized, free interface to discover and watch video content, overcoming disparate regional CMS complexities, while proxying streams seamlessly bypassing heavy ad payloads.
-
-## How to get started
-
-Deploy via one-click platforms like Vercel or Cloudflare pages, supplying a compulsory `PASSWORD` environment variable. Navigate to the deployed site to search and stream.
-
-## Detailed report
+# LibreSpark/LibreTV
 
 ### 1. Positioning
 LibreTV operates as an unbloated, privacy-conscious Web video aggregator leveraging third-party CMS APIs specifically designed and optimized for Mandarin-speaking demographics searching for rapid, on-demand playback.

@@ -1,31 +1,19 @@
 ---
-title: "pranshuparmar/witr"
+id: 1120195677
 repo_name: "pranshuparmar/witr"
 url: "https://github.com/pranshuparmar/witr"
-github_url: "https://github.com/pranshuparmar/witr"
 stars: 14063
 language: "Go"
-layout: repo
-tags:
-  - "CLI"
-  - "Process Trace"
-  - "Rust"
-  - "System Tool"
+tags: ["CLI","Process Trace","Rust","System Tool"]
+original_description: "witr answers \"Why is this running?\" by tracing process ancestry."
+english_summary: "A CLI tool that traces process ancestry to answer \"Why is this running?\", providing insight into what triggered a specific process."
+chinese_summary: null
+problems_solved: "- Solves the mystery of rogue, unexpected, or resource-heavy processes by tracing who or what invoked them down their ancestry tree."
+how_to_use: "Install using cargo: `cargo install witr`. Run `witr <PID>` or `witr <process_name>` to trace ancestry. Use `witr -i` for interactive TUI."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A CLI tool that traces process ancestry to answer "Why is this running?", providing insight into what triggered a specific process.
-
-## Problems solved
-
-- Solves the mystery of rogue, unexpected, or resource-heavy processes by tracing who or what invoked them down their ancestry tree.
-
-## How to get started
-
-Install using cargo: `cargo install witr`. Run `witr <PID>` or `witr <process_name>` to trace ancestry. Use `witr -i` for interactive TUI.
-
-## Detailed report
+# pranshuparmar/witr
 
 ### 1. Positioning
 `witr` (Why Is This Running) is a systemic diagnostic tool written in Rust aimed at developers and sysadmins to trace the origins of active processes.

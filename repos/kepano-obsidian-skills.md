@@ -1,31 +1,19 @@
 ---
-title: "kepano/obsidian-skills"
+id: 1126947080
 repo_name: "kepano/obsidian-skills"
 url: "https://github.com/kepano/obsidian-skills"
-github_url: "https://github.com/kepano/obsidian-skills"
 stars: 13588
-language: ""
-layout: repo
-tags:
-  - "Obsidian"
-  - "AI Agent"
-  - "Skills"
-  - "PKM"
+language: null
+tags: ["Obsidian","AI Agent","Skills","PKM"]
+original_description: "Agent Skills for use with Obsidian."
+english_summary: "A suite of Agent Skills specifically configured for AI agents to interact with, create, and edit Obsidian vaults and markdown files."
+chinese_summary: null
+problems_solved: "- Bridges the gap between AI coding assistants and Obsidian, allowing agents to natively parse and format Obsidian-flavored wikilinks, canvas files, and databases."
+how_to_use: "Add via the plugin marketplace: `/plugin install obsidian@obsidian-skills`, or copy the repository contents to your vault's `/.claude/skills` directory."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A suite of Agent Skills specifically configured for AI agents to interact with, create, and edit Obsidian vaults and markdown files.
-
-## Problems solved
-
-- Bridges the gap between AI coding assistants and Obsidian, allowing agents to natively parse and format Obsidian-flavored wikilinks, canvas files, and databases.
-
-## How to get started
-
-Add via the plugin marketplace: `/plugin install obsidian@obsidian-skills`, or copy the repository contents to your vault's `/.claude/skills` directory.
-
-## Detailed report
+# kepano/obsidian-skills
 
 ### 1. Positioning
 Obsidian Skills focuses on extending the Agent Skills specification to the Obsidian ecosystem, turning standard LLM agents (Claude Code, Codex CLI) into capable note-taking, formatting, and vault manipulation tools.

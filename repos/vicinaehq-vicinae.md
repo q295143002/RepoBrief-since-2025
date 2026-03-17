@@ -1,36 +1,19 @@
 ---
-title: "vicinaehq/vicinae"
+id: 1027461827
 repo_name: "vicinaehq/vicinae"
 url: "https://github.com/vicinaehq/vicinae"
-github_url: "https://github.com/vicinaehq/vicinae"
 stars: 6768
 language: "C++"
-layout: repo
-tags:
-  - "Launcher"
-  - "Linux"
-  - "Desktop-App"
-  - "Raycast"
-  - "TypeScript"
-  - "Open-Source"
-  - "Productivity"
+tags: ["Launcher","Linux","Desktop-App","Raycast","TypeScript","Open-Source","Productivity"]
+original_description: "A focused launcher for your desktop — native, fast, extensible"
+english_summary: "Vicinae is a fast, keyboard-first, open-source desktop launcher with a React/TypeScript extension SDK, Raycast extension API compatibility, built-in modules (app launcher, file search, clipboard history, calculator, emoji picker), and a global extension store."
+chinese_summary: null
+problems_solved: "- Brings a Raycast-quality launcher experience to Linux (and non-macOS platforms) with native performance\n- Raycast extension compatibility for reuse of the existing ecosystem\n- and a simple TypeScript/React extension API for building custom search-focused UIs."
+how_to_use: "Download from vicinae.com or check docs.vicinae.com for installation instructions. Use keyboard shortcut to open launcher. Build extensions using the TypeScript SDK. Browse the global extension store or install Raycast-compatible extensions directly from within the app."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Vicinae is a fast, keyboard-first, open-source desktop launcher with a React/TypeScript extension SDK, Raycast extension API compatibility, built-in modules (app launcher, file search, clipboard history, calculator, emoji picker), and a global extension store.
-
-## Problems solved
-
-- Brings a Raycast-quality launcher experience to Linux (and non-macOS platforms) with native performance
-- Raycast extension compatibility for reuse of the existing ecosystem
-- and a simple TypeScript/React extension API for building custom search-focused UIs.
-
-## How to get started
-
-Download from vicinae.com or check docs.vicinae.com for installation instructions. Use keyboard shortcut to open launcher. Build extensions using the TypeScript SDK. Browse the global extension store or install Raycast-compatible extensions directly from within the app.
-
-## Detailed report
+# vicinaehq/vicinae
 
 ### 1. Positioning
 vicinaehq/vicinae is positioned as a vicinae is a fast, keyboard-first, open-source desktop launcher with a react/typescript extension sdk, raycast extension api compatibility, built-in modules (app launcher, file search, clipboard history, calculator, emoji picker), and a global extension store. It aims to provide developers with a robust, C++-based solution for a focused launcher for your desktop — native, fast, extensible.

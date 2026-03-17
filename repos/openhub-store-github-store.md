@@ -1,33 +1,19 @@
 ---
-title: "OpenHub-Store/GitHub-Store"
+id: 1101281251
 repo_name: "OpenHub-Store/GitHub-Store"
 url: "https://github.com/OpenHub-Store/GitHub-Store"
-github_url: "https://github.com/OpenHub-Store/GitHub-Store"
 stars: 8022
 language: "Kotlin"
-layout: repo
-tags:
-  - "GitHub"
-  - "App-Store"
-  - "Kotlin-Multiplatform"
-  - "Android-Apps"
-  - "Desktop-Apps"
-  - "Open-Source"
+tags: ["GitHub","App-Store","Kotlin-Multiplatform","Android-Apps","Desktop-Apps","Open-Source"]
+original_description: "A free, open-source app store for GitHub releases — browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop (Linux, MacOS, Windows)."
+english_summary: "An open-source 'App Store' for GitHub releases, facilitating discovery and installation of binaries across Android and Desktop platforms."
+chinese_summary: null
+problems_solved: "- High friction in finding installable binaries on GitHub; lack of auto-update mechanisms for GitHub-only software; manual architecture compatibility checks."
+how_to_use: "Install APK for Android; use Homebrew or GitHub Releases for Desktop; browse trending repos and one-click install detected assets."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open-source 'App Store' for GitHub releases, facilitating discovery and installation of binaries across Android and Desktop platforms.
-
-## Problems solved
-
-- High friction in finding installable binaries on GitHub; lack of auto-update mechanisms for GitHub-only software; manual architecture compatibility checks.
-
-## How to get started
-
-Install APK for Android; use Homebrew or GitHub Releases for Desktop; browse trending repos and one-click install detected assets.
-
-## Detailed report
+# OpenHub-Store/GitHub-Store
 
 ### 1. Positioning
 OpenHub-Store/GitHub-Store is positioned as a an open-source 'app store' for github releases, facilitating discovery and installation of binaries across android and desktop platforms. It aims to provide developers with a robust, Kotlin-based solution for a free, open-source app store for github releases — browse, discover, and install apps with one click. powered by kotlin and compose multiplatform for android & desktop (linux, macos, windows).

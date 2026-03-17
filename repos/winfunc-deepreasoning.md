@@ -1,32 +1,19 @@
 ---
-title: "winfunc/deepreasoning"
+id: 922596686
 repo_name: "winfunc/deepreasoning"
 url: "https://github.com/winfunc/deepreasoning"
-github_url: "https://github.com/winfunc/deepreasoning"
 stars: 5367
 language: "Rust"
-layout: repo
-tags:
-  - "LLM-Reasoning"
-  - "Scaling-Laws"
-  - "DeepSeek-R1"
-  - "AI-Research"
-  - "Inference-Optimization"
+tags: ["LLM-Reasoning","Scaling-Laws","DeepSeek-R1","AI-Research","Inference-Optimization"]
+original_description: "A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models."
+english_summary: "An open repository exploring DeepSeek-R1 style reasoning benchmarks and inference-time compute scaling techniques for smaller models."
+chinese_summary: null
+problems_solved: "- Limited understanding of how to make small models 'reason' like larger ones; lack of public datasets for inference-time scaling research."
+how_to_use: "Clone the repo; explore the notebooks/ folder for research findings; run the provided python scripts to benchmark various model reasoning capabilities."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open repository exploring DeepSeek-R1 style reasoning benchmarks and inference-time compute scaling techniques for smaller models.
-
-## Problems solved
-
-- Limited understanding of how to make small models 'reason' like larger ones; lack of public datasets for inference-time scaling research.
-
-## How to get started
-
-Clone the repo; explore the notebooks/ folder for research findings; run the provided python scripts to benchmark various model reasoning capabilities.
-
-## Detailed report
+# winfunc/deepreasoning
 
 ### 1. Positioning
 winfunc/deepreasoning is positioned as a an open repository exploring deepseek-r1 style reasoning benchmarks and inference-time compute scaling techniques for smaller models. It aims to provide developers with a robust, Rust-based solution for a high-performance llm inference api and chat ui that integrates deepseek r1's cot reasoning traces with anthropic claude models.

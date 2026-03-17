@@ -1,34 +1,19 @@
 ---
-title: "AmanVarshney01/create-better-t-stack"
+id: 930459670
 repo_name: "AmanVarshney01/create-better-t-stack"
 url: "https://github.com/AmanVarshney01/create-better-t-stack"
-github_url: "https://github.com/AmanVarshney01/create-better-t-stack"
 stars: 5123
 language: "TypeScript"
-layout: repo
-tags:
-  - "TypeScript"
-  - "Full Stack"
-  - "Boilerplate"
-  - "Developer Experience"
-  - "Next.js"
+tags: ["TypeScript","Full Stack","Boilerplate","Developer Experience","Next.js"]
+original_description: "A modern CLI tool for scaffolding end-to-end type-safe TypeScript projects with best practices and customizable configurations"
+english_summary: "The modern full-stack TypeScript project boilerplate (T-Stack) optimized for speed and DX."
+chinese_summary: null
+problems_solved: "- Tedious setup for modern TS stacks (Next.js, Bun, etc.)\n- Lack of opinionated best practices in generic templates\n- Difficulty in maintaining cross-platform TS projects"
+how_to_use: "Run  to scaffold a new project."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-The modern full-stack TypeScript project boilerplate (T-Stack) optimized for speed and DX.
-
-## Problems solved
-
-- Tedious setup for modern TS stacks (Next.js, Bun, etc.)
-- Lack of opinionated best practices in generic templates
-- Difficulty in maintaining cross-platform TS projects
-
-## How to get started
-
-Run  to scaffold a new project.
-
-## Detailed report
+# AmanVarshney01/create-better-t-stack
 
 ### 1. Positioning
 AmanVarshney01/create-better-t-stack is positioned as a the modern full-stack typescript project boilerplate (t-stack) optimized for speed and dx. It aims to provide developers with a robust, TypeScript-based solution for a modern cli tool for scaffolding end-to-end type-safe typescript projects with best practices and customizable configurations.

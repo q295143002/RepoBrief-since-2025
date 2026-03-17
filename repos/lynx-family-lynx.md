@@ -1,36 +1,19 @@
 ---
-title: "lynx-family/lynx"
+id: 942497635
 repo_name: "lynx-family/lynx"
 url: "https://github.com/lynx-family/lynx"
-github_url: "https://github.com/lynx-family/lynx"
 stars: 14577
 language: "C++"
-layout: repo
-tags:
-  - "UI Framework"
-  - "Cross-Platform"
-  - "Native Rendering"
-  - "C++"
-  - "Mobile Development"
-  - "Web Native"
-  - "Performance"
+tags: ["UI Framework","Cross-Platform","Native Rendering","C++","Mobile Development","Web Native","Performance"]
+original_description: "Lynx: A technology family for native mobile and web UI development."
+english_summary: "A high-performance cross-platform UI framework allowing developers to build native mobile and web apps from one codebase."
+chinese_summary: null
+problems_solved: "- Performance overhead of WebViews in cross-platform mobile apps\n- Bridging lag in React Native for high-frequency UI updates\n- Inconsistency between mobile and web codebase rendering"
+how_to_use: "Use the Lynx CLI to initialize a project. Develop using web-like syntax (HTML/CSS/JS) and deploy instantly to iOS, Android, and Web."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A high-performance cross-platform UI framework allowing developers to build native mobile and web apps from one codebase.
-
-## Problems solved
-
-- Performance overhead of WebViews in cross-platform mobile apps
-- Bridging lag in React Native for high-frequency UI updates
-- Inconsistency between mobile and web codebase rendering
-
-## How to get started
-
-Use the Lynx CLI to initialize a project. Develop using web-like syntax (HTML/CSS/JS) and deploy instantly to iOS, Android, and Web.
-
-## Detailed report
+# lynx-family/lynx
 
 ### 1. Positioning
 Lynx is a high-performance cross-platform rendering engine. It offers "Write once, render anywhere" parity with truly native mobile speed and web developer ergonomics.

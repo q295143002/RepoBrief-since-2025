@@ -1,36 +1,19 @@
 ---
-title: "google-gemini/gemini-fullstack-langgraph-quickstart"
+id: 988337333
 repo_name: "google-gemini/gemini-fullstack-langgraph-quickstart"
 url: "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart"
-github_url: "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart"
 stars: 17983
 language: "Jupyter Notebook"
-layout: repo
-tags:
-  - "Google Gemini"
-  - "LangGraph"
-  - "Next.js"
-  - "Fullstack AI"
-  - "Agent Template"
-  - "Multimodal"
-  - "FastAPI"
+tags: ["Google Gemini","LangGraph","Next.js","Fullstack AI","Agent Template","Multimodal","FastAPI"]
+original_description: "Gemini Fullstack LangGraph Quickstart: A template for building end-to-end agentic applications with Google's Gemini and LangChain."
+english_summary: "An official Google-Gemini template for building full-stack AI agent applications using LangGraph and Next.js."
+chinese_summary: null
+problems_solved: "- Complexity of connecting React frontends with stateful LangGraph backends\n- Difficulty leveraging Gemini-specific multimodal features in standard frameworks\n- Lack of a clean-slate boilerplate for multi-step agent workflows"
+how_to_use: "Clone the repo, install dependencies, and run `npm run dev`. Configure your Gemini API key in the environment variables to start the agent."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An official Google-Gemini template for building full-stack AI agent applications using LangGraph and Next.js.
-
-## Problems solved
-
-- Complexity of connecting React frontends with stateful LangGraph backends
-- Difficulty leveraging Gemini-specific multimodal features in standard frameworks
-- Lack of a clean-slate boilerplate for multi-step agent workflows
-
-## How to get started
-
-Clone the repo, install dependencies, and run `npm run dev`. Configure your Gemini API key in the environment variables to start the agent.
-
-## Detailed report
+# google-gemini/gemini-fullstack-langgraph-quickstart
 
 ### 1. Positioning
 Official 'Standard Architecture' for building apps with Gemini. Combines Google's flagship model with LangGraph's stateful orchestration and a Next.js frontend for a production-ready starting point.

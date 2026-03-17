@@ -1,33 +1,19 @@
 ---
-title: "apple/containerization"
+id: 992765044
 repo_name: "apple/containerization"
 url: "https://github.com/apple/containerization"
-github_url: "https://github.com/apple/containerization"
 stars: 8395
 language: "Swift"
-layout: repo
-tags:
-  - "Swift"
-  - "Containerization"
-  - "macOS"
-  - "Apple-Silicon"
-  - "Virtualization"
-  - "OCI"
+tags: ["Swift","Containerization","macOS","Apple-Silicon","Virtualization","OCI"]
+original_description: "Containerization is a Swift package for running Linux containers on macOS."
+english_summary: "A Swift framework for managing and running Linux containers on macOS via Virtualization.framework, highly optimized for Apple silicon."
+chinese_summary: null
+problems_solved: "- Performance overhead of running containers on Mac; complexity of OCI image management in Swift; slow Linux VM boot times."
+how_to_use: "Requires macOS 15+ and Apple silicon; build with 'make all'; fetch kernel via 'make fetch-default-kernel'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A Swift framework for managing and running Linux containers on macOS via Virtualization.framework, highly optimized for Apple silicon.
-
-## Problems solved
-
-- Performance overhead of running containers on Mac; complexity of OCI image management in Swift; slow Linux VM boot times.
-
-## How to get started
-
-Requires macOS 15+ and Apple silicon; build with 'make all'; fetch kernel via 'make fetch-default-kernel'.
-
-## Detailed report
+# apple/containerization
 
 ### 1. Positioning
 apple/containerization is positioned as a a swift framework for managing and running linux containers on macos via virtualization.framework, highly optimized for apple silicon. It aims to provide developers with a robust, Swift-based solution for containerization is a swift package for running linux containers on macos.

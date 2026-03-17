@@ -1,36 +1,19 @@
 ---
-title: "Zie619/n8n-workflows"
+id: 983345476
 repo_name: "Zie619/n8n-workflows"
 url: "https://github.com/Zie619/n8n-workflows"
-github_url: "https://github.com/Zie619/n8n-workflows"
 stars: 52866
 language: "Python"
-layout: repo
-tags:
-  - "n8n"
-  - "Automation"
-  - "Low Code"
-  - "AI Integration"
-  - "Workflow"
-  - "Business Tools"
-  - "Productivity"
+tags: ["n8n","Automation","Low Code","AI Integration","Workflow","Business Tools","Productivity"]
+original_description: "A comprehensive directory of production-ready n8n workflows for AI integration. Automate your business processes seamlessly with these pre-built modules."
+english_summary: "Curated collection of industry-standard n8n workflows for advanced AI automation."
+chinese_summary: "高质量的 n8n 工作流模板集合，涵盖数据同步、通知推送及 AI 集成等多种自动化方案。"
+problems_solved: "- High time investment required to build robust enterprise-grade automation flows\n- Difficulty in bridging low-code platforms (n8n) with high-level AI APIs (Claude/GPT)\n- Lack of proven templates for lead generation, content distribution, and customer support"
+how_to_use: "No installation needed. Download the `.json` files from the repo and import them directly into your n8n workspace editor."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Curated collection of industry-standard n8n workflows for advanced AI automation.
-
-## Problems solved
-
-- High time investment required to build robust enterprise-grade automation flows
-- Difficulty in bridging low-code platforms (n8n) with high-level AI APIs (Claude/GPT)
-- Lack of proven templates for lead generation, content distribution, and customer support
-
-## How to get started
-
-No installation needed. Download the `.json` files from the repo and import them directly into your n8n workspace editor.
-
-## Detailed report
+# Zie619/n8n-workflows
 
 ### 1. Positioning
 This repository is a 'Lego set' for business automation. It provides a library of pre-configured n8n workflows specifically optimized for AI-driven tasks, enabling users to build complex, multi-modal business engines without writing heavy code.

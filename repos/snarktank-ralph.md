@@ -1,32 +1,19 @@
 ---
-title: "snarktank/ralph"
+id: 1129759677
 repo_name: "snarktank/ralph"
 url: "https://github.com/snarktank/ralph"
-github_url: "https://github.com/snarktank/ralph"
 stars: 12792
 language: "TypeScript"
-layout: repo
-tags:
-  - "Autonomous-Agent"
-  - "Coding-Tools"
-  - "Automation"
-  - "PRD-Management"
-  - "Bash-Loop"
+tags: ["Autonomous-Agent","Coding-Tools","Automation","PRD-Management","Bash-Loop"]
+original_description: "Ralph is an autonomous AI agent loop that runs AI coding tools."
+english_summary: "A sophisticated CLI bash loop pattern that continuously spawns fresh instances of AI coding tools to execute isolated tasks until a Product Requirements Document (PRD) is completed."
+chinese_summary: null
+problems_solved: "- Eliminates the detrimental logic degradation and \"context exhaustion\" synonymous with executing massive tasks continuously within one LLM session by forcing deterministic execution across isolated subtasks."
+how_to_use: "Write a PRD using the included `/prd` skill. Convert it into a `/ralph` formatted JSON context map. Execute `./scripts/ralph/ralph.sh` letting it autonomously conquer the individual stories sequentially."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A sophisticated CLI bash loop pattern that continuously spawns fresh instances of AI coding tools to execute isolated tasks until a Product Requirements Document (PRD) is completed.
-
-## Problems solved
-
-- Eliminates the detrimental logic degradation and "context exhaustion" synonymous with executing massive tasks continuously within one LLM session by forcing deterministic execution across isolated subtasks.
-
-## How to get started
-
-Write a PRD using the included `/prd` skill. Convert it into a `/ralph` formatted JSON context map. Execute `./scripts/ralph/ralph.sh` letting it autonomously conquer the individual stories sequentially.
-
-## Detailed report
+# snarktank/ralph
 
 ### 1. Positioning
 Ralph utilizes a brute-force approach executing Claude Code or Amp CLI tools. It is heavily biased towards preventing localized context overloads explicitly aiming at massive feature generation automation through iterative reinforcement logic.

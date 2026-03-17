@@ -1,33 +1,19 @@
 ---
-title: "droidrun/droidrun"
+id: 965313467
 repo_name: "droidrun/droidrun"
 url: "https://github.com/droidrun/droidrun"
-github_url: "https://github.com/droidrun/droidrun"
 stars: 7932
 language: "Python"
-layout: repo
-tags:
-  - "Mobile-Automation"
-  - "AI-Agents"
-  - "Android"
-  - "iOS"
-  - "Python"
-  - "UI-Automation"
+tags: ["Mobile-Automation","AI-Agents","Android","iOS","Python","UI-Automation"]
+original_description: "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖"
+english_summary: "A framework for building mobile device agents that can control Android and iOS phones via natural language, supporting planning and visual understanding."
+chinese_summary: null
+problems_solved: "- Difficulty in mobile UI automation without coding; lack of reasoning in test scripts; high barrier for non-technical users to automate mobile tasks."
+how_to_use: "Install via pip; connect device via ADB (Android) or specialized tools (iOS); give commands via CLI like 'droidrun \"Do action\"'."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A framework for building mobile device agents that can control Android and iOS phones via natural language, supporting planning and visual understanding.
-
-## Problems solved
-
-- Difficulty in mobile UI automation without coding; lack of reasoning in test scripts; high barrier for non-technical users to automate mobile tasks.
-
-## How to get started
-
-Install via pip; connect device via ADB (Android) or specialized tools (iOS); give commands via CLI like 'droidrun "Do action"'.
-
-## Detailed report
+# droidrun/droidrun
 
 ### 1. Positioning
 droidrun/droidrun is positioned as a a framework for building mobile device agents that can control android and ios phones via natural language, supporting planning and visual understanding. It aims to provide developers with a robust, Python-based solution for automate your mobile devices with natural language commands - an llm agnostic mobile agent 🤖.

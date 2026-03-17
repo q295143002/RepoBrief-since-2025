@@ -1,31 +1,19 @@
 ---
-title: "huggingface/agents-course"
+id: 917868934
 repo_name: "huggingface/agents-course"
 url: "https://github.com/huggingface/agents-course"
-github_url: "https://github.com/huggingface/agents-course"
 stars: 26281
 language: "MDX"
-layout: repo
-tags:
-  - "Llm"
+tags: ["Llm"]
+original_description: "Hugging Face Agents Course: A comprehensive, hands-on syllabus for learning how to build and deploy LLM agents using transformers and the HF ecosystem."
+english_summary: "Official Hugging Face curriculum for mastering LLM agents using open-source models."
+chinese_summary: null
+problems_solved: "- Knowledge gap in how to adapt open-weights models (Llama, Gemma) for reliable agentic tool-use.\n- Lack of standardized benchmarks for 'Agent performance' in open-source research.\n- Complexity in deploying multi-agent swarms using the Transformers library."
+how_to_use: "git clone https://github.com/huggingface/agents-course\n# Follow the Jupyter notebooks in chronological order."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Official Hugging Face curriculum for mastering LLM agents using open-source models.
-
-## Problems solved
-
-- Knowledge gap in how to adapt open-weights models (Llama, Gemma) for reliable agentic tool-use.
-- Lack of standardized benchmarks for 'Agent performance' in open-source research.
-- Complexity in deploying multi-agent swarms using the Transformers library.
-
-## How to get started
-
-git clone https://github.com/huggingface/agents-course
-# Follow the Jupyter notebooks in chronological order.
-
-## Detailed report
+# huggingface/agents-course
 
 ### 1. Positioning
 This is the official curriculum by Hugging Face for the next generation of AI developers. It focuses on the transition from 'Chatbots' to 'Agents,' teaching the community how to leverage open-source models for tool interaction, long-term reasoning, and autonomy.

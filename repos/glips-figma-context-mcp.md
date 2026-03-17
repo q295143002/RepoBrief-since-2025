@@ -1,31 +1,19 @@
 ---
-title: "GLips/Figma-Context-MCP"
+id: 931892749
 repo_name: "GLips/Figma-Context-MCP"
 url: "https://github.com/GLips/Figma-Context-MCP"
-github_url: "https://github.com/GLips/Figma-Context-MCP"
 stars: 13652
 language: "TypeScript"
-layout: repo
-tags:
-  - "Figma"
-  - "MCP"
-  - "AI Coding"
-  - "UI Generation"
+tags: ["Figma","MCP","AI Coding","UI Generation"]
+original_description: "Give your coding agent access to your Figma data. Implement designs in any framework in one-shot."
+english_summary: "An MCP server that provides AI coding assistants like Cursor direct access to Figma design metadata to generate accurate UI code."
+chinese_summary: null
+problems_solved: "- Eliminates the inaccuracy of pasting design screenshots into AI chats by directly feeding structured layout and style data from Figma APIs via MCP."
+how_to_use: "Configure your IDE's MCP settings to run `npx -y figma-developer-mcp --figma-api-key=YOUR-KEY --stdio`. Paste a Figma URL in your IDE's agent chat and ask it to implement the design."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An MCP server that provides AI coding assistants like Cursor direct access to Figma design metadata to generate accurate UI code.
-
-## Problems solved
-
-- Eliminates the inaccuracy of pasting design screenshots into AI chats by directly feeding structured layout and style data from Figma APIs via MCP.
-
-## How to get started
-
-Configure your IDE's MCP settings to run `npx -y figma-developer-mcp --figma-api-key=YOUR-KEY --stdio`. Paste a Figma URL in your IDE's agent chat and ask it to implement the design.
-
-## Detailed report
+# GLips/Figma-Context-MCP
 
 ### 1. Positioning
 Figma-Context-MCP (Framelink MCP) is a Model Context Protocol server aiming to bridge the gap between design and AI code generation by extracting high-fidelity metadata from Figma.

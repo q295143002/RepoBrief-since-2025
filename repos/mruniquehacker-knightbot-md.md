@@ -1,33 +1,19 @@
 ---
-title: "mruniquehacker/Knightbot-MD"
+id: 923400114
 repo_name: "mruniquehacker/Knightbot-MD"
 url: "https://github.com/mruniquehacker/Knightbot-MD"
-github_url: "https://github.com/mruniquehacker/Knightbot-MD"
 stars: 6963
 language: "JavaScript"
-layout: repo
-tags:
-  - "WhatsApp-Bot"
-  - "Node.js"
-  - "Chat-Bot"
-  - "Automation"
-  - "Baileys-API"
-  - "Web-Tools"
+tags: ["WhatsApp-Bot","Node.js","Chat-Bot","Automation","Baileys-API","Web-Tools"]
+original_description: "A simple WhatsApp bot to manage groups"
+english_summary: "A feature-rich WhatsApp bot built with Node.js, supporting multi-device connection, automated group management, and AI chat integrations."
+chinese_summary: null
+problems_solved: "- Manual group moderation is tedious; lack of native AI in WhatsApp; difficulty deploying stable, long-running chat bots."
+how_to_use: "Deploy via Heroku or Koyeb; scan QR code to link your WhatsApp account; use commands like '.menu' to see available features."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A feature-rich WhatsApp bot built with Node.js, supporting multi-device connection, automated group management, and AI chat integrations.
-
-## Problems solved
-
-- Manual group moderation is tedious; lack of native AI in WhatsApp; difficulty deploying stable, long-running chat bots.
-
-## How to get started
-
-Deploy via Heroku or Koyeb; scan QR code to link your WhatsApp account; use commands like '.menu' to see available features.
-
-## Detailed report
+# mruniquehacker/Knightbot-MD
 
 ### 1. Positioning
 mruniquehacker/Knightbot-MD is positioned as a a feature-rich whatsapp bot built with node.js, supporting multi-device connection, automated group management, and ai chat integrations. It aims to provide developers with a robust, JavaScript-based solution for a simple whatsapp bot to manage groups.

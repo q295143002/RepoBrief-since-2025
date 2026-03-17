@@ -1,36 +1,19 @@
 ---
-title: "koala73/worldmonitor"
+id: 1130564872
 repo_name: "koala73/worldmonitor"
 url: "https://github.com/koala73/worldmonitor"
-github_url: "https://github.com/koala73/worldmonitor"
 stars: 37019
 language: "TypeScript"
-layout: repo
-tags:
-  - "Information Monitoring"
-  - "Anomaly Detection"
-  - "Trend Analysis"
-  - "Real-Time"
-  - "Python"
-  - "Vector Database"
-  - "AI Aggregator"
+tags: ["Information Monitoring","Anomaly Detection","Trend Analysis","Real-Time","Python","Vector Database","AI Aggregator"]
+original_description: "WorldMonitor: A platform for real-time data monitoring (news, GitHub, X) with AI-driven aggregation and anomaly detection. Reduces information overload through intelligent filtering."
+english_summary: "AI-driven real-time global information monitoring and anomaly detection platform."
+chinese_summary: null
+problems_solved: "- Overwhelming noise and information overload from multiple platform feeds (X, Reddit, GitHub)\n- Time lag between a significant event happening and discovering it via manual browsing\n- Difficulty in correlating minor signals from disparate sources into a single, coherent 'event'"
+how_to_use: "Clone the repo and configure your API keys in `config.json`. Start the discovery runner: `python app.py --run-discovery`. Reports are generated in the `/output` folder."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-AI-driven real-time global information monitoring and anomaly detection platform.
-
-## Problems solved
-
-- Overwhelming noise and information overload from multiple platform feeds (X, Reddit, GitHub)
-- Time lag between a significant event happening and discovering it via manual browsing
-- Difficulty in correlating minor signals from disparate sources into a single, coherent 'event'
-
-## How to get started
-
-Clone the repo and configure your API keys in `config.json`. Start the discovery runner: `python app.py --run-discovery`. Reports are generated in the `/output` folder.
-
-## Detailed report
+# koala73/worldmonitor
 
 ### 1. Positioning
 WorldMonitor is a real-time intelligence aggregator that acts as a 'digital watchtower'. It continuously monitors global feeds and uses AI to detect anomalies, technical breakthroughs, or market shifts as they occur, providing users with a summarized stream of high-signal information.

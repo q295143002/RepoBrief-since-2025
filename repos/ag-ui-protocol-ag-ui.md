@@ -1,32 +1,19 @@
 ---
-title: "ag-ui-protocol/ag-ui"
+id: 979392131
 repo_name: "ag-ui-protocol/ag-ui"
 url: "https://github.com/ag-ui-protocol/ag-ui"
-github_url: "https://github.com/ag-ui-protocol/ag-ui"
 stars: 12435
 language: "Python"
-layout: repo
-tags:
-  - "AI-UI"
-  - "Agent-Protocol"
-  - "Generative-UI"
-  - "React"
-  - "Open-Source"
+tags: ["AI-UI","Agent-Protocol","Generative-UI","React","Open-Source"]
+original_description: "AG-UI: The Agent-User Interaction Protocol"
+english_summary: "An open event-based protocol establishing exactly how AI agents connect reliably to real-time client-facing user interfaces instead of just outputting text."
+chinese_summary: null
+problems_solved: "- Consolidates fragmented agent UI development by offering a unified standard ensuring generative UI intents reliably transition from backend environments (like LangGraph/CrewAI) seamlessly towards frontend React endpoints."
+how_to_use: "Scaffold an application using `npx create-ag-ui-app my-agent-app` ensuring your backend framework aligns correctly with AG-UI standard event bindings natively."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An open event-based protocol establishing exactly how AI agents connect reliably to real-time client-facing user interfaces instead of just outputting text.
-
-## Problems solved
-
-- Consolidates fragmented agent UI development by offering a unified standard ensuring generative UI intents reliably transition from backend environments (like LangGraph/CrewAI) seamlessly towards frontend React endpoints.
-
-## How to get started
-
-Scaffold an application using `npx create-ag-ui-app my-agent-app` ensuring your backend framework aligns correctly with AG-UI standard event bindings natively.
-
-## Detailed report
+# ag-ui-protocol/ag-ui
 
 ### 1. Positioning
 AG-UI defines itself fundamentally as the third pillar within the agent protocol stack, sitting parallelly alongside Model Context Protocol (MCP tools) and A2A conventions, specifically focused around standardizing "Agent to Human" interface generation.

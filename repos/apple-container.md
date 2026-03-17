@@ -1,37 +1,19 @@
 ---
-title: "apple/container"
+id: 993475914
 repo_name: "apple/container"
 url: "https://github.com/apple/container"
-github_url: "https://github.com/apple/container"
 stars: 25226
 language: "Swift"
-layout: repo
-tags:
-  - "Apple"
-  - "Swift"
-  - "Service Mesh"
-  - "Serialization"
-  - "Dependency Injection"
-  - "Cloud Native"
-  - "Performance"
+tags: ["Apple","Swift","Service Mesh","Serialization","Dependency Injection","Cloud Native","Performance"]
+original_description: "Container by Apple: A high-performance, lightweight serialization framework and service mesh for modern cloud-native applications."
+english_summary: "Apple's internal-grade lightweight service mesh and dependency injection framework for high-scale apps."
+chinese_summary: null
+problems_solved: "- Over-complexity and 'Resource Bloat' in traditional service mesh architectures like Istio.\n- High latency in inter-service communication due to heavy serialization overhead.\n- Lack of a unified type-safe way to manage dependencies across massive Swift-based cloud projects."
+how_to_use: "import Container\n// Define your services and register them for injection."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Apple's internal-grade lightweight service mesh and dependency injection framework for high-scale apps.
-
-## Problems solved
-
-- Over-complexity and 'Resource Bloat' in traditional service mesh architectures like Istio.
-- High latency in inter-service communication due to heavy serialization overhead.
-- Lack of a unified type-safe way to manage dependencies across massive Swift-based cloud projects.
-
-## How to get started
-
-import Container
-// Define your services and register them for injection.
-
-## Detailed report
+# apple/container
 
 ### 1. Positioning
 Container is a high-performance infrastructure library released by Apple. It focuses on solving the 'glue' problems of large-scale software—specifically how components discover each other and communicate with minimal overhead. It is the backbone for modern Swift-on-Server environments.

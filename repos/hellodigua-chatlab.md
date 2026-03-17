@@ -1,36 +1,19 @@
 ---
-title: "hellodigua/ChatLab"
+id: 1104370536
 repo_name: "hellodigua/ChatLab"
 url: "https://github.com/hellodigua/ChatLab"
-github_url: "https://github.com/hellodigua/ChatLab"
 stars: 5001
 language: "TypeScript"
-layout: repo
-tags:
-  - "Chat Analysis"
-  - "Social Media Insights"
-  - "Local-First"
-  - "SQL Engine"
-  - "Privacy"
-  - "Electron"
-  - "Open Source"
+tags: ["Chat Analysis","Social Media Insights","Local-First","SQL Engine","Privacy","Electron","Open Source"]
+original_description: "Rediscover your social memories with private, AI-powered analysis. 本地化的聊天记录分析工具，通过 AI Agent 回顾你的社交记忆。"
+english_summary: "ChatLab is a desktop application for analyzing and exploring personal social media histories from platforms like WhatsApp, WeChat, Telegram, and Discord. It combines a high-performance SQL engine with AI agents to unlock patterns, search through millions of messages, and generate visual interaction charts entirely on the user's local machine."
+chinese_summary: null
+problems_solved: "- Privacy risks associated with uploading sensitive chat logs to online analysis tools\n- Difficulty in searching or visualizing large, multi-year message histories from different apps\n- Lack of unified data models for social data exported from diverse platforms"
+how_to_use: "Download the Electron-based app and import your message backup (e.g., from WhatsApp or a WeChat export). ChatLab uses stream parsing to handle even million-message histories. Once indexed, you can use the AI assistant to ask questions like 'When did we talk about X?' or view interaction frequency rankings."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-ChatLab is a desktop application for analyzing and exploring personal social media histories from platforms like WhatsApp, WeChat, Telegram, and Discord. It combines a high-performance SQL engine with AI agents to unlock patterns, search through millions of messages, and generate visual interaction charts entirely on the user's local machine.
-
-## Problems solved
-
-- Privacy risks associated with uploading sensitive chat logs to online analysis tools
-- Difficulty in searching or visualizing large, multi-year message histories from different apps
-- Lack of unified data models for social data exported from diverse platforms
-
-## How to get started
-
-Download the Electron-based app and import your message backup (e.g., from WhatsApp or a WeChat export). ChatLab uses stream parsing to handle even million-message histories. Once indexed, you can use the AI assistant to ask questions like 'When did we talk about X?' or view interaction frequency rankings.
-
-## Detailed report
+# hellodigua/ChatLab
 
 ### 1. Positioning
 hellodigua/ChatLab is positioned as a chatlab is a desktop application for analyzing and exploring personal social media histories from platforms like whatsapp, wechat, telegram, and discord. it combines a high-performance sql engine with ai agents to unlock patterns, search through millions of messages, and generate visual interaction charts entirely on the user's local machine. It aims to provide developers with a robust, TypeScript-based solution for rediscover your social memories with private, ai-powered analysis. 本地化的聊天记录分析工具，通过 ai agent 回顾你的社交记忆。.

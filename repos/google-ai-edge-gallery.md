@@ -1,36 +1,19 @@
 ---
-title: "google-ai-edge/gallery"
+id: 958136139
 repo_name: "google-ai-edge/gallery"
 url: "https://github.com/google-ai-edge/gallery"
-github_url: "https://github.com/google-ai-edge/gallery"
 stars: 15355
 language: "Kotlin"
-layout: repo
-tags:
-  - "Edge AI"
-  - "Google AI"
-  - "Mobile Development"
-  - "TensorFlow Lite"
-  - "MediaPipe"
-  - "On-Device LLM"
-  - "Android/iOS"
+tags: ["Edge AI","Google AI","Mobile Development","TensorFlow Lite","MediaPipe","On-Device LLM","Android/iOS"]
+original_description: "An experimental Android/iOS app showcasing on-device Generative AI."
+english_summary: "An official experimental mobile application by Google showcasing the capabilities of on-device Generative AI."
+chinese_summary: null
+problems_solved: "- Difficulty in deploying generative models locally on mobile devices\n- Privacy concerns associated with cloud-based AI processing\n- High latency when running mobile AI tasks over slow networks"
+how_to_use: "Build the Android or iOS projects using Android Studio or Xcode. Deploy to a physical device to test on-device LLM and Vision tasks."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An official experimental mobile application by Google showcasing the capabilities of on-device Generative AI.
-
-## Problems solved
-
-- Difficulty in deploying generative models locally on mobile devices
-- Privacy concerns associated with cloud-based AI processing
-- High latency when running mobile AI tasks over slow networks
-
-## How to get started
-
-Build the Android or iOS projects using Android Studio or Xcode. Deploy to a physical device to test on-device LLM and Vision tasks.
-
-## Detailed report
+# google-ai-edge/gallery
 
 ### 1. Positioning
 The Google AI Edge Gallery is a reference implementation showing how to run generative models directly on mobile hardware via MediaPipe and TFLite.

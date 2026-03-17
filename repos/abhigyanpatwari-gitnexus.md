@@ -1,32 +1,19 @@
 ---
-title: "abhigyanpatwari/GitNexus"
+id: 1031059905
 repo_name: "abhigyanpatwari/GitNexus"
 url: "https://github.com/abhigyanpatwari/GitNexus"
-github_url: "https://github.com/abhigyanpatwari/GitNexus"
 stars: 12296
 language: "TypeScript"
-layout: repo
-tags:
-  - "Code-Analysis"
-  - "Knowledge-Graph"
-  - "MCP"
-  - "Dependency-Mapping"
-  - "Astro-Graph"
+tags: ["Code-Analysis","Knowledge-Graph","MCP","Dependency-Mapping","Astro-Graph"]
+original_description: "Building nervous system for agent context."
+english_summary: "An intelligent structural analyzer scanning entire source codebases predicting dynamic function paths and clustering dependencies seamlessly building profound relational knowledge graphs effortlessly."
+chinese_summary: null
+problems_solved: "- Shatters completely agent amnesia tracking exactly how logic branches navigate seamlessly generating hyper-accurate architectural diagrams implicitly predicting commit blast-radius consequences absolutely mitigating broken deployments securely."
+how_to_use: "Format execution running `npx gitnexus analyze` explicitly loading your codebase generating KuzuDB graphs natively. Optionally initialize `npx gitnexus setup` mapping precisely MCP toolsets natively onto local AI proxies."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An intelligent structural analyzer scanning entire source codebases predicting dynamic function paths and clustering dependencies seamlessly building profound relational knowledge graphs effortlessly.
-
-## Problems solved
-
-- Shatters completely agent amnesia tracking exactly how logic branches navigate seamlessly generating hyper-accurate architectural diagrams implicitly predicting commit blast-radius consequences absolutely mitigating broken deployments securely.
-
-## How to get started
-
-Format execution running `npx gitnexus analyze` explicitly loading your codebase generating KuzuDB graphs natively. Optionally initialize `npx gitnexus setup` mapping precisely MCP toolsets natively onto local AI proxies.
-
-## Detailed report
+# abhigyanpatwari/GitNexus
 
 ### 1. Positioning
 GitNexus formulates explicitly tracking functional code logic dynamically converting flat file structures explicitly mapping highly multidimensional AST interactions driving radically accurate MCP operations empowering significantly local coding agents effortlessly.

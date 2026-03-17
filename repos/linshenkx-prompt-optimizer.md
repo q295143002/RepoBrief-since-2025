@@ -1,37 +1,19 @@
 ---
-title: "linshenkx/prompt-optimizer"
+id: 931352845
 repo_name: "linshenkx/prompt-optimizer"
 url: "https://github.com/linshenkx/prompt-optimizer"
-github_url: "https://github.com/linshenkx/prompt-optimizer"
 stars: 24241
 language: "TypeScript"
-layout: repo
-tags:
-  - "Prompt Optimization"
-  - "Prompt Engineering"
-  - "LLM Tools"
-  - "Meta-Prompting"
-  - "Python"
-  - "LangChain"
-  - "Developer Tools"
+tags: ["Prompt Optimization","Prompt Engineering","LLM Tools","Meta-Prompting","Python","LangChain","Developer Tools"]
+original_description: "Prompt-Optimizer: An AI tool that automatically refines your prompts to maximize model adherence and prevent hallucinations in complex tasks."
+english_summary: "An automated meta-prompting tool that iterates and refines user prompts for peak model performance."
+chinese_summary: null
+problems_solved: "- Trial-and-error fatigue in manually 'tweaking' prompt wording.\n- Poor model performance due to ambiguous or unstructured instructions.\n- Inconsistency in AI outputs across different model versions."
+how_to_use: "pip install prompt-optimizer\npython optimizer.py --prompt 'Write a summary' --model 'gpt-4o'"
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An automated meta-prompting tool that iterates and refines user prompts for peak model performance.
-
-## Problems solved
-
-- Trial-and-error fatigue in manually 'tweaking' prompt wording.
-- Poor model performance due to ambiguous or unstructured instructions.
-- Inconsistency in AI outputs across different model versions.
-
-## How to get started
-
-pip install prompt-optimizer
-python optimizer.py --prompt 'Write a summary' --model 'gpt-4o'
-
-## Detailed report
+# linshenkx/prompt-optimizer
 
 ### 1. Positioning
 Prompt-Optimizer is a 'Meta-Agent' developer tool. It takes a raw human prompt and uses a specialized 'Critics' model to identify ambiguities, missing constraints, and formatting errors, eventually outputting a highly structured version optimized for the target model's specific biases.

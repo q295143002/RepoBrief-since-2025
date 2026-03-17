@@ -1,36 +1,19 @@
 ---
-title: "AsyncFuncAI/deepwiki-open"
+id: 975318071
 repo_name: "AsyncFuncAI/deepwiki-open"
 url: "https://github.com/AsyncFuncAI/deepwiki-open"
-github_url: "https://github.com/AsyncFuncAI/deepwiki-open"
 stars: 14869
 language: "Python"
-layout: repo
-tags:
-  - "Documentation"
-  - "Wiki"
-  - "Architecture Diagrams"
-  - "GitHub Integration"
-  - "AI Coder"
-  - "Developer Productivity"
-  - "Auto-Doc"
+tags: ["Documentation","Wiki","Architecture Diagrams","GitHub Integration","AI Coder","Developer Productivity","Auto-Doc"]
+original_description: "DeepWiki-Open: AI-powered tool for automatically creating wikis for code repositories."
+english_summary: "An AI-driven application that generates dynamic wikis and visual architecture diagrams from code repositories."
+chinese_summary: null
+problems_solved: "- Chronic issues with missing or outdated software documentation\n- Difficulty in visualizing codebase architecture for new developers\n- Manual documentation burden in fast-moving engineering teams"
+how_to_use: "Self-host via Docker, link your GitHub account, and select a repo. DeepWiki will analyze the code and generate a complete interactive wiki."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An AI-driven application that generates dynamic wikis and visual architecture diagrams from code repositories.
-
-## Problems solved
-
-- Chronic issues with missing or outdated software documentation
-- Difficulty in visualizing codebase architecture for new developers
-- Manual documentation burden in fast-moving engineering teams
-
-## How to get started
-
-Self-host via Docker, link your GitHub account, and select a repo. DeepWiki will analyze the code and generate a complete interactive wiki.
-
-## Detailed report
+# AsyncFuncAI/deepwiki-open
 
 ### 1. Positioning
 DeepWiki-Open is an autonomous doc tool that converts source code into living wikis and Mermaid-based system diagrams automatically.

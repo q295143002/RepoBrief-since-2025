@@ -1,36 +1,19 @@
 ---
-title: "ahujasid/blender-mcp"
+id: 944414751
 repo_name: "ahujasid/blender-mcp"
 url: "https://github.com/ahujasid/blender-mcp"
-github_url: "https://github.com/ahujasid/blender-mcp"
 stars: 17696
 language: "Python"
-layout: repo
-tags:
-  - "MCP"
-  - "Blender"
-  - "3D Modeling"
-  - "Creative AI"
-  - "Python API"
-  - "Design Automation"
-  - "Graphics"
+tags: ["MCP","Blender","3D Modeling","Creative AI","Python API","Design Automation","Graphics"]
+original_description: "Blender MCP: A Model Context Protocol (MCP) server that gives AI agents full control over the Blender 3D environment."
+english_summary: "An MCP server enabling AI agents to design, render, and manipulate 3D scenes in Blender via natural language."
+chinese_summary: null
+problems_solved: "- Steep learning curve for Blender's complex UI and Python API\n- Inability of agents to 'See' or 'Edit' 3D objects in text-based sessions\n- Workflow disconnection between creative briefs and 3D execution"
+how_to_use: "Run with npx: `npx -y @ahujasid/blender-mcp`. Connect your MCP-compatible agent (e.g. Claude) and command it to create or modify 3D scenes."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-An MCP server enabling AI agents to design, render, and manipulate 3D scenes in Blender via natural language.
-
-## Problems solved
-
-- Steep learning curve for Blender's complex UI and Python API
-- Inability of agents to 'See' or 'Edit' 3D objects in text-based sessions
-- Workflow disconnection between creative briefs and 3D execution
-
-## How to get started
-
-Run with npx: `npx -y @ahujasid/blender-mcp`. Connect your MCP-compatible agent (e.g. Claude) and command it to create or modify 3D scenes.
-
-## Detailed report
+# ahujasid/blender-mcp
 
 ### 1. Positioning
 Blender-MCP is a bridge between agents and 3D creation. It exposes Blender's internal state via MCP, allowing models to write and run BPY (Blender Python) code to generate models and adjust scenes.

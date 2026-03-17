@@ -1,35 +1,19 @@
 ---
-title: "vudovn/antigravity-kit"
+id: 1134109950
 repo_name: "vudovn/antigravity-kit"
 url: "https://github.com/vudovn/antigravity-kit"
-github_url: "https://github.com/vudovn/antigravity-kit"
 stars: 5836
 language: "TypeScript"
-layout: repo
-tags:
-  - "AI Agents"
-  - "Agent Framework"
-  - "Developer Tools"
-  - "Automation"
-  - "Templates"
-  - "Open Source"
+tags: ["AI Agents","Agent Framework","Developer Tools","Automation","Templates","Open Source"]
+original_description: null
+english_summary: "Antigravity Kit is a comprehensive suite of tools for building and deploying AI agents. It includes pre-built templates, reusable skills, and streamlined workflows to accelerate agentic AI development."
+chinese_summary: null
+problems_solved: "- High barrier to entry for building AI agents\n- Repetitive boilerplate in agent development\n- Need for standardized agent skills"
+how_to_use: "Use the CLI tool to initialize new projects. Select from available templates (debugging, planning, etc.), and integrate pre-defined skills and workflows into your agentic application."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Antigravity Kit is a comprehensive suite of tools for building and deploying AI agents. It includes pre-built templates, reusable skills, and streamlined workflows to accelerate agentic AI development.
-
-## Problems solved
-
-- High barrier to entry for building AI agents
-- Repetitive boilerplate in agent development
-- Need for standardized agent skills
-
-## How to get started
-
-Use the CLI tool to initialize new projects. Select from available templates (debugging, planning, etc.), and integrate pre-defined skills and workflows into your agentic application.
-
-## Detailed report
+# vudovn/antigravity-kit
 
 ### 1. Positioning
 vudovn/antigravity-kit is positioned as a antigravity kit is a comprehensive suite of tools for building and deploying ai agents. it includes pre-built templates, reusable skills, and streamlined workflows to accelerate agentic ai development. It aims to provide developers with a robust, TypeScript-based solution for no description provided.

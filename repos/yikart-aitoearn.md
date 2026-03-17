@@ -1,32 +1,19 @@
 ---
-title: "yikart/AiToEarn"
+id: 937970237
 repo_name: "yikart/AiToEarn"
 url: "https://github.com/yikart/AiToEarn"
-github_url: "https://github.com/yikart/AiToEarn"
 stars: 11412
 language: "TypeScript"
-layout: repo
-tags:
-  - "Social-Media-Automation"
-  - "Marketing-AI"
-  - "Omni-Channel"
-  - "Next.js"
-  - "Content-Monetization"
+tags: ["Social-Media-Automation","Marketing-AI","Omni-Channel","Next.js","Content-Monetization"]
+original_description: "Aitoearn: The Best Open-Source AI Agent for Content Marketing Create · Publish · Engage · Monetize — all in one platform."
+english_summary: "A fully comprehensive omni-channel social media automation matrix mapping explicitly AI generative agents optimizing precisely global content dissemination converting seamlessly content pipelines dynamically."
+chinese_summary: null
+problems_solved: "- Shatters completely the wildly inefficient workflow explicitly managing diverse cross-platform marketing architectures automating directly creative generation parsing efficiently localized analytics routing intelligently automated interaction logic flawlessly."
+how_to_use: "Duplicate carefully `.env.example` mapping explicitly backend node configurations typing quickly `docker compose up -d` starting fully operational Next.js/MongoDB environments gracefully."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A fully comprehensive omni-channel social media automation matrix mapping explicitly AI generative agents optimizing precisely global content dissemination converting seamlessly content pipelines dynamically.
-
-## Problems solved
-
-- Shatters completely the wildly inefficient workflow explicitly managing diverse cross-platform marketing architectures automating directly creative generation parsing efficiently localized analytics routing intelligently automated interaction logic flawlessly.
-
-## How to get started
-
-Duplicate carefully `.env.example` mapping explicitly backend node configurations typing quickly `docker compose up -d` starting fully operational Next.js/MongoDB environments gracefully.
-
-## Detailed report
+# yikart/AiToEarn
 
 ### 1. Positioning
 AiToEarn establishes itself remarkably operating exclusively explicitly as the fundamental marketing command center aggregating completely disparate multimedia analytics generating inherently massive automated operational efficiencies seamlessly simulating perfectly explicit multi-channel organizational behavior.

@@ -1,33 +1,19 @@
 ---
-title: "nearai/ironclaw"
+id: 1148615527
 repo_name: "nearai/ironclaw"
 url: "https://github.com/nearai/ironclaw"
-github_url: "https://github.com/nearai/ironclaw"
 stars: 9816
 language: "Rust"
-layout: repo
-tags:
-  - "Security"
-  - "Rust"
-  - "WASM"
-  - "Privacy"
-  - "AI Agent"
+tags: ["Security","Rust","WASM","Privacy","AI Agent"]
+original_description: "IronClaw: Your secure personal AI assistant, always on your side. Built in Rust for speed, security, and transparency, featuring a WASM sandbox for untrusted tools."
+english_summary: "IronClaw is a security-first, Rust-based personal AI assistant that executes tools in a WASM sandbox with local data residency and multi-layered protection."
+chinese_summary: null
+problems_solved: "- Protects against prompt injection and data exfiltration through a capability-based WASM sandbox; guarantees privacy by storing all data locally in PostgreSQL; replaces opaque AI systems with a transparent\n- open-source Rust implementation."
+how_to_use: "Requires Rust 1.85+ and PostgreSQL with pgvector. Clone and build with `cargo build --release`. Run `ironclaw onboard` to set up the database and LLM providers. Access the assistant via CLI or the web gateway."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-IronClaw is a security-first, Rust-based personal AI assistant that executes tools in a WASM sandbox with local data residency and multi-layered protection.
-
-## Problems solved
-
-- Protects against prompt injection and data exfiltration through a capability-based WASM sandbox; guarantees privacy by storing all data locally in PostgreSQL; replaces opaque AI systems with a transparent
-- open-source Rust implementation.
-
-## How to get started
-
-Requires Rust 1.85+ and PostgreSQL with pgvector. Clone and build with `cargo build --release`. Run `ironclaw onboard` to set up the database and LLM providers. Access the assistant via CLI or the web gateway.
-
-## Detailed report
+# nearai/ironclaw
 
 ### 1. Positioning
 IronClaw targets 'sovereign users' and privacy-conscious developers who need an AI agent but refuse to upload their sensitive data to cloud platforms. It positions itself as a robust, native alternative to browser-based or Electron-heavy assistants.

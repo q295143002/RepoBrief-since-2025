@@ -1,34 +1,19 @@
 ---
-title: "huggingface/skills"
+id: 1102903896
 repo_name: "huggingface/skills"
 url: "https://github.com/huggingface/skills"
-github_url: "https://github.com/huggingface/skills"
 stars: 8911
 language: "Python"
-layout: repo
-tags:
-  - "AI"
-  - "ML"
-  - "Hugging Face"
-  - "Agent"
-  - "MCP"
-  - "Tooling"
+tags: ["AI","ML","Hugging Face","Agent","MCP","Tooling"]
+original_description: "Hugging Face Skills: Definitions for AI/ML tasks like dataset creation, model training, and evaluation. Interoperable with Claude Code, Codex, Gemini CLI, and Cursor."
+english_summary: "Hugging Face Skills is a collection of standardized definitions for AI/ML workflows, enabling various coding agents to perform tasks like training, evaluation, and dataset management."
+chinese_summary: null
+problems_solved: "- Standardizes complex AI/ML workflows across different agent platforms; eliminates manual prompt engineering for task-specific Hub operations; provides a secure\n- versioned way to share AI engineering skills."
+how_to_use: "In Claude Code: `/plugin marketplace add huggingface/skills`, then `/plugin install <skill-name>`. For Codex/Cursor, use the instructions in `SKILL.md` files or the provided manifest files (`.mcp.json`, etc.)."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Hugging Face Skills is a collection of standardized definitions for AI/ML workflows, enabling various coding agents to perform tasks like training, evaluation, and dataset management.
-
-## Problems solved
-
-- Standardizes complex AI/ML workflows across different agent platforms; eliminates manual prompt engineering for task-specific Hub operations; provides a secure
-- versioned way to share AI engineering skills.
-
-## How to get started
-
-In Claude Code: `/plugin marketplace add huggingface/skills`, then `/plugin install <skill-name>`. For Codex/Cursor, use the instructions in `SKILL.md` files or the provided manifest files (`.mcp.json`, etc.).
-
-## Detailed report
+# huggingface/skills
 
 ### 1. Positioning
 Hugging Face Skills positions itself as the 'Skill Hub' for the open-weights era. It targets AI engineers and researchers who use coding agents to manage the full lifecycle of models on the Hugging Face Hub, providing 'native' capabilities for specialized ML tasks.

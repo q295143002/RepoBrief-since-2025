@@ -1,36 +1,19 @@
 ---
-title: "strands-agents/sdk-python"
+id: 983715534
 repo_name: "strands-agents/sdk-python"
 url: "https://github.com/strands-agents/sdk-python"
-github_url: "https://github.com/strands-agents/sdk-python"
 stars: 5302
 language: "Python"
-layout: repo
-tags:
-  - "AI Agents"
-  - "SDK"
-  - "MCP"
-  - "Streaming AI"
-  - "Voice AI"
-  - "Python"
-  - "Open Source"
+tags: ["AI Agents","SDK","MCP","Streaming AI","Voice AI","Python","Open Source"]
+original_description: "A model-driven approach to building AI agents in just a few lines of code."
+english_summary: "Strands Agents is a lightweight Python SDK for building autonomous AI agents and workflows. It is model-agnostic, supporting providers like Amazon Bedrock, Anthropic, Gemini, and local models via Ollama. A standout feature is its experimental support for bidirectional streaming, enabling real-time voice and audio interactions."
+chinese_summary: null
+problems_solved: "- High complexity of building multi-agent systems and custom tool loops\n- Lock-in to specific LLM providers\n- Difficulty in implementing real-time, interruptible voice interactions with VLMs"
+how_to_use: "Install via `pip install strands-agents`. Create an `Agent` instance by passing a list of tools (functions decorated with `@tool`). The agent will handle the loop of calling LLMs and executing your code based on the user's prompt."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-Strands Agents is a lightweight Python SDK for building autonomous AI agents and workflows. It is model-agnostic, supporting providers like Amazon Bedrock, Anthropic, Gemini, and local models via Ollama. A standout feature is its experimental support for bidirectional streaming, enabling real-time voice and audio interactions.
-
-## Problems solved
-
-- High complexity of building multi-agent systems and custom tool loops
-- Lock-in to specific LLM providers
-- Difficulty in implementing real-time, interruptible voice interactions with VLMs
-
-## How to get started
-
-Install via `pip install strands-agents`. Create an `Agent` instance by passing a list of tools (functions decorated with `@tool`). The agent will handle the loop of calling LLMs and executing your code based on the user's prompt.
-
-## Detailed report
+# strands-agents/sdk-python
 
 ### 1. Positioning
 strands-agents/sdk-python is positioned as a strands agents is a lightweight python sdk for building autonomous ai agents and workflows. it is model-agnostic, supporting providers like amazon bedrock, anthropic, gemini, and local models via ollama. a standout feature is its experimental support for bidirectional streaming, enabling real-time voice and audio interactions. It aims to provide developers with a robust, Python-based solution for a model-driven approach to building ai agents in just a few lines of code.

@@ -1,36 +1,19 @@
 ---
-title: "SuperClaude-Org/SuperClaude_Framework"
+id: 1006496207
 repo_name: "SuperClaude-Org/SuperClaude_Framework"
 url: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
-github_url: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
 stars: 21410
 language: "Python"
-layout: repo
-tags:
-  - "Claude Code"
-  - "Engineering Standards"
-  - "Clean Architecture"
-  - "TDD"
-  - "Prompt Engineering"
-  - "Best Practices"
-  - "AI Agent"
+tags: ["Claude Code","Engineering Standards","Clean Architecture","TDD","Prompt Engineering","Best Practices","AI Agent"]
+original_description: "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies."
+english_summary: "A 'Meta-Framework' for Claude Code that injects elite engineering methodologies and personas into the agent's brain."
+chinese_summary: null
+problems_solved: "- AI agents following 'Average' patterns instead of elite engineering standards\n- Agent confusion when switching architectural styles\n- Lack of structural 'Thinking Steps' in default agent responses"
+how_to_use: "Clone the repo, copy profiles to `~/.claudecode/profiles`, and run `claudecode --profile senior-architect`."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-A 'Meta-Framework' for Claude Code that injects elite engineering methodologies and personas into the agent's brain.
-
-## Problems solved
-
-- AI agents following 'Average' patterns instead of elite engineering standards
-- Agent confusion when switching architectural styles
-- Lack of structural 'Thinking Steps' in default agent responses
-
-## How to get started
-
-Clone the repo, copy profiles to `~/.claudecode/profiles`, and run `claudecode --profile senior-architect`.
-
-## Detailed report
+# SuperClaude-Org/SuperClaude_Framework
 
 ### 1. Positioning
 SuperClaude is a 'Brain-Enhancement' framework for Claude Code CLI, providing 'Cognitive Profiles' and 'Elite Directives'.

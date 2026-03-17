@@ -1,36 +1,19 @@
 ---
-title: "mrexodia/ida-pro-mcp"
+id: 954963562
 repo_name: "mrexodia/ida-pro-mcp"
 url: "https://github.com/mrexodia/ida-pro-mcp"
-github_url: "https://github.com/mrexodia/ida-pro-mcp"
 stars: 6328
 language: "Python"
-layout: repo
-tags:
-  - "Reverse Engineering"
-  - "IDA Pro"
-  - "MCP"
-  - "Cybersecurity"
-  - "AI Developer Tools"
-  - "Binary Analysis"
+tags: ["Reverse Engineering","IDA Pro","MCP","Cybersecurity","AI Developer Tools","Binary Analysis"]
+original_description: "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP."
+english_summary: "IDA Pro MCP is a Bridge between IDA Pro and AI assistants using the Model Context Protocol. It allows AI models (like Claude Code or Cursor) to interact with IDA Pro to decompile functions, list symbols, rename variables/functions, add comments, and even perform debugging operations. It essentially provides a highly automated, AI-driven reverse engineering environment."
+chinese_summary: null
+problems_solved: "- Manual reverse engineering friction: Automates repetitive tasks like renaming and commenting.\n- High cognitive load: Offloads the initial analysis of complex assembly/decompilation to an AI.\n- Tooling silos: Connects professional-grade binary analysis (IDA) to modern LLM interfaces.\n- Manual base conversion: Provides an `int_convert` tool to prevent AI hallucination during number base shifts."
+how_to_use: "Install using `pip install` from the ZIP URL. Run `ida-pro-mcp --install` to set up the IDA plugin and MCP server. Restart IDA and your preferred MCP client (e.g., Claude Desktop, Cursor). Then, prompt your AI to 'analyze the binary in IDA Pro', guiding it to rename functions and add comments for clarity."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-IDA Pro MCP is a Bridge between IDA Pro and AI assistants using the Model Context Protocol. It allows AI models (like Claude Code or Cursor) to interact with IDA Pro to decompile functions, list symbols, rename variables/functions, add comments, and even perform debugging operations. It essentially provides a highly automated, AI-driven reverse engineering environment.
-
-## Problems solved
-
-- Manual reverse engineering friction: Automates repetitive tasks like renaming and commenting.
-- High cognitive load: Offloads the initial analysis of complex assembly/decompilation to an AI.
-- Tooling silos: Connects professional-grade binary analysis (IDA) to modern LLM interfaces.
-- Manual base conversion: Provides an `int_convert` tool to prevent AI hallucination during number base shifts.
-
-## How to get started
-
-Install using `pip install` from the ZIP URL. Run `ida-pro-mcp --install` to set up the IDA plugin and MCP server. Restart IDA and your preferred MCP client (e.g., Claude Desktop, Cursor). Then, prompt your AI to 'analyze the binary in IDA Pro', guiding it to rename functions and add comments for clarity.
-
-## Detailed report
+# mrexodia/ida-pro-mcp
 
 ### 1. Positioning
 mrexodia/ida-pro-mcp is positioned as a ida pro mcp is a bridge between ida pro and ai assistants using the model context protocol. it allows ai models (like claude code or cursor) to interact with ida pro to decompile functions, list symbols, rename variables/functions, add comments, and even perform debugging operations. it essentially provides a highly automated, ai-driven reverse engineering environment. It aims to provide developers with a robust, Python-based solution for ai-powered reverse engineering assistant that bridges ida pro with language models through mcp.

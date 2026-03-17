@@ -1,36 +1,19 @@
 ---
-title: "superdesigndev/superdesign"
+id: 1005359642
 repo_name: "superdesigndev/superdesign"
 url: "https://github.com/superdesigndev/superdesign"
-github_url: "https://github.com/superdesigndev/superdesign"
 stars: 6097
 language: "TypeScript"
-layout: repo
-tags:
-  - "UX/UI Design"
-  - "AI Developer Tools"
-  - "Frontend Development"
-  - "VS Code Extension"
-  - "AI Agents"
-  - "Open Source"
+tags: ["UX/UI Design","AI Developer Tools","Frontend Development","VS Code Extension","AI Agents","Open Source"]
+original_description: "AI Product Design Agent - Open Source"
+english_summary: "SuperDesign is an IDE extension (VS Code, Cursor, Windsurf) that acts as a dedicated design agent. It allows developers to generate full UI screens, reusable components, and wireframes directly from within their coding environment. It features a 'Chrome Extension' for cloning existing UIs and a local drawing 'Canva' for iterative design refinement."
+chinese_summary: null
+problems_solved: "- Context switching: Eliminates the need to jump between Figma/Web and the IDE for UI design.\n- Design-to-code gap: Generates production-ready components that are saved directly into the project's `.superdesign/` folder.\n- Difficulty in UI iteration: Supports 'forking' and evolving designs through natural language prompts.\n- Proprietary model lock-in: Supports local OpenAI-compatible servers (e.g., LM Studio) for private design generation."
+how_to_use: "Install the extension from the marketplace. Open the SuperDesign sidebar, type a prompt like 'Design a registration page', and view the results in the Canva (`cmd + shift + p -> superdesign: open canva`). You can then paste the generated code directly into your files."
+sync_at: "2026-03-17T12:09:44.212Z"
 ---
 
-## What it is
-
-SuperDesign is an IDE extension (VS Code, Cursor, Windsurf) that acts as a dedicated design agent. It allows developers to generate full UI screens, reusable components, and wireframes directly from within their coding environment. It features a 'Chrome Extension' for cloning existing UIs and a local drawing 'Canva' for iterative design refinement.
-
-## Problems solved
-
-- Context switching: Eliminates the need to jump between Figma/Web and the IDE for UI design.
-- Design-to-code gap: Generates production-ready components that are saved directly into the project's `.superdesign/` folder.
-- Difficulty in UI iteration: Supports 'forking' and evolving designs through natural language prompts.
-- Proprietary model lock-in: Supports local OpenAI-compatible servers (e.g., LM Studio) for private design generation.
-
-## How to get started
-
-Install the extension from the marketplace. Open the SuperDesign sidebar, type a prompt like 'Design a registration page', and view the results in the Canva (`cmd + shift + p -> superdesign: open canva`). You can then paste the generated code directly into your files.
-
-## Detailed report
+# superdesigndev/superdesign
 
 ### 1. Positioning
 superdesigndev/superdesign is positioned as a superdesign is an ide extension (vs code, cursor, windsurf) that acts as a dedicated design agent. it allows developers to generate full ui screens, reusable components, and wireframes directly from within their coding environment. it features a 'chrome extension' for cloning existing uis and a local drawing 'canva' for iterative design refinement. It aims to provide developers with a robust, TypeScript-based solution for ai product design agent - open source.
